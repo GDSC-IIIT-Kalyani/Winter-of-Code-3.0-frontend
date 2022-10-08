@@ -1,0 +1,87 @@
+html {
+  overflow-x: hidden;
+}
+
+.Text {
+  position: absolute;
+  top: 0;
+  right: 15;
+  z-index: 1000;
+}
+
+.Parallax {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 1080px;
+  background: #add6e6;
+}
+
+#homePage_container {
+  width: 110vw;
+  height: 110vw;
+}
+
+.layer1 img {
+  margin-left: -500px;
+}
+
+.layer2 img {
+  margin-left: -500px;
+}
+
+.layer3 img {
+  margin-left: -500px;
+}
+
+.layer4 img {
+  margin-left: -500px;
+}
+
+.layer5 img {
+  margin-left: -500px;
+}
+
+.layer6 img {
+  margin-left: -500px;
+}
+
+.layer7 img {
+  margin-left: -500px;
+}
+
+.layer8 img {
+  margin-left: -500px;
+}
+
+.layer9 img {
+  margin-left: -500px;
+}
+
+.layer10 img {
+  margin-left: -500px;
+}
+
+.layer11 img {
+  margin-left: -430px;
+}
+
+.layer12 img {
+  margin-left: -300px;
+}
+
+@media (max-width: 770px) {
+    .Text{
+      display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #Homepage {
+    display: none;
+  }
+
+  #About > div > img {
+    display: none;
+  }
+}

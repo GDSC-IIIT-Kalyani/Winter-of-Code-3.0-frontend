@@ -1,0 +1,154 @@
+.r87e68d {
+  background-color: black;
+}
+
+.Melt-bottom {
+  background-color: black;
+}
+
+.Melt-bottom img {
+  width: 100vw;
+}
+
+.sponsors_wrapper {
+  background-color: black;
+  padding: 10vw;
+  padding-top: 0px;
+}
+
+.txt_container {
+  color: white;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.become_sponsor {
+  color: #ffffff66;
+  width: 75%;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-top: 3px;
+}
+
+.become_sponsor a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.sponsor_grid {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.spons_container {
+  border-radius: 10px 10px 10px 10px;
+  padding: 1.25rem;
+  padding-top: 0.7rem;
+  margin-bottom: 25px;
+  background-color: #121217;
+}
+
+.spons_container h1 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-bottom: 10px;
+}
+
+.sponsor_logo {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+  padding-left: 3vw;
+  margin-top: 15px;
+}
+
+.spons {
+  width: 20%;
+  height: auto;
+  margin-top: 15px;
+  min-width: 90px;
+}
+
+.spons img {
+  width: 80%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.sec_spons {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.color-d {
+  border: 2px solid white;
+  color: white;
+}
+
+.color-g {
+  border: 2px solid #ebb722;
+  color: #ebb722;
+}
+
+.color-p {
+  border: 2px solid #71a0ce;
+  color: #71a0ce;
+}
+
+.color-s {
+  border: 2px solid #8fa963;
+  color: #8fa963;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.color-i {
+  border: 2px solid #FF9966;
+  color: #FF9966;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.color-m {
+  border: 2px solid black;
+  color: white;
+  width: 100%;
+}
+
+.color-d {
+  justify-content: flex-start !important;
+}
+.spons_zz{
+  display: flex;
+  justify-content:  space-between;
+  flex-wrap: wrap;
+}
+.nootan {
+  width: 40% !important;
+  padding: 0 auto;
+  /* margin-left:auto !important;
+  margin-right:auto !important; */
+}
+.nootan_div{
+  margin:0 auto;
+}
+
+.nn {
+  width: 60%;
+}
+
+@media (max-width:747px) {
+  h1 {
+    font-size: 0.7rem !important;
+  }
+  .color-s , .color-i {
+    width: 100%;
+  }
+  .spons img {
+    width: 100%;
+  }
+}

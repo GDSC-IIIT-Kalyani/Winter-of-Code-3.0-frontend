@@ -1,0 +1,58 @@
+const timeLine = [
+  {
+    date: "",
+    topHeading: "COMING SOON",
+    subHeading: "Student Applications Open",
+    content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    active: false,
+  },
+  {
+    date: "",
+    topHeading: "COMING SOON",
+    subHeading: "Proposal Writing session + Inauguration Ceremony",
+    content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    active: false,
+  },
+  {
+    date: "",
+    topHeading: "COMING SOON",
+    subHeading: "Student Proposals submission",
+    content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    active: false,
+  },
+  {
+    date: "",
+    topHeading: "COMING SOON",
+    subHeading: "Community Bonding Phase",
+    content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    active: false,
+  },
+  {
+    date: "",
+    topHeading: "COMING SOON",
+    subHeading: "Coding phase",
+    content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    active: false,
+  },
+  {
+    date: "",
+    topHeading: "COMING SOON",
+    subHeading: "Mentor Feedback Review",
+    content: "",
+    contentStyle: { background: "rgb(33, 150, 243)", color: "white" },
+    activeStyle: { background: "rgb(150, 150, 243)", color: "white" },
+    active: true,
+  },
+];
+
+export default timeLine;
