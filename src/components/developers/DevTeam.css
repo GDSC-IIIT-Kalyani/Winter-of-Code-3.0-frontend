@@ -1,0 +1,19 @@
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.slider {
+    padding-left: 17vw;
+    padding-bottom: 3em;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.tittle {
+    font-size: 2em;
+    margin-bottom: 1.4em;
+    text-align: center;
+    color: whitesmoke;
+}

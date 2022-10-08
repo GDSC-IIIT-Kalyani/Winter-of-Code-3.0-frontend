@@ -2,42 +2,104 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/logo192.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
-      content="Web site created using create-react-app"
+      content="Winter of Code 3.0 is an open-source program with a format similar to GSOC that aims to make students familiar to the world of open source development"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/src/styles.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/src/Loader.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    type="text/css"
+    charset="UTF-8"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+    />
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+    /> 
+    <title>Winter of Code 3.0</title>
   </head>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="home-root" class="Text"></div>
+    <section id="Homepage" class="Parallax">
+      <div class="Loader">
+        <video autoplay muted>
+          <source src="./Assets/Freeze_Loader.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+      <div id="homePage_container">
+        <div data-depth="0.05" class="layer1">
+          <img src="./Assets/Parallax_landscape/Layer_1.png" alt="" />
+        </div>
+        <div data-depth="0.055" class="layer2">
+          <img src="./Assets/Parallax_landscape/Layer_2.png" alt="" />
+        </div>
+        <div data-depth="0.09" class="layer3">
+          <img src="./Assets/Parallax_landscape/Layer_3.png" alt="" />
+        </div>
+        <div data-depth="0.1" class="layer4">
+          <img src="./Assets/Parallax_landscape/Layer_4.png" alt="" />
+        </div>
+        <div data-depth="0.105" class="layer5">
+          <img src="./Assets/Parallax_landscape/Layer_5.png" alt="" />
+        </div>
+        <div data-depth="0.13" class="layer6">
+          <img src="./Assets/Parallax_landscape/Layer_6.png" alt="" />
+        </div>
+        <div data-depth="0.135" class="layer7">
+          <img src="./Assets/Parallax_landscape/Layer_7.png" alt="" />
+        </div>
+        <div data-depth="0.15" class="layer8">
+          <img src="./Assets/Parallax_landscape/Layer_8.png" alt="" />
+        </div>
+        <div data-depth="0.155" class="layer9">
+          <img src="./Assets/Parallax_landscape/Layer_9.png" alt="" />
+        </div>
+        <div data-depth="0.4" class="layer10">
+          <img src="./Assets/Parallax_landscape/Layer_10.png" alt="" />
+        </div>
+        <div data-depth="0.7" class="layer11">
+          <img src="./Assets/Parallax_landscape/Layer_11.png" alt="" />
+        </div>
+        <div data-depth="1.0" class="layer12">
+          <img src="./Assets/Parallax_landscape/Layer_12.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section id="root"></section>
+    <script src="%PUBLIC_URL%/src/Loader.js"></script>
+    <script src="%PUBLIC_URL%/src/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <script>
+      var scene = document.getElementById("homePage_container");
+      var parallaxInstance = new Parallax(scene, { scalarY: 0.0 });
+      var homePage = document.getElementById("Homepage");
+      const path = window.location.pathname;
+      if (path === "/projects" || path === "/login" || path === "/register") {
+        homePage.style.display = "none";
+      }
+    </script>
+    <script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
   </body>
 </html>

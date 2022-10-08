@@ -1,0 +1,138 @@
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  min-width: 100vw;
+  min-height: 15vh;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  min-height: 10vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size:20px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  color: white;
+  margin: 15px 50px 0px 50px;
+}
+
+.icon:hover {
+  transition-duration: 500ms;
+  transform: rotate(360deg);
+}
+
+.twitter:hover {
+  color: cyan;
+}
+
+.instagram:hover {
+  color: magenta;
+}
+
+.linkedin:hover {
+  color: cyan;
+}
+
+.email:hover{
+  color: #f03120;
+}
+
+.contact .github:hover {
+  color: #731280;
+}
+
+@media screen and (max-width:749px){
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin: 15px 40px 0px 40px;
+  }
+}
+
+@media screen and (max-width:674px){
+  .icon{
+    width: 40px;
+    height: 40px;
+    margin: 15px 30px 0px 30px;
+  }
+}
+
+@media screen and (max-width:499px){
+  .icon{
+    width: 35px;
+    height: 35px;
+    margin: 15px 25px 0px 25px;
+  }
+}
+
+@media screen and (max-width:429px){
+  .icon{
+    width: 35px;
+    height: 35px;
+    margin: 15px 20px 0px 20px;
+  }
+  .copyright {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width:374px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 20px 0px 20px;
+  }
+  .copyright {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:349px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 15px 0px 15px;
+  }
+}
+
+@media screen and (max-width:329px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 12px 0px 12px;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:280px){
+  .icon{
+    width:30px;
+    height:30px;
+    margin:15px 10px 0px 10px;
+  }
+  .copyright {
+    font-size: 12px;
+  }
+}
