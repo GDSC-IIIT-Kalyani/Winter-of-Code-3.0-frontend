@@ -1,14 +1,9 @@
 import React, { useState } from "react";
 
-const Header = ({ navLinkColor }) => {
+const NavBar = ({ navLinkColor }) => {
     return (
         <div className="header">
             <ul>
-                <li>
-                    <a href="/" style={{ color: navLinkColor }}>
-                        Home
-                    </a>
-                </li>
                 <li>
                     <a href="/#About" style={{ color: navLinkColor }}>
                         About
@@ -40,4 +35,4 @@ const Header = ({ navLinkColor }) => {
     )
 }
 
-export default Header;
+export default NavBar;
