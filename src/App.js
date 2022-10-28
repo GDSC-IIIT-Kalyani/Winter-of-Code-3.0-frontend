@@ -4,9 +4,11 @@ import About from './components/about/about.js';
 
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <About />
+    <div className="App" style={{position: "relative" }}>
+      <div className="background" style={{position:"absolute"}}>
+        <NavBar />
+        <About />
+      </div>
     </div>
   );
 }

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "NT-Vanilla";
+    src: url("./assets/NT\ Vanilla.otf");
+}
+
+.background{
+    background-image: url(./assets/WOC_LIS.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: -9px;
+    padding: -9px;
+    font-family: "NT-Vanilla";
+    /* transform: scale(1.03); */
+}
