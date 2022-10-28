@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import './navBar.css';
 
 const NavBar = ({ navLinkColor }) => {
     return (
