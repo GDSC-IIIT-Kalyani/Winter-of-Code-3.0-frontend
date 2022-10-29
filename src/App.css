@@ -20,3 +20,8 @@ html {
     height: 110%;
     object-fit: cover;
 }
+.timeline {
+  position: absolute;
+  z-index: -2;
+
+}

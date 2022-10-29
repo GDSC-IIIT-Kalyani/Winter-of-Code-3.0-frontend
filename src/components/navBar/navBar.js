@@ -3,7 +3,7 @@ import './navBar.css';
 
 const NavBar = ({ navLinkColor }) => {
     return (
-        <div className="header">
+        <div className="header" id="#navbar">
             <ul>
                 <li>
                     <a href="/#About" style={{ color: navLinkColor }}>
