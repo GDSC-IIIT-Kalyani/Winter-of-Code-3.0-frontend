@@ -20,3 +20,8 @@ html {
     height: 110%;
     object-fit: cover;
 }
+
+@font-face {
+    font-family: "NT-Vanilla";
+    src: url("./assets/NT\ Vanilla.otf");
+}
