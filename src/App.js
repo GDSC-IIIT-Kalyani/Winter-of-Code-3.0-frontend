@@ -1,16 +1,15 @@
 import './App.css';
 import NavBar from './components/navBar/navBar.js';
 import About from './components/about/about.js';
+import background from './assets/background.jpg';
 
 function App() {
   return (
-    <div className="App" style={{position: "relative" }}>
-      <div className="background" style={{position:"absolute"}}>
+    <div className="App">
+        <img className="background" src={background}></img>
         <NavBar />
         <About />
-      </div>
     </div>
   );
 }
-
 export default App;
