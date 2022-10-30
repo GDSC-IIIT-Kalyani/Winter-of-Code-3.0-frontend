@@ -7,14 +7,18 @@
     color: white;
     text-align: center;
 }
-.timeline-carousel-next,.timeline-carousel-prev{
-    color:white;
+.timeline-carousel-prev, .timeline-carousel-next{
+    color:white !important;
     z-index: 2;
+    font-size: 80px;
+    margin: 0 5vw;
 }
-.timeline-list{
+.timeline-carousel{
+    z-index: 2;
+    color: wheat;
     display: flex;
-    color: white;
-    list-style-type: none;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 90vw;
+    margin: auto;
+    align-items: center;
 }
