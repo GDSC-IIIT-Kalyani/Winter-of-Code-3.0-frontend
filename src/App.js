@@ -2,6 +2,7 @@ import './App.css';
 import NavBar from './components/navBar/navBar.js';
 import Timeline from './components/timeline/timeline';
 import About from './components/about/about.js';
+import Organisations from './components/organisations/organisations';
 import background from './assets/background.jpg';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <NavBar />
         <About />
         <Timeline />
+        <Organisations />
     </div>
   );
 }
