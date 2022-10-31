@@ -7,10 +7,10 @@ import background from './assets/background.jpg';
 function App() {
   return (
     <div className="App">
-        <img className="background" src={background}></img>
+        <img className="background" src={background} alt="background"></img>
         <NavBar />
-        <Timeline />
         <About />
+        <Timeline />
     </div>
   );
 }

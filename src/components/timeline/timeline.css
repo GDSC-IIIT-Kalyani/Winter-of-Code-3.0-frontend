@@ -1,24 +1,54 @@
 #timeline{
     padding-top: 210vh;
     z-index: 2;
+    font-family: Vanilla;
+    
 }
 .timeline-heading {
     font-size: 4em;
     color: white;
     text-align: center;
 }
-.timeline-carousel-prev, .timeline-carousel-next{
-    color:white !important;
-    z-index: 2;
-    font-size: 80px;
-    margin: 0 5vw;
-}
 .timeline-carousel{
+    width:70vw;
+    margin: 20vh 8vw;
     z-index: 2;
-    color: wheat;
+    color: white;
     display: flex;
     justify-content: space-between;
-    width: 90vw;
-    margin: auto;
+    
     align-items: center;
 }
+.timeline-item{
+    display: flex;
+    padding: 10vh 4vw;
+    flex-direction: column;
+    text-align: center;
+}
+.timeline-item-title{
+    font-size: 14px;
+    text-align: center;
+}
+.timeline-item-date{
+    font-size: 18px;
+}
+.control-arrow:hover{
+    border-radius: 50%;
+    /* height: 30px; */
+}
+.control-arrow{
+    height: 40px;
+    width:40px;
+    margin-top: 15vh !important;
+}
+.timeline-item-shape{
+    display: flex;
+    margin: 2vh 0;
+    position: unset !important;
+}
+.timeline-item-shape-diamond
+{
+    margin: 0 auto;
+    position:unset !important;
+}
+

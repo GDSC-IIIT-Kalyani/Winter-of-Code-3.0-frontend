@@ -23,8 +23,8 @@ html {
   position: absolute;
   z-index: -2;
 
-  @font-face {
-    font-family: "NT-Vanilla";
-    src: url("./assets/NT\ Vanilla.otf");
-  }
+}
+@font-face {
+  font-family: Vanilla;
+  src: url("./assets/NT\ Vanilla.otf");
 }
