@@ -1,8 +1,7 @@
 #timeline{
-    padding-top: 210vh;
+    padding-top: 30vh;
     z-index: 2;
     font-family: Vanilla;
-    
 }
 .timeline-heading {
     font-size: 4em;
