@@ -8,7 +8,7 @@ html {
 }
 .App {
   position: relative;
-  font-family: "NT-Vanilla";
+  font-family: Vanilla;
 }
 .background {
   position: absolute;
