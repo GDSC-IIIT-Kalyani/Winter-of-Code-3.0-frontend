@@ -4,6 +4,7 @@ import "./navBar.css";
 const NavBar = ({ navLinkColor }) => {
     const [isMobView, setIsMobView] = useState(false);
     const [isCrossBurger, setIsCrossBurger] = useState(false);
+    const [isScrollDown, setIsScrollDown] = useState(false);
 
     const handleHamburgerClick = (event) => {
         setIsMobView(!isMobView);
@@ -15,6 +16,20 @@ const NavBar = ({ navLinkColor }) => {
             link.style.animation = `fade 0.5s ease forwards ${number / 7 + 0.2}s`;
         });
       };
+
+      const handleScrollDown = () => {
+        if (window.scrollY >= 80) {
+          setIsScrollDown(true);
+        } else {
+          setIsScrollDown(false);
+        }
+      };
+
+      const handleNavClick = (event) => {
+        handleHamburgerClick(event);
+      };
+    
+      window.addEventListener("scroll", handleScrollDown);
 
     return (
     <nav
