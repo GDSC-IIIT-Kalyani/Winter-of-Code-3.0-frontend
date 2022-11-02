@@ -1,31 +1,25 @@
 const data=[
     {
-        data: "2022-11-01",
-        date: "1st - 31st Nov'22",
+        data: "2022-11-15",
+        date: "15TH NOV- 25TH DEC'22",
         title: "Student Application Open",
         state: "active"
     },
     {
-        data: "2022-12-01",
-        date: "1st -5th Dec'22 ",
-        title: "Internal Screening",
-        state: "coming"
-    },
-    {
-        data: "2022-12-05",
-        date: "5th Dec'22",
+        data: "2022-12-24",
+        date: "24TH Dec'22",
         title: "Inaurgral Ceremony",
         state: "coming"
     },
     {
-        data: "2022-12-06",
-        date: "6th - 31st Dec'22 ",
-        title: "Proposal Writing session + Organization Session",
+        data: "2022-12-25",
+        date: "25TH DEC- 5TH JAN'23",
+        title: "Proposal Writing session",
         state: "coming"
     },
     {
-        data: "2023-01-01",
-        date: "1st-15th Jan'23",
+        data: "2023-01-05",
+        date: "5TH-15th Jan'23",
         title: "Community bonding phase",
         state: "coming"
     },
