@@ -11,7 +11,6 @@ function App() {
   return (
     <div className="App">
         <img className="background" src={background} alt="background"></img>
-        
         <NavBar />
         <About />
         <Timeline />

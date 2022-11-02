@@ -29,3 +29,7 @@ html {
   font-family: Vanilla;
   src: url("./assets/NT\ Vanilla.otf");
 }
+.background-asset{
+  position: absolute;
+  padding-top: 20vh;
+}
