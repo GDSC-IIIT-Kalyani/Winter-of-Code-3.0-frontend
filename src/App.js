@@ -11,11 +11,11 @@ function App() {
   return (
     <div className="App">
         <img className="background" src={background} alt="background"></img>
+        <img className="background" src={asset} alt="background"></img>
         <NavBar />
         <About />
         <Timeline />
         <Organisations />
-        <img className="background" src={asset} alt="background"></img>
         <Sponsor/>
     </div>
   );
