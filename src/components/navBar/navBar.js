@@ -115,7 +115,7 @@ const NavBar = ({ navLinkColor }) => {
             </a>
           </li>
 
-          <button className="applyNow"><a className="applyNow_link" href="" target="_blank">APPLY NOW</a></button>
+          <button className="applyNow"><a className="applyNow_link" href="www.google.com" target="_blank">APPLY NOW</a></button>
         </ul>
         <div className="hamburger_container">
           <div

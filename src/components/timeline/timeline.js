@@ -58,12 +58,11 @@ function Timeline() {
         </div>
         <Carousel
           centerMode={true}
-          dynamicHeight={false}
+          dynamicHeight={true}
           showThumbs={false}
           selectedItem={carouselIdx}
           showStatus={false}
           useKeyboardArrows={true}
-          width="100%"
           showIndicators={false}
           centerSlidePercentage={20}
           onChange={(e) => setIdx(e)}

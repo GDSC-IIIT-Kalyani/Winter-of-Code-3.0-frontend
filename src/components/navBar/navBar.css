@@ -1,4 +1,4 @@
-nav {
+/* nav {
     padding: 3%;
     display: flex;
     justify-content: center;
@@ -9,7 +9,7 @@ nav {
     display: flex;
     width: 83%;
     align-items: center;
-    /* padding: 1% 0; */
+    padding: 1% 0;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 1.5rem;
     justify-content: space-between;
@@ -66,10 +66,10 @@ button {
     color: #114169;
     font-size: 0.9rem;
     font-weight: bolder;
-    /* mix-blend-mode: color-dodge; */
-}
+    mix-blend-mode: color-dodge;
+}x
 
 a {
     color: #114169;
     text-decoration: none;
-}
+} */
