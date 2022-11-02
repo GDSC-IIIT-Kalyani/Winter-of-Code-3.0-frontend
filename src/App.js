@@ -15,7 +15,7 @@ function App() {
         <About />
         <Timeline />
         <Organisations />
-        <img className="background-asset" src={asset} alt="background"></img>
+        <img className="background" src={asset} alt="background"></img>
         <Sponsor/>
     </div>
   );
