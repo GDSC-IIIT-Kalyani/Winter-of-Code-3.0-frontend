@@ -2,50 +2,52 @@ import React, { useState } from "react";
 import "./navBar.css";
 
 const NavBar = ({ navLinkColor }) => {
-    const [isMobView, setIsMobView] = useState(false);
-    const [isCrossBurger, setIsCrossBurger] = useState(false);
-    const [isScrollDown, setIsScrollDown] = useState(false);
+  const [isMobView, setIsMobView] = useState(false);
+  const [isCrossBurger, setIsCrossBurger] = useState(false);
+  const [isScrollDown, setIsScrollDown] = useState(false);
 
-    const handleHamburgerClick = (event) => {
-        setIsMobView(!isMobView);
-        setIsCrossBurger(!isCrossBurger);
-        const nav_links = document.querySelectorAll(".navBar_link-item");
-        nav_links.forEach((link, number, event) => {
-          if (link.style.animation) link.style.animation = "";
-          else
-            link.style.animation = `fade 0.5s ease forwards ${number / 7 + 0.2}s`;
-        });
-      };
+  const handleHamburgerClick = (event) => {
+    setIsMobView(!isMobView);
+    setIsCrossBurger(!isCrossBurger);
+    const nav_links = document.querySelectorAll(".navBar_link-item");
+    nav_links.forEach((link, number, event) => {
+      if (link.style.animation) link.style.animation = "";
+      else
+        link.style.animation = `fade 0.5s ease forwards ${number / 7 + 0.2}s`;
+    });
+    handleHamburgerClick(event);
+  };
 
-      const handleScrollDown = () => {
-        if (window.scrollY >= 80) {
-          setIsScrollDown(true);
-        } else {
-          setIsScrollDown(false);
-        }
-      };
+  const handleScrollDown = () => {
+    if (window.scrollY >= 80) {
+      setIsScrollDown(true);
+    } else {
+      setIsScrollDown(false);
+    }
+  };
 
-      const handleNavClick = (event) => {
-        handleHamburgerClick(event);
-      };
-    
-      window.addEventListener("scroll", handleScrollDown);
+  const handleNavClick = (event) => {
+    handleHamburgerClick(event);
+  };
 
-    return (
+  window.addEventListener("scroll", handleScrollDown);
+
+  return (
     <nav
       className={`navBar ${isScrollDown ? "navBar_scroll" : null}`}
       onScroll={handleScrollDown}
     >
       <div className="navBar_container">
+        <div className="woc">WOC.</div>
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           <li className="navBar_link-item home_comp">
-            <a
+            {/* <a
               style={{ color: navLinkColor }}
               href="/"
               onClick={handleNavClick}
             >
               Home
-            </a>
+            </a> */}
           </li>
           <li className="navBar_link-item home_mob">
             <a
@@ -93,8 +95,7 @@ const NavBar = ({ navLinkColor }) => {
             </a>
           </li>
 
-
-          <li className="navBar_link-item">
+          {/* <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
               href="/#developer"
@@ -102,7 +103,7 @@ const NavBar = ({ navLinkColor }) => {
             >
               Our Team
             </a>
-          </li>
+          </li> */}
 
           <li className="navBar_link-item">
             <a
@@ -114,6 +115,7 @@ const NavBar = ({ navLinkColor }) => {
             </a>
           </li>
 
+          <button className="applyNow"><a className="applyNow_link" href="" target="_blank">APPLY NOW</a></button>
         </ul>
         <div className="hamburger_container">
           <div
