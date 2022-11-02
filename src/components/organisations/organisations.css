@@ -3,13 +3,14 @@
 }
 
 .orgs-flex {
-    padding: 5% 10% 5% 10%;
+    padding: 1% 10% 5% 10%;
     display: flex;
 }
 
 .orgs-header {
     font-size: 4.5em;
     color: white;
+    padding-bottom: 10vh;
 }
 
 .orgs-images {

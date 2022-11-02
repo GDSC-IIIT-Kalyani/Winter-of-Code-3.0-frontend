@@ -6,7 +6,7 @@ const Sponsor = () => {
     return (
         <section id='sponsors'>
             {/* <img className="background" src={background} alt="background"></img> */}
-            <h2 className="header">Past sponsors</h2>
+            <h2 className="header">PAST SPONSORS</h2>
             <div className="sponsorsGrid">
 
                 <div className="diamond-sponsors">
