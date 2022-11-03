@@ -40,24 +40,7 @@ const NavBar = ({ navLinkColor }) => {
       <div className="navBar_container">
         <div className="woc">WOC.</div>
         <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
-            {/* <li className="navBar_link-item home_comp">
-              {/* <a
-                style={{ color: navLinkColor }}
-                href="/"
-                onClick={handleNavClick}
-              >
-                Home
-              </a> 
-            </li>
-          <li className="navBar_link-item home_mob">
-            {/* <a
-              style={{ color: navLinkColor }}
-              href="/"
-              onClick={handleNavClick}
-            >
-              Home
-            </a>
-            </li> */}
+          
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
@@ -95,7 +78,7 @@ const NavBar = ({ navLinkColor }) => {
             </a>
           </li>
 
-          {/* <li className="navBar_link-item">
+          <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
               href="/#developer"
@@ -103,7 +86,7 @@ const NavBar = ({ navLinkColor }) => {
             >
               Our Team
             </a>
-          </li> */}
+          </li>
 
           <li className="navBar_link-item">
             <a
