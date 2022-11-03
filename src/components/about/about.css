@@ -22,7 +22,6 @@
     margin-right: 30vw;
 }
 
-/* make component responsive for mobile view */
 @media screen and (max-width: 768px){
     #about{
         padding-top: 100vh;
