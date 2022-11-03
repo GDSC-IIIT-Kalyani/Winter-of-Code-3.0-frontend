@@ -1,15 +1,15 @@
-#about{
-    padding-top: 150vh;
-    z-index: 3;
+#about {
+  padding-top: 150vh;
+  z-index: 3;
 }
 
-.about-title{
-    font-size: 3.1rem;
-    font-weight: 500;
-    color: #fff;
-    text-align: left;
-    margin-left: 11.5vw;;
-    margin-bottom: 1rem;
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  margin-left: 11.5vw;
+  margin-bottom: 8vh;
 }
 
 .about-desc{
