@@ -43,15 +43,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item home_comp">
           </li>
           <li className="navBar_link-item home_mob">
-            {/* <a
-              style={{ color: navLinkColor }}
-              href="/"
-              onClick={handleNavClick}
-              className="navBar_link"
-            >
-              Home
-            </a>
-            </li> */}
+          </li>
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
@@ -117,6 +109,7 @@ const NavBar = ({ navLinkColor }) => {
 
           <button className="navBar_apply-now"><a className="apply-now-link" href="www.google.com" target="_blank">APPLY NOW</a></button>
         </ul>
+
         <div className="hamburger_container">
           <div
             className={`navBar_hamburger ${
