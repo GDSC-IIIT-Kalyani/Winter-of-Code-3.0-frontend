@@ -43,7 +43,7 @@ const NavBar = ({ navLinkColor }) => {
           <li className="navBar_link-item home_comp">
           </li>
           <li className="navBar_link-item home_mob">
-            <a
+            {/* <a
               style={{ color: navLinkColor }}
               href="/"
               onClick={handleNavClick}
@@ -51,7 +51,7 @@ const NavBar = ({ navLinkColor }) => {
             >
               Home
             </a>
-          </li>
+            </li> */}
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
