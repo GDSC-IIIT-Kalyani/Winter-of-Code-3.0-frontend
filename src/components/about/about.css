@@ -21,3 +21,19 @@
     margin-left: 10vw;
     margin-right: 30vw;
 }
+
+/* make component responsive for mobile view */
+@media screen and (max-width: 768px){
+    #about{
+        padding-top: 100vh;
+    }
+    .about-title{
+        font-size: 2.5rem;
+        margin-left: 5vw;
+    }
+    .about-desc{
+        font-size: 1.5rem;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+}
