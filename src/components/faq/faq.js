@@ -3,7 +3,8 @@ import "./faq.css";
 import faqData from "./faqData";
 
 const Faq = () => {
-  useEffect(() => {
+
+  useEffect(() => { 
     const faq = document.querySelectorAll(".faq-sec-item");
 
     faq.forEach((faq_sec_item) => {
