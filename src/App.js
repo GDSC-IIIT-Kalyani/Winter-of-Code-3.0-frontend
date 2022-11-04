@@ -7,6 +7,7 @@ import background from './assets/background.jpg';
 import Sponsor from './components/sponsors/sponsor.js';
 import asset from './assets/sponsors-bg-image.png';
 import Footer from './components/footer/footer';
+import Faq from './components/faq/faq';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <img className="background" src={asset} alt="background"></img>
         <Sponsor/>
         <Footer />
+        <Faq />
     </div>
   );
 }
