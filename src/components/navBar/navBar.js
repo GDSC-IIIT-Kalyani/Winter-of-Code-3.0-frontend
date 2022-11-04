@@ -34,35 +34,22 @@ const NavBar = ({ navLinkColor }) => {
 
   return (
     <nav
-      className={`navBar ${isScrollDown ? "navBar_scroll" : null}`}
+      className={`navBar ${isScrollDown ? "navBar_scroll" : "navbar_top"}`}
       onScroll={handleScrollDown}
     >
       <div className="navBar_container">
         <div className="woc">WOC.</div>
-        <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
+        <ul className={`navBar_links ${isMobView ? "mob-view" : "md-4"}`}>
           <li className="navBar_link-item home_comp">
-            {/* <a
-              style={{ color: navLinkColor }}
-              href="/"
-              onClick={handleNavClick}
-            >
-              Home
-            </a> */}
           </li>
           <li className="navBar_link-item home_mob">
-            <a
-              style={{ color: navLinkColor }}
-              href="/"
-              onClick={handleNavClick}
-            >
-              Home
-            </a>
           </li>
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
               href="/#About"
               onClick={handleNavClick}
+              className="navBar_link"
             >
               About
             </a>
@@ -72,6 +59,7 @@ const NavBar = ({ navLinkColor }) => {
               style={{ color: navLinkColor }}
               href="/projects"
               onClick={handleNavClick}
+              className="navBar_link"
             >
               Projects
             </a>
@@ -81,6 +69,7 @@ const NavBar = ({ navLinkColor }) => {
               style={{ color: navLinkColor }}
               href="/#timeline"
               onClick={handleNavClick}
+              className="navBar_link"
             >
               Timeline
             </a>
@@ -90,33 +79,37 @@ const NavBar = ({ navLinkColor }) => {
               style={{ color: navLinkColor }}
               href="/#sponsors"
               onClick={handleNavClick}
+              className="navBar_link"
             >
               Sponsors
             </a>
           </li>
 
-          {/* <li className="navBar_link-item">
+          <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
               href="/#developer"
               onClick={handleNavClick}
+              className="navBar_link"
             >
               Our Team
             </a>
-          </li> */}
+          </li>
 
           <li className="navBar_link-item">
             <a
               style={{ color: navLinkColor }}
               href="/#faq"
               onClick={handleNavClick}
+              className="navBar_link"
             >
               FAQs
             </a>
           </li>
 
-          <button className="applyNow"><a className="applyNow_link" href="www.google.com" target="_blank">APPLY NOW</a></button>
+          <button className="navBar_apply-now"><a className="apply-now-link" href="www.google.com" target="_blank">APPLY NOW</a></button>
         </ul>
+
         <div className="hamburger_container">
           <div
             className={`navBar_hamburger ${
