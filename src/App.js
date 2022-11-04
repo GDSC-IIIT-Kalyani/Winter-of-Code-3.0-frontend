@@ -5,7 +5,6 @@ import About from './components/about/about.js';
 import Organisations from './components/organisations/organisations';
 import background from './assets/background.jpg';
 import Sponsor from './components/sponsors/sponsor.js';
-import asset from './assets/sponsors-bg-image.png';
 import Footer from './components/footer/footer';
 import Faq from './components/faq/faq';
 
@@ -17,10 +16,9 @@ function App() {
         <About />
         <Timeline />
         <Organisations />
-        <img className="background" src={asset} alt="background"></img>
         <Sponsor/>
-        <Footer />
         <Faq />
+        <Footer />
     </div>
   );
 }
