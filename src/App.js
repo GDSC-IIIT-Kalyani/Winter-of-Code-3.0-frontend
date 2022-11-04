@@ -19,8 +19,8 @@ function App() {
         <Organisations />
         <img className="background" src={asset} alt="background"></img>
         <Sponsor/>
-        <Footer />
         <Faq />
+        <Footer />
     </div>
   );
 }
