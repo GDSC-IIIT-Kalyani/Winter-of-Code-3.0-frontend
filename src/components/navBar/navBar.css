@@ -9,7 +9,7 @@ nav {
     display: flex;
     width: 90%;
     align-items: center;
-    padding: 1% 0;
+    /* padding: 1% 0; */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 1.5rem;
     justify-content: space-between;
