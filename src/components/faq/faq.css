@@ -87,3 +87,67 @@
     transform: rotate(180deg);
   }
   
+  @keyframes fade_text {
+    0%{
+      opacity: 0;
+      transform: translateX(-15px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  @media screen and (max-width: 770px) {
+    .faq-sec-heading {
+      font-size: 150%;
+    }
+    .faq-sec-ques {
+      font-size: 120%;
+    }
+    .answer{
+      font-size: 110%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .faq-sec-heading {
+      font-size: 120%;
+    }
+    .faq-sec-ques {
+      font-size: 100%;
+    }
+    .faq-sec-container{
+      padding: 0 2rem;
+    }
+    .answer{
+      font-size: 90%;
+    }
+  }
+
+  @media screen and (max-width: 470px) {
+    .faq-sec-heading {
+      font-size: 120%;
+    }
+    .faq-sec-ques {
+      font-size: 90%;
+    }
+    .answer{
+      font-size: 85%;
+    }
+  }
+
+  @media screen and (max-width: 370px) {
+    .faq-sec-container{
+      padding: 0 1rem;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .faq-sec-heading {
+      font-size: 90%;
+    }
+    .faq-sec-ques {
+      font-size: 80%;
+    }
+  }
