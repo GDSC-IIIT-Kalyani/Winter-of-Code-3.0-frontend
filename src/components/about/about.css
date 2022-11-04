@@ -12,14 +12,27 @@
   margin-bottom: 8vh;
 }
 
-.about-desc {
-  font-size: 1.7rem;
-  line-height: 1.3;
-  font-weight: 100;
-  color: #fff;
-  text-align: left;
-  margin-bottom: 1rem;
-  padding: 1rem;
-  margin-left: 10vw;
-  margin-right: 25vw;
+.about-desc{
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: left;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    margin-left: 10vw;
+    margin-right: 30vw;
+}
+
+@media screen and (max-width: 768px){
+    #about{
+        padding-top: 100vh;
+    }
+    .about-title{
+        font-size: 2.5rem;
+        margin-left: 5vw;
+    }
+    .about-desc{
+        font-size: 1.5rem;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
