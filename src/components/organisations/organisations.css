@@ -9,7 +9,7 @@
 }
 
 .orgs-header {
-    font-size: 4em;
+    font-size: calc(2.5em + 1.675vw);
     font-weight: 200;
     color: white;
     text-align: center;
@@ -25,18 +25,18 @@
 
 .orgs-whale {
     margin-top: 5%;
-    animation-name: breathe;
-    animation-duration: 3s;
+    animation-name: slide;
+    animation-duration: 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse;
 }
 
-@keyframes breathe {
+@keyframes slide {
     from {
-        scale: 90%;
+        translate: 0 0vh;
     }
     to {
-        scale: 100%;
+        translate: 0 4vh;
     }
 }
 
@@ -51,7 +51,6 @@
 }
 
 .orgs-image-rows {
-    list-style-type: none;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -81,9 +80,12 @@
     }
 
     .row-stretch,
-    .row-stagger,
-    .orgs-header {
+    .row-stagger {
         margin: auto; 
+    }
+
+    .orgs-header {
+        margin-right: auto;
     }
 
     .orgs-flex {
@@ -94,19 +96,13 @@
 }
 
 @media screen and (max-width: 600px) {
-    .orgs-header {
-        font-size: 3em;
-    }
-
     .orgs-image-rows {
         flex-flow: column wrap;
         gap: 1em;
         align-items: center;
     }
-}
-
-@media screen and (max-width: 400px) {
-    .orgs-header {
-        font-size: 2.5em;
+    .org-image {
+        max-height: 150px;
+        width: auto;
     }
 }
