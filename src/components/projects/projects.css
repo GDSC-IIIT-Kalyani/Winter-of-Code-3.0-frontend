@@ -4,7 +4,16 @@
     flex-direction: row wrap;
     justify-content: space-around;
     gap: 4em;
-    margin-top: 10%;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-background {
+    position: absolute;
+    width: 98.9vw;
+    height: 100%;
+    z-index: -1;
+    overflow: auto;
 }
 
 .projects-image-grid {
@@ -16,44 +25,52 @@
     transform: rotate3d(1, 0, 0, 35deg) rotate3d(0, 1, 0, -20deg);
 }
 
-.projects-image-grid > .image-1 {
-    clip-path: inset(0px 425px 425px 0px round 20px);   
+.projects-image-grid>.image-1 {
+    clip-path: inset(0px 425px 425px 0px round 20px);
 }
-.projects-image-grid > .image-2 {
+
+.projects-image-grid>.image-2 {
     margin-left: -100%;
-    clip-path: inset(0px 214px 426px 214px round 20px);   
+    clip-path: inset(0px 214px 426px 214px round 20px);
 }
-.projects-image-grid > .image-3 {
+
+.projects-image-grid>.image-3 {
     margin-left: -200%;
-    clip-path: inset(0px 0px 426px 426px round 20px);   
+    clip-path: inset(0px 0px 426px 426px round 20px);
 }
-.projects-image-grid > .image-4 {
+
+.projects-image-grid>.image-4 {
     margin-top: -100%;
-    clip-path: inset(214px 426px 214px 0px round 20px);   
+    clip-path: inset(214px 426px 214px 0px round 20px);
 }
-.projects-image-grid > .image-5 {
+
+.projects-image-grid>.image-5 {
     margin-top: -100%;
     margin-left: -100%;
-    clip-path: inset(214px 214px 214px 214px round 20px);   
+    clip-path: inset(214px 214px 214px 214px round 20px);
 }
-.projects-image-grid > .image-6 {
+
+.projects-image-grid>.image-6 {
     margin-top: -100%;
     margin-left: -200%;
-    clip-path: inset(214px 0px 214px 426px round 20px);   
+    clip-path: inset(214px 0px 214px 426px round 20px);
 }
-.projects-image-grid > .image-7 {
+
+.projects-image-grid>.image-7 {
     margin-top: -200%;
-    clip-path: inset(426px 426px 0px 0px round 20px);   
+    clip-path: inset(426px 426px 0px 0px round 20px);
 }
-.projects-image-grid > .image-8 {
+
+.projects-image-grid>.image-8 {
     margin-top: -200%;
     margin-left: -100%;
-    clip-path: inset(426px 214px 0px 214px round 20px);   
+    clip-path: inset(426px 214px 0px 214px round 20px);
 }
-.projects-image-grid > .image-9 {
+
+.projects-image-grid>.image-9 {
     margin-top: -200%;
     margin-left: -200%;
-    clip-path: inset(426px 0px 0px 426px round 20px);   
+    clip-path: inset(426px 0px 0px 426px round 20px);
 }
 
 .projects-textual-content {
@@ -90,10 +107,12 @@
     .projects-image-grid {
         display: none;
     }
+
     .projects-textual-content {
         margin: auto;
         text-align: center;
     }
+
     .projects-text {
         margin-left: 2em;
         margin-right: 2em;
