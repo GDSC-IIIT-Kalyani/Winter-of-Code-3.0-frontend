@@ -1,11 +1,12 @@
 import React from "react"
 import './sponsor.css'
 import sponsorsData from './sponsorData';
+import background from '../../assets/sponsors-bg-image.png';
 
 const Sponsor = () => {
     return (
         <section id='sponsors'>
-            {/* <img className="background" src={background} alt="background"></img> */}
+            <div><img className="background" src={background} alt="background"></img></div>
             <h2 className="header">PAST SPONSORS</h2>
             <div className="sponsorsGrid">
 
