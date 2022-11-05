@@ -1,8 +1,9 @@
 import React from "react";
-import "./organisations.css"
-import whale from "../../assets/fish.png"
-import whale_bg from "../../assets/fish-bg-leaves.png"
-import images from "./images.js"
+import "./organisations.css";
+import whale from "../../assets/fish.png";
+import whale_bg from "../../assets/fish-bg-leaves.png";
+import background from "../../assets/bg images/WOC_LIS_04.gif";
+import images from "./images.js";
 
 const Organisations = () => {
     return (

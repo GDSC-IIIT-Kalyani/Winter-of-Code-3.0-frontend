@@ -7,21 +7,26 @@
   }
   
 .faq-sec-container {
+    margin-left: 200px;
     max-width: 30rem;
-    padding: 0 5rem;
+    padding: 0rem;
   }
   
 .faq-sec-heading {
-    font-size: 4.5rem;
+    font-size: 4.9rem;
     padding-bottom: 3vh;
     color: white;
+    margin-top: 5vh;
+    margin-bottom: 100vh;
+    /* margin-left: -300px; */
   }
   
 .faq-sec-heading-line-2 {
     position: relative;
-    font-size: 2.5rem;
-    padding-top: 19vh;
-    margin-left: -51vh;
+    font-size: 2.7rem;
+    padding-top: 5px;
+    margin-left: -360px;
+    margin-bottom: 75vh;
     padding-bottom: 3vh;
     color: white;
   }
@@ -66,15 +71,7 @@
     top: 0%;
     transform: translateX(-1px);
   }
-  
-  .faq-sec-item {
-    background-color: rgba(83, 83, 83, 0);
-    border-radius: 7px;
-    padding: 0.5rem;
-    margin-bottom: 8px;
-    box-shadow: 0.5rem 5px 2px rgba(0, 0, 0, 0.064);
-  }
-  
+    
   .faq-active .answer {
     max-height: 20rem;
   }

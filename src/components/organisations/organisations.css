@@ -1,11 +1,27 @@
+
 #organisations {
-    font-family: Vanilla;
+  margin: 0%;
+  padding: 0%;
+  font-family: Vanilla;
+  position: relative;
+  overflow: hidden;
+}
+.organisations-background {
+
+  position: absolute;
+    width: 98.9vw;
+    height:100%;
+    z-index: -1;
+    overflow:auto;
+}
+.organisations-content {
+  z-index: 2;
 }
 
 .orgs-flex {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 5%;
 }
 
 .orgs-header {
@@ -18,9 +34,9 @@
 }
 
 .orgs-whale-bg {
-    margin-top: 2.5%;
-    z-index: -1;
-    position: absolute;
+  margin-top: 2.5%;
+  z-index: -1;
+  position: absolute;
 }
 
 .orgs-whale {
@@ -41,13 +57,13 @@
 }
 
 .orgs-image-container {
-    padding-left: 0;
-    justify-content: center;
-    display: grid;
-    grid-auto-flow: row;
-    align-items: center;
-    grid-auto-rows: max-content;
-    row-gap: 2em;
+  padding-left: 0;
+  justify-content: center;
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  grid-auto-rows: max-content;
+  row-gap: 2em;
 }
 
 .orgs-image-rows {
@@ -59,25 +75,25 @@
 }
 
 .org-image {
-    max-height: 100px;
-    width: auto;
+  max-height: 100px;
+  width: auto;
 }
 
 .row-stretch {
-    margin-right: -12.5%;
+  margin-right: -12.5%;
 }
 
 .row-stagger {
-    justify-content: space-between;
-    margin-left: 25%;
-    margin-right: -25%;
-    z-index: 2;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: -25%;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1200px) {
-    .orgs-right {
-        display: none;
-    }
+  .orgs-right {
+    display: none;
+  }
 
     .row-stretch,
     .row-stagger {
