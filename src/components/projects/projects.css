@@ -1,0 +1,120 @@
+#projects {
+    font-family: Vanilla;
+    display: flex;
+    flex-direction: row wrap;
+    justify-content: space-around;
+    gap: 4em;
+    position: relative;
+    overflow: hidden;
+}
+
+.projects-background {
+    position: absolute;
+    width: 98.9vw;
+    height: 100%;
+    z-index: -1;
+    overflow: auto;
+}
+
+.projects-image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 214px);
+    grid-template-rows: repeat(3, 214px);
+    gap: 1.5em;
+    margin-left: -7.5%;
+    transform: rotate3d(1, 0, 0, 35deg) rotate3d(0, 1, 0, -20deg);
+}
+
+.projects-image-grid>.image-1 {
+    clip-path: inset(0px 425px 425px 0px round 20px);
+}
+
+.projects-image-grid>.image-2 {
+    margin-left: -100%;
+    clip-path: inset(0px 214px 426px 214px round 20px);
+}
+
+.projects-image-grid>.image-3 {
+    margin-left: -200%;
+    clip-path: inset(0px 0px 426px 426px round 20px);
+}
+
+.projects-image-grid>.image-4 {
+    margin-top: -100%;
+    clip-path: inset(214px 426px 214px 0px round 20px);
+}
+
+.projects-image-grid>.image-5 {
+    margin-top: -100%;
+    margin-left: -100%;
+    clip-path: inset(214px 214px 214px 214px round 20px);
+}
+
+.projects-image-grid>.image-6 {
+    margin-top: -100%;
+    margin-left: -200%;
+    clip-path: inset(214px 0px 214px 426px round 20px);
+}
+
+.projects-image-grid>.image-7 {
+    margin-top: -200%;
+    clip-path: inset(426px 426px 0px 0px round 20px);
+}
+
+.projects-image-grid>.image-8 {
+    margin-top: -200%;
+    margin-left: -100%;
+    clip-path: inset(426px 214px 0px 214px round 20px);
+}
+
+.projects-image-grid>.image-9 {
+    margin-top: -200%;
+    margin-left: -200%;
+    clip-path: inset(426px 0px 0px 426px round 20px);
+}
+
+.projects-textual-content {
+    margin-right: 10%;
+    text-align: right;
+    max-width: 60%;
+}
+
+.projects-header {
+    font-size: calc(2.5em + 1.675vw);
+    font-weight: 200;
+    color: white;
+    letter-spacing: 0.09em;
+}
+
+.projects-text {
+    color: white;
+    text-align: justify;
+}
+
+.projects-button {
+    background-color: white;
+    color: #042042;
+    font-weight: 1000;
+    font-size: calc(1em);
+    margin-top: 7.5%;
+    padding: 3% 8% 3% 8%;
+    border-style: none;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+    .projects-image-grid {
+        display: none;
+    }
+
+    .projects-textual-content {
+        margin: auto;
+        text-align: center;
+    }
+
+    .projects-text {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
