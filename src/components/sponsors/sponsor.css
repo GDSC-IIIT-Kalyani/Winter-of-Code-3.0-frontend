@@ -2,14 +2,21 @@
     font-family: Vanilla;
     position: relative;
 }
-.sponser-background{
+.sponsors-background-container {    
     position: absolute;
-    width: 100vw;
-    height: inherit;
     overflow: hidden;
     z-index: -1;
-    display: flex;
-    flex-direction: column;
+}
+
+.sponser-background {
+    width: 100vw;
+    max-width: 100%;
+    display: block;
+}
+
+.solids-background {
+    margin-top: 7.25%;
+    width: 100%;
 }
 
 .sponsors-content{

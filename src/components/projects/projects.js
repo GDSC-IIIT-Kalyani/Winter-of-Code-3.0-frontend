@@ -1,12 +1,10 @@
 import React from "react";
 import "./projects.css"
 import image from "../../assets/projects_section_bg.png"
-import background from "../../assets/bg images/WOC_LIS_05.gif"
 
 const Projects = () => {
     return (
         <section id="projects">
-            <img className="projects-background" src={background} alt="projects background"></img>
             <div className="projects-image-grid">
                 <img className="projects-image image-1" src={image} alt="projects"></img>
                 <img className="projects-image image-2" src={image} alt="projects"></img>

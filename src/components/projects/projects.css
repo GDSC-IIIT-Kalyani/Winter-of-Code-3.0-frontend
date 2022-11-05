@@ -1,19 +1,12 @@
 #projects {
+    padding-top: 10%;
     font-family: Vanilla;
     display: flex;
     flex-direction: row wrap;
     justify-content: space-around;
     gap: 4em;
-    position: relative;
-    overflow: hidden;
-}
-
-.projects-background {
-    position: absolute;
-    width: 98.9vw;
-    height: 100%;
-    z-index: -1;
-    overflow: auto;
+    background-image: url("../../assets/bg\ images/WOC_LIS_05.gif");
+    background-size: cover;
 }
 
 .projects-image-grid {
@@ -112,9 +105,10 @@
         margin: auto;
         text-align: center;
     }
+}
 
-    .projects-text {
-        margin-left: 2em;
-        margin-right: 2em;
+@media screen and (max-width: 400px) {
+    .projects-header {
+        letter-spacing: normal;
     }
 }
