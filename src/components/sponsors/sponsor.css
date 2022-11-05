@@ -18,19 +18,13 @@
     margin: 0 auto;
     display: grid;
     place-items: center;
-    gap: 1em;
+    gap: 1em 1em;
     grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 }
 
-/* .sponsor-icon-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} */
-
 .sponsor-icon {
-    height: 100px;
-    width: auto;
+    max-height: 100px;
+    max-width: 170px;
     border-radius: 10;
 }
 
@@ -80,6 +74,8 @@
     margin-right: 120px;
     margin-bottom: 20px;
 
+    padding-left: 1em;
+    padding-right: 1em;
     padding-bottom: 20px;
 
     border-radius: 10px;
