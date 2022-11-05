@@ -1,26 +1,16 @@
-import './App.css';
-// import NavBar from './components/navBar/navBar.js';
-import Timeline from './components/timeline/timeline';
-import About from './components/about/about.js';
-import Organisations from './components/organisations/organisations';
-import background from './assets/background.jpg';
-import Sponsor from './components/sponsors/sponsor.js';
-import Footer from './components/footer/footer';
-import Faq from './components/faq/faq';
-import WelcomePage from './components/welcomePage/welcomePage';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import StudentDetails from "./components/studentDetails/StudentDetails";
+import Home from "./pages/Home/Home";
 
 function App() {
   return (
-    <div className="App">
-        {/* <img className="background" src={background} alt="background"></img> */}
-        <WelcomePage />
-        <About />
-        <Timeline />
-        <Organisations />
-        <Sponsor/>
-        {/* <Faq /> */}
-        {/* <Footer /> */}
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/studentApplication" element={<StudentDetails />} />
+      </Routes>
+    </Router>
   );
 }
 export default App;
