@@ -3,7 +3,7 @@ import './App.css';
 import Timeline from './components/timeline/timeline';
 import About from './components/about/about.js';
 import Organisations from './components/organisations/organisations';
-// import background from './assets/background.jpg';
+import background from './assets/background.jpg';
 import Sponsor from './components/sponsors/sponsor.js';
 import Footer from './components/footer/footer';
 import Faq from './components/faq/faq';
@@ -14,10 +14,10 @@ function App() {
     <div className="App">
         {/* <img className="background" src={background} alt="background"></img> */}
         <WelcomePage />
-        {/* <About /> */}
+        <About />
         <Timeline />
-        {/* <Organisations /> */}
-        {/* <Sponsor/> */}
+        <Organisations />
+        <Sponsor/>
         {/* <Faq /> */}
         {/* <Footer /> */}
     </div>

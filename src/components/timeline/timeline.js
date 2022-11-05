@@ -47,7 +47,9 @@ function Timeline() {
 
   return (
     <div id="timeline">
-      <div className="timeline-background"><img  src={background} alt="background" /></div>
+      {/* <div > */}
+        <img className="timeline-background" src={background} alt="background" />
+      {/* </div> */}
       <div className="timeline-content">
         <div className="timeline-heading">Timeline</div>
         <div className="timeline-carousel">

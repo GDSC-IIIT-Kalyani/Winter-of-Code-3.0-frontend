@@ -1,26 +1,20 @@
 #timeline{
-    /* padding-top: 0vh; */
-    z-index: 2;
     margin:0%;
     padding: 0%;
-    width:100vw;
     font-family: Vanilla;
-    /* position: relative; */
-    /* overflow: hidden; */
+    position: relative;
+    overflow: hidden;
 }
 .timeline-background{
-    /* position: absolute; */
-    width:100vw;
-    /* height: 100vh; */
-    z-index: -1;
-    /* overflow: hidden; */
-}
-.timeline-background{
+    position: absolute;
     width: 100vw;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
 }
 .timeline-content{
     padding-top: 15vh;
-    display: none;
+    z-index: 1;
 }
 .timeline-heading {
     font-size: 4em;
