@@ -1,15 +1,15 @@
-#about{
-    padding-top: 150vh;
-    z-index: 3;
+#about {
+  padding-top: 150vh;
+  z-index: 3;
 }
 
-.about-title{
-    font-size: 3.1rem;
-    font-weight: 500;
-    color: #fff;
-    text-align: left;
-    margin-left: 11.5vw;;
-    margin-bottom: 1rem;
+.about-title {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  margin-left: 11.5vw;
+  margin-bottom: 8vh;
 }
 
 .about-desc{
@@ -20,4 +20,19 @@
     padding: 1rem;
     margin-left: 10vw;
     margin-right: 30vw;
+}
+
+@media screen and (max-width: 768px){
+    #about{
+        padding-top: 100vh;
+    }
+    .about-title{
+        font-size: 2.5rem;
+        margin-left: 5vw;
+    }
+    .about-desc{
+        font-size: 1.5rem;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
