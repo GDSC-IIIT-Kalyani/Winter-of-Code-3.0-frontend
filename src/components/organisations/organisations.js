@@ -10,50 +10,33 @@ const Organisations = () => {
             <div className="orgs-flex">
                 <div className="orgs-left">
                     <h2 className="orgs-header">ORGANISATIONS</h2>
-                    <ul className="orgs-image-container">
+                    <div className="orgs-image-container">
+
                         <div className="orgs-image-rows row-stretch">
-                            <li>
-                                <img className="org-image" src={images["abc"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["autodl"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["hoppscotch"]} alt=""></img>
-                            </li>
+                            <img className="org-image" src={images["abc"]} alt=""></img>
+                            <img className="org-image" src={images["autodl"]} alt=""></img>
+                            <img className="org-image" src={images["hoppscotch"]} alt=""></img>
                         </div>
+
                         <div className="orgs-image-rows row-stagger">
-                            <li>
-                                <img className="org-image" src={images["gitAInit"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["llvm"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["codeDigger"]} alt=""></img>
-                            </li>
+                            <img className="org-image" src={images["gitAInit"]} alt=""></img>
+                            <img className="org-image" src={images["llvm"]} alt=""></img>
+                            <img className="org-image" src={images["codeDigger"]} alt=""></img>
                         </div>
+
                         <div className="orgs-image-rows row-stretch">
-                            <li>
-                                <img className="org-image" src={images["laayak"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["gdsc"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["dezenix"]} alt=""></img>
-                            </li>
-                            </div>
-                            <div className="orgs-image-rows row-stagger">
-                            <li>
-                                <img className="org-image" src={images["mojaGlobal"]} alt=""></img>
-                            </li>
-                            <li>
-                                <img className="org-image" src={images["asyncAPI"]} alt=""></img>
-                            </li>
+                            <img className="org-image" src={images["laayak"]} alt=""></img>
+                            <img className="org-image" src={images["gdsc"]} alt=""></img>
+                            <img className="org-image" src={images["dezenix"]} alt=""></img>
                         </div>
-                    </ul>
+
+                        <div className="orgs-image-rows row-stagger">
+                            <img className="org-image" src={images["mojaGlobal"]} alt=""></img>
+                            <img className="org-image" src={images["asyncAPI"]} alt=""></img>
+                        </div>
+                    </div>
                 </div>
+
                 <div className="orgs-right">
                     <img className="orgs-whale-bg" src={whale_bg} alt="orgs-whale-background"></img>
                     <img className="orgs-whale" src={whale} alt="orgs-whale"></img>
