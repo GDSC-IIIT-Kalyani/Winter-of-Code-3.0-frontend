@@ -11,3 +11,16 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
+body {
+  margin: 0%;
+  padding: 0%;
+}
+html {
+  margin: 0%;
+  padding: 0%;
+}
+@font-face {
+  font-family: Vanilla;
+  src: url("./assets/NT\ Vanilla.otf");
+}
