@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import "./StudentDetails.css";
-// import background from '../assets/bg\ images/WOC_LIS_05.gif';
-// import background1 from '../assets/bg\ images/WOC_LIS_06.gif';
 const StudentDetails = () => {
   const [studentData, setStudentData] = useState({
     name: "",
