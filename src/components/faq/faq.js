@@ -24,7 +24,7 @@ const Faq = () => {
         {faqData.map((faq, index) => (
           
           <div key={index} value={false} className={`faq-sec-item`}>
-            <img src={faqImg} alt="faqImg" />
+            <img src={faqImg} alt="faqImg" style={{width: 490, height: 20 }}/>
             <div className="faq-sec-ques">
               <div className="arrow">V</div>
               <div className="ques">{faq.question}</div>

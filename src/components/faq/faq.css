@@ -71,15 +71,7 @@
     top: 0%;
     transform: translateX(-1px);
   }
-  
-  .faq-sec-item {
-    background-color: rgba(83, 83, 83, 0);
-    border-radius: 7px;
-    padding: 0.5rem;
-    margin-bottom: 8px;
-    box-shadow: 0.5rem 5px 2px rgba(0, 0, 0, 0.064);
-  }
-  
+    
   .faq-active .answer {
     max-height: 20rem;
   }
