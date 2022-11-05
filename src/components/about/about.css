@@ -1,8 +1,20 @@
 #about {
-  padding-top: 150vh;
-  z-index: 3;
+  position: relative;
+  width: 100vw;
+  overflow: hidden;
 }
-
+.about-background {
+  position: absolute;
+  width: 100vw;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+.about-content{
+    padding-top: 30vh;
+    width: 100vw;
+    z-index: 10;
+}
 .about-title {
   font-size: 3.5rem;
   font-weight: 300;
@@ -12,27 +24,27 @@
   margin-bottom: 8vh;
 }
 
-.about-desc{
-    font-size: 1.8rem;
-    color: #fff;
-    text-align: left;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    margin-left: 10vw;
-    margin-right: 30vw;
+.about-desc {
+  font-size: 1.8rem;
+  color: #fff;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  margin-left: 10vw;
+  margin-right: 30vw;
 }
 
-@media screen and (max-width: 768px){
-    #about{
-        padding-top: 100vh;
-    }
-    .about-title{
-        font-size: 2.5rem;
-        margin-left: 5vw;
-    }
-    .about-desc{
-        font-size: 1.5rem;
-        margin-left: 5vw;
-        margin-right: 5vw;
-    }
+@media screen and (max-width: 768px) {
+  #about {
+    padding-top: 100vh;
+  }
+  .about-title {
+    font-size: 2.5rem;
+    margin-left: 5vw;
+  }
+  .about-desc {
+    font-size: 1.5rem;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 }

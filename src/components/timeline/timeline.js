@@ -10,6 +10,7 @@ import greenEdge from "../../assets/timeline/greenEdge.png";
 import white from "../../assets/timeline/white.png";
 import red from "../../assets/timeline/red.png";
 import redEdge from "../../assets/timeline/redEdge.png";
+import background from "../../assets/bg images/WOC_LIS_03.gif";
 function Timeline() {
   const [carouselIdx, setIdx] = useState(0);
   const active = 3;
@@ -46,71 +47,76 @@ function Timeline() {
 
   return (
     <div id="timeline">
-      <div className="timeline-heading">Timeline</div>
-      <div className="timeline-carousel">
-        <div className="timeline-prev" onClick={handleprev}>
-          <FaAngleLeft
-            color="#01193d"
-            size={25}
-            className="timeline-icon"
-            onClick={handleprev}
-          />
-        </div>
-        <Carousel
-          centerMode={true}
-          dynamicHeight={true}
-          showThumbs={false}
-          selectedItem={carouselIdx}
-          showStatus={false}
-          useKeyboardArrows={true}
-          showIndicators={false}
-          centerSlidePercentage={20}
-          onChange={(e) => setIdx(e)}
-        >
-          {data.map((item, idx) => (
-            <div
-              className={"timeline-item itemnum" + Math.abs(idx - carouselIdx)}
-            >
-              <div className="timeline-item-date">{item.date}</div>
-              <div className="timeline-item-shape">
-                <div className="timeline-item-shape-diamond">
-                  <Diamond
-                    color={DiamondColor(idx)}
-                    className="timeline-item-shape-diamond"
-                    size={["15px", "15px", "20px", "20px"]}
-                    zIndex={1}
+      <div className="timeline-background"><img  src={background} alt="background" /></div>
+      <div className="timeline-content">
+        <div className="timeline-heading">Timeline</div>
+        <div className="timeline-carousel">
+          <div className="timeline-prev" onClick={handleprev}>
+            <FaAngleLeft
+              color="#01193d"
+              size={25}
+              className="timeline-icon"
+              onClick={handleprev}
+            />
+          </div>
+          <Carousel
+            centerMode={true}
+            dynamicHeight={true}
+            showThumbs={false}
+            selectedItem={carouselIdx}
+            showStatus={false}
+            useKeyboardArrows={true}
+            showIndicators={false}
+            centerSlidePercentage={20}
+            onChange={(e) => setIdx(e)}
+          >
+            {data.map((item, idx) => (
+              <div
+                className={
+                  "timeline-item itemnum" + Math.abs(idx - carouselIdx)
+                }
+              >
+                <div className="timeline-item-date">{item.date}</div>
+                <div className="timeline-item-shape">
+                  <div className="timeline-item-shape-diamond">
+                    <Diamond
+                      color={DiamondColor(idx)}
+                      className="timeline-item-shape-diamond"
+                      size={["15px", "15px", "20px", "20px"]}
+                      zIndex={1}
+                    />
+                  </div>
+                  <div
+                    style={{
+                      backgroundImage: `url(${
+                        idx === 0
+                          ? greenEdge
+                          : idx === data.length - 1
+                          ? redEdge
+                          : idx === active
+                          ? white
+                          : idx > active
+                          ? red
+                          : green
+                      })`,
+                    }}
+                    className={
+                      "timeline-item-shape-line timeline-line" + line(idx)
+                    }
                   />
                 </div>
-                <div
-                  style={{
-                    backgroundImage: `url(${
-                      idx === 0
-                        ? greenEdge
-                        : idx === data.length - 1
-                        ? redEdge
-                        : idx === active
-                        ? white
-                        : idx > active
-                        ? red
-                        : green
-                    })`,
-                  }}
-                  className={
-                    "timeline-item-shape-line timeline-line" + line(idx)
-                  }
-                />
+                <div className="timeline-item-title">{item.title}</div>
               </div>
-              <div className="timeline-item-title">{item.title}</div>
-            </div>
-          ))}
-        </Carousel>
-        <div className="timeline-prev" onClick={handlenext}>
-          <FaAngleRight
-            className="timeline-icon"
-            color="#01193d"
-            size={25}
-            onClick={handlenext}
-          />
+            ))}
+          </Carousel>
+          <div className="timeline-prev" onClick={handlenext}>
+            <FaAngleRight
+              className="timeline-icon"
+              color="#01193d"
+              size={25}
+              onClick={handlenext}
+            />
+          </div>
         </div>
       </div>
     </div>
