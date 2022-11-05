@@ -1,5 +1,21 @@
-.header {
+#sponser{
     font-family: Vanilla;
+    position: relative;
+}
+.sponser-background{
+    position: absolute;
+    width: 100vw;
+    height: inherit;
+    overflow: hidden;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+}
+
+.sponsors-content{
+    display: none;
+}
+.header {
     font-size: 4em;
     font-weight: 200;
     color: white;
