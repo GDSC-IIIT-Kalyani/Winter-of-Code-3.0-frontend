@@ -1,55 +1,19 @@
-.wrapper {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#Home{
+    position: relative;
+    margin:0%;
+    padding: 0%;
+    height:100vh;
+    overflow: hidden;
 }
 
-.title {
+.landing-background{
     position: absolute;
-    z-index: 10;
-    font-size: xx-large;
-    color: rgb(255, 255, 255);
-    translate: 0 -160%;
-    scale: 2;
+    width:100vw;
+    height: 100vh;
 }
-
-.iceberg-upper {
+.navigation{
     position: absolute;
-    bottom: 0%;
-}
-
-.cloud-right {
-    position: absolute;
-    top: 20%;
-    right: 2em;
-    height: 13%;
-}
-
-.cloud-left {
-    position: absolute;
-    top: 45%;
-    left: 1%;
-    height: 13%;
-}
-
-.birds-right {
-    position: absolute;
-    top: 42%;
-    right: 2em;
-    height: 13%;
-}
-
-.birds-left {
-    position: absolute;
-    top: 25%;
-    left: 7%;
-    height: 10%;
-}
-
-.moon {
-    position: absolute;
-    top: 22%;
-    left: 17%;
-    height: 19%;
+    width:100vw;
+    height: 100vh;
+    z-index: 2;
 }
