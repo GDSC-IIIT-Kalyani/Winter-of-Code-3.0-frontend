@@ -1,17 +1,19 @@
 .form_h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
   font-weight: normal;
   font-size: 2rem;
   font-family: Vanilla;
   margin: 0 auto;
-  margin-top: 10px;
-  color: white;
+  margin-top: 0px;
+  color: #04cad8;
   text-align: center;
   background-color: rgb(3, 30, 64) ;
 }
 
 @media (min-width: 920px) {
   .form_h1 {
-    margin-top: 50px;
+    margin-top: 0px;
     font-size: 4rem;
   }
 }
@@ -58,33 +60,37 @@
 }
 
 #fish {
-  top: 150px;
+  top: 500px;
 }
 
 #fish2 {
-  top: 430px;
+  top: 1000px;
   animation-delay: 6s;
   -webkit-animation-delay: 6s;
 }
 
 #fish3 {
-  top: 710px;
+  top: 1500px;
   animation-delay: 12s;
   -webkit-animation-delay: 12s;
 }
 
-/* .form_header {
-  height: 160px;
-  background: url("http://www.geertjanhendriks.nl/codepen/form/golf.png")
-    repeat-x bottom;
-} */
+.form_header {
+  margin-top: 0px;
+  height: 98px;
+  /* background: url("http://www.geertjanhendriks.nl/codepen/form/golf.png") */
+    /* repeat-x bottom; */
+} 
 
 #form {
   /* padding-bottom: 10px; */
+  background-image: url("../../assets/background.jpg");
   background-color: rgb(3, 30, 64) ;
   width: 100%;
   overflow: hidden;
   position: relative;
+  background-position: center top;
+  background-size: 100% auto;
 }
 form {
   margin: 0 auto;
@@ -98,14 +104,20 @@ input,
 select {
   display: block;
 }
+
+label{
+  padding: 20px;
+}
+
 input,
 textarea,
 select {
+  color:aliceblue;
   width: 500px;
   border: none;
-  border-radius: 10px;
+  border-radius: 50px;
   outline: none;
-  padding: 10px;
+  padding: 20px;
   font-family:Vanilla;
   font-size: 1em;
   transition: border 0.5s;
@@ -118,9 +130,16 @@ select {
   /* backdrop-filter: blur(50px); */
   background-color: rgba(0,0,0,0.5);
 }
+
+textarea{
+  resize: none;
+}
 input:focus,
-select:focus {
-    box-shadow: 0 0 10px #e5e7eb;
+select:focus,
+textarea:focus {
+    transition: 0.5s;
+    box-shadow: 0 0 10px #04cad8;
+    transform: translateX(20px);
 }
 
 input[type="submit"] {
@@ -138,8 +157,10 @@ input[type="submit"] {
   margin-bottom: 2em;
 }
 input[type="submit"]:hover {
-  box-shadow:0 0 15px #e5e7eb;
-  color: white;
+  transition: 0.7s;
+  box-shadow:0 0 15px #04cad8;
+  color: rgb(5, 5, 5);
+  background-color: #04cad8;
 }
 label {
   font-size: 1.5em;

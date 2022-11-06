@@ -29,8 +29,6 @@ const StudentDetails = () => {
 
   return (
     <div>
-       {/* <img className="background" src={background} alt="background"></img> 
-       <img className="background" src={background1} alt="background"></img> */}
       <header className="form_header">
         <h1 className="form_h1">Registration Form</h1>
       </header>
@@ -139,7 +137,6 @@ const StudentDetails = () => {
               value={studentData.role}
               onChange={handleInputChange}
             >
-              <option value="none">Joining as</option>
               <option value="mentor">Mentor</option>
               <option value="student">Student</option>
             </select>
