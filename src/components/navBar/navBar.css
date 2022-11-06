@@ -1,3 +1,19 @@
+nav{
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  align-items: center;
+} 
+
+.responsive-logo {
+  visibility: hidden;
+}
+
+.responsive-logo img {
+  width: 10%;
+  height: 10%;
+}
+
 .navbar_top {
     padding: 3%;
     display: flex;
@@ -9,7 +25,6 @@
     display: flex;
     width: 90%;
     align-items: center;
-    /* padding: 1% 0; */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 1.5rem;
     justify-content: space-between;
@@ -24,7 +39,7 @@
     font-weight: bold;
 }
 
-.md-4{
+.navBar_links{
     width: 85%;
     /* margin-left: 18%; */
     /* padding: 1% 0; */
@@ -91,8 +106,18 @@
     font-family: 'Poppins', sans-serif;
 }
 
-
-@media screen and (max-width: 535px) {
+.nav-btn {
+  padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color: var(--textColor);
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.5rem;
+}
+/* @media screen and (max-width: 535px) {
     .navBar_links {
       width: 100vw;
       font-size: 135%;
@@ -140,5 +165,84 @@
   
   .mob-view {
     transform: translateX(0%);
-  }
+  } */
   
+@media only screen and (max-width: 1024px){
+  nav {
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 0.3rem 0; */
+    background-color: #ffffff22;
+  }
+
+  .nav-btn {
+    visibility: visible;
+    opacity: 1;
+    color: #fff;
+    padding: 0 2rem 0 0;
+  }
+
+  .responsive-logo {
+    visibility: visible !important;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0.5rem 0 0 1.5rem;
+  }
+
+  .responsive-logo img {
+    width: 12%;
+    height: 12%;
+  }
+
+  .navBar_container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* height: 90%; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #021a3e;
+    margin-top: -1rem;
+    padding: 2rem 0 2.5rem 0;
+    border-radius: 0;
+    gap: 1.5rem;
+    transition: 1s;
+    transform: translateY(-90vh); 
+  }
+
+  .navBar_links {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 0 0 -5rem;
+    gap: 1.5rem;
+  }
+
+  .navBar_links::-webkit-scrollbar {
+    display: none;
+  }
+
+  .navBar_apply-now {
+    background: #fff;
+  }
+  /* .navBar_container {
+    width: 100vw;
+    height: 70vh;
+    background: #114169;
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1em;
+  } */
+
+  nav .responsive_nav {
+    transform: none;
+  }
+
+}
