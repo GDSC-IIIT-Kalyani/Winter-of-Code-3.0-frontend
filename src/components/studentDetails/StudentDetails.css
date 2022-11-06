@@ -60,17 +60,17 @@
 }
 
 #fish {
-  top: 500px;
+  top: 100px;
 }
 
 #fish2 {
-  top: 1000px;
+  top: 300px;
   animation-delay: 6s;
   -webkit-animation-delay: 6s;
 }
 
 #fish3 {
-  top: 1500px;
+  top: 500px;
   animation-delay: 12s;
   -webkit-animation-delay: 12s;
 }
