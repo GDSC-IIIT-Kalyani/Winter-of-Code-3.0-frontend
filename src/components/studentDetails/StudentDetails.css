@@ -1,14 +1,29 @@
-.form_h1 {
+/* .form_h1 {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-weight: normal;
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 1.5rem;
   font-family: Vanilla;
   margin: 0 auto;
   margin-top: 0px;
   color: #04cad8;
   text-align: center;
-  background-color: rgb(3, 30, 64) ;
+  background-color: rgb(13, 28, 47) ;
+} */
+
+.hx{
+  margin: 55px auto 0px;
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 1000px;
+  border: 3px solid #04cad8;
+  border-radius: 20px;
+  padding: 20px;
+  font-family:Vanilla;
+  color:rgb(237, 241, 244);
+  font-size: 1.4em;
+  background-color: rgba(17, 2, 47, 0.5);
 }
 
 @media (min-width: 920px) {
@@ -95,7 +110,7 @@
 form {
   margin: 0 auto;
   width: 500px;
-  padding-top: 40px;
+  /* padding-top: 40px; */
   color: white;
   position: relative;
 }
@@ -143,17 +158,19 @@ textarea:focus {
 }
 
 input[type="submit"] {
+  text-align: center;
+  width: 200px;
   color: white;
-  height: 60px;
+  height: 80px;
   cursor: pointer;
-  margin-top: 30px;
+  margin: 30px auto;
   font-size: 1.29em;
   font-family: Vanilla;
   -webkit-transition: background-color 0.5s;
   -moz-transition: background-color 0.5s;
   -o-transition: background-color 0.5s;
   transition: background-color 0.5s;
-  border-radius: 50px;
+  border-radius: 10px;
   margin-bottom: 2em;
 }
 input[type="submit"]:hover {
