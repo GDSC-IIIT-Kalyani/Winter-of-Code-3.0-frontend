@@ -29,10 +29,14 @@ const StudentDetails = () => {
 
   return (
     <div>
-      <header className="form_header">
-        <h1 className="form_h1">Registration Form</h1>
-      </header>
+      {/* <header className="form_header">
+        <h1 className="form_h1">REGISTRATION FORM</h1>
+      </header> */}
+      
       <div id="form">
+        <div className="hx">
+          <h1>REGISTRATION FORM</h1>
+        </div>
         <div className="fish" id="fish"></div>
         <div className="fish" id="fish2"></div>
         <div className="fish" id="fish3"></div>
