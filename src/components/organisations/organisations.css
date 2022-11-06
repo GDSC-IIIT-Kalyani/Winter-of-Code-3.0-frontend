@@ -1,112 +1,116 @@
 #organisations {
-    font-family: Vanilla;
+  font-family: Vanilla;
+  background-image: url("../../assets/bg\ images/WOC_LIS_04.gif");
+  background-size: cover;
 }
 
 .orgs-flex {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 5%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.orgs-left {
+  margin-left: 5%;
 }
 
 .orgs-header {
-    font-size: 4em;
-    font-weight: 200;
-    color: pink;
-    text-align: center;
-    letter-spacing: 0.09em;
-    margin-right: -12.5%;
+  font-size: calc(2em + 1.875vw);
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.09em;
+  margin-right: -12.5%;
 }
 
 .orgs-whale-bg {
-    margin-top: 2.5%;
-    z-index: -1;
-    position: absolute;
+  margin-top: 2.5%;
+  z-index: 0;
+  position: absolute;
 }
 
 .orgs-whale {
-    margin-top: 5%;
-    animation-name: breathe;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
+  margin-top: 5%;
+  animation-name: slide;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
 }
 
-@keyframes breathe {
-    from {
-        scale: 90%;
-    }
-    to {
-        scale: 100%;
-    }
+@keyframes slide {
+  from {
+    translate: 0 0vh;
+  }
+
+  to {
+    translate: 0 4vh;
+  }
 }
 
 .orgs-image-container {
-    padding-left: 0;
-    justify-content: center;
-    display: grid;
-    grid-auto-flow: row;
-    align-items: center;
-    grid-auto-rows: max-content;
-    row-gap: 2em;
+  padding-left: 0;
+  justify-content: center;
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  grid-auto-rows: max-content;
+  row-gap: 2em;
 }
 
 .orgs-image-rows {
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-content: center;
-    gap: 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 2em;
 }
 
 .org-image {
-    max-height: 100px;
-    width: auto;
+  max-height: 100px;
+  width: auto;
 }
 
 .row-stretch {
-    margin-right: -12.5%;
+  margin-right: -12.5%;
 }
 
 .row-stagger {
-    justify-content: space-between;
-    margin-left: 25%;
-    margin-right: -25%;
-    z-index: 2;
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: -25%;
+  z-index: 2;
 }
 
 @media screen and (max-width: 1200px) {
-    .orgs-right {
-        display: none;
-    }
+  .orgs-right {
+    display: none;
+  }
 
-    .row-stretch,
-    .row-stagger,
-    .orgs-header {
-        margin: auto; 
-    }
+  .row-stretch,
+  .row-stagger,
+  .orgs-left {
+    margin: auto;
+  }
 
-    .orgs-flex {
-        padding: 0;
-        margin-left: 2em;
-        margin-right: 2em;
-    }
+  .orgs-header {
+    margin-right: auto;
+  }
+
+  .orgs-flex {
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    .orgs-header {
-        font-size: 3em;
-    }
+  .orgs-image-rows {
+    flex-flow: column wrap;
+    gap: 1em;
+    align-items: center;
+  }
 
-    .orgs-image-rows {
-        flex-flow: column wrap;
-        gap: 1em;
-        align-items: center;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .orgs-header {
-        font-size: 2.5em;
-    }
+  .org-image {
+    max-height: 150px;
+    width: auto;
+  }
 }

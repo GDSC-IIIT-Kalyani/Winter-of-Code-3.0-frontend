@@ -91,16 +91,16 @@ nav{
     color: #114169;
     font-size: 0.9rem;
     font-weight: bolder;
-    mix-blend-mode: color-dodge;
+    /* mix-blend-mode: color-dodge; */
 }
 
 .navBar_link{
-    color: #050708;
+    color: #0a2841;
     text-decoration: none;
 }
 
 .apply-now-link{
-    color: rgb(0, 0, 0);
+    color: #114169;
     text-decoration: none;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;

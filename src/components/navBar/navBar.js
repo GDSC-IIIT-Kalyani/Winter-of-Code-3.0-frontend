@@ -56,7 +56,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              // href="/#About"
+              href="/#About"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -66,7 +66,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              // href="/projects"
+              href="/projects"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -76,7 +76,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              // href="/#timeline"
+              href="/#timeline"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -86,7 +86,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              // href="/#sponsors"
+              href="/#sponsors"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -97,7 +97,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              // href="/#developer"
+              href="/#developer"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -108,7 +108,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              // href="/#faq"
+              href="/#faq"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -116,8 +116,7 @@ function NavBar() {
             </a>
           </li>
 
-          <button className="navBar_apply-now"><a className="apply-now-link" href="www.google.com" target="_blank">APPLY NOW</a></button>
-          
+          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication" target="_blank">APPLY NOW</a></button>
         </ul>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
         {/* <div className="hamburger_container">
