@@ -4,8 +4,7 @@ import faqData from "./faqData";
 import faqImg from "../../assets/faq/faqImg.png";
 
 const Faq = () => {
-
-  useEffect(() => { 
+  useEffect(() => {
     const faq = document.querySelectorAll(".faq-sec-item");
 
     faq.forEach((faq_sec_item) => {
@@ -17,17 +16,18 @@ const Faq = () => {
 
   return (
     <div className="faq-sec" id="faq">
-        <div className="faq-sec-heading">Frequently</div>
+      <div className="faq-sec-heading">
+        Frequently<br/>
         <div className="faq-sec-heading-line-2">asked questions</div>
-        
-        <div className="faq-sec-container">
+      </div>
+
+      <div className="faq-sec-container">
         {faqData.map((faq, index) => (
-          
-          <div key={index} value={false} className={`faq-sec-item`}>
-            <img src={faqImg} alt="faqImg" style={{width: 490, height: 20 }}/>
+          <div key={index} value={false} className="faq-sec-item">
+            <img src={faqImg} alt="faqImg" style={{ width: 490, height: 30 }} />
             <div className="faq-sec-ques">
-              <div className="arrow">V</div>
               <div className="ques">{faq.question}</div>
+              <div className="arrow">V</div>
             </div>
             <div className="answer">
               <p>{faq.answer}</p>

@@ -1,6 +1,8 @@
-#sponser{
+#sponsors{
     font-family: Vanilla;
+    display: block;
     position: relative;
+    /* overflow: hidden; */
 }
 .sponsors-background-container {    
     position: absolute;
@@ -10,25 +12,36 @@
 
 .sponser-background {
     width: 100vw;
+    padding: 0%;
+    margin:0%;
     max-width: 100%;
+    height:55vw;
     display: block;
 }
 
 .solids-background {
-    margin-top: 7.25%;
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
 }
 
 .sponsors-content{
-    display: none;
+    position: absolute;
+    top:0;
+    display: block;
+    /* display: none; */
 }
 .header {
     font-size: 4em;
     font-weight: 200;
     color: white;
     text-align: center;
+    padding-bottom: 7vh;
 }
-
+.sponsorsGrid{
+    width:98vw;
+    /* padd */
+    margin: auto;
+}
 .sponsorsGrid h5 {
     font-family: 'Arial, Helvetica', sans-serif;
     font-size: medium;
@@ -42,12 +55,12 @@
     display: grid;
     place-items: center;
     gap: 1em 1em;
-    grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .sponsor-icon {
-    max-height: 100px;
-    max-width: 170px;
+    /* max-height: 100px; */
+    max-width: 100px;
     border-radius: 10;
 }
 
@@ -120,4 +133,7 @@
         margin-left: 2em;
         margin-right: 2em;
     }
+}
+@media screen and (max-width:1300px) {
+    
 }
