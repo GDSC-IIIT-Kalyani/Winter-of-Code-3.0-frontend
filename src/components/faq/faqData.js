@@ -22,7 +22,7 @@ const faqData = [
     {
       question: "How to get selected?",
       answer:
-        "Submit a good application 🙂 Make sure your essays are good, that is how you move ahead. We will have: (i) An initial screening round to filter non-serious candidates and spam applications (ii) A devfolio screening round where participants from round 1 will submit proposals to organisations and will get selected (iii) A final mentor evaluation, on passing which, you are eligible for swags.",
+        `Submit a good application 🙂 Make sure your essays are good, that is how you move ahead. We will have: (i) An initial screening round to filter non-serious candidates and spam applications (ii) A devfolio screening round where participants from round 1 will submit proposals to organisations and will get selected (iii) A final mentor evaluation, on passing which, you are eligible for swags.`,
     },
     {
       question: "Eligibility for prizes? How to claim swags?",

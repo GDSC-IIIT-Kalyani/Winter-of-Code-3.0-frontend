@@ -1,29 +1,35 @@
 #faq {
-  min-height: 100vh;
+  background-image: url("../../assets/bg\ images/WOC_LIS_09.gif");
+  background-size: cover;
+  width: 100vw;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 10vh 0 40vh 0;
+  max-width: 100%;
+}
+.faq-sec-content {
+  width: 90vw;
+  margin: 0 5vw 0 5vw;
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
   color: white;
-  background-image: url("../../assets/bg\ images/WOC_LIS_09.gif");
-  background-size: cover;
-  width: 90vw;
-  padding:0 4.45vw;
-  max-width: 100%;
-  overflow: hidden;
+  text-align: center;
 }
 
 .faq-sec-container {
-  margin-left: 200px;
   max-width: 30rem;
   padding: 0rem;
+  margin: 0 5vw;
+  overflow: hidden;
 }
 
 .faq-sec-heading {
   font-size: 4.9rem;
-  /* padding-bottom: 3vh; */
+  width:40vw;
   color: white;
   font-weight: 200;
-  letter-spacing:0.2rem;
+  letter-spacing: 0.2rem;
   align-self: flex-start;
 }
 .faq-sec-heading-line-2 {
@@ -34,7 +40,11 @@
   color: white;
   display: flex;
   justify-content: space-between;
-  /* width:90%; */
+  cursor: pointer;
+}
+.faq-sec-ques:hover {
+  background-color: #74737331;
+  /* opaci; */
 }
 
 .ques {
@@ -84,6 +94,10 @@
   transform: rotate(180deg);
 }
 
+.faqImg {
+  width: 40vw;
+  height: 40px;
+}
 @keyframes fade_text {
   0% {
     opacity: 0;
@@ -95,19 +109,34 @@
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 850px) {
+  .faq-sec-content{
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
+  }
   .faq-sec-heading {
+    text-align: center;
     font-size: 150%;
+    width: 90vw;
+  }
+  .faq-sec-heading{
+    font-size: 40px;
+    padding-bottom: 30px;
+  }
+  .faqImg{
+    width:90vw;
   }
   .faq-sec-ques {
     font-size: 120%;
+    text-align: left;
   }
   .answer {
     font-size: 110%;
   }
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
   .faq-sec-heading {
     font-size: 120%;
   }
@@ -147,4 +176,4 @@
   .faq-sec-ques {
     font-size: 80%;
   }
-}
+} */
