@@ -48,7 +48,7 @@ function NavBar() {
 
       <div className="navBar_container" ref={navRef} >
         <div className="woc">WOC.</div>
-        <ul className="navBar_links">
+        <ul className="navBar_links" onClick={showNavbar}>
           <li className="navBar_link-item home_comp">
           </li>
           <li className="navBar_link-item home_mob">
@@ -83,11 +83,11 @@ function NavBar() {
               Timeline
             </a>
           </li>
-          <li className="navBar_link-item">
+          <li className="navBar_link-item" onClick={showNavbar}>
             <a
               // style={{ color: navLinkColor }}
               href="/#sponsors"
-              // onClick={handleNavClick}
+              onClick={showNavbar}
               className="navBar_link"
             >
               Sponsors

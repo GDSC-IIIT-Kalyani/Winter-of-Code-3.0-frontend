@@ -203,7 +203,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    /* height: 90%; */
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -211,26 +211,36 @@ nav{
     justify-content: center;
     background-color: #021a3e;
     margin-top: -1rem;
-    padding: 2rem 0 2.5rem 0;
+    padding: 3rem 0 2.5rem 0.5rem;
     border-radius: 0;
     gap: 1.5rem;
-    transition: 1s;
-    transform: translateY(-90vh); 
+    transition: 0.2s;
+    transform: translateY(-110vh)
   }
 
   .navBar_links {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0 0 -5rem;
-    gap: 1.5rem;
+    margin: 2.5rem 0 0 -5rem;
+    gap: 2.5rem;
   }
 
   .navBar_links::-webkit-scrollbar {
     display: none;
   }
 
+  .navBar_link-item a{
+    font-size: 1.5rem;
+  }
+
   .navBar_apply-now {
+    width: 13rem;
+    height: 3.5rem;
     background: #fff;
+  }
+
+  .apply-now-link {
+    font-size: 1.5rem;
   }
   /* .navBar_container {
     width: 100vw;
