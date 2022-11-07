@@ -13,11 +13,11 @@ const Sponsor = () => {
         <img className="sponser-background2" src={background2} />
       </div> */}
       <div>
-        <img
+        {/* <img
           className="background"
           src={backgroundAssets}
           alt="background"
-        ></img>
+        ></img> */}
       </div>
       <div className="sponsors-content">
         <div className="header">PAST SPONSORS</div>
