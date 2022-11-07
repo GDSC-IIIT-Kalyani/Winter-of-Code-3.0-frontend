@@ -16,24 +16,27 @@ const Faq = () => {
 
   return (
     <div className="faq-sec" id="faq">
-      <div className="faq-sec-heading">
-        Frequently<br/>
-        <div className="faq-sec-heading-line-2">asked questions</div>
-      </div>
+      <div className="faq-sec-content">
+        <div className="faq-sec-heading">
+          Frequently
+          <br />
+          <div className="faq-sec-heading-line-2">asked questions</div>
+        </div>
 
-      <div className="faq-sec-container">
-        {faqData.map((faq, index) => (
-          <div key={index} value={false} className="faq-sec-item">
-            <img src={faqImg} alt="faqImg" style={{ width: 490, height: 30 }} />
-            <div className="faq-sec-ques">
-              <div className="ques">{faq.question}</div>
-              <div className="arrow">V</div>
+        <div className="faq-sec-container">
+          {faqData.map((faq, index) => (
+            <div key={index} value={false} className="faq-sec-item">
+              <img src={faqImg} alt="faqImg" className="faqImg" />
+              <div className="faq-sec-ques">
+                <div className="ques">{faq.question}</div>
+                <div className="arrow">V</div>
+              </div>
+              <div className="answer">
+                <p>{faq.answer}</p>
+              </div>
             </div>
-            <div className="answer">
-              <p>{faq.answer}</p>
-            </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
