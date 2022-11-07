@@ -2,22 +2,22 @@ import React from "react";
 import "./sponsor.css";
 import sponsorsData from "./sponsorData";
 import backgroundAssets from "../../assets/sponsors-bg-image.png";
-import background2 from "../../assets/bg images/WOC_LIS_06.gif";
-import background1 from "../../assets/bg images/WOC_LIS_05.gif";
+import background2 from "../../assets/bg images/WOC_LIS_07.gif";
+import background1 from "../../assets/bg images/WOC_LIS_06.gif";
 
 const Sponsor = () => {
   return (
     <section id="sponsors">
-      {/* <div className="sponsors-background">
-        <img className="sponser-background1" src={background1} />
-        <img className="sponser-background2" src={background2} />
-      </div> */}
+      <div className="sponsors-background-container">
+        <img className="sponser-background" src={background1} alt="background" />
+        <img className="sponser-background" src={background2} alt="background"/>
+      </div>
       <div>
-        {/* <img
-          className="background"
+        <img
+          className="solids-background"
           src={backgroundAssets}
           alt="background"
-        ></img> */}
+        ></img>
       </div>
       <div className="sponsors-content">
         <div className="header">PAST SPONSORS</div>
