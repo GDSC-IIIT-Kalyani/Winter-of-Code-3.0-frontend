@@ -15,7 +15,8 @@
   align-items: flex-start;
   justify-content: space-around;
   color: white;
-  text-align: center;
+  text-align: left !important;
+
 }
 
 .faq-sec-container {

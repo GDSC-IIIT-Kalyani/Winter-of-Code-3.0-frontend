@@ -3,6 +3,9 @@ nav{
   justify-content: center;
   flex-direction: column-reverse;
   align-items: center;
+  width:90vw;
+  margin: 0 auto;
+  /* padding: 50px 20px; */
 } 
 
 .responsive-logo {
@@ -23,12 +26,13 @@ nav{
 
 .navBar_container {
     display: flex;
-    width: 90%;
+    width: 100%;
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 1.5rem;
     justify-content: space-between;
     flex-direction: row;
+    padding: 20px 0.5vw;
 
 }
 
@@ -40,7 +44,7 @@ nav{
 }
 
 .navBar_links{
-    width: 85%;
+  width:100%;
     /* margin-left: 18%; */
     /* padding: 1% 0; */
     display: flex;
@@ -172,9 +176,11 @@ nav{
     position: fixed;
     width: 100vw;
     display: flex;
+    height:8vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    /* flex-wrap: nowrap; */
     /* padding: 0.3rem 0; */
     background-color: #ffffff22;
   }

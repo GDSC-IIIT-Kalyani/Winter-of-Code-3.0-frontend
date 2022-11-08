@@ -11,9 +11,9 @@
 
 #footer {
   color: #fff;
-  padding-top:-10vh !important;
+  /* padding-top:10vh !important; */
   z-index: -1;
-
+  font-family: Vanilla;
   background-image: url("../../assets/bg\ images/WOC_LIS_10.jpg");
   background-size: cover;
   font-family: Vanilla;
@@ -21,7 +21,8 @@
 
 .footer-content {
   /* background: rgba(190, 190, 190, 0.042); */
-  padding: 0;
+  padding-top: 6vh;
+  /* height:80%; */
   margin: 0;
   width: 100%;
   display: flex;
