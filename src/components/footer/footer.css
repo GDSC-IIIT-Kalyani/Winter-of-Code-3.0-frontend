@@ -5,7 +5,7 @@
     background: rgb(17, 17, 17);
     height: auto;
     width: 100vw;
-    padding-top: 40px;
+    padding-top: 30px;
     color: #fff;    
 } 
 
@@ -55,7 +55,7 @@
   margin: 10px auto;
   line-height: 28px;
   font-size: 18px;
-  color: #cacdd2;
+  color: #edeff3;
 }
 
 .socials {
