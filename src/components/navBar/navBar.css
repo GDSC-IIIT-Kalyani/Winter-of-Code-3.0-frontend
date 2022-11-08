@@ -211,7 +211,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    /* height: 0rem; */
+    height: 80vh;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -229,6 +229,9 @@ nav{
   .navBar_links {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    height: 60%;
+    flex-wrap: nowrap;
     gap: 1.5rem;
   }
 
@@ -250,6 +253,7 @@ nav{
 
   nav .responsive_nav {
     transform: none;
+    height:120vh;
   }
 
 }
