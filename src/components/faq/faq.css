@@ -1,8 +1,8 @@
 #faq {
   background-image: url("../../assets/bg\ images/WOC_LIS_09.gif");
   background-size: cover;
-  width: 100vw;
-  max-width: 100%;
+  /* max-width: 100%; */
+width: 100vw;
   overflow: hidden;
   padding: 10vh 0 40vh 0;
   max-width: 100%;
@@ -33,7 +33,19 @@
   font-weight: 200;
   letter-spacing: 0.2rem;
   align-self: flex-start;
+  /* animation: slide-up 1s ease-out ; */
 }
+
+.faq-sec-heading-active{
+  font-size: 4.9rem;
+  width:40vw;
+  color: white;
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+  align-self: flex-start;
+  animation: slide-up 1s ease-out ;
+}
+
 .faq-sec-heading-line-2 {
   font-size: 2.7rem;
 }
@@ -96,10 +108,11 @@
   transform: rotate(180deg);
 }
 
-.faqImg {
+/* .faqImg {
   width: 40vw;
   height: 40px;
-}
+} */
+
 @keyframes fade_text {
   0% {
     opacity: 0;
@@ -108,6 +121,17 @@
   100% {
     opacity: 1;
     transform: translateX(0px);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    translate: translateY(0px);
   }
 }
 

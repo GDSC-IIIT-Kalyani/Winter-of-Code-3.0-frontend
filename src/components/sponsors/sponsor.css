@@ -1,12 +1,13 @@
 #sponsors {
   font-family: Vanilla;
   position: relative;
-  background-image: url("../../assets/sponsors-bg-image.png");
+  background-image: url("../../assets/bg\ images/WOC_LIS_06_07.gif");
   background-size: cover;
   overflow: hidden;
-  padding-bottom: 60vh;
+  /* padding-bottom: 60vh; */
 }
-.sponsors-background-container {
+
+/* .sponsors-background-container {
   overflow: hidden;
   position: absolute;
   z-index: -1;
@@ -19,13 +20,16 @@
   padding: 0%;
   margin: 0%;
   height: 100vw;
-}
+} */
 
 .sponsors-content {
-  display: inline-block;
-  position: absolute;
-  top: 0;
+  /* display: inline-block; */
+  /* position: absolute; */
+  /* top: 0; */
   padding-top: 10vh;
+  background-image: url("../../assets/sponsors-bg-image.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .header {
@@ -34,6 +38,15 @@
   color: white;
   text-align: center;
   padding-bottom: 7vh;
+}
+
+.header-active{
+  font-size: 4em;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  padding-bottom: 7vh;
+  animation: slide-up 1s ease-out;
 }
 
 .sponsorsGrid {

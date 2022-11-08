@@ -1,7 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import background from "../../assets/bg images/WOC_LIS_02.gif";
+// import { Animator, Move, ScrollContainer, ScrollPage } from "react-scroll-motion";
+
 const About = () => {
+  useEffect(() => {
+    const faqHeading = document.querySelector(".about-title");
+    const faqHeadingOptions = {
+      root: null,
+      threshold: 0.5,
+    };
+    const faqHeadingObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          faqHeading.classList.add("about-title-active");
+        }
+      });
+    }, faqHeadingOptions);
+    faqHeadingObserver.observe(faqHeading);
+  }, []);
+
   return (
     <div id="about">
       <img className="about-background" src={background} alt="background" />

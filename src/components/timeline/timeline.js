@@ -11,9 +11,11 @@ import white from "../../assets/timeline/white.png";
 import red from "../../assets/timeline/red.png";
 import redEdge from "../../assets/timeline/redEdge.png";
 import background from "../../assets/bg images/WOC_LIS_03.gif";
+
 function Timeline() {
   const [carouselIdx, setIdx] = useState(0);
   const active = 3;
+
   const DiamondColor = (idx) => {
     if (idx === active) {
       return "#ffffff";
@@ -21,6 +23,7 @@ function Timeline() {
       return "#cf0404";
     } else return "#4fff87";
   };
+
   const handleprev = () => {
     if (carouselIdx > 0) {
       setIdx(carouselIdx - 1);
@@ -61,6 +64,22 @@ function Timeline() {
       ? 4
       : 2;
   };
+
+  useEffect(() => {
+    const faqHeading = document.querySelector(".timeline-heading");
+    const faqHeadingOptions = {
+      root: null,
+      threshold: 0.5,
+    };
+    const faqHeadingObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          faqHeading.classList.add("timeline-heading-active");
+        }
+      });
+    }, faqHeadingOptions);
+    faqHeadingObserver.observe(faqHeading);
+  }, []);
 
   return (
     <div id="timeline">

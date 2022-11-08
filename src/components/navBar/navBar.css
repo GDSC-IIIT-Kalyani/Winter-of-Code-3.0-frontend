@@ -3,6 +3,7 @@ nav{
   justify-content: center;
   flex-direction: column-reverse;
   align-items: center;
+  font-family: Vanilla;
   width:90vw;
   margin: 0 auto;
   /* padding: 50px 20px; */
@@ -26,7 +27,8 @@ nav{
 
 .navBar_container {
     display: flex;
-    width: 100%;
+    height: 5rem;
+    width: 90%;
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 1.5rem;
@@ -209,7 +211,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    /* height: 90%; */
+    /* height: 0rem; */
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -227,7 +229,6 @@ nav{
   .navBar_links {
     display: flex;
     flex-direction: column;
-    margin: 2rem 0 0 -5rem;
     gap: 1.5rem;
   }
 

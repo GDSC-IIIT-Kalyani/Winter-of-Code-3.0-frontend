@@ -1,14 +1,30 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./sponsor.css";
 import sponsorsData from "./sponsorData";
-import backgroundAssets from "../../assets/sponsors-bg-image.png";
-import background2 from "../../assets/bg images/WOC_LIS_07.gif";
-import background1 from "../../assets/bg images/WOC_LIS_06.gif";
+// import backgroundAssets from "../../assets/sponsors-bg-image.png";
+// import background2 from "../../assets/bg images/WOC_LIS_07.gif";
+// import background1 from "../../assets/bg images/WOC_LIS_06.gif";
 
 const Sponsor = () => {
+  useEffect(() => {
+    const faqHeading = document.querySelector(".header");
+    const faqHeadingOptions = {
+      root: null,
+      threshold: 0.5,
+    };
+    const faqHeadingObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          faqHeading.classList.add("header-active");
+        }
+      });
+    }, faqHeadingOptions);
+    faqHeadingObserver.observe(faqHeading);
+  }, []);
+
   return (
     <div id="sponsors">
-        <div className="sponsors-background-container">
+        {/* <div className="sponsors-background-container">
           <img className="sponser-background" src={background1} alt="background" />
           <img className="sponser-background" src={background2} alt="background"/>
         </div>
@@ -18,7 +34,7 @@ const Sponsor = () => {
           src={backgroundAssets}
           alt="background"
         ></img>
-      </div>
+      </div> */}
       <div className="sponsors-content">
         <div className="header">PAST SPONSORS</div>
         <div className="sponsorsGrid">

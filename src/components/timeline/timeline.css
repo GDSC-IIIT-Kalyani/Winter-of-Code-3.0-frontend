@@ -23,6 +23,17 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+.timeline-heading-active {
+  font-size: 4em;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  animation: slide-up 1s ease-out;
+}
+
+
 .timeline-carousel {
   width: 70vw;
   margin: 20vh 0vw 20vh 15vw;
@@ -92,6 +103,18 @@
   justify-content: center;
   align-items: center;
 }
+
+@keyframes slide-up {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    translate: translateY(0px);
+  }
+}
+
 @media screen and (max-width: 1050px) {
   .timeline-item-date {
     font-size: 10px;
@@ -105,6 +128,7 @@
     /* min-width: 100px; */
   }
 }
+
 @media screen and (max-width: 610px) and (min-width: 420px) {
   .timeline-item-shape-line {
     width: 40vw;
