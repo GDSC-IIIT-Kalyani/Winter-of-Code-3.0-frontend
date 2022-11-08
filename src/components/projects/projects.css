@@ -79,6 +79,14 @@
     letter-spacing: 0.09em;
 }
 
+.projects-header-active {
+    font-size: calc(2.5em + 1.675vw);
+    font-weight: 200;
+    color: white;
+    letter-spacing: 0.09em;
+    animation: slide-up 1s ease-out;
+}
+
 .projects-text {
     color: white;
     text-align: justify;

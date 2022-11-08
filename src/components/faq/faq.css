@@ -1,8 +1,8 @@
 #faq {
   background-image: url("../../assets/bg\ images/WOC_LIS_09.gif");
   background-size: cover;
-  width: 100vw;
-  max-width: 100%;
+  /* max-width: 100%; */
+width: 100vw;
   overflow: hidden;
   padding: 10vh 0 40vh 0;
   max-width: 100%;
@@ -15,7 +15,8 @@
   align-items: flex-start;
   justify-content: space-around;
   color: white;
-  text-align: center;
+  text-align: left !important;
+
 }
 
 .faq-sec-container {

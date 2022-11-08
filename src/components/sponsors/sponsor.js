@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import "./sponsor.css";
 import sponsorsData from "./sponsorData";
 import backgroundAssets from "../../assets/sponsors-bg-image.png";
@@ -6,6 +6,22 @@ import background2 from "../../assets/bg images/WOC_LIS_07.gif";
 import background1 from "../../assets/bg images/WOC_LIS_06.gif";
 
 const Sponsor = () => {
+  useEffect(() => {
+    const faqHeading = document.querySelector(".header");
+    const faqHeadingOptions = {
+      root: null,
+      threshold: 0.5,
+    };
+    const faqHeadingObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          faqHeading.classList.add("header-active");
+        }
+      });
+    }, faqHeadingOptions);
+    faqHeadingObserver.observe(faqHeading);
+  }, []);
+
   return (
     <div id="sponsors">
         <div className="sponsors-background-container">
