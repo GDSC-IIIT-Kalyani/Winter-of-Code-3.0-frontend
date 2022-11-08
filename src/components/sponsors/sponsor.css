@@ -36,6 +36,15 @@
   padding-bottom: 7vh;
 }
 
+.header-active{
+  font-size: 4em;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  padding-bottom: 7vh;
+  animation: slide-up 1s ease-out;
+}
+
 .sponsorsGrid {
   width: 98vw;
   margin: auto;

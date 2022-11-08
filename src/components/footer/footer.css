@@ -16,6 +16,7 @@
   font-family: Vanilla;
   background-image: url("../../assets/bg\ images/WOC_LIS_10.jpg");
   background-size: cover;
+  font-family: Vanilla;
 }
 
 .footer-content {
@@ -40,7 +41,7 @@
 }
 
 .footer-content h2 {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   color: #fff;
   font-weight: bolder;
   text-transform: capitalize;
