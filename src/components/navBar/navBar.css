@@ -3,6 +3,7 @@ nav{
   justify-content: center;
   flex-direction: column-reverse;
   align-items: center;
+  font-family: Vanilla;
 } 
 
 .responsive-logo {
@@ -23,6 +24,7 @@ nav{
 
 .navBar_container {
     display: flex;
+    height: 5rem;
     width: 90%;
     align-items: center;
     background: rgba(255, 255, 255, 0.2);
