@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./timeline.css";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import data from "./timeline_data";
@@ -26,6 +26,23 @@ function Timeline() {
       setIdx(carouselIdx - 1);
     }
   };
+  // const getWidth = () => {
+  //   if (window.innerWidth < 600) {
+  //     return 33;
+  //   } else {
+  //     return 20;
+  //   }
+  // };
+  // useEffect(() => {
+  //   const getWidth = () => {
+  //     if (window.innerWidth < 600) {
+  //       return 33;
+  //     } else {
+  //       return 20;
+  //     }
+  //   };
+  // });
+
   const handlenext = () => {
     if (carouselIdx < data.length) {
       setIdx(carouselIdx + 1);
@@ -48,7 +65,7 @@ function Timeline() {
   return (
     <div id="timeline">
       {/* <div > */}
-        <img className="timeline-background" src={background} alt="background" />
+      <img className="timeline-background" src={background} alt="background" />
       {/* </div> */}
       <div className="timeline-content">
         <div className="timeline-heading">Timeline</div>
@@ -56,7 +73,7 @@ function Timeline() {
           <div className="timeline-prev" onClick={handleprev}>
             <FaAngleLeft
               color="#01193d"
-              size={25}
+              size={window.innerWidth < 610 ? 15 : 25}
               className="timeline-icon"
               onClick={handleprev}
             />
@@ -69,7 +86,15 @@ function Timeline() {
             showStatus={false}
             useKeyboardArrows={true}
             showIndicators={false}
-            centerSlidePercentage={20}
+            centerSlidePercentage={
+              window.innerWidth > 1050
+                ? 20
+                : window.innerWidth < 610
+                ? window.innerWidth < 420
+                  ? 100
+                  : 33
+                : 25
+            }
             onChange={(e) => setIdx(e)}
           >
             {data.map((item, idx) => (
@@ -115,7 +140,7 @@ function Timeline() {
             <FaAngleRight
               className="timeline-icon"
               color="#01193d"
-              size={25}
+              size={window.innerWidth < 610 ? 15 : 25}
               onClick={handlenext}
             />
           </div>

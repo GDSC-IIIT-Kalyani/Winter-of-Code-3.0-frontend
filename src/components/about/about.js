@@ -1,6 +1,8 @@
 import React from "react";
 import "./about.css";
 import background from "../../assets/bg images/WOC_LIS_02.gif";
+import { Animator, Move, ScrollContainer, ScrollPage } from "react-scroll-motion";
+
 const About = () => {
   return (
     <div id="about">

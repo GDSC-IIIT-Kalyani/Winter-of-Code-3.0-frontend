@@ -9,12 +9,11 @@ import {
 } from "react-icons/bs";
 const Footer = () => {
   return (
-    <div>
       <div id="footer">
-        <div class="footer-content">
+        <div className="footer-content">
           <h3>WOC 3.0</h3>
           <p2>Brought to you by</p2>
-          <h2>GOOGLE STUDENT DEVELOPER CLUB IIIT KALYANI</h2>
+          <h2>GOOGLE STUDENT DEVELOPER CLUB IIIT KALYANI ©</h2>
           <ul class="socials">
             <li>
               <a href="https://gdsc.community.dev/indian-institute-of-information-technology-kalyani/">
@@ -44,7 +43,6 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-    </div>
   );
 };
 

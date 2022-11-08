@@ -7,14 +7,14 @@ import background1 from "../../assets/bg images/WOC_LIS_06.gif";
 
 const Sponsor = () => {
   return (
-    <section id="sponsors">
-      <div className="sponsors-background-container">
-        <img className="sponser-background" src={background1} alt="background" />
-        <img className="sponser-background" src={background2} alt="background"/>
-      </div>
-      <div>
+    <div id="sponsors">
+        <div className="sponsors-background-container">
+          <img className="sponser-background" src={background1} alt="background" />
+          <img className="sponser-background" src={background2} alt="background"/>
+        </div>
+      <div className="solids-background">
         <img
-          className="solids-background"
+          // className="solids-background"
           src={backgroundAssets}
           alt="background"
         ></img>
@@ -113,7 +113,7 @@ const Sponsor = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
