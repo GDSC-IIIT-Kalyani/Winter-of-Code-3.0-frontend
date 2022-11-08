@@ -15,16 +15,25 @@
     width: 100vw;
     z-index: 10;
 }
+
 .about-title {
-  font-size: 3.5rem;
+  font-size: 4em;
   font-weight: 300;
   color: #fff;
   text-align: left;
   margin-left: 11.5vw;
   margin-bottom: 8vh;
-  animation: moveUp 1s ease-in-out;
-  animation-fill-mode: forwards;
-  animation-delay: 0.5s;
+  animation: slide-up 1s ease-out;
+}
+
+.about-title-active{
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  margin-left: 11.5vw;
+  margin-bottom: 8vh;
+  animation: slide-up 1s ease-out;
 }
 
 .about-desc {
@@ -35,6 +44,17 @@
   padding: 1rem;
   margin-left: 10vw;
   margin-right: 30vw;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  to {
+    translate: translateY(0px);
+  }
 }
 
 @media screen and (max-width: 768px) {

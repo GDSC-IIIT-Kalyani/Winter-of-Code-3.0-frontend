@@ -14,6 +14,22 @@ const Faq = () => {
     });
   }, []);
 
+  useEffect(() => {
+    const faqHeading = document.querySelector(".faq-sec-heading");
+    const faqHeadingOptions = {
+      root: null,
+      threshold: 0.5,
+    };
+    const faqHeadingObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          faqHeading.classList.add("faq-sec-heading-active");
+        }
+      });
+    }, faqHeadingOptions);
+    faqHeadingObserver.observe(faqHeading);
+  }, []);
+
   return (
     <div className="faq-sec" id="faq">
       <div className="faq-sec-content">
