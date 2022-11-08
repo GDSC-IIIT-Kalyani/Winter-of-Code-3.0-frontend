@@ -56,7 +56,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              href="/#About"
+              href="/#about"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -66,7 +66,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              href="/projects"
+              href="/#projects"
               // onClick={handleNavClick}
               className="navBar_link"
             >
