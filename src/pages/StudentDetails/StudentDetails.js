@@ -132,19 +132,6 @@ const StudentDetails = () => {
               onChange={handleInputChange}
             />
           </div>
-          <div className="formgroup" id="join-form">
-            <label for="join">Joining as*</label>
-            <select
-              id="join"
-              name="role"
-              required
-              value={studentData.role}
-              onChange={handleInputChange}
-            >
-              <option value="mentor">Mentor</option>
-              <option value="student">Student</option>
-            </select>
-          </div>
           <div className="formgroup" id="question1-form">
             <label for="question1">Question1 *</label>
             <textarea
