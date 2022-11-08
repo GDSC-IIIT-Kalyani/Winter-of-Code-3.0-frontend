@@ -135,13 +135,8 @@
   -o-backdrop-filter: blur(50px);
   backdrop-filter: blur(50px);
 
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 20px;
-
-  padding-left: 1em;
-  padding-right: 1em;
-  padding-bottom: 20px;
+  margin: 5vh 10vw;
+  padding: 3vh 0vw;
 
   border-radius: 10px;
   border-style: solid;
@@ -152,6 +147,11 @@
 }
 
 @media (max-width: 800px) {
+  .sponsorsGrid h5{
+    width:70vw;
+    margin: 2vh auto;
+    text-align: center;
+  }
   .diamond-sponsors,
   .platinum-sponsors,
   .gold-sponsors,

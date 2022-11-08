@@ -6,6 +6,7 @@
   overflow: hidden;
   padding: 10vh 0 40vh 0;
   max-width: 100%;
+  font-family: Vanilla;
 }
 .faq-sec-content {
   width: 90vw;
@@ -14,7 +15,8 @@
   align-items: flex-start;
   justify-content: space-around;
   color: white;
-  text-align: center;
+  text-align: left !important;
+
 }
 
 .faq-sec-container {
