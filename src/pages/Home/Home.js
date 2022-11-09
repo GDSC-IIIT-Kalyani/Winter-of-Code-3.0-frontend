@@ -8,6 +8,7 @@ import Sponsor from "../../components/sponsors/sponsor.js";
 import Footer from "../../components/footer/footer";
 import Faq from "../../components/faq/faq";
 import WelcomePage from "../welcomePage/welcomePage";
+import NavBar from "../../components/navBar/navBar";
 
 export default function Home() {
   return (

@@ -46,7 +46,7 @@ function NavBar() {
     >
       <div className="responsive-logo"><img className="woc-logo" src={image} alt="woc-logo" /></div>
 
-      <div className="navBar_container" ref={navRef} >
+      <div className="navBar_container" ref={navRef} onClick={showNavbar}>
         <div className="woc">WOC.</div>
         <ul className="navBar_links">
           <li className="navBar_link-item home_comp">
