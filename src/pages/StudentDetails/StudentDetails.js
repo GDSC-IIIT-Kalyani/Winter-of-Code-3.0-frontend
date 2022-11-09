@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./StudentDetails.css";
+import { signInWithGoogle } from "../Login/Login";
+
 const StudentDetails = () => {
   const [studentData, setStudentData] = useState({
     name: "",
@@ -36,6 +38,9 @@ const StudentDetails = () => {
       <div id="form">
         <div className="hx">
           <h1>REGISTRATION FORM</h1>
+        </div>
+        <div>
+            <button className="btn btn-primary" onClick={signInWithGoogle}>Sign In with Google</button>
         </div>
         <div className="fish" id="fish"></div>
         <div className="fish" id="fish2"></div>
