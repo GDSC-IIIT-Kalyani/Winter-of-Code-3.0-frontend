@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./timeline.css";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
 import data from "./timeline_data";
@@ -11,9 +11,11 @@ import white from "../../assets/timeline/white.png";
 import red from "../../assets/timeline/red.png";
 import redEdge from "../../assets/timeline/redEdge.png";
 import background from "../../assets/bg images/WOC_LIS_03.gif";
+
 function Timeline() {
   const [carouselIdx, setIdx] = useState(0);
   const active = 3;
+
   const DiamondColor = (idx) => {
     if (idx === active) {
       return "#ffffff";
@@ -21,11 +23,29 @@ function Timeline() {
       return "#cf0404";
     } else return "#4fff87";
   };
+
   const handleprev = () => {
     if (carouselIdx > 0) {
       setIdx(carouselIdx - 1);
     }
   };
+  // const getWidth = () => {
+  //   if (window.innerWidth < 600) {
+  //     return 33;
+  //   } else {
+  //     return 20;
+  //   }
+  // };
+  // useEffect(() => {
+  //   const getWidth = () => {
+  //     if (window.innerWidth < 600) {
+  //       return 33;
+  //     } else {
+  //       return 20;
+  //     }
+  //   };
+  // });
+
   const handlenext = () => {
     if (carouselIdx < data.length) {
       setIdx(carouselIdx + 1);
@@ -45,10 +65,26 @@ function Timeline() {
       : 2;
   };
 
+  useEffect(() => {
+    const faqHeading = document.querySelector(".timeline-heading");
+    const faqHeadingOptions = {
+      root: null,
+      threshold: 0.5,
+    };
+    const faqHeadingObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          faqHeading.classList.add("timeline-heading-active");
+        }
+      });
+    }, faqHeadingOptions);
+    faqHeadingObserver.observe(faqHeading);
+  }, []);
+
   return (
     <div id="timeline">
       {/* <div > */}
-        <img className="timeline-background" src={background} alt="background" />
+      <img className="timeline-background" src={background} alt="background" />
       {/* </div> */}
       <div className="timeline-content">
         <div className="timeline-heading">Timeline</div>
@@ -56,7 +92,7 @@ function Timeline() {
           <div className="timeline-prev" onClick={handleprev}>
             <FaAngleLeft
               color="#01193d"
-              size={25}
+              size={window.innerWidth < 610 ? 15 : 25}
               className="timeline-icon"
               onClick={handleprev}
             />
@@ -69,7 +105,15 @@ function Timeline() {
             showStatus={false}
             useKeyboardArrows={true}
             showIndicators={false}
-            centerSlidePercentage={20}
+            centerSlidePercentage={
+              window.innerWidth > 1050
+                ? 20
+                : window.innerWidth < 610
+                ? window.innerWidth < 420
+                  ? 100
+                  : 33
+                : 25
+            }
             onChange={(e) => setIdx(e)}
           >
             {data.map((item, idx) => (
@@ -115,7 +159,7 @@ function Timeline() {
             <FaAngleRight
               className="timeline-icon"
               color="#01193d"
-              size={25}
+              size={window.innerWidth < 610 ? 15 : 25}
               onClick={handlenext}
             />
           </div>

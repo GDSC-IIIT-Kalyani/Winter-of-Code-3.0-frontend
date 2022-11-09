@@ -1,6 +1,7 @@
 #about {
   position: relative;
   overflow: hidden;
+  font-family: Vanilla;
 }
 .about-background {
   position: absolute;
@@ -14,13 +15,25 @@
     width: 100vw;
     z-index: 10;
 }
+
 .about-title {
-  font-size: 3.5rem;
+  font-size: 4em;
   font-weight: 300;
   color: #fff;
   text-align: left;
   margin-left: 11.5vw;
   margin-bottom: 8vh;
+  /* animation: slide-up 2s ease-out; */
+}
+
+.about-title-active{
+  font-size: 4em;
+  font-weight: 300;
+  color: #fff;
+  text-align: left;
+  margin-left: 11.5vw;
+  margin-bottom: 8vh;
+  animation: slide-up 3s ease-out;
 }
 
 .about-desc {
@@ -31,6 +44,19 @@
   padding: 1rem;
   margin-left: 10vw;
   margin-right: 30vw;
+  animation: slide-up 3s ease-out;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(400px);
+    opacity: 0;
+  }
+
+  to {  
+    translate: translateY(0px);
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -44,3 +70,4 @@
     margin-right: 5vw;
   }
 }
+

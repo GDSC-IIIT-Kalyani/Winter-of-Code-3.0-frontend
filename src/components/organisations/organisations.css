@@ -19,7 +19,17 @@
   color: white;
   text-align: center;
   letter-spacing: 0.09em;
+  margin: 8.5% -12.5% 8.5% 0;
+}
+
+.orgs-header-active {
+  font-size: calc(2em + 1.875vw);
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.09em;
   margin-right: -12.5%;
+  animation: slide-up 1s ease-out;
 }
 
 .orgs-whale-bg {
