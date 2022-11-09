@@ -56,7 +56,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              href="/#About"
+              href="/#about"
               // onClick={handleNavClick}
               className="navBar_link"
             >

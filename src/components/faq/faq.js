@@ -48,7 +48,7 @@ const Faq = () => {
               <img src={faqImg} alt="faqImg" className="faqImg" />
               <div className="faq-sec-ques">
                 <div className="ques">{faq.question}</div>
-                <div className="arrow"><a><IoMdArrowDropdown size={20}/></a></div>
+                <div className="arrow"><IoMdArrowDropdown size={20}/></div>
               </div>
               <div className="answer">
                 <p>{faq.answer}</p>
