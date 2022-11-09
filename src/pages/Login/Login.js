@@ -25,9 +25,9 @@ signInWithPopup(auth, provider).then((result) => {
     const email = result.user.email;
     const profilePic = result.user.photoURL;
 
-    localStorage.setItem('name', name);
-    localStorage.setItem('email', email);
-    localStorage.setItem('profilePic', profilePic);
+    sessionStorage.setItem('name', name);
+    sessionStorage.setItem('email', email);
+    sessionStorage.setItem('profilePic', profilePic);
 }).catch((error) => {
     console.log(error);
 });
