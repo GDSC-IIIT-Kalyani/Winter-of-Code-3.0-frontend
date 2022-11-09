@@ -43,9 +43,9 @@ const StudentDetails = () => {
               <h1>REGISTRATION FORM</h1>
               <div ><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic" /></div>
             </div>
-            <div>
+            {/* <div>
                 <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
-            </div>
+            </div> */}
             <div className="fish" id="fish"></div>
             <div className="fish" id="fish2"></div>
             <div className="fish" id="fish3"></div>
