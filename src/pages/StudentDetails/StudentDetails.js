@@ -40,7 +40,7 @@ const StudentDetails = () => {
           <h1>REGISTRATION FORM</h1>
         </div>
         <div>
-            <button className="btn btn-primary" onClick={signInWithGoogle}>Sign In with Google</button>
+            <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
         </div>
         <div className="fish" id="fish"></div>
         <div className="fish" id="fish2"></div>

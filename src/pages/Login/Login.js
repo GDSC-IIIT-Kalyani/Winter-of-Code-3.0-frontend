@@ -3,7 +3,13 @@ import { initializeApp } from 'firebase/app';
 
 
 const firebaseConfig = {
-    
+    apiKey: "AIzaSyDTrKTxgrKpeimmM8Wz3D563bA6-ooJP9o",
+    authDomain: "winter-of-code-3.firebaseapp.com",
+    projectId: "winter-of-code-3",
+    storageBucket: "winter-of-code-3.appspot.com",
+    messagingSenderId: "448428657404",
+    appId: "1:448428657404:web:d02947edd99263d8bfa579",
+    measurementId: "G-Y4GS2L0PYM"
 }
 
 const app = initializeApp(firebaseConfig);
