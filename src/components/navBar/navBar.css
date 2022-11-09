@@ -219,11 +219,11 @@ nav{
     justify-content: center;
     background-color: #021a3e;
     margin-top: -1rem;
-    padding: 2rem 0 2.5rem 0;
+    padding: 4.5rem 0 0 1.5rem;
     border-radius: 0;
-    gap: 1.5rem;
+    gap: 0.6rem;
     transition: 1s;
-    transform: translateY(-90vh); 
+    transform: translateY(-100vh); 
   }
 
   .navBar_links {
@@ -231,15 +231,23 @@ nav{
     flex-direction: column;
     justify-content: space-around;
     height: 60%;
+    padding: 0 3.5rem 0 0;
     flex-wrap: nowrap;
-    gap: 1.5rem;
+    gap: 2rem;
   }
 
   .navBar_links::-webkit-scrollbar {
     display: none;
   }
 
+  .navBar_link-item a {
+    font-size: 1.5rem;
+  }
+
   .navBar_apply-now {
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.5rem;
     background: #fff;
   }
   /* .navBar_container {
