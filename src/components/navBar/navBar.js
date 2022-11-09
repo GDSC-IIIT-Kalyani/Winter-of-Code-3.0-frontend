@@ -46,7 +46,7 @@ function NavBar() {
     >
       <div className="responsive-logo"><img className="woc-logo" src={image} alt="woc-logo" /></div>
 
-      <div className="navBar_container" ref={navRef} >
+      <div className="navBar_container" ref={navRef} onClick={showNavbar}>
         <div className="woc">WOC.</div>
         <ul className="navBar_links">
           <li className="navBar_link-item home_comp">
@@ -118,7 +118,7 @@ function NavBar() {
 
           <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication" target="_blank">APPLY NOW</a></button>
         </ul>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
+        <button className="nav-btn nav-close-btn" ><FaTimes /></button>
         {/* <div className="hamburger_container">
           <div
             className={`navBar_hamburger ${
