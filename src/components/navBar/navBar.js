@@ -56,23 +56,15 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              href="/#About"
+              href="/#about"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               About
             </a>
           </li>
-          <li className="navBar_link-item">
-            <a
-              // style={{ color: navLinkColor }}
-              href="/projects"
-              // onClick={handleNavClick}
-              className="navBar_link"
-            >
-              Projects
-            </a>
-          </li>
+
+          
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -81,6 +73,27 @@ function NavBar() {
               className="navBar_link"
             >
               Timeline
+            </a>
+          </li>
+          
+          <li className="navBar_link-item">
+            <a
+              // style={{ color: navLinkColor }}
+              href="/#organisations"
+              // onClick={handleNavClick}
+              className="navBar_link"
+            >
+              organisations
+            </a>
+          </li>
+          <li className="navBar_link-item">
+            <a
+              // style={{ color: navLinkColor }}
+              href="/#projects"
+              // onClick={handleNavClick}
+              className="navBar_link"
+            >
+              Projects
             </a>
           </li>
           <li className="navBar_link-item">
