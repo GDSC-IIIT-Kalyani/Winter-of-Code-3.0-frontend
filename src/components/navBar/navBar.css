@@ -210,7 +210,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
-    height: 80vh;
+    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -236,9 +236,12 @@ nav {
     gap: 2rem;
   }
 
-  .navBar_links::-webkit-scrollbar {
-    display: none;
+  .navBar_link-item a {
+    font-size: 1.7rem;
   }
+  /* .navBar_links::-webkit-scrollbar {
+    display: none;
+  } */
 
   .navBar_link-item a {
     font-size: 1.1rem;
