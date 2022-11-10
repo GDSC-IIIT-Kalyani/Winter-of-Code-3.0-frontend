@@ -56,23 +56,15 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              href="/#About"
+              href="/#about"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               About
             </a>
           </li>
-          <li className="navBar_link-item">
-            <a
-              // style={{ color: navLinkColor }}
-              href="/projects"
-              // onClick={handleNavClick}
-              className="navBar_link"
-            >
-              Projects
-            </a>
-          </li>
+
+          
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -81,6 +73,27 @@ function NavBar() {
               className="navBar_link"
             >
               Timeline
+            </a>
+          </li>
+          
+          <li className="navBar_link-item">
+            <a
+              // style={{ color: navLinkColor }}
+              href="/#organisations"
+              // onClick={handleNavClick}
+              className="navBar_link"
+            >
+              organisations
+            </a>
+          </li>
+          <li className="navBar_link-item">
+            <a
+              // style={{ color: navLinkColor }}
+              href="/#projects"
+              // onClick={handleNavClick}
+              className="navBar_link"
+            >
+              Projects
             </a>
           </li>
           <li className="navBar_link-item">
@@ -116,9 +129,9 @@ function NavBar() {
             </a>
           </li>
 
-          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication" target="_blank">APPLY NOW</a></button>
+          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button>
         </ul>
-        <button className="nav-btn nav-close-btn" onClick={showNavbar}><FaTimes /></button>
+        <button className="nav-btn nav-close-btn" ><FaTimes /></button>
         {/* <div className="hamburger_container">
           <div
             className={`navBar_hamburger ${

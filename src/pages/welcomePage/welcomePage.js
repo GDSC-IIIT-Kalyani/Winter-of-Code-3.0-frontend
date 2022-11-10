@@ -13,6 +13,7 @@ const wave = "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appsp
 
 const WelcomePage = () => {
 
+    const [width, setWidth] = useState(window.screen.width);
     const [scrollPosition, setScrollPosition] = useState(0);
     const [pos, setPos] = useState(0);
     
@@ -20,42 +21,51 @@ const WelcomePage = () => {
 
     const handleScroll = () => {
         setScrollPosition(window.pageYOffset);
-        setPos(moonRef.getBoundingClientRect().width);
+    }
+
+    const handleResize = (event) => {
+        setWidth(event.target.innerWidth);
     }
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize)
+    }, []);
     
     return (
         <>
         <div className="wrapper">
-            <img src={moonImg} ref={moonRef} style={{
-                zIndex: '100',
-                width: '13%',
-                position: 'absolute',
-                top: '23%',
-                left: '12%',
+        {/* <div style={{position: 'absolute', left: '10%', top: '1%', zIndex: '1100'}}>
+            {width}
+        </div> */}
+            <img src={moonImg} className='moon' ref={moonRef} style={{
+                transform: `translateY(-${scrollPosition/40}%)`
+            }} alt=""/>
+
+            <img src={cloudRight} className='cloud-right' style={{
                 transform: `translateY(-${scrollPosition/37}%)`
             }} alt=""/>
+
+            <img src={cloudRight} className='cloud-left' style={{
+                transform: `translateY(-${scrollPosition/37}%)`
+            }} alt=""/>
+
+            <div className='title'>
+                Winter Of Code
+            </div>
             
         </div>
         <div className='wrapper-2'>
-            <img src={iceberg} style={{
-                zIndex: '101',
-                width: '73%',
-                position: 'relative',
-                top: '5%',
-                transform: `translate(75%, -${scrollPosition/30 + 29}%)`
+            <img src={iceberg} className='iceberg' style={{
+                transform: `translate(0, -${scrollPosition/30 + (width < 821 ? 0 : 0)}%)`
             }} alt=""/>
-            <img src={wave} style={{
-                opacity: '0.9',
-                position: 'relative',
-                zIndex: '102',
-                width: '100vw',
-                top: '7%',
-                transform: `translate(-36.5%, -${scrollPosition/23 + 29}%)`
+            <img src={wave} className='wave' style={{
+                transform: `translate(0, -${scrollPosition/23 + (width < 821 ? 0 : 0)}%)`
             }} alt=""/>
         </div>
         </>
