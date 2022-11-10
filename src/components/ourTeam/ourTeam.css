@@ -24,12 +24,17 @@
 }
 
 .ourTeam-cards {
-    display: grid;
-    justify-items: center;
-    justify-content: space-evenly;
-    align-content: space-around;
-    grid-gap: 5rem;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 0;
 }
 
 .card {
@@ -38,8 +43,9 @@
     display: flex;
     flex-direction: row;
     align-items: center !important;
+    margin: 0 3rem;
     background-color: #fff;
-    border-radius: 10rem ;
+    border-radius: 10rem;
 }
 
 .card .card-heading {
@@ -49,7 +55,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: aqua;
+    /* background-color: aqua; */
     font-size: 1rem;
 }
 
@@ -72,20 +78,36 @@
 }
 
 .design {
-    background: hsla(199, 63%, 66%, 0.5);
+    background: rgba(114, 188, 223, 0.4);
+}
+
+.desgn {
+    background-color: rgba(114, 188, 223);
 }
 
 .webDev {
-    background: rgba(253, 194, 2, 0.5);
+    background: rgba(253, 194, 2, 0.4);
+}
+
+.dev {
+    background-color: rgba(253, 194, 2);
 }
 
 .marketing {
-    background: rgba(255, 2, 192, 0.5);
+    background: rgba(255, 2, 192, 0.4);
     /* margin-left: 9rem; */
 }
 
+.market {
+    background-color: rgba(255, 2, 192);
+}
+
 .media {
-    background: rgba(1, 255, 234, 0.5);
+    background: rgba(1, 255, 234, 0.4);
+}
+
+.sponser {
+    background-color: rgba(1, 255, 234);
 }
 
 .media .card-heading {
