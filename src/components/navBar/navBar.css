@@ -218,36 +218,22 @@ nav {
     justify-content: center;
     background-color: #021a3e;
     margin-top: -1rem;
-<<<<<<< HEAD
-    padding: 3.5rem 0 0 2rem;
-=======
     /* padding: 4.5rem 0 0 1.5rem; */
     padding-top: 5vh;
->>>>>>> db5254fa984a357d99a64f62a75cbd931f8896ea
     border-radius: 0;
     gap: 0.6rem;
     transition: 1s;
-<<<<<<< HEAD
-    transform: translateY(-100vh); 
-=======
     transform: translateY(-100vh);
->>>>>>> db5254fa984a357d99a64f62a75cbd931f8896ea
   }
 
   .navBar_links {
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
-    align-items: center;
-    margin: 2rem 0 0 -5rem;
-    gap: 2.5rem;
-=======
     justify-content: space-around;
     height: 60%;
     /* padding: 0 1.5rem 0 0; */
     flex-wrap: nowrap;
     gap: 2rem;
->>>>>>> db5254fa984a357d99a64f62a75cbd931f8896ea
   }
 
   .navBar_link-item a {
@@ -262,13 +248,8 @@ nav {
   }
 
   .navBar_apply-now {
-<<<<<<< HEAD
-    width: 13rem;
-    height: 3.5rem;
-=======
     width: 12rem;
     height: 4rem;
->>>>>>> db5254fa984a357d99a64f62a75cbd931f8896ea
     font-size: 1.5rem;
     background: #fff;
   }
