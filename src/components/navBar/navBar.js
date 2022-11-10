@@ -129,7 +129,7 @@ function NavBar() {
             </a>
           </li>
 
-          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication" target="_blank">APPLY NOW</a></button>
+          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button>
         </ul>
         <button className="nav-btn nav-close-btn" ><FaTimes /></button>
         {/* <div className="hamburger_container">
