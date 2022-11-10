@@ -24,6 +24,19 @@
   padding: 0rem;
   margin: 0 5vw;
   overflow: hidden;
+  animation: slide-left 3s ease-out;
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(300px);
+    /* opacity: 0; */
+  }
+
+  to {  
+    translate: translateY(0px);
+    /* opacity: 1; */
+  }
 }
 
 .faq-sec-heading {

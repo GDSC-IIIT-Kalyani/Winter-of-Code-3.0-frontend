@@ -23,7 +23,6 @@
   text-align: left;
   margin-left: 11.5vw;
   margin-bottom: 8vh;
-  /* animation: slide-up 2s ease-out; */
 }
 
 .about-title-active{
@@ -49,13 +48,13 @@
 
 @keyframes slide-up {
   from {
-    transform: translateY(400px);
-    opacity: 0;
+    transform: translateY(300px);
+    /* opacity: 0; */
   }
 
   to {  
     translate: translateY(0px);
-    opacity: 1;
+    /* opacity: 1; */
   }
 }
 

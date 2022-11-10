@@ -6,13 +6,18 @@
 
 .orgs-flex {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.orgs-left {
+/* .orgs-left {
   margin-left: 5%;
-}
+} */
 
+.orgs-right{
+  width: 55vw;
+  overflow: hidden;
+  position: relative;
+}
 .orgs-header {
   font-size: calc(2em + 1.875vw);
   font-weight: 200;
@@ -29,17 +34,21 @@
   text-align: center;
   letter-spacing: 0.09em;
   margin-right: -12.5%;
-  animation: slide-up 1s ease-out;
+  animation: slide-up 3s ease-out;
 }
 
 .orgs-whale-bg {
-  margin-top: 2.5%;
+  margin-top: 10%;
   z-index: 0;
   position: absolute;
+  width:105%;
+  /* width: 50vw; */
 }
 
 .orgs-whale {
   margin-top: 5%;
+  position: absolute;
+  /* width:30vw; */
   animation-name: slide;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -64,6 +73,7 @@
   align-items: center;
   grid-auto-rows: max-content;
   row-gap: 2em;
+  animation:slide-up 3s ease-out;
 }
 
 .orgs-image-rows {

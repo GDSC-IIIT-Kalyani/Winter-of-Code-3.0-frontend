@@ -10,13 +10,14 @@ const firebaseConfig = {
     messagingSenderId: "448428657404",
     appId: "1:448428657404:web:d02947edd99263d8bfa579",
     measurementId: "G-Y4GS2L0PYM"
-}
+}    
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 
 const provider = new GoogleAuthProvider();
-provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
+provider.addScope('profile');
+provider.addScope('email');
 
 export const signInWithGoogle = () => {
 signInWithPopup(auth, provider).then((result) => {
@@ -24,7 +25,7 @@ signInWithPopup(auth, provider).then((result) => {
     const name = result.user.displayName;
     const email = result.user.email;
     const profilePic = result.user.photoURL;
-
+    window.location.reload();
     sessionStorage.setItem('name', name);
     sessionStorage.setItem('email', email);
     sessionStorage.setItem('profilePic', profilePic);
