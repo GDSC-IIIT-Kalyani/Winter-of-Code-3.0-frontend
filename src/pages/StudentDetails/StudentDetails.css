@@ -104,6 +104,7 @@
 #form {
   /* padding-bottom: 10px; */
   background-image: url("../../assets/background.jpg");
+  min-height: 100vh;
   background-color: rgb(3, 30, 64) ;
   width: 100%;
   overflow: hidden;

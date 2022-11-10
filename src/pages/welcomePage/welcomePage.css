@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     background-image: url('../../assets/bg\ images/WOC_Landing-page_back-ground.png');
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -19,19 +19,95 @@
     justify-content: center;
 }
 
+.iceberg {
+    z-index: 101;
+    width: 73%;
+    position: absolute;
+    top: 40%;
+}
+
+.wave {
+    opacity: 0.9;
+    position: absolute;
+    z-index: 102;
+    width: 100%;
+    top: -10%;
+}
+
+.moon {
+    z-index: 100;
+    width: 13%;
+    position: absolute;
+    top: 23%;
+    left: 12%;
+}
+
 .title {
     position: absolute;
-    z-index: 10;
+    top: 0%;
+    z-index: 10000;
     font-size: xx-large;
     color: rgb(255, 255, 255);
-    translate: 0 -160%;
+    /* translate: 0%; */
     scale: 2;
 }
 
-.iceberg-upper {
-    position: absolute;
-    bottom: 0;
-    height: 43%;
+@media only screen and (max-width: 1440px) {
+    .wave {
+        top: -35%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .wave {
+        top: 4%;
+    }
+}
+
+/* for tablets */
+@media only screen and (max-width: 821px) {
+    .wrapper {
+        height: 100vh;
+    }
+
+    .wrapper-2 {
+        height: 0vh;
+    }
+
+    .iceberg {
+        top: 25%;
+    }
+
+    .moon {
+        top: 15%;
+    }
+
+    .wave {
+        top: 5%;
+    }
+}
+
+/* for mobile */
+@media only screen and (max-width: 480px) {
+    .wrapper {
+        height: 100vh;
+    }
+
+    .wrapper-2 {
+        height: 20vh;
+    }
+
+    .iceberg {
+        top: 23%;
+    }
+
+    .wave {
+        top: 10%;
+    }
+
+    .moon {
+        top: 15%;
+    }
 }
 
 .cloud-right {
@@ -43,7 +119,7 @@
 
 .cloud-left {
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 1%;
     height: 13%;
 }
@@ -60,29 +136,4 @@
     top: 25%;
     left: 7%;
     height: 10%;
-}
-
-.moon {
-    position: absolute;
-    top: 22%;
-    left: 17%;
-    height: 19%;
-}
-
-#Home{
-    position: relative;
-    margin:0%;
-    padding: 0%;
-    height:100vh;
-    overflow: hidden;
-}
-.landing-background{
-    position: absolute;
-    height: 100%;
-}
-.navigation{
-    position: absolute;
-    width:100vw;
-    height: 100vh;
-    z-index: 2;
 }
