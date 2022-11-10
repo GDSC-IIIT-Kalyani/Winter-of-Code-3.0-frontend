@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "draw-shape-reactjs": "^1.0.2",
+    "firebase": "^9.13.0",
     "react": "^18.2.0",
     "react-awesome-shapes": "^0.1.12",
     "react-bootstrap": "^2.5.0",
@@ -43,5 +44,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0"
   }
 }

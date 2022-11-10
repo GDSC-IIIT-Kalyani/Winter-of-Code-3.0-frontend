@@ -1,8 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./projects.css"
 import image from "../../assets/projects_section_bg.png"
 
 const Projects = () => {
+
+    useEffect(() => {
+        const faqHeading = document.querySelector(".projects-header");
+        const faqHeadingOptions = {
+          root: null,
+          threshold: 0.5,
+        };
+        const faqHeadingObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              faqHeading.classList.add("projects-header-active");
+            }
+          });
+        }, faqHeadingOptions);
+        faqHeadingObserver.observe(faqHeading);
+      }, []);
+
     return (
         <section id="projects">
             <div className="projects-image-grid">

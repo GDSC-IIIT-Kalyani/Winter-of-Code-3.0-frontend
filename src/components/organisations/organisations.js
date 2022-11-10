@@ -1,10 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./organisations.css";
 import whale from "../../assets/fish.png";
 import whale_bg from "../../assets/fish-bg-leaves.png";
 import images from "./images.js";
 
 const Organisations = () => {
+    
+    useEffect(() => {
+        const faqHeading = document.querySelector(".orgs-header");
+        const faqHeadingOptions = {
+          root: null,
+          threshold: 0.5,
+        };
+        const faqHeadingObserver = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              faqHeading.classList.add("orgs-header-active");
+            }
+          });
+        }, faqHeadingOptions);
+        faqHeadingObserver.observe(faqHeading);
+      }, []);
+
     return (
         <section id="organisations">
                 <div className="orgs-flex">
