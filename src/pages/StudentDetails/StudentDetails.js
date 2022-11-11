@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./StudentDetails.css";
 import { signInWithGoogle } from "../Login/Login";
+import { addDoc, collection, getFirestore  } from "firebase/firestore"; 
 
 const StudentDetails = () => {
   const [studentData, setStudentData] = useState({
@@ -22,12 +23,32 @@ const StudentDetails = () => {
       ...studentData,
       [event.target.name]: event.target.value,
     });
-    console.log(process.env.REACT_APP_apiKey);
   };
 
   const handleStudentDetails = (event) => {
     event.preventDefault();
-    console.log(studentData);
+    const db = getFirestore();
+    // console.log(studentData);
+    addDoc(collection(db, "students"), {
+      name: studentData.name,
+      email: studentData.email,
+      phone: studentData.phone,
+      github: studentData.github,
+      linkedIn: studentData.linkedIn,
+      twitter: studentData.twitter,
+      portfolio: studentData.portfolio,
+      openSourceWork: studentData.openSourceWork,
+      role: studentData.role,
+      question1: studentData.question1,
+      question2: studentData.question2,
+    })
+      .then((docRef) => {
+        console.log("Document written with ID: ", docRef.id);
+      })
+      .catch((error) => {
+        console.error("Error adding document: ", error);
+      }
+    );
   };
 
     // const [user, setUser] = useState(null);
@@ -38,7 +59,6 @@ const StudentDetails = () => {
   if (sessionStorage.getItem("name")) {
       return (
         <div>
-          
           <div id="form">
             <div className="hx">
               <h1>REGISTRATION FORM</h1>
