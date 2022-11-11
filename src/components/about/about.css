@@ -2,6 +2,8 @@
   position: relative;
   overflow: hidden;
   font-family: Vanilla;
+  z-index: 5;
+  padding-top: -100px;
 }
 .about-background {
   position: absolute;
@@ -11,7 +13,7 @@
   overflow: hidden;
 }
 .about-content{
-    padding-top: 30vh;
+    /* padding-top: 30vh; */
     width: 100vw;
     z-index: 10;
 }
