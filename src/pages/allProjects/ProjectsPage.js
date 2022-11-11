@@ -92,7 +92,6 @@ const ProjectsPage = () => {
         </video>
       </div> */}
       <div className="filter_option">
-        <h4>Filter out by Categories</h4>
         <form id="proj_form">
           <select className="proj_slt" onChange={handleChange}>
             <option value="all">All Categories</option>
@@ -124,6 +123,7 @@ const ProjectsPage = () => {
       </div>
       {!empty?
       <>
+      <div className="container1">
       <div className="Container-arrows">
         <div className="Arrow1" onClick={slideLeft}>
           <FaArrowLeft />
@@ -141,11 +141,13 @@ const ProjectsPage = () => {
           }
         })}
       </div>
+      </div>
       </>
       :<div className="empty_text">
           <h1>No Result Found :</h1>
         </div>}
     </div>
+    
   );
 };
 export default ProjectsPage;
