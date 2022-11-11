@@ -8,7 +8,7 @@ import Sponsor from "../../components/sponsors/sponsor.js";
 import Footer from "../../components/footer/footer";
 import Faq from "../../components/faq/faq";
 import WelcomePage from "../../components/welcomePage/welcomePage";
-import Test from '../test/Test';
+// import Test from '../test/Test';
 
 import NavBar from "../../components/navBar/navBar";
 

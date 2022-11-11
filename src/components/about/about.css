@@ -23,7 +23,6 @@
   text-align: left;
   margin-left: 11.5vw;
   margin-bottom: 8vh;
-  animation: slide-up 1s ease-out;
 }
 
 .about-title-active{
@@ -33,7 +32,7 @@
   text-align: left;
   margin-left: 11.5vw;
   margin-bottom: 8vh;
-  animation: slide-up 1s ease-out;
+  animation: slide-up 3s ease-out;
 }
 
 .about-desc {
@@ -44,16 +43,18 @@
   padding: 1rem;
   margin-left: 10vw;
   margin-right: 30vw;
+  animation: slide-up 3s ease-out;
 }
 
 @keyframes slide-up {
   from {
-    transform: translateY(50px);
-    opacity: 0;
+    transform: translateY(300px);
+    /* opacity: 0; */
   }
 
-  to {
+  to {  
     translate: translateY(0px);
+    /* opacity: 1; */
   }
 }
 

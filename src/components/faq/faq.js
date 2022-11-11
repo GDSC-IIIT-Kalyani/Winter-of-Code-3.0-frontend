@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import "./faq.css";
 import faqData from "./faqData";
 import faqImg from "../../assets/faq/faqImg.png";
+import{ 
+  IoMdArrowDropdown
+} from "react-icons/io"
 
 const Faq = () => {
   useEffect(() => {
@@ -36,7 +39,7 @@ const Faq = () => {
         <div className="faq-sec-heading">
           Frequently
           <br />
-          <div className="faq-sec-heading-line-2">asked questions</div>
+          <div className="faq-sec-heading-line-2">Asked Questions</div>
         </div>
 
         <div className="faq-sec-container">
@@ -45,7 +48,7 @@ const Faq = () => {
               <img src={faqImg} alt="faqImg" className="faqImg" />
               <div className="faq-sec-ques">
                 <div className="ques">{faq.question}</div>
-                <div className="arrow">V</div>
+                <div className="arrow"><IoMdArrowDropdown size={20}/></div>
               </div>
               <div className="answer">
                 <p>{faq.answer}</p>
