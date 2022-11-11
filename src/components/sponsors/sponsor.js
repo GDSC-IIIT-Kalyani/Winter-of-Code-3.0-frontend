@@ -24,17 +24,6 @@ const Sponsor = () => {
 
   return (
     <div id="sponsors">
-        {/* <div className="sponsors-background-container">
-          <img className="sponser-background" src={background1} alt="background" />
-          <img className="sponser-background" src={background2} alt="background"/>
-        </div>
-      <div className="solids-background">
-        <img
-          // className="solids-background"
-          src={backgroundAssets}
-          alt="background"
-        ></img>
-      </div> */}
       <div className="sponsors-content">
         <div className="header">PAST SPONSORS</div>
         <div className="sponsorsGrid">

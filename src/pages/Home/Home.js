@@ -22,7 +22,6 @@ export default function Home() {
       <Sponsor />
       <Faq />
       <Footer />
-      <NavBar/>
     </div>
   );
 }
