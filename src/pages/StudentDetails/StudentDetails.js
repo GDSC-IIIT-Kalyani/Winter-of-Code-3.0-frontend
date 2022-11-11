@@ -22,6 +22,7 @@ const StudentDetails = () => {
       ...studentData,
       [event.target.name]: event.target.value,
     });
+    console.log(process.env.REACT_APP_apiKey);
   };
 
   const handleStudentDetails = (event) => {
@@ -37,23 +38,17 @@ const StudentDetails = () => {
   if (sessionStorage.getItem("name")) {
       return (
         <div>
-          {/* <header className="form_header">
-            <h1 className="form_h1">REGISTRATION FORM</h1>
-          </header> */}
           
           <div id="form">
             <div className="hx">
               <h1>REGISTRATION FORM</h1>
-              <div ><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic" /></div>
+              <div ><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic"  /></div>
             </div>
-            {/* <div>
-                <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
-            </div> */}
             <div className="fish" id="fish"></div>
             <div className="fish" id="fish2"></div>
             <div className="fish" id="fish3"></div>
             <form id="waterform">
-              <div class="formgroup" id="name-form">
+              <div className="formgroup" id="name-form">
                 <label for="name">Your name*</label>
                 <input
                   type="text"
@@ -178,10 +173,6 @@ const StudentDetails = () => {
   } else {
     return (
       <div>
-          {/* <header className="form_header">
-            <h1 className="form_h1">REGISTRATION FORM</h1>
-          </header> */}
-          
           <div id="form">
             <div className="hx">
               <h1>REGISTRATION FORM</h1>
