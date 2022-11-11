@@ -30,6 +30,9 @@ const StudentDetails = () => {
   };
 
     // const [user, setUser] = useState(null);
+    // const handleGoogleSignIn = () => {
+    //     signInWithGoogle();
+    // }
 
   if (sessionStorage.getItem("name")) {
       return (
@@ -142,7 +145,7 @@ const StudentDetails = () => {
                 />
               </div>
               <div className="formgroup" id="question1-form">
-                <label for="question1">Question1 *</label>
+                <label for="question1">Why do you want to be a part of WOC 3.0? *</label>
                 <textarea
                   type="textarea"
                   id="question1"
@@ -153,7 +156,7 @@ const StudentDetails = () => {
                 />
               </div>
               <div className="formgroup" id="question2-form">
-                <label for="question2">Question2 *</label>
+                <label for="question2">What languages are you proficient in? What's your tech stack? </label>
                 <textarea
                   type="textarea"
                   id="question2"
