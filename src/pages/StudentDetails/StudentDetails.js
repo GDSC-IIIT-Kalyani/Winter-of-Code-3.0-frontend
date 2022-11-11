@@ -1,19 +1,25 @@
 import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import "./StudentDetails.css";
 import { signInWithGoogle } from "../Login/Login";
 import { addDoc, collection, getFirestore  } from "firebase/firestore"; 
+import { ref } from 'firebase/database';
 
 const StudentDetails = () => {
+  // var form = document.getElementById("form");
+  // function handleForm(event) { event.preventDefault(); } 
+  // form.addEventListener('submit', handleForm);
+
   const [studentData, setStudentData] = useState({
     name: "",
-    email: "",
+    email: sessionStorage.getItem("email"),
     phone: "",
     github: "",
     linkedIn: "",
     twitter: "",
     portfolio: "",
     openSourceWork: "",
-    role: "",
+    // role: "",
     question1: "",
     question2: "",
   });
@@ -27,8 +33,9 @@ const StudentDetails = () => {
 
   const handleStudentDetails = (event) => {
     event.preventDefault();
+    // alert(JSON.stringify(event));
     const db = getFirestore();
-    // console.log(studentData);
+    console.log(studentData);
     addDoc(collection(db, "students"), {
       name: studentData.name,
       email: studentData.email,
@@ -51,6 +58,8 @@ const StudentDetails = () => {
     );
   };
 
+  const { register, handleSubmit, formState: { errors } } = useForm();
+
     // const [user, setUser] = useState(null);
     // const handleGoogleSignIn = () => {
     //     signInWithGoogle();
@@ -67,7 +76,10 @@ const StudentDetails = () => {
             <div className="fish" id="fish"></div>
             <div className="fish" id="fish2"></div>
             <div className="fish" id="fish3"></div>
-            <form id="waterform">
+            <form id="waterform"
+            onSubmit={(e) => handleStudentDetails(e)} 
+            // onClick={(e) => {errors();handleSubmit(handleStudentDetails)(e);}}
+            >
               <div className="formgroup" id="name-form">
                 <label for="name">Your name*</label>
                 <input
@@ -76,22 +88,13 @@ const StudentDetails = () => {
                   name="name"
                   placeholder="Your name"
                   required
+                  ref={register("name",{ required: true })}
                   value={studentData.name}
                   onChange={handleInputChange}
-                />
+                  />
+                  {errors.name && <p>Please check the First Name</p>}
               </div>
-              <div className="formgroup" id="email-form">
-                <label for="email">Your e-mail*</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your e-mail"
-                  required
-                  value={studentData.email}
-                  onChange={handleInputChange}
-                />
-              </div>
+              
               <div className="formgroup" id="phone-form">
                 <label for="phone">Your phone number*</label>
                 <input
@@ -184,7 +187,7 @@ const StudentDetails = () => {
               <input
                 type="submit"
                 value="Submit details!"
-                onClick={handleStudentDetails}
+                // onClick={handleStudentDetails}
               ></input>
             </form>
           </div>
