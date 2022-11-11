@@ -2,6 +2,7 @@
   font-family: Vanilla;
   background-image: url("../../assets/bg\ images/WOC_LIS_04.gif");
   background-size: cover;
+  min-height:55vw;
 }
 
 .orgs-flex {
@@ -9,12 +10,9 @@
   justify-content: space-between;
 }
 
-/* .orgs-left {
-  margin-left: 5%;
-} */
-
 .orgs-right{
   width: 55vw;
+  height: 55vw;
   overflow: hidden;
   position: relative;
 }
