@@ -1,23 +1,134 @@
 #organisations {
-    font-family: Vanilla;
+  font-family: Vanilla;
+  background-image: url("../../assets/bg\ images/WOC_LIS_04.gif");
+  background-size: cover;
+  min-height:55vw;
 }
 
 .orgs-flex {
-    padding: 1% 10% 5% 10%;
-    display: flex;
+  display: flex;
+  justify-content: space-between;
 }
 
+.orgs-right{
+  width: 55vw;
+  height: 55vw;
+  overflow: hidden;
+  position: relative;
+}
 .orgs-header {
-    font-size: 4.5em;
-    color: white;
-    padding-bottom: 10vh;
+  font-size: calc(2em + 1.875vw);
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.09em;
+  margin: 8.5% -12.5% 8.5% 0;
 }
 
-.orgs-images {
-    list-style-type: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
+.orgs-header-active {
+  font-size: calc(2em + 1.875vw);
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  letter-spacing: 0.09em;
+  margin-right: -12.5%;
+  animation: slide-up 3s ease-out;
+}
+
+.orgs-whale-bg {
+  margin-top: 10%;
+  z-index: 0;
+  position: absolute;
+  width:105%;
+  /* width: 50vw; */
+}
+
+.orgs-whale {
+  margin-top: 5%;
+  position: absolute;
+  /* width:30vw; */
+  animation-name: slide;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes slide {
+  from {
+    translate: 0 0vh;
+  }
+
+  to {
+    translate: 0 4vh;
+  }
+}
+
+.orgs-image-container {
+  padding-left: 0;
+  justify-content: center;
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  grid-auto-rows: max-content;
+  row-gap: 2em;
+  animation:slide-up 3s ease-out;
+}
+
+.orgs-image-rows {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  gap: 2em;
+}
+
+.org-image {
+  max-height: 100px;
+  width: auto;
+}
+
+.row-stretch {
+  margin-right: -12.5%;
+}
+
+.row-stagger {
+  justify-content: space-between;
+  margin-left: 25%;
+  margin-right: -25%;
+  z-index: 2;
+}
+
+@media screen and (max-width: 1200px) {
+  .orgs-right {
+    display: none;
+  }
+
+  .row-stretch,
+  .row-stagger,
+  .orgs-left {
+    margin: auto;
+  }
+
+  .orgs-header {
+    margin-right: auto;
+  }
+
+  .orgs-flex {
+    padding: 0;
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .orgs-image-rows {
+    flex-flow: column wrap;
+    gap: 1em;
     align-items: center;
-}
+  }
 
+  .org-image {
+    max-height: 150px;
+    width: auto;
+  }
+}

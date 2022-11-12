@@ -1,23 +1,18 @@
-import './App.css';
-import NavBar from './components/navBar/navBar.js';
-import Timeline from './components/timeline/timeline';
-import About from './components/about/about.js';
-import Organisations from './components/organisations/organisations';
-import background from './assets/background.jpg';
-import Sponsor from './components/sponsors/sponsor.js';
-import asset from './assets/sponsors-bg-image.png';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route, /* Link */ } from "react-router-dom";
+import StudentDetails from "./pages/StudentDetails/StudentDetails";
+import Home from "./pages/Home/Home";
+import Projectspage from "./pages/allProjects/ProjectsPage.js";
 
 function App() {
   return (
-    <div className="App">
-        <img className="background" src={background} alt="background"></img>
-        <NavBar />
-        <About />
-        <Timeline />
-        <Organisations />
-        <img className="background" src={asset} alt="background"></img>
-        <Sponsor/>
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/studentApplication" element={<StudentDetails />} />
+        <Route exact path="/projects" element={<Projectspage />} />
+      </Routes>
+    </Router>
   );
 }
 export default App;

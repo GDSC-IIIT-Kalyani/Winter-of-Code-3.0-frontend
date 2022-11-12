@@ -1,35 +1,24 @@
-body {
-  margin: 0%;
-  padding: 0%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+.App {
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 html {
   margin: 0%;
   padding: 0%;
 }
-.App {
-  position: relative;
-  font-family: Vanilla;
-}
-.background {
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-}
-.background img {
-  width: 100%;
-  height: 110%;
-  object-fit: cover;
-}
-.timeline {
-  position: absolute;
-  z-index: -2;
 
-}
 @font-face {
   font-family: Vanilla;
   src: url("./assets/NT\ Vanilla.otf");
 }
-.background-asset{
-  position: absolute;
-  padding-top: 20vh;
-}
+
