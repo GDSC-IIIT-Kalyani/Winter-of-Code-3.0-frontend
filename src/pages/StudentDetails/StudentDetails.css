@@ -341,3 +341,20 @@ label {
     justify-content: space-between;
   }
 }
+
+button{
+    text-align: center;
+    width: 200px;
+    color: white;
+    height: 80px;
+    cursor: pointer;
+    margin: 30px auto;
+    font-size: 1.29em;
+    font-family: Vanilla;
+    -webkit-transition: background-color 0.5s;
+    -moz-transition: background-color 0.5s;
+    -o-transition: background-color 0.5s;
+    transition: background-color 0.5s;
+    border-radius: 10px;
+    margin-bottom: 2em;
+  }
