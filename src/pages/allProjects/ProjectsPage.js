@@ -85,14 +85,8 @@ const ProjectsPage = () => {
       <div className="background">
       <NavBar navLinkColor="white" />
       </div>
-      
-      {/* <div className="proj_vid">
-        <video autoPlay loop muted>
-          <source src={proj_video} type="video/mp4" />
-        </video>
-      </div> */}
       <div className="filter_option">
-        <form id="proj_form">
+        <form className="proj_form">
           <select className="proj_slt" onChange={handleChange}>
             <option value="all">All Categories</option>
             <option value="web">Web Development</option>
@@ -104,7 +98,7 @@ const ProjectsPage = () => {
             <option value="py">Python</option>
           </select>
         </form>
-        <form id="proj_form">
+        <form className="proj_form">
           <select className="proj_slt" onChange={handleOrg}>
             <option value="all">All organizations</option>
             <option value="mojo">Mojo Global</option>

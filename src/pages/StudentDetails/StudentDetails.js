@@ -3,12 +3,9 @@ import { useForm } from "react-hook-form";
 import "./StudentDetails.css";
 import { signInWithGoogle } from "../Login/Login";
 import { addDoc, collection, getFirestore  } from "firebase/firestore"; 
-import { ref } from 'firebase/database';
+// import { ref } from 'firebase/database';
 
 const StudentDetails = () => {
-  // var form = document.getElementById("form");
-  // function handleForm(event) { event.preventDefault(); } 
-  // form.addEventListener('submit', handleForm);
 
   const [studentData, setStudentData] = useState({
     name: "",
@@ -19,7 +16,6 @@ const StudentDetails = () => {
     twitter: "",
     portfolio: "",
     openSourceWork: "",
-    // role: "",
     question1: "",
     question2: "",
   });
@@ -33,7 +29,6 @@ const StudentDetails = () => {
 
   const handleStudentDetails = (event) => {
     event.preventDefault();
-    // alert(JSON.stringify(event));
     const db = getFirestore();
     console.log(studentData);
     addDoc(collection(db, "students"), {
@@ -58,14 +53,8 @@ const StudentDetails = () => {
     );
   };
 
-  const { register, handleSubmit, formState: { errors } } = useForm();
+  const { register, formState: { errors } } = useForm();
 
-    // const [user, setUser] = useState(null);
-    // const handleGoogleSignIn = () => {
-    //     signInWithGoogle();
-    // }
-
-  if (sessionStorage.getItem("name")) {
       return (
         <div>
           <div id="form">
@@ -77,6 +66,7 @@ const StudentDetails = () => {
             <div className="fish" id="fish"></div>
             <div className="fish" id="fish2"></div>
             <div className="fish" id="fish3"></div>
+            {sessionStorage.getItem("name")?
             <form id="waterform"
             onSubmit={(e) => handleStudentDetails(e)} 
             // onClick={(e) => {errors();handleSubmit(handleStudentDetails)(e);}}

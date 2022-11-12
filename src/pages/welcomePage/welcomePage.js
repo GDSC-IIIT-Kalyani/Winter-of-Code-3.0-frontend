@@ -147,7 +147,7 @@ const WelcomePage = () => {
           className="right-iceburg"
           style={{
             transform: `translate(0, -${
-              scrollPosition / 20 + (width < 821 ? 0 : 0)
+              scrollPosition / 45 + (width < 821 ? 0 : 0)
             }%)`,
           }}
           alt=""
@@ -158,7 +158,7 @@ const WelcomePage = () => {
           className="left-iceberg"
           style={{
             transform: `translate(0, -${
-              scrollPosition / 20 + (width < 821 ? 0 : 0)
+              scrollPosition / 40 + (width < 821 ? 0 : 0)
             }%)`,
           }}
           alt=""

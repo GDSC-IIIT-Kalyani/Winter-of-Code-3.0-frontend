@@ -32,7 +32,7 @@
   text-align: center;
   letter-spacing: 0.09em;
   margin-right: -12.5%;
-  animation: slide-up 3s ease-out;
+  animation: slide-up 2s ease-out;
 }
 
 .orgs-whale-bg {
@@ -71,7 +71,6 @@
   align-items: center;
   grid-auto-rows: max-content;
   row-gap: 2em;
-  animation:slide-up 3s ease-out;
 }
 
 .orgs-image-rows {
@@ -85,6 +84,7 @@
 .org-image {
   max-height: 100px;
   width: auto;
+  animation: slide-up 2s ease-in;
 }
 
 .row-stretch {

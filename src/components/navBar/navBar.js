@@ -16,7 +16,7 @@ function NavBar() {
 
       <div className="navBar_container" ref={navRef} onClick={showNavbar}>
         <div className="woc">WOC.</div>
-        <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
+        <ul className={`navBar_links`}>
 
           <li className="navBar_link-item">
             <a

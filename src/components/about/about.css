@@ -50,13 +50,15 @@
 
 @keyframes slide-up {
   from {
-    transform: translateY(300px);
-    /* opacity: 0; */
+    transform: translateY(200px);
+    opacity: 0;
+    display: none;
   }
 
   to {  
     translate: translateY(0px);
-    /* opacity: 1; */
+    opacity: 1;
+    display: block;
   }
 }
 

@@ -108,8 +108,7 @@ form {
 }
 
 label,
-input,
-select {
+input {
   display: block;
 }
 
@@ -118,8 +117,7 @@ label{
 }
 
 input,
-textarea,
-select {
+textarea {
   color:aliceblue;
   width: 500px;
   border: none;
@@ -144,7 +142,6 @@ textarea{
 }
 
 input:focus,
-select:focus,
 textarea:focus {
     transition: 0.5s;
     box-shadow: 0 0 10px #04cad8;
@@ -232,8 +229,7 @@ label {
   .formgroup {
     width: inherit;
   }
-  input,
-  select {
+  input {
     width: inherit;
   }
   label {
@@ -342,19 +338,3 @@ label {
   }
 }
 
-button{
-    text-align: center;
-    width: 200px;
-    color: white;
-    height: 80px;
-    cursor: pointer;
-    margin: 30px auto;
-    font-size: 1.29em;
-    font-family: Vanilla;
-    -webkit-transition: background-color 0.5s;
-    -moz-transition: background-color 0.5s;
-    -o-transition: background-color 0.5s;
-    transition: background-color 0.5s;
-    border-radius: 10px;
-    margin-bottom: 2em;
-  }

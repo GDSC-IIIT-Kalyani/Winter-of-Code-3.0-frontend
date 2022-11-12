@@ -42,7 +42,7 @@
 .left-iceberg {
   z-index: 3;
   width: 15%;
-  height: 95%;
+  /* height: 85%; */
   left: 1%;
   position: absolute;
   top: 85%;
