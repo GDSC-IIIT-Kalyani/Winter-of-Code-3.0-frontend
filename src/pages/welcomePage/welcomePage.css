@@ -1,10 +1,10 @@
 .wrapper {
-  height: 100vh;
+  height: 120vh;
   width: 100%;
   background-image: linear-gradient(
-      to bottom,
-      rgba(0, 6, 56, 0.323),
-      rgba(73, 79, 150, 0.145)
+    to bottom,
+    rgba(0, 6, 56, 0.323),
+    rgba(0, 11, 129, 0.253)
     ),
     url("../../assets/bg\ images/WOC_Landing-page_back-ground.png");
   background-position: bottom;
@@ -64,7 +64,7 @@
   position: absolute;
   z-index: 3;
   width: 100%;
-  top: 10%;
+  top: 15%;
 }
 
 .moon {
@@ -180,7 +180,7 @@
   filter: contrast(3.5) brightness(1.5) grayscale(0.5);
 
   animation-name: slide;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }
@@ -193,7 +193,7 @@
   height: 11%;
   filter: contrast(1.4);
   animation-name: slide;
-  animation-duration: 4s;
+  animation-duration: 3s;
   animation-iteration-count: infinite;
   animation-direction: alternate-reverse;
 }

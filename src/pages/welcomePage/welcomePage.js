@@ -62,7 +62,7 @@ const WelcomePage = () => {
 
   return (
     <>
-      <div className="wrapper">
+      <div className="wrapper" id="home">
         <NavBar />
         <img
           src={moonImg}

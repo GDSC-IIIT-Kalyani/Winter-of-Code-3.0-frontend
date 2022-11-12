@@ -6,7 +6,7 @@ nav {
   font-family: Vanilla;
   width: 90vw;
   margin: 0 auto;
-  z-index: 1000000;
+  z-index: 1000000222;
 }
 
 .responsive-logo {
@@ -72,6 +72,8 @@ nav {
   letter-spacing: 0.14em;
   overflow: hidden;
   text-align: center;
+  cursor: pointer;
+  height: 150%;
 }
 
 .navBar_link-item a:hover {
