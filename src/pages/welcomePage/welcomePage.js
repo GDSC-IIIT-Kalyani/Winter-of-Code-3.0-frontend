@@ -14,7 +14,7 @@ const birdsLeft =
 //   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/WOC_Landing-page_01-Recovered.psd_0016_2-birds.png?alt=media&token=fc68d3bb-6431-4b32-830f-ed1e5f7dce1b";
 
 const iceberg =
-  "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/iceberg-total.png?alt=media&token=73ebff01-83d5-43dd-894a-f9e7e25471a7";
+  "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/iceburg.png?alt=media&token=937c3661-d932-44b9-88e0-6614c992ddd7";
 const leftIceburg =
   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/left_berg.png?alt=media&token=5257f050-0971-4d95-b2f4-69b9975c0895";
 const rightIceburg =
@@ -118,7 +118,7 @@ const WelcomePage = () => {
           }}
           alt=""
         />
-      
+
         <img
           src={birdsLeft}
           className="birds-left"
@@ -131,13 +131,12 @@ const WelcomePage = () => {
         <div className="title">Winter Of Code</div>
       </div>
       <div className="wrapper-2">
-
         <img
           src={iceberg}
           className="iceberg"
           style={{
             transform: `translate(0, -${
-              scrollPosition / 70 + (width < 821 ? 0 : 0)
+              scrollPosition / 80 + (width < 950 ? 10 : 0)
             }%)`,
           }}
           alt=""
@@ -148,7 +147,7 @@ const WelcomePage = () => {
           className="right-iceburg"
           style={{
             transform: `translate(0, -${
-              scrollPosition / 30 + (width < 821 ? 0 : 0)
+              scrollPosition / 20 + (width < 821 ? 0 : 0)
             }%)`,
           }}
           alt=""
@@ -159,7 +158,7 @@ const WelcomePage = () => {
           className="left-iceberg"
           style={{
             transform: `translate(0, -${
-              scrollPosition /30 + (width < 821 ? 0 : 0)
+              scrollPosition / 20 + (width < 821 ? 0 : 0)
             }%)`,
           }}
           alt=""
@@ -169,9 +168,13 @@ const WelcomePage = () => {
           src={wave}
           className="wave"
           style={{
-            height: `${160 + scrollPosition / 10  +(width < 950? 11: 0)}%`,
+            height: `${
+              160 +
+              scrollPosition / 10 +
+              (width < 950 ? (width < 500 ? 40 : 11) : 0)
+            }%`,
             transform: `translate(0, -${
-              scrollPosition /75 + (width < 950? 12: 0)
+              scrollPosition / 70 + (width < 950 ? (width < 500 ? 20 : 16) : 0)
             }%)`,
           }}
           alt=""

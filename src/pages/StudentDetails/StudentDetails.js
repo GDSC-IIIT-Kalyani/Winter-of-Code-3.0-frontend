@@ -70,9 +70,10 @@ const StudentDetails = () => {
         <div>
           <div id="form">
             <div className="hx">
-              <h1>REGISTRATION FORM</h1>
-              <div ><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic"  /></div>
+              <h1>Student Application FORM</h1>
+              <div style={{display:`${sessionStorage.getItem("name")?"block":"none"}`}}><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic"  /></div>
             </div>
+
             <div className="fish" id="fish"></div>
             <div className="fish" id="fish2"></div>
             <div className="fish" id="fish3"></div>
@@ -189,27 +190,11 @@ const StudentDetails = () => {
                 value="Submit details!"
                 // onClick={handleStudentDetails}
               ></input>
-            </form>
+            </form>:<div>
+                <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
+            </div>}
           </div>
         </div>
       );
-  } else {
-    return (
-      <div>
-          <div id="form">
-            <div className="hx">
-              <h1>REGISTRATION FORM</h1>
-            </div>
-            <div>
-                <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
-            </div>
-            <div className="fish" id="fish"></div>
-            <div className="fish" id="fish2"></div>
-            <div className="fish" id="fish3"></div>
-            
-          </div>
-        </div>
-    );
-  }
 };
 export default StudentDetails;
