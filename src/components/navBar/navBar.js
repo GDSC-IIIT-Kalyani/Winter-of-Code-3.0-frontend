@@ -48,22 +48,7 @@ function NavBar() {
 
       <div className="navBar_container" ref={navRef} onClick={showNavbar}>
         <div className="woc">WOC.</div>
-        <ul className="navBar_links">
-          <li className="navBar_link-item home_comp">
-          </li>
-          <li className="navBar_link-item home_mob">
-          </li>
-          <li className="navBar_link-item">
-            <a
-              // style={{ color: navLinkColor }}
-              href="/#about"
-              // onClick={handleNavClick}
-              className="navBar_link"
-            >
-              About
-            </a>
-          </li>
-
+        <ul className={`navBar_links ${isMobView ? "mob-view" : null}`}>
           
           <li className="navBar_link-item">
             <a
