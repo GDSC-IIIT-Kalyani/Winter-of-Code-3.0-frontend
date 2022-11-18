@@ -2,6 +2,8 @@
   position: relative;
   overflow: hidden;
   font-family: Vanilla;
+  z-index: 5;
+  padding-top: -100px;
 }
 .about-background {
   position: absolute;
@@ -11,7 +13,7 @@
   overflow: hidden;
 }
 .about-content{
-    padding-top: 30vh;
+    /* padding-top: 30vh; */
     width: 100vw;
     z-index: 10;
 }
@@ -23,7 +25,6 @@
   text-align: left;
   margin-left: 11.5vw;
   margin-bottom: 8vh;
-  /* animation: slide-up 2s ease-out; */
 }
 
 .about-title-active{
@@ -49,13 +50,15 @@
 
 @keyframes slide-up {
   from {
-    transform: translateY(400px);
+    transform: translateY(200px);
     opacity: 0;
+    display: none;
   }
 
   to {  
     translate: translateY(0px);
     opacity: 1;
+    display: block;
   }
 }
 

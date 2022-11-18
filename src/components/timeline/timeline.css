@@ -4,12 +4,15 @@
   font-family: Vanilla;
   position: relative;
   overflow: hidden;
+  z-index:20;
+  /* min-height: 55vw; */
 }
 .timeline-background {
   position: absolute;
   width: 100vw;
-  height: 100%;
   z-index: -1;
+  min-height: 80vw;
+  height: 100%;
   overflow: hidden;
 }
 .timeline-content {

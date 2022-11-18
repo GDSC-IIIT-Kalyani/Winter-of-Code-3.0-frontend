@@ -26,7 +26,7 @@
   /* display: inline-block; */
   /* position: absolute; */
   /* top: 0; */
-  padding-top: 10vh;
+  padding-top: 20vh;
   background-image: url("../../assets/sponsors-bg-image.png");
   background-size: cover;
   background-position: center;
@@ -46,7 +46,7 @@
   color: white;
   text-align: center;
   padding-bottom: 7vh;
-  animation: slide-up 1s ease-out;
+  animation: slide-up 3s ease-out;
 }
 
 .sponsorsGrid {
@@ -157,6 +157,7 @@
   border-width: 3px;
   
   box-shadow: inset 0 0 15px #e5e7eb, 0 0 6px #e5e7eb;
+  animation:slide-up 3s ease-out;
 }
 
 @media (max-width: 800px) {

@@ -3,7 +3,7 @@
   background-size: cover;
   background-size: 100vw 100%;
   width: 100vw;
-  min-height: 115vh;
+  min-height: 110vh;
   padding-top: 10vh;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -24,6 +24,19 @@
   padding: 0rem;
   margin: 0 5vw;
   overflow: hidden;
+  animation: slide-left 3s ease-out;
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(300px);
+    /* opacity: 0; */
+  }
+
+  to {  
+    translate: translateY(0px);
+    /* opacity: 1; */
+  }
 }
 
 .faq-sec-heading {
