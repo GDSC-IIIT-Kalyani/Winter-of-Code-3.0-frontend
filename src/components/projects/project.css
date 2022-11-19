@@ -74,6 +74,7 @@
 }
 
 .projects-header {
+    opacity: 0;
     font-size: calc(2.5em + 1.675vw);
     font-weight: 200;
     color: white;
@@ -82,6 +83,7 @@
 }
 
 .projects-header-active {
+    opacity: 1;
     font-size: calc(2.5em + 1.675vw);
     font-weight: 200;
     color: white;

@@ -20,6 +20,7 @@
   z-index: 1;
 }
 .timeline-heading {
+  opacity: 0;
   font-size: 4em;
   font-weight: 300;
   color: white;
@@ -28,6 +29,7 @@
 }
 
 .timeline-heading-active {
+  opacity: 1;
   font-size: 4em;
   font-weight: 300;
   color: white;

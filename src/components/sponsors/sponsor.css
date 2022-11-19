@@ -33,6 +33,7 @@
 }
 
 .header {
+  opacity: 0;
   font-size: 4em;
   font-weight: 200;
   color: white;
@@ -41,12 +42,13 @@
 }
 
 .header-active{
+  opacity: 1;
   font-size: 4em;
   font-weight: 200;
   color: white;
   text-align: center;
   padding-bottom: 7vh;
-  animation: slide-up 3s ease-out;
+  animation: slide-up 1s ease-out;
 }
 
 .sponsorsGrid {

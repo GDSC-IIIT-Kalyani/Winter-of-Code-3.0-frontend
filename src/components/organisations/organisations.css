@@ -17,6 +17,7 @@
   position: relative;
 }
 .orgs-header {
+  opacity: 0;
   font-size: calc(2em + 1.875vw);
   font-weight: 200;
   color: white;
@@ -26,6 +27,7 @@
 }
 
 .orgs-header-active {
+  opacity: 1;
   font-size: calc(2em + 1.875vw);
   font-weight: 200;
   color: white;
