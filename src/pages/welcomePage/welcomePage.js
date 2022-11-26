@@ -2,6 +2,7 @@ import "./welcomePage.css";
 import { useState, useEffect } from "react";
 import { useRef } from "react";
 import NavBar from "../../components/navBar/navBar";
+import WelcomePageMobile from "../../components/welcomePage/welcomePageMobile";
 
 const moonImg =
   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/moon.png?alt=media&token=e1ce274d-0efa-4bf9-a6c7-ee8e45d4c8d3";
@@ -60,7 +61,9 @@ const WelcomePage = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  
   return (
+    window.innerWidth > 768 ?
     <>
       <div className="wrapper" id="home">
         <NavBar />
@@ -171,7 +174,7 @@ const WelcomePage = () => {
             height: `${
               160 +
               scrollPosition / 10 +
-              (width < 950 ? (width < 500 ? 40 : 11) : 0)
+              (width < 950 ? 50 : 0)
             }%`,
             transform: `translate(0, -${
               scrollPosition / 70 + (width < 950 ? (width < 500 ? 20 : 16) : 0)
@@ -203,8 +206,9 @@ const WelcomePage = () => {
           </div>
         </div>
       </div>
-    </>
-  );
+    </>  : <WelcomePageMobile />
+  )
+
 };
 
 export default WelcomePage;

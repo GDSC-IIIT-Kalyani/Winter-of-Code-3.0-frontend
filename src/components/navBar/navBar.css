@@ -14,8 +14,8 @@ nav {
 }
 
 .responsive-logo img {
-  width: 10%;
-  height: 10%;
+  width: 8%;
+  /* height: 10%; */
 }
 
 .navbar_top {
@@ -172,7 +172,7 @@ nav {
     position: fixed;
     width: 100vw;
     display: flex;
-    height: 8vh;
+    height: 10vh;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;

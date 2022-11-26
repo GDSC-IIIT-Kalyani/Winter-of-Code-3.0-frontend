@@ -167,16 +167,7 @@
 .proj_form{
   width:initial;
 }
-/* @media (max-width: 1200px) {
-    #proj_form {
-      margin: 0% !important;
-      display: block;
-      padding-left: 3vw;
-    }
-    .filter_option{
-      width:70vh;
-    }
-  } */
+
 @media (max-width: 1024px) {
   .filter_option{
     margin-top: 20vh;

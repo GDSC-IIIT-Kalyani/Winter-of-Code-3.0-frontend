@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import "./about.css";
-import background from "../../assets/bg images/WOC_LIS_02.gif";
-// import { Animator, Move, ScrollContainer, ScrollPage } from "react-scroll-motion";
 
 const About = () => {
   useEffect(() => {
@@ -22,7 +20,7 @@ const About = () => {
 
   return (
     <div id="about">
-      <img className="about-background" src={background} alt="background" />
+      {/* <img className="about-background" src={background} alt="background" /> */}
       <div className="about-content">
         <div className="about-title">ABOUT WOC</div>
         <div className="about-desc">
