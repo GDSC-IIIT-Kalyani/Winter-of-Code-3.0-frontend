@@ -122,3 +122,63 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media only screen and (max-width: 950px) and (min-width: 810px){
+
+    .ourTeam-cards {
+        margin-left: -2rem;
+    }
+
+    .card {
+        margin: 1rem;
+    }    
+}
+
+@media only screen and (max-width: 810px) and (min-width: 760px){
+
+    .ourTeam-cards {
+        width: 760px;
+        margin-left: -3.45rem;
+    }
+
+    .card {
+        margin: 0.5rem;
+    }    
+}
+
+@media only screen and (max-width: 760px){
+
+    .ourTeam-header {
+        margin-left: 2rem;
+    }
+
+    .first-row, .second-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 6rem;
+        height: max-content;
+        margin: 1rem 0 1rem -5.8rem;
+        align-items: center !important;
+        justify-content: center;
+    }
+
+    .card .card-heading {
+        margin: 0 0 1rem 0;
+    }
+
+    .card .contributors {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0;
+        gap: 1rem;
+        animation: forwards 3s ease-out;
+    }
+}
