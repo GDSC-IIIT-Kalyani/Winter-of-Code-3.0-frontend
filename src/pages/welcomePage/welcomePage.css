@@ -64,7 +64,7 @@
   position: absolute;
   z-index: 3;
   width: 100%;
-  top: 15%;
+  top: 10%;
 }
 
 .moon {
@@ -214,7 +214,7 @@
     top: 55%;
   }
   .wave {
-    top: 30%;
+    top: 15%;
   }
   .left-iceberg,
   .right-iceburg {
@@ -223,7 +223,7 @@
   .cloud-4 {
     height: 9%;
     top: 40%;
-    left: 12%;
+    left: 24%;
   }
   .title {
     top: 52%;
@@ -236,7 +236,7 @@
     right: 1%;
   }
   .moon {
-    width: 20%;
+    width: 13%;
     top: 15%;
     left: 9%;
   }
