@@ -2,6 +2,8 @@
   position: relative;
   overflow: hidden;
   font-family: Vanilla;
+  z-index: 5;
+  padding-top: -100px;
 }
 .about-background {
   position: absolute;
@@ -11,7 +13,7 @@
   overflow: hidden;
 }
 .about-content{
-    padding-top: 30vh;
+    /* padding-top: 30vh; */
     width: 100vw;
     z-index: 10;
 }
@@ -48,13 +50,15 @@
 
 @keyframes slide-up {
   from {
-    transform: translateY(300px);
-    /* opacity: 0; */
+    transform: translateY(200px);
+    opacity: 0;
+    display: none;
   }
 
   to {  
     translate: translateY(0px);
-    /* opacity: 1; */
+    opacity: 1;
+    display: block;
   }
 }
 

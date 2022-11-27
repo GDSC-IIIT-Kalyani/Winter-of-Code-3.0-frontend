@@ -6,7 +6,7 @@ nav {
   font-family: Vanilla;
   width: 90vw;
   margin: 0 auto;
-  z-index: 1000000;
+  z-index: 1000000222;
 }
 
 .responsive-logo {
@@ -72,18 +72,13 @@ nav {
   letter-spacing: 0.14em;
   overflow: hidden;
   text-align: center;
+  cursor: pointer;
+  height: 150%;
 }
 
 .navBar_link-item a:hover {
   color: #fff;
   font-weight: bolder;
-  /* background: #fff;
-    height: 2px;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1; */
   transition: all 0.3s ease-in-out;
 }
 
@@ -267,3 +262,4 @@ nav {
     height: 120vh;
   }
 }
+

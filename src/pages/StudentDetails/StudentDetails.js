@@ -1,18 +1,21 @@
 import React, { useState } from "react";
+import { useForm } from "react-hook-form";
 import "./StudentDetails.css";
 import { signInWithGoogle } from "../Login/Login";
+import { addDoc, collection, getFirestore  } from "firebase/firestore"; 
+// import { ref } from 'firebase/database';
 
 const StudentDetails = () => {
+
   const [studentData, setStudentData] = useState({
     name: "",
-    email: "",
+    email: sessionStorage.getItem("email"),
     phone: "",
     github: "",
     linkedIn: "",
     twitter: "",
     portfolio: "",
     openSourceWork: "",
-    role: "",
     question1: "",
     question2: "",
   });
@@ -22,29 +25,52 @@ const StudentDetails = () => {
       ...studentData,
       [event.target.name]: event.target.value,
     });
-    console.log(process.env.REACT_APP_apiKey);
   };
 
   const handleStudentDetails = (event) => {
     event.preventDefault();
+    const db = getFirestore();
     console.log(studentData);
+    addDoc(collection(db, "students"), {
+      name: studentData.name,
+      email: studentData.email,
+      phone: studentData.phone,
+      github: studentData.github,
+      linkedIn: studentData.linkedIn,
+      twitter: studentData.twitter,
+      portfolio: studentData.portfolio,
+      openSourceWork: studentData.openSourceWork,
+      role: studentData.role,
+      question1: studentData.question1,
+      question2: studentData.question2,
+    })
+      .then((docRef) => {
+        console.log("Document written with ID: ", docRef.id);
+      })
+      .catch((error) => {
+        console.error("Error adding document: ", error);
+      }
+    );
   };
 
-    // const [user, setUser] = useState(null);
+  const { register, formState: { errors } } = useForm();
 
-  if (sessionStorage.getItem("name")) {
       return (
         <div>
-          
           <div id="form">
             <div className="hx">
-              <h1>REGISTRATION FORM</h1>
-              <div ><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic"  /></div>
+              <h1>Student Application FORM</h1>
+              <div style={{display:`${sessionStorage.getItem("name")?"block":"none"}`}}><img className="sd-avatar" src={sessionStorage.getItem("profilePic")} alt="profilePic"  /></div>
             </div>
+
             <div className="fish" id="fish"></div>
             <div className="fish" id="fish2"></div>
             <div className="fish" id="fish3"></div>
-            <form id="waterform">
+            {sessionStorage.getItem("name")?
+            <form id="waterform"
+            onSubmit={(e) => handleStudentDetails(e)} 
+            // onClick={(e) => {errors();handleSubmit(handleStudentDetails)(e);}}
+            >
               <div className="formgroup" id="name-form">
                 <label for="name">Your name*</label>
                 <input
@@ -53,22 +79,13 @@ const StudentDetails = () => {
                   name="name"
                   placeholder="Your name"
                   required
+                  ref={register("name",{ required: true })}
                   value={studentData.name}
                   onChange={handleInputChange}
-                />
+                  />
+                  {errors.name && <p>Please check the First Name</p>}
               </div>
-              <div className="formgroup" id="email-form">
-                <label for="email">Your e-mail*</label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  placeholder="Your e-mail"
-                  required
-                  value={studentData.email}
-                  onChange={handleInputChange}
-                />
-              </div>
+              
               <div className="formgroup" id="phone-form">
                 <label for="phone">Your phone number*</label>
                 <input
@@ -137,7 +154,7 @@ const StudentDetails = () => {
                 />
               </div>
               <div className="formgroup" id="question1-form">
-                <label for="question1">Question1 *</label>
+                <label for="question1">Why do you want to be a part of WOC 3.0? *</label>
                 <textarea
                   type="textarea"
                   id="question1"
@@ -148,7 +165,7 @@ const StudentDetails = () => {
                 />
               </div>
               <div className="formgroup" id="question2-form">
-                <label for="question2">Question2 *</label>
+                <label for="question2">What languages are you proficient in? What's your tech stack? </label>
                 <textarea
                   type="textarea"
                   id="question2"
@@ -161,29 +178,13 @@ const StudentDetails = () => {
               <input
                 type="submit"
                 value="Submit details!"
-                onClick={handleStudentDetails}
+                // onClick={handleStudentDetails}
               ></input>
-            </form>
+            </form>:<div>
+                <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
+            </div>}
           </div>
         </div>
       );
-  } else {
-    return (
-      <div>
-          <div id="form">
-            <div className="hx">
-              <h1>REGISTRATION FORM</h1>
-            </div>
-            <div>
-                <button class="login-with-google-btn" onClick={signInWithGoogle}>Sign In with Google</button>
-            </div>
-            <div className="fish" id="fish"></div>
-            <div className="fish" id="fish2"></div>
-            <div className="fish" id="fish3"></div>
-            
-          </div>
-        </div>
-    );
-  }
 };
 export default StudentDetails;

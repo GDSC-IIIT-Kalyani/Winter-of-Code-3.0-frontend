@@ -2,6 +2,7 @@
   font-family: Vanilla;
   background-image: url("../../assets/bg\ images/WOC_LIS_04.gif");
   background-size: cover;
+  min-height:55vw;
 }
 
 .orgs-flex {
@@ -9,16 +10,14 @@
   justify-content: space-between;
 }
 
-/* .orgs-left {
-  margin-left: 5%;
-} */
-
 .orgs-right{
   width: 55vw;
+  height: 55vw;
   overflow: hidden;
   position: relative;
 }
 .orgs-header {
+  opacity: 0;
   font-size: calc(2em + 1.875vw);
   font-weight: 200;
   color: white;
@@ -28,13 +27,14 @@
 }
 
 .orgs-header-active {
+  opacity: 1;
   font-size: calc(2em + 1.875vw);
   font-weight: 200;
   color: white;
   text-align: center;
   letter-spacing: 0.09em;
   margin-right: -12.5%;
-  animation: slide-up 3s ease-out;
+  animation: slide-up 2s ease-out;
 }
 
 .orgs-whale-bg {
@@ -73,7 +73,6 @@
   align-items: center;
   grid-auto-rows: max-content;
   row-gap: 2em;
-  animation:slide-up 3s ease-out;
 }
 
 .orgs-image-rows {
@@ -87,6 +86,7 @@
 .org-image {
   max-height: 100px;
   width: auto;
+  animation: slide-up 2s ease-in;
 }
 
 .row-stretch {

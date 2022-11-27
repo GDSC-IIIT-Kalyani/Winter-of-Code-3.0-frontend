@@ -21,6 +21,7 @@
     font-size: 4.5rem;
     /* font-weight: bold; */
     color: #fff;
+    animation: slide-up 1s ease-out;
 }
 
 .ourTeam-cards {
@@ -67,6 +68,7 @@
     justify-content: space-evenly;
     padding: 0 0 0 1rem;
     gap: 1rem;
+    animation: forwards 3s ease-out;
 }
 
 .card .contributors h3 {

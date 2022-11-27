@@ -9,55 +9,27 @@ function NavBar() {
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
   }
-  // const [isMobView, setIsMobView] = useState(false);
-  // const [isCrossBurger, setIsCrossBurger] = useState(false);
-  // const [isScrollDown, setIsScrollDown] = useState(false);
-
-  // const handleHamburgerClick = (event) => {
-  //   setIsMobView(!isMobView);
-  //   setIsCrossBurger(!isCrossBurger);
-  //   const nav_links = document.querySelectorAll(".navBar_link-item");
-  //   nav_links.forEach((link, number, event) => {
-  //     if (link.style.animation) link.style.animation = "";
-  //     else
-  //       link.style.animation = `fade 0.5s ease forwards ${number / 7 + 0.2}s`;
-  //   });
-  //   handleHamburgerClick(event);
-  // };
-
-  // const handleScrollDown = () => {
-  //   if (window.scrollY >= 80) {
-  //     setIsScrollDown(true);
-  //   } else {
-  //     setIsScrollDown(false);
-  //   }
-  // };
-
-  // const handleNavClick = (event) => {
-  //   handleHamburgerClick(event);
-  // };
-
-  // window.addEventListener("scroll", handleScrollDown);
 
   return (
-    <nav 
-      // className={`navBar ${isScrollDown ? "navBar_scroll" : "navbar_top"}`}
-      // onScroll={handleScrollDown}
-    >
+    <nav>
       <div className="responsive-logo"><img className="woc-logo" src={image} alt="woc-logo" /></div>
 
       <div className="navBar_container" ref={navRef} onClick={showNavbar}>
         <div className="woc">WOC.</div>
-        <ul className="navBar_links">
-          <li className="navBar_link-item home_comp">
-          </li>
-          <li className="navBar_link-item home_mob">
-          </li>
+        <ul className={`navBar_links`}>
+
           <li className="navBar_link-item">
             <a
-              // style={{ color: navLinkColor }}
+              href="/#home"
+              className="navBar_link"
+            >
+              Home
+            </a>
+          </li>
+
+          <li className="navBar_link-item">
+            <a
               href="/#about"
-              // onClick={handleNavClick}
               className="navBar_link"
             >
               About
@@ -89,7 +61,7 @@ function NavBar() {
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
-              href="/#projects"
+              href="/projects"
               // onClick={handleNavClick}
               className="navBar_link"
             >
@@ -104,17 +76,6 @@ function NavBar() {
               className="navBar_link"
             >
               Sponsors
-            </a>
-          </li>
-
-          <li className="navBar_link-item">
-            <a
-              // style={{ color: navLinkColor }}
-              href="/#developer"
-              // onClick={handleNavClick}
-              className="navBar_link"
-            >
-              Our Team
             </a>
           </li>
 

@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
-import "./projects.css"
+import "./project.css"
 import image from "../../assets/projects_section_bg.png"
 
-const Projects = () => {
+const Project = () => {
 
     useEffect(() => {
         const faqHeading = document.querySelector(".projects-header");
@@ -39,7 +39,7 @@ const Projects = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
-                <a href="#Projects" alt="Projects page">
+                <a href="/projects" alt="Projects page">
                     <button className="projects-button" type="button"><span>PROJECTS</span></button>
                 </a>
             </div>
@@ -47,4 +47,4 @@ const Projects = () => {
     )
 }
 
-export default Projects;
+export default Project;
