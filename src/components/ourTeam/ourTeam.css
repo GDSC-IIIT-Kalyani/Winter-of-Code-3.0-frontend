@@ -1,0 +1,124 @@
+#ourTeam {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-family: Vanilla;
+}
+
+.ourTeam-background {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.ourTeam-header {
+    display: flex;
+    padding: 4rem;
+    justify-content: center;
+    font-size: 4.5rem;
+    /* font-weight: bold; */
+    color: #fff;
+    animation: slide-up 1s ease-out;
+}
+
+.ourTeam-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-row, .second-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.card {
+    height: 6rem;
+    width: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center !important;
+    margin: 0 3rem;
+    background-color: #fff;
+    border-radius: 10rem;
+}
+
+.card .card-heading {
+    height: 6rem;
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    /* background-color: aqua; */
+    font-size: 1rem;
+}
+
+.card .contributors {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 0 0 1rem;
+    gap: 1rem;
+    animation: forwards 3s ease-out;
+}
+
+.card .contributors h3 {
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    padding: 2.6rem 0 0 2.3rem;
+    background-color: bisque;
+}
+
+.design {
+    background: rgba(114, 188, 223, 0.4);
+}
+
+.desgn {
+    background-color: rgba(114, 188, 223);
+}
+
+.webDev {
+    background: rgba(253, 194, 2, 0.4);
+}
+
+.dev {
+    background-color: rgba(253, 194, 2);
+}
+
+.marketing {
+    background: rgba(255, 2, 192, 0.4);
+    /* margin-left: 9rem; */
+}
+
+.market {
+    background-color: rgba(255, 2, 192);
+}
+
+.media {
+    background: rgba(1, 255, 234, 0.4);
+}
+
+.sponser {
+    background-color: rgba(1, 255, 234);
+}
+
+.media .card-heading {
+    padding: 0 0 0 0.7rem;
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-width: 1474px){
+    .ourTeam-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

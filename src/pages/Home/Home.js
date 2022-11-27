@@ -2,6 +2,7 @@ import React from "react";
 import Timeline from "../../components/timeline/timeline";
 import Organisations from "../../components/organisations/organisations";
 import Projects from "../../components/projects/project.js"
+import OurTeam from "../../components/ourTeam/ourTeam.js";
 import Sponsor from "../../components/sponsors/sponsor.js";
 import Footer from "../../components/footer/footer";
 import Faq from "../../components/faq/faq";
@@ -16,6 +17,7 @@ export default function Home() {
       <Organisations />
       <Projects />
       <Sponsor />
+      <OurTeam />
       <Faq />
       <Footer />
     </div>
