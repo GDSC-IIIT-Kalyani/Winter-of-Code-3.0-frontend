@@ -1,4 +1,4 @@
-<h1 align="center">Getting Started with Winter of Code 2.0 </h1> 
+<h1 align="center">Getting Started with Winter of Code 3.0 </h1> 
 <br>
 
 <div align="center">
@@ -12,7 +12,7 @@
 </div>
 
 <div align="center">
-  <img height=240 src="./src\assets\images\GDSC_Logo.png" alt="WinterCode_logo">
+  <img height=240 src="./src/assets/logo.png" alt="winterofcode_logo">
 </div>
 
 <br>
@@ -21,7 +21,7 @@
 <img src ="https://forthebadge.com/images/badges/winter-is-coming.svg"/>
   <img src="https://forthebadge.com/images/badges/for-you.svg" />
 
- <img src="./src/assets/images/made-with-react.svg" alt="react">
+ <img height=50 src="./src/assets/icon-react.png" alt="react_logo">
   <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="js">
   
   <img src="https://forthebadge.com/images/badges/check-it-out.svg" alt="check">
@@ -29,7 +29,7 @@
 </div>
 
 <p align="center">
-  <b>Official website for Winter of Code 2.0 organised by IIIT Kalyani with collabaration of 10+ GDSC</b>
+  <b>Official website for Winter of Code 3.0 organised by IIIT Kalyani.</b>
 </p>
 
 ## **Getting Started**
