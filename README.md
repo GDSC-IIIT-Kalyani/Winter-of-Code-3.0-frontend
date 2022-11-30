@@ -21,7 +21,7 @@
 <img src ="https://forthebadge.com/images/badges/winter-is-coming.svg"/>
   <img src="https://forthebadge.com/images/badges/for-you.svg" />
 
- <img height=40 src="./src/assets/icon-react.png" alt="react_logo">
+ <img height=50 src="./src/assets/icon-react.png" alt="react_logo">
   <img src="https://forthebadge.com/images/badges/made-with-javascript.svg" alt="js">
   
   <img src="https://forthebadge.com/images/badges/check-it-out.svg" alt="check">
