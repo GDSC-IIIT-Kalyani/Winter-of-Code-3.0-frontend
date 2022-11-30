@@ -36,8 +36,7 @@ const Project = () => {
             <div className="projects-textual-content">
                 <h2 className="projects-header">PROJECTS</h2>
                 <p className="projects-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    WoC is primarily a mentoring initiative. The Projects on offer have excellent mentors associated with them. The mentors are devoted, enthusiastic individuals who want to assist WoC Contributors in becoming excellent open source contributors by teaching them about their communities. It can only make you a better, more confident open source developer to have the chance to learn from others who have been at this for several years and who are knowledgeable about the techniques.
                 </p>
                 <a href="/projects" alt="Projects page">
                     <button className="projects-button" type="button"><span>PROJECTS</span></button>
