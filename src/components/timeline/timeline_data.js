@@ -1,13 +1,13 @@
 const data=[
     {
-        data: "2022-11-15",
-        date: "15TH NOV- 25TH DEC'22",
+        data: "2022-12-10",
+        date: "10TH DEC'22- 5TH JAN'23",
         title: "Student Application Open",
         state: "active"
     },
     {
-        data: "2022-12-24",
-        date: "24TH Dec'22",
+        data: "2023-1-20",
+        date: "20TH JAN'23",
         title: "Inaurgral Ceremony",
         state: "coming"
     },
@@ -25,7 +25,7 @@ const data=[
     },
     {
         data: "2023-01-15",
-        date: "15th Jan - 28th Feb'23",
+        date: "20TH JAN - 5TH MARCH'23",
         title: "Coding phase",
         state: "coming"
     },

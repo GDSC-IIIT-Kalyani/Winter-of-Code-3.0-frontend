@@ -58,6 +58,7 @@ function NavBar() {
               organisations
             </a>
           </li>
+
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -68,6 +69,7 @@ function NavBar() {
               Projects
             </a>
           </li>
+
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -90,7 +92,8 @@ function NavBar() {
             </a>
           </li>
 
-          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button>
+          {/* <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button> */}
+          
         </ul>
         <button className="nav-btn nav-close-btn" ><FaTimes /></button>
         {/* <div className="hamburger_container">
