@@ -17,6 +17,30 @@
   /* padding-top: 120px; */
 }
 
+.projects-page-header {
+  text-align: center;
+  font-size: calc(2.5em + 1.675vw);
+  font-weight: 200;
+  color: white;
+  letter-spacing: 0.09em;
+  padding-bottom: 5%;
+}
+
+/* For the "coming soon" text, to be removed once project cards are updated */
+.temporary {
+  color: white;
+  text-align: center;
+  font-weight: 200;
+  font-size: calc(2.5em);
+  padding-bottom: 5%;
+}
+
+.temp-hide {
+  opacity: 0;
+  pointer-events: none;
+  overflow: none;
+}
+
 .Container-arrows {
   justify-content: space-between;
   position: relative;

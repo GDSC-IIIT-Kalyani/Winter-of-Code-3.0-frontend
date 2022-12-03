@@ -84,7 +84,10 @@ const ProjectsPage = () => {
     <div className="projects">
       <div className="background">
       <NavBar navLinkColor="white" />
+      <h2 className="projects-page-header">Available Projects</h2>
+      <h2 className="temporary">Coming Soon!</h2>
       </div>
+      <div className="temp-hide">
       <div className="filter_option">
         <form className="proj_form">
           <select className="proj_slt" onChange={handleChange}>
@@ -141,7 +144,7 @@ const ProjectsPage = () => {
           <h1>No Result Found :</h1>
         </div>}
     </div>
-    
+    </div>
   );
 };
 export default ProjectsPage;
