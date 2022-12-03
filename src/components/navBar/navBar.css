@@ -260,3 +260,12 @@ nav {
   }
 }
 
+.apply-button{
+  height: 44px;
+  width: 231px !important;
+}
+
+/* .navbar-apply-button{
+  height: 44px;
+  width: 231px;
+} */

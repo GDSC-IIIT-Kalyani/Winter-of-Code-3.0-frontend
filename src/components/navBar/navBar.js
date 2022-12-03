@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import {FaBars, FaTimes} from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 import "./navBar.css";
 import image from "../../assets/logo.png";
 
@@ -8,35 +8,40 @@ function NavBar() {
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
-  }
+  };
+
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
 
   return (
     <nav>
-      <div className="responsive-logo"><img className="woc-logo" src={image} alt="woc-logo" /></div>
+      <div className="responsive-logo">
+        <img className="woc-logo" src={image} alt="woc-logo" />
+      </div>
 
       <div className="navBar_container" ref={navRef} onClick={showNavbar}>
         <div className="woc">WOC.</div>
         <ul className={`navBar_links`}>
-
           <li className="navBar_link-item">
-            <a
-              href="/#home"
-              className="navBar_link"
-            >
+            <a href="/#home" className="navBar_link">
               Home
             </a>
           </li>
 
           <li className="navBar_link-item">
-            <a
-              href="/#about"
-              className="navBar_link"
-            >
+            <a href="/#about" className="navBar_link">
               About
             </a>
           </li>
 
-          
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -47,7 +52,7 @@ function NavBar() {
               Timeline
             </a>
           </li>
-          
+
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -58,6 +63,7 @@ function NavBar() {
               organisations
             </a>
           </li>
+
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -68,6 +74,7 @@ function NavBar() {
               Projects
             </a>
           </li>
+
           <li className="navBar_link-item">
             <a
               // style={{ color: navLinkColor }}
@@ -90,9 +97,17 @@ function NavBar() {
             </a>
           </li>
 
-          <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button>
+          {/* <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button> */}
+          <div
+            class="apply-button"
+            data-hackathon-slug="winter-of-code"
+            data-button-theme="light"
+            // style="height: 44px; width: 312px"
+          ></div>
         </ul>
-        <button className="nav-btn nav-close-btn" ><FaTimes /></button>
+        <button className="nav-btn nav-close-btn">
+          <FaTimes />
+        </button>
         {/* <div className="hamburger_container">
           <div
             className={`navBar_hamburger ${
@@ -111,6 +126,6 @@ function NavBar() {
       </button>
     </nav>
   );
-};
+}
 
 export default NavBar;
