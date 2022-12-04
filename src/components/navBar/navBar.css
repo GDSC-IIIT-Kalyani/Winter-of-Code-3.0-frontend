@@ -28,7 +28,7 @@ nav {
 .navBar_container {
   display: flex;
   height: 5rem;
-  width: 95%;
+  width: 98%;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 1.5rem;
@@ -266,8 +266,8 @@ nav {
 }
 
 .apply-button{
-  height: 44px;
-  width: 231px !important;
+  height: 10px;
+  width: 21px !important;
 }
 
 /* .navbar-apply-button{

@@ -99,7 +99,7 @@ function NavBar() {
 
           {/* <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button> */}
           <div
-            class="apply-button"
+            className="apply-button"
             data-hackathon-slug="winter-of-code"
             data-button-theme="light"
             // style="height: 44px; width: 312px"
