@@ -28,7 +28,7 @@ nav {
 .navBar_container {
   display: flex;
   height: 5rem;
-  width: 90%;
+  width: 95%;
   align-items: center;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 1.5rem;
@@ -40,6 +40,7 @@ nav {
 
 .woc {
   padding-left: 2%;
+  padding-right: 12.5%;
   color: #fff;
   font-size: 2em;
   font-weight: bold;
@@ -257,6 +258,10 @@ nav {
   nav .responsive_nav {
     transform: none;
     height: 120vh;
+  }
+
+  .woc {
+    padding-right: 0%;
   }
 }
 
