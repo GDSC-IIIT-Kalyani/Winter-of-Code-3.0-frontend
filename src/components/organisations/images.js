@@ -9,6 +9,8 @@ import hoppscotch from "../../assets/org-logos/Hoppscotch.png"
 import laayak from "../../assets/org-logos/laayak.png"
 import llvm from "../../assets/org-logos/llvm.png"
 import mojaGlobal from "../../assets/org-logos/moja-global.png"
+import supabase from "../../assets/org-logos/supabase.png"
+import orgA from "../../assets/org-logos/orgA.png"
 
 const images = {
     abc,
@@ -18,10 +20,12 @@ const images = {
     dezenix,
     gdsc,
     gitAInit,
-    hoppscotch,
+    supabase,
     laayak,
     llvm,
     mojaGlobal,
+    hoppscotch,
+    orgA
 };
 
 export default images;

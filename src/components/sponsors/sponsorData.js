@@ -14,18 +14,19 @@ import prepbytes from '../../assets/sponsors/prepbytes.png';
 import replit from '../../assets/sponsors/replitt.png';
 import skit from '../../assets/sponsors/skit2.png';
 import tezos from '../../assets/sponsors/tezos.png';
+import solana from '../../assets/sponsors/solana.png';
 
 const sponsorsData = {
     diamond: [
         { title: 'Devfolio', image: devfolio },
         { title: 'GitHub', image: github },
-        { title: 'Repl.it', image: replit },
+        { title: 'Polygon', image: polygon },
     ],
     platinum: [
-        { title: 'Celo', image: celo },
+        { title: 'Repl.it', image: replit },
+        { title: 'Solana', image: solana },
         { title: 'FileCoin', image: filecoin },
         { title: 'Jina AI', image: jinaAi },
-        { title: 'Polygon', image: polygon },
         { title: 'Tezos', image: tezos },
     ],
     gold: [
