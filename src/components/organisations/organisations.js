@@ -32,7 +32,7 @@ const Organisations = () => {
                             <div className="orgs-image-rows row-stretch">
                                 <img className="org-image" src={images["abc"]} alt="ABC organization logo"></img>
                                 <img className="org-image" src={images["autodl"]} alt="Auto-DL logo"></img>
-                                <img className="org-image" src={images["hoppscotch"]} alt="Hoppscotch logo"></img>
+                                <img className="org-image" src={images["supabase"]} alt="Supabase logo"></img>
                             </div>
 
                             <div className="orgs-image-rows row-stagger">
@@ -42,7 +42,7 @@ const Organisations = () => {
                             </div>
 
                             <div className="orgs-image-rows row-stretch">
-                                <img className="org-image" src={images["laayak"]} alt="Laayak logo"></img>
+                                <img className="org-image" src={images["orgA"]} alt=" logo"></img>
                                 <img className="org-image" src={images["gdsc"]} alt="GDSC logo"></img>
                                 <img className="org-image" src={images["dezenix"]} alt="Dezenix logo"></img>
                             </div>
