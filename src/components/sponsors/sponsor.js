@@ -25,18 +25,19 @@ const Sponsor = () => {
   return (
     <div id="sponsors">
       <div className="sponsors-content">
-        <div className="header">PAST SPONSORS</div>
+        <div className="header">OUR SPONSORS</div>
         <div className="sponsorsGrid">
           <div className="diamond-sponsors">
             <h5>DIAMOND-SPONSORS</h5>
             <div className="sponsor-icon-container">
               {sponsorsData.diamond.map((sIcon, k) => {
                 return (
-                  <img
+                  <a href={sIcon.link} target="_blank" rel="noreferrer"><img
                     className="sponsor-icon"
                     src={sIcon.image}
                     alt={sIcon.title}
                   />
+                  </a>
                 );
               })}
             </div>
@@ -47,11 +48,12 @@ const Sponsor = () => {
             <div className="sponsor-icon-container">
               {sponsorsData.platinum.map((sIcon, k) => {
                 return (
-                  <img
+                  <a href={sIcon.link} target="_blank" rel="noreferrer"><img
                     className="sponsor-icon"
                     src={sIcon.image}
                     alt={sIcon.title}
                   />
+                  </a>
                 );
               })}
             </div>
