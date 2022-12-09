@@ -15,6 +15,7 @@
   height: 55vw;
   overflow: hidden;
   position: relative;
+  padding-left: 5%;
 }
 .orgs-header {
   opacity: 0;
@@ -41,7 +42,7 @@
   margin-top: 10%;
   z-index: 0;
   position: absolute;
-  width:105%;
+  /* width:105%; */
   /* width: 50vw; */
 }
 
@@ -100,6 +101,12 @@
   z-index: 2;
 }
 
+@media screen and (max-width: 1600px) {
+  .orgs-right {
+    padding-left: 2.5%;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .orgs-right {
     display: none;
@@ -131,6 +138,13 @@
 
   .org-image {
     max-height: 150px;
+    max-width: 300px;
     width: auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .orgs-left {
+    margin-left: -5%;
   }
 }
