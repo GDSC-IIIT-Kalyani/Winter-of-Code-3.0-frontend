@@ -11,6 +11,8 @@ import llvm from "../../assets/org-logos/llvm.png"
 import mojaGlobal from "../../assets/org-logos/moja-global.png"
 import supabase from "../../assets/org-logos/supabase.png"
 import orgA from "../../assets/org-logos/orgA.png";
+import polyaxon from "../../assets/org-logos/polyaxon.png";
+import eduhub from "../../assets/org-logos/eduhub.jpg";
 import skit from '../../assets/sponsors/skit2.png';
 import jinaAi from '../../assets/sponsors/jinaAi.png';
 
@@ -29,7 +31,9 @@ const images = {
     hoppscotch,
     orgA,
     skit,
-    jinaAi
+    jinaAi,
+    eduhub,
+    polyaxon
 };
 
 export default images;
