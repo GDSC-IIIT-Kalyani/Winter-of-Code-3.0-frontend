@@ -12,6 +12,7 @@ import polygon from '../../assets/sponsors/Polygon.png';
 import prepbytes from '../../assets/sponsors/prepbytes.png';
 import replit from '../../assets/sponsors/replitt.png';
 import skit from '../../assets/sponsors/skit2.png';
+import echo3D from '../../assets/sponsors/echo3D.png';
 // import tezos from '../../assets/sponsors/tezos.png';
 import solana from '../../assets/sponsors/solana.png';
 
@@ -30,6 +31,8 @@ const sponsorsData = {
     ],
     gold: [
         { title: 'Code For Cause', image: codeForCause },
+        { title: 'Newton School', image: newtonSchool },
+        { title: 'echo3D', image: echo3D },
         { title: 'Jet Brains', image: jetBrains },
     ],
     silver: [
@@ -38,7 +41,6 @@ const sponsorsData = {
     ],
     ivory: [
         { title: '1Stop.ai', image: oneStop },
-        { title: 'Newton School', image: newtonSchool },
         { title: 'PrepBytes', image: prepbytes },
     ],
     media: [{ title: 'Noticebard', image: noticebard }],
