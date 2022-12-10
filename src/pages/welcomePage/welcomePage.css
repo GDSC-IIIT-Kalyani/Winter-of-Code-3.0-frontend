@@ -90,6 +90,24 @@
   scale: 2;
 }
 
+.button-container {
+  width: 110%;
+  margin-top: 4%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+
+.brochure-button {
+  background-color: white;
+  color: #042042;
+  font-weight: 1000;
+  font-size: calc(1rem);
+  padding: 8% 4% 8% 4%;
+  border-style: none;
+  border-radius: 15px;
+}
+
 /*
 
 @media only screen and (max-width: 1024px) {

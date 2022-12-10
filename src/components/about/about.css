@@ -48,6 +48,23 @@
   animation: slide-up 3s ease-out;
 }
 
+.button-container {
+  margin-top: 4%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+
+.brochure-button {
+  background-color: white;
+  color: #042042;
+  font-weight: 1000;
+  font-size: calc(1rem);
+  padding: 8% 4% 8% 4%;
+  border-style: none;
+  border-radius: 15px;
+}
+
 @keyframes slide-up {
   from {
     transform: translateY(200px);
@@ -75,6 +92,12 @@
     text-align: justify;
     margin:20px auto 0 auto;
 
+  }
+
+  .button-container {
+    margin-top: 10%;
+    flex-flow: column wrap;
+    align-items: center;
   }
 }
 
