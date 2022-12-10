@@ -27,10 +27,10 @@ const Sponsor = () => {
       <div className="sponsors-content">
         <div className="header">OUR SPONSORS</div>
         <div className="sponsorsGrid">
-          <div className="diamond-sponsors">
-            <h5>DIAMOND-SPONSORS</h5>
+          <div className="platinum-sponsors">
+            <h5>PLATINUM SPONSORS</h5>
             <div className="sponsor-icon-container">
-              {sponsorsData.diamond.map((sIcon, k) => {
+              {sponsorsData.platinum.map((sIcon, k) => {
                 return (
                   <a href={sIcon.link} target="_blank" rel="noreferrer"><img
                     className="sponsor-icon"
@@ -43,10 +43,10 @@ const Sponsor = () => {
             </div>
           </div>
 
-          <div className="platinum-sponsors">
-            <h5>PLATINUM SPONSORS</h5>
+          <div className="diamond-sponsors">
+            <h5>DIAMOND SPONSORS</h5>
             <div className="sponsor-icon-container">
-              {sponsorsData.platinum.map((sIcon, k) => {
+              {sponsorsData.diamond.map((sIcon, k) => {
                 return (
                   <a href={sIcon.link} target="_blank" rel="noreferrer"><img
                     className="sponsor-icon"
@@ -88,8 +88,9 @@ const Sponsor = () => {
               })}
             </div>
           </div>
-
-          <div className="ivory-sponsors">
+          
+          {/* Ivory and Media section temporarily hidden */}
+          {/* <div className="ivory-sponsors">
             <h5>IVORY SPONSORS</h5>
             <div className="sponsor-icon-container">
               {sponsorsData.ivory.map((sIcon, k) => {
@@ -117,7 +118,7 @@ const Sponsor = () => {
                 );
               })}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
