@@ -89,35 +89,35 @@ const Sponsor = () => {
             </div>
           </div>
 
-          <div className="ivory-sponsors">
-            <h5>IVORY SPONSORS</h5>
-            <div className="sponsor-icon-container">
-              {sponsorsData.ivory.map((sIcon, k) => {
-                return (
-                  <img
-                    className="sponsor-icon"
-                    src={sIcon.image}
-                    alt={sIcon.title}
-                  />
-                );
-              })}
-            </div>
-          </div>
+//           <div className="ivory-sponsors">
+//             <h5>IVORY SPONSORS</h5>
+//             <div className="sponsor-icon-container">
+//               {sponsorsData.ivory.map((sIcon, k) => {
+//                 return (
+//                   <img
+//                     className="sponsor-icon"
+//                     src={sIcon.image}
+//                     alt={sIcon.title}
+//                   />
+//                 );
+//               })}
+//             </div>
+//           </div>
 
-          <div className="media-sponsors">
-            <h5>MEDIA SPONSORS</h5>
-            <div className="sponsor-icon-container">
-              {sponsorsData.media.map((sIcon, k) => {
-                return (
-                  <img
-                    className="sponsor-icon"
-                    src={sIcon.image}
-                    alt={sIcon.title}
-                  />
-                );
-              })}
-            </div>
-          </div>
+//           <div className="media-sponsors">
+//             <h5>MEDIA SPONSORS</h5>
+//             <div className="sponsor-icon-container">
+//               {sponsorsData.media.map((sIcon, k) => {
+//                 return (
+//                   <img
+//                     className="sponsor-icon"
+//                     src={sIcon.image}
+//                     alt={sIcon.title}
+//                   />
+//                 );
+//               })}
+//             </div>
+//           </div>
         </div>
       </div>
     </div>
