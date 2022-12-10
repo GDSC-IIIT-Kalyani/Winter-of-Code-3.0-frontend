@@ -89,7 +89,7 @@ const Sponsor = () => {
             </div>
           </div>
 
-/*           <div className="ivory-sponsors">
+{/*           <div className="ivory-sponsors">
              <h5>IVORY SPONSORS</h5>
              <div className="sponsor-icon-container">
                {sponsorsData.ivory.map((sIcon, k) => {
@@ -117,7 +117,7 @@ const Sponsor = () => {
                  );
                })}
              </div>
-           </div>*/
+           </div>*/}
         </div>
       </div>
     </div>
