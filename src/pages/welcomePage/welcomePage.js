@@ -61,152 +61,155 @@ const WelcomePage = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  
+
   return (
     window.innerWidth > 768 ?
-    <>
-      <div className="wrapper" id="home">
-        <NavBar />
-        <img
-          src={moonImg}
-          className="moon"
-          ref={moonRef}
-          style={{
-            transform: `translateY(-${scrollPosition / 40}%)`,
-          }}
-          alt=""
-        />
+      <>
+        <div className="wrapper" id="home">
+          <NavBar />
+          <img
+            src={moonImg}
+            className="moon"
+            ref={moonRef}
+            style={{
+              transform: `translateY(-${scrollPosition / 40}%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={cloud6}
-          className="cloud-right"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={cloud6}
+            className="cloud-right"
+            style={{
+              transform: `translateY(-${scrollPosition / 37}%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={cloud3}
-          className="cloud-left"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={cloud3}
+            className="cloud-left"
+            style={{
+              transform: `translateY(-${scrollPosition / 37}%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={cloud4}
-          className="cloud-4"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={cloud4}
+            className="cloud-4"
+            style={{
+              transform: `translateY(-${scrollPosition / 37}%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={cloud1}
-          className="cloud-1"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={cloud1}
+            className="cloud-1"
+            style={{
+              transform: `translateY(-${scrollPosition / 37}%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={birdsRight}
-          className="birds-right"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={birdsRight}
+            className="birds-right"
+            style={{
+              transform: `translateY(-${scrollPosition / 37}%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={birdsLeft}
-          className="birds-left"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={birdsLeft}
+            className="birds-left"
+            style={{
+              transform: `translateY(-${scrollPosition / 37}%)`,
+            }}
+            alt=""
+          />
 
-        <div className="title">Winter Of Code</div>
-      </div>
-      <div className="wrapper-2">
-        <img
-          src={iceberg}
-          className="iceberg"
-          style={{
-            transform: `translate(0, -${
-              scrollPosition / 80 + (width < 950 ? 10 : 0)
-            }%)`,
-          }}
-          alt=""
-        />
+          <div className="title">Winter Of Code</div>
+        </div>
+        <div className="wrapper-2">
+          <img
+            src={iceberg}
+            className="iceberg"
+            style={{
+              transform: `translate(0, -${scrollPosition / 80 + (width < 950 ? 10 : 0)
+                }%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={rightIceburg}
-          className="right-iceburg"
-          style={{
-            transform: `translate(0, -${
-              scrollPosition / 45 + (width < 821 ? 0 : 0)
-            }%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={rightIceburg}
+            className="right-iceburg"
+            style={{
+              transform: `translate(0, -${scrollPosition / 45 + (width < 821 ? 0 : 0)
+                }%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={leftIceburg}
-          className="left-iceberg"
-          style={{
-            transform: `translate(0, -${
-              scrollPosition / 40 + (width < 821 ? 0 : 0)
-            }%)`,
-          }}
-          alt=""
-        />
+          <img
+            src={leftIceburg}
+            className="left-iceberg"
+            style={{
+              transform: `translate(0, -${scrollPosition / 40 + (width < 821 ? 0 : 0)
+                }%)`,
+            }}
+            alt=""
+          />
 
-        <img
-          src={wave}
-          className="wave"
-          style={{
-            height: `${
-              160 +
-              scrollPosition / 10 +
-              (width < 950 ? 50 : 0)
-            }%`,
-            transform: `translate(0, -${
-              scrollPosition / 70 + (width < 950 ? (width < 500 ? 20 : 16) : 0)
-            }%)`,
-          }}
-          alt=""
-        />
-        <div
-          id="about"
-          style={{
-            // height:"300vh",
-            transform: `translate(0, -${
-              scrollPosition / 40 + (width < 821 ? 0 : 0)
-            }%)`,
-          }}
-        >
-          {/* <img className="about-background" src={background} alt="background" /> */}
-          <div className="about-content">
-            <div className="about-title">ABOUT WOC</div>
-            <div className="about-desc">
-              GDSC IIIT Kalyani brings to you, yet again, its open-source
-              program Winter of Code 3.0 with collaborative efforts from 10+
-              Google Developer Student Clubs. The program will last for a period
-              of two months and will be based on the lines of GSoC. Student
-              applicants will be required to send their proposals to
-              organizations to work on their open-source projects while their
-              mentor evaluate them over a course of 2 months.
+          <img
+            src={wave}
+            className="wave"
+            style={{
+              height: `${160 +
+                scrollPosition / 10 +
+                (width < 950 ? 50 : 0)
+                }%`,
+              transform: `translate(0, -${scrollPosition / 70 + (width < 950 ? (width < 500 ? 20 : 16) : 0)
+                }%)`,
+            }}
+            alt=""
+          />
+          <div
+            id="about"
+            style={{
+              // height:"300vh",
+              transform: `translate(0, -${scrollPosition / 40 + (width < 821 ? 0 : 0)
+                }%)`,
+            }}
+          >
+            {/* <img className="about-background" src={background} alt="background" /> */}
+            <div className="about-content">
+              <div className="about-title">ABOUT WOC</div>
+              <div className="about-desc">
+                GDSC IIIT Kalyani brings to you, yet again, its open-source
+                program Winter of Code 3.0 with collaborative efforts from 10+
+                Google Developer Student Clubs. The program will last for a period
+                of two months and will be based on the lines of GSoC. Student
+                applicants will be required to send their proposals to
+                organizations to work on their open-source projects while their
+                mentor evaluate them over a course of 2 months.
+
+                <div className="button-container">
+                  <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer">
+                    <button className="brochure-button" type="button"><span>SPONSORSHIP BROCHURE</span></button>
+                  </a>
+                  <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer">
+                    <button className="brochure-button" type="button"><span>ORGANISATION BROCHURE</span></button>
+                  </a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </>  : <WelcomePageMobile />
+      </> : <WelcomePageMobile />
   )
 
 };

@@ -18,16 +18,16 @@ import solana from '../../assets/sponsors/solana.png';
 
 const sponsorsData = {
     diamond: [
-        { title: 'Devfolio', image: devfolio ,link: "https://devfolio.co/" },
-        { title: 'GitHub', image: github ,link: "https://github.com/"},
-        { title: 'Polygon', image: polygon, link: "https://polygon.technology/"},
-    ],
-    platinum: [
         { title: 'Repl.it', image: replit ,link:"https://replit.com/"},
         { title: 'Solana', image: solana ,link:"https://solana.com/"},
         { title: 'FileCoin', image: filecoin,link:"https://filecoin.io/" },
         // { title: 'Jina AI', image: jinaAi },
         // { title: 'Tezos', image: tezos },
+    ],
+    platinum: [
+        { title: 'Devfolio', image: devfolio ,link: "https://devfolio.co/" },
+        { title: 'GitHub', image: github ,link: "https://github.com/"},
+        { title: 'Polygon', image: polygon, link: "https://polygon.technology/"},
     ],
     gold: [
         { title: 'Code For Cause', image: codeForCause },

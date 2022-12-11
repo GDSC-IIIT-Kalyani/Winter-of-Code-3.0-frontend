@@ -31,6 +31,15 @@ const About = () => {
           be required to send their proposals to organizations to work on their
           open-source projects while their mentor evaluate them over a course of
           2 months.
+
+          <div className="button-container">
+            <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer">
+              <button className="brochure-button" type="button"><span>SPONSORSHIP BROCHURE</span></button>
+            </a>
+            <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer">
+              <button className="brochure-button" type="button"><span>ORGANISATION BROCHURE</span></button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

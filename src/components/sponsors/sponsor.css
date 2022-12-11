@@ -26,10 +26,13 @@
   /* display: inline-block; */
   /* position: absolute; */
   /* top: 0; */
-  padding-top: 20vh;
   background-image: url("../../assets/sponsors-bg-image.png");
   background-size: cover;
   background-position: center;
+
+  /* Note: Uncomment first and remove the second one once ivory and media tiers are added */
+  /* padding-top: 20vh; */
+  padding: 15% 0 15% 0;
 }
 
 .header {
