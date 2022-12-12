@@ -15,6 +15,7 @@ import skit from '../../assets/sponsors/skit2.png';
 import echo3D from '../../assets/sponsors/echo3D.png';
 // import tezos from '../../assets/sponsors/tezos.png';
 import solana from '../../assets/sponsors/solana.png';
+import codingBlocks from '../../assets/sponsors/cblogo.png';
 
 const sponsorsData = {
     diamond: [
@@ -38,6 +39,7 @@ const sponsorsData = {
     silver: [
         { title: 'Hackclub', image: hackclub },
         { title: 'Skit', image: skit },
+        { title: 'Coding Blocks', image: codingBlocks },
     ],
     ivory: [
         { title: '1Stop.ai', image: oneStop },
