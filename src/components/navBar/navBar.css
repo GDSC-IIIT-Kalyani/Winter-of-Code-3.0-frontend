@@ -274,3 +274,31 @@ nav {
   height: 44px;
   width: 231px;
 } */
+
+@media screen and (max-width: 1024px) {
+  .navBar_links {
+    margin-top: 12.5%;
+    margin-left: -5%;
+  }
+
+  .nav-close-btn {
+    padding-top: 2%;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .navBar_links {
+    width: 72.5vw;
+    margin-top: 20%;
+    margin-left: -10%;
+  }
+
+  .woc {
+    padding-left: 0;
+  }
+
+  .nav-close-btn {
+    padding-right: inherit;
+  }
+}

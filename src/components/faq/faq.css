@@ -92,12 +92,17 @@
   transition: max-height 0.8s ease-in-out;
 }
 
+.answer > p > a {
+  color: inherit;
+}
+
 .arrow {
   transition: transform 0.5s ease-in-out;
 }
 
 .answer p {
   padding: 10px 0 10px 20px;
+  white-space: pre-wrap;
 }
 
 .answer::before {
