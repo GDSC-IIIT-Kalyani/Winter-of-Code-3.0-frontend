@@ -102,6 +102,7 @@
 
 .answer p {
   padding: 10px 0 10px 20px;
+  white-space: pre-wrap;
 }
 
 .answer::before {
