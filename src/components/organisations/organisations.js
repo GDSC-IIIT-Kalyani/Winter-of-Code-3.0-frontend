@@ -29,8 +29,8 @@ const Organisations = () => {
                         <h2 className="orgs-header">ORGANISATIONS</h2>
                         <div className="buttn-container">
                             <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. We would love more collaborators for our initiative </h3>
-                            <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer">
-                                <button className="brochure-buttn" type="button"><span>ORGANISATION BROCHURE</span></button>
+                            <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer" className="org-link">
+                                ORGANISATION BROCHURE
                             </a>
                         </div>
                         <div className="orgs-image-container">
