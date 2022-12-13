@@ -48,7 +48,7 @@
   animation: slide-up 3s ease-out;
 }
 
-.button-container {
+/* .button-container {
   margin-top: 4%;
   display: flex;
   flex-flow: row wrap;
@@ -63,7 +63,7 @@
   padding: 8% 4% 8% 4%;
   border-style: none;
   border-radius: 15px;
-}
+} */
 
 @keyframes slide-up {
   from {
