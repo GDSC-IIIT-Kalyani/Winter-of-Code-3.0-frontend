@@ -195,3 +195,33 @@
     height: 200vw;
   }
 }
+
+.bttn-container {
+  margin-top: 4%;
+  margin-left: 11%;
+  margin-right: 10%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+
+.brochure-bttn {
+  background-color: white;
+  color: #042042;
+  font-weight: 1000;
+  font-size: calc(1rem);
+  padding: 0% 0% 0% 0%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.brochure-bttn :hover {
+  background-color: #042042;
+  color: white;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.sponsor-dsc{
+  color: white;
+}
