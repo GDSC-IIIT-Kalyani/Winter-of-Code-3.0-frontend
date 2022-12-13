@@ -68,7 +68,7 @@
 }
 
 .projects-textual-content {
-    margin-right: 10%;
+    margin-right: 5%;
     text-align: right;
     max-width: 60%;
 }
@@ -94,6 +94,7 @@
 .projects-text {
     color: white;
     text-align: justify;
+    font-size: larger;
 }
 
 .projects-button {
@@ -116,6 +117,14 @@
     .projects-textual-content {
         margin: auto;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .projects-button {
+        margin-top: 12.5%;
+        font-size: larger;
+        padding: 4% 10% 4% 10%;
     }
 }
 
