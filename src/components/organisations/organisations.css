@@ -148,3 +148,31 @@
     margin-left: -5%;
   }
 }
+
+.buttn-container {
+  margin-top: 4%;
+  margin-left: 11%;
+  margin-bottom: 7%;
+  /* display: flex;
+  flex-flow: row wrap; */
+  gap: 1em;
+}
+
+.brochure-buttn {
+  margin-top: 1%;
+  background-color: white;
+  color: #042042;
+  font-weight: 1000;
+  font-size: calc(1rem);
+  padding: 0% 0% 0% 0%;
+  border-style: none;
+  border-radius: 5px;
+}
+
+.brochure-buttn :hover {
+  cursor: pointer;
+}
+
+.sponsor-dsc{
+  color: white;
+}
