@@ -4,7 +4,7 @@
   font-family: Vanilla;
   position: relative;
   overflow: hidden;
-  z-index:20;
+  z-index: 20;
   /* min-height: 55vw; */
 }
 .timeline-background {
@@ -38,7 +38,6 @@
   animation: slide-up 1s ease-out;
 }
 
-
 .timeline-carousel {
   width: 70vw;
   margin: 20vh 0vw 20vh 15vw;
@@ -54,7 +53,7 @@
   text-align: center;
 }
 .timeline-item-title {
-  font-size: 10px;
+  font-size: 16px;
   text-align: center;
 }
 .timeline-item-date {
@@ -100,10 +99,10 @@
 }
 .timeline-prev {
   border-radius: 50%;
-  opacity: 0.5;
   width: 40px;
   height: 40px;
-  background-color: #273a58;
+  cursor: pointer;
+  background-color: #506991;
   display: flex;
   justify-content: center;
   align-items: center;
