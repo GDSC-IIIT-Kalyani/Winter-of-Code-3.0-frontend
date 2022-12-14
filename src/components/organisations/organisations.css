@@ -161,6 +161,7 @@
 .sponsor-dsc{
   color: white;
   margin-bottom: 15px;
+  display: inline; 
 }
 
 .org-link {
