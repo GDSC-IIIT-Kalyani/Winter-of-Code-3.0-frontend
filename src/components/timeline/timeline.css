@@ -147,6 +147,13 @@
     margin: 0 1vw;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .timeline-item-title {
+    font-size: 13px;
+  }
+}
+
 @media screen and (max-width: 420px) {
   .timeline-item-shape-line {
     width: 60vw;
@@ -159,5 +166,9 @@
     width: 50px !important;
     height: 20px !important;
     margin: 0 1vw;
+  }
+
+  .timeline-item-title {
+    font-size: 10px;
   }
 }
