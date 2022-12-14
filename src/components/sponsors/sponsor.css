@@ -195,3 +195,23 @@
     height: 200vw;
   }
 }
+
+.bttn-container {
+  margin-top: 4%;
+  margin-left: 11%;
+  margin-right: 10%;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1em;
+}
+
+.sponsor-dsc{
+  color: white;
+}
+
+.brochure-link {
+  text-decoration: none;
+  color:white;
+  font-weight: 1000;
+  font-size: calc(1.3rem);
+}

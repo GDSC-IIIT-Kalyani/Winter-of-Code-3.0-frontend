@@ -148,3 +148,28 @@
     margin-left: -5%;
   }
 }
+
+.buttn-container {
+  margin-top: 4%;
+  margin-left: 11%;
+  margin-bottom: 7%;
+  /* display: flex;
+  flex-flow: row wrap; */
+  gap: 1em;
+}
+
+.sponsor-dsc{
+  color: white;
+  margin-bottom: 15px;
+  display: inline; 
+}
+
+.org-link {
+  text-decoration: none;
+  color:white;
+  font-weight: 1000;
+  font-size: calc(1.3rem);
+  padding-top: 4px;
+  border-style: none;
+  border-radius: 5px;
+}
