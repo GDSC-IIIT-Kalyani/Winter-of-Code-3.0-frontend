@@ -37,7 +37,7 @@ const Organisations = () => {
 
                             <div className="orgs-image-rows row-stretch">
                                 <img className="org-image" src={images["mojaGlobal"]} alt="Moja Global logo"></img>
-                                <img className="org-image" src={images["GDevelop"]} alt="GDevelop logo"></img>
+                                <img className="org-image gdevelop" src={images["GDevelop"]} alt="GDevelop logo"></img>
                                 <img className="org-image" src={images["polyaxon"]} alt="Polyaxon logo"></img>
                             </div>
 
