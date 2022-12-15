@@ -42,20 +42,14 @@ const Organisations = () => {
                             </div>
 
                             <div className="orgs-image-rows row-stagger">
-                                <img className="org-image" src={images["gitAInit"]} alt="Gita Init logo"></img>
-                                <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
-                                <img className="org-image" src={images["jinaAi"]} alt="Code Digger logo"></img>
-                            </div>
-
-                            <div className="orgs-image-rows row-stretch">
                                 <img className="org-image" src={images["orgA"]} alt="clueless logo"></img>
                                 <img className="org-image" src={images["asyncAPI"]} alt="Async API logo"></img>
                                 <img className="org-image" src={images["eduhub"]} alt="Eduhub logo"></img>
                             </div>
 
-                            <div className="orgs-image-rows row-stagger">
-                                <img className="org-image" src={images["abc"]} alt="ABC organization logo"></img>
-                                <img className="org-image" src={images["llvm"]} alt="LLVM logo"></img>
+                            <div className="orgs-image-rows row-stretch">
+                                <img className="org-image" src={images["gitAInit"]} alt="Gita Init logo"></img>
+                                <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                                 <img className="org-image" src={images["gdsc"]} alt="GDSC logo"></img>
                             </div>
                         </div>
