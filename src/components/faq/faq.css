@@ -87,7 +87,7 @@
   max-height: 0;
   overflow: hidden;
   position: relative;
-  background-color: rgba(245, 245, 245, 0.048);
+  background-color: rgba(245, 245, 245, 0.1);
   border-radius: 7px;
   transition: max-height 0.8s ease-in-out;
 }

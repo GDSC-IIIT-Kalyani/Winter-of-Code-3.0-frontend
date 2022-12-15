@@ -28,9 +28,9 @@ const Sponsor = () => {
         <div className="header">OUR SPONSORS</div>
         <div className="sponsorsGrid">
           <div className="bttn-container">
-            <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. Want to Sponsor us?</h3>
+            <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. </h3>
             <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer" className="brochure-link">
-              SPONSORSHIP BROCHURE
+              Want to Sponsor us?
             </a>
           </div>
           <div className="platinum-sponsors">

@@ -90,6 +90,13 @@
   animation: slide-up 2s ease-in;
 }
 
+.gdevelop {
+  max-width: 170px;
+  max-height: 50px;
+  margin-top: 30px;
+}
+
+
 .row-stretch {
   margin-right: -12.5%;
 }
@@ -166,7 +173,7 @@
 
 .org-link {
   text-decoration: none;
-  color:white;
+  color:rgb(141, 198, 238);
   font-weight: 1000;
   font-size: calc(1.3rem);
   padding-top: 4px;

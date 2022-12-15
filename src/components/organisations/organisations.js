@@ -28,16 +28,16 @@ const Organisations = () => {
                     <div className="orgs-left">
                         <h2 className="orgs-header">ORGANISATIONS</h2>
                         <div className="buttn-container">
-                            <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. We would love more collaborators for our initiative </h3>
+                            <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. </h3>
                             <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer" className="org-link">
-                                ORGANISATION BROCHURE
+                                Participate in winter of code 3.0 as a organization?
                             </a>
                         </div>
                         <div className="orgs-image-container">
 
                             <div className="orgs-image-rows row-stretch">
                                 <img className="org-image" src={images["mojaGlobal"]} alt="Moja Global logo"></img>
-                                <img className="org-image" src={images["GDevelop"]} alt="GDevelop logo"></img>
+                                <img className="org-image gdevelop" src={images["GDevelop"]} alt="GDevelop logo"></img>
                                 <img className="org-image" src={images["polyaxon"]} alt="Polyaxon logo"></img>
                             </div>
 
