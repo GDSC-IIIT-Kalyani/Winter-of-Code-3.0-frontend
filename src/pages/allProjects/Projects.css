@@ -10,6 +10,7 @@
   scroll-behavior: smooth;
   padding-bottom: 40px;
   height: 100%;
+  max-height: 100vh;
   width: 100%;
   font-family: Vanilla;
   background-size: cover;
@@ -38,7 +39,7 @@
 .temp-hide {
   opacity: 0;
   pointer-events: none;
-  overflow: none;
+  overflow-y: hidden;
 }
 
 .Container-arrows {
@@ -205,12 +206,21 @@
   .proj_form{
     padding:0% !important;
   }
-}
-/* @media (max-width: 400px) {
-  .proj_slt {
-    width: 50vw;
+
+  .projects-page-header {
+    margin-top: 20%;
   }
-} */
+}
+
+@media (max-width: 500px) {
+  /* .proj_slt {
+    width: 50vw;
+  } */
+  .projects-page-header {
+    margin-top: 30%;
+    margin-bottom: 5%;
+  }
+}
 .no_view {
   display: none;
 }
