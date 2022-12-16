@@ -30,7 +30,7 @@ const Organisations = () => {
                         <div className="buttn-container">
                             <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. </h3>
                             <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer" className="org-link">
-                                Participate in winter of code 3.0 as a organization?
+                                Participate in Winter of Code 3.0 as an organisation?
                             </a>
                         </div>
                         <div className="orgs-image-container">
@@ -49,8 +49,8 @@ const Organisations = () => {
 
                             <div className="orgs-image-rows row-stretch">
                                 <img className="org-image" src={images["gitAInit"]} alt="Gita Init logo"></img>
-                                <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                                 <img className="org-image" src={images["gdsc"]} alt="GDSC logo"></img>
+                                <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                             </div>
                         </div>
                     </div>

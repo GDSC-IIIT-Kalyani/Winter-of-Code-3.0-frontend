@@ -84,9 +84,9 @@ const ProjectsPage = () => {
     <div className="projects">
       <div className="background">
       <NavBar navLinkColor="white" />
-      <h2 className="projects-page-header">Available Projects</h2>
-      <h2 className="temporary">Coming Soon!</h2>
       </div>
+      <div className="projects-page-header">Available Projects</div>
+      <div className="temporary">Coming Soon!</div>
       <div className="temp-hide">
       <div className="filter_option">
         <form className="proj_form">
