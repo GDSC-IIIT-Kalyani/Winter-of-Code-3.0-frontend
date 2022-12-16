@@ -24,13 +24,13 @@ const About = () => {
       <div className="about-content">
         <div className="about-title">ABOUT WOC</div>
         <div className="about-desc">
-          GDSC IIIT Kalyani brings to you, yet again, its open-source program
-          Winter of Code 3.0 with collaborative efforts from 10+ Google
-          Developer Student Clubs. The program will last for a period of two
-          months and will be based on the lines of GSoC. Student applicants will
-          be required to send their proposals to organizations to work on their
-          open-source projects while their mentor evaluate them over a course of
-          2 months.
+
+          GDSC IIIT Kalyani brings to you, yet again, its open-source program 
+          Winter of Code 3.0 with collaborative efforts from 30+ Google
+          Developer Student Clubs. The program will last for a period of 45 days
+          and is based on the lines of GSoC. Student applicants are required to
+          send their proposals to organizations to work on their open-source
+          projects while their mentor evaluate them over a course of the event.
 
           {/* <div className="button-container">
             <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer">
