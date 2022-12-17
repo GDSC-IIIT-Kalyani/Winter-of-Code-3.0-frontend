@@ -1,0 +1,56 @@
+#community-partners {
+    font-family: Vanilla;
+    background-image: url("../../assets/bg\ images/WOC_LIS_08.gif");
+    background-size: cover;
+    padding-bottom: 7.5%;
+}
+
+.community-partners-header {
+    opacity: 0;
+    font-size: 4em;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    margin-bottom: 5%;
+}
+
+.community-partners-header-active {
+    opacity: 1;
+    font-size: 4em;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    animation: slide-up 1s ease-out;
+}
+
+.partners-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+}
+
+.partner-logo {
+    transition: scale 1s;
+    max-height: 250px;
+    padding: 2.5%;
+    background: rgba(255, 255, 255, 0.01875);
+    border-radius: 20%;
+}
+
+.partner-logo:hover {
+    scale: 1.1;
+}
+
+@media screen and (max-width: 500px) {
+    .partner-logo {
+        padding: 0%;
+        background: none;
+        max-height: 225px;
+    }
+
+    .partner-logo:hover {
+        scale: none;
+    }
+}
