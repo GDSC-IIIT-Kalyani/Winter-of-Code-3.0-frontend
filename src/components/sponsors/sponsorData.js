@@ -31,15 +31,15 @@ const sponsorsData = {
         { title: 'Polygon', image: polygon, link: "https://polygon.technology/"},
     ],
     gold: [
-        { title: 'Code For Cause', image: codeForCause },
-        { title: 'Newton School', image: newtonSchool },
-        { title: 'echo3D', image: echo3D },
-        { title: 'Jet Brains', image: jetBrains },
+        { title: 'Code For Cause', image: codeForCause, link: "https://codeforcause.org/" },
+        { title: 'Newton School', image: newtonSchool, link: "https://www.newtonschool.co/" },
+        { title: 'echo3D', image: echo3D, link: "https://www.echo3d.com/" },
     ],
     silver: [
-        { title: 'Hackclub', image: hackclub },
-        { title: 'Skit', image: skit },
-        { title: 'Coding Blocks', image: codingBlocks },
+        { title: 'Hackclub', image: hackclub, link: "https://hack-club.com/" },
+        { title: 'Skit', image: skit, link: "https://skit.ai" },
+        { title: 'Jet Brains', image: jetBrains, link: "https://www.jetbrains.com" },
+        { title: 'Coding Blocks', image: codingBlocks, link: "https://codingblocks.com" },
     ],
     ivory: [
         { title: '1Stop.ai', image: oneStop },

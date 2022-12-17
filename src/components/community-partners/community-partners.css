@@ -2,6 +2,7 @@
     font-family: Vanilla;
     background-image: url("../../assets/bg\ images/WOC_LIS_08.gif");
     background-size: cover;
+    padding-bottom: 7.5%;
 }
 
 .community-partners-header {
@@ -48,6 +49,7 @@
         background: none;
         max-height: 225px;
     }
+
     .partner-logo:hover {
         scale: none;
     }
