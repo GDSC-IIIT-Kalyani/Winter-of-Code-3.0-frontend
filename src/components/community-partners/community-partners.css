@@ -46,6 +46,7 @@
     height: 50vh;
     top: -32.5vh;
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .partner-logo {

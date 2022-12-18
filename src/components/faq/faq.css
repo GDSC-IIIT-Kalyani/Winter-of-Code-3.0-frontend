@@ -66,6 +66,7 @@
 }
 .faq-sec-ques {
   font-size: 150%;
+  font-weight: bolder;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -103,6 +104,8 @@
 .answer p {
   padding: 10px 0 10px 20px;
   white-space: pre-wrap;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }
 
 .answer::before {

@@ -11,7 +11,7 @@ function ExpandOnClickContainer() {
 
     return (
         <div className="expandable-content">
-            <button onClick={toggle} className="expand-button" style={isExpanded ? {top: '90%', backdropFilter: 'none'} : {}}>
+            <button onClick={toggle} className="expand-button" style={isExpanded ? {top: '90%', backdropFilter: 'none', '-webkit-backdrop-filter': 'none'} : {}}>
                 {isExpanded ? 'Collapse ⇑' : 'Expand ⇓'}
             </button>
             { isExpanded ? (
