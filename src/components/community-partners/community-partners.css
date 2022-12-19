@@ -2,7 +2,7 @@
     font-family: Vanilla;
     background-image: url("../../assets/bg\ images/WOC_LIS_08.gif");
     background-size: cover;
-    padding-bottom: 7.5%;
+    padding-bottom: 10%;
 }
 
 .community-partners-header {
@@ -29,6 +29,24 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1em;
+    margin-bottom: 1em;
+}
+
+.expandable-content {
+    position: relative;
+}
+
+.expand-button {
+    border: none;
+    background: none;
+    font-size: larger;
+    color: white;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    top: -32.5vh;
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
 }
 
 .partner-logo {
