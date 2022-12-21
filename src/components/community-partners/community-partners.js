@@ -16,7 +16,11 @@ function ExpandOnClickContainer() {
             </button>
             { isExpanded ? (
                 <div className="partners-grid">
-                <a href="https://gdsc.community.dev/indian-institute-of-technology-bhubaneswar/" target={"_blank"} rel="noopener noreferrer">
+                    {data.map((partner,id) => {
+                    if(id>=8)
+                    return <img src={partner} alt="Guru Nanak Dev University" className="partner-logo" />
+                }) }
+                {/* <a href="https://gdsc.community.dev/indian-institute-of-technology-bhubaneswar/" target={"_blank"} rel="noopener noreferrer">
                     <img src={data["bbs"]} alt="IIT Bhubhaneswar" className="partner-logo" />
                 </a>
                 <a href="https://gdsc.community.dev/jabalpur-engineering-college-jabalpur/" target={"_blank"} rel="noopener noreferrer">
@@ -42,8 +46,8 @@ function ExpandOnClickContainer() {
                 </a>
                 <a href="https://gdsc.community.dev/s-n-patel-institute-of-technology-research-bardoli/" target={"_blank"} rel="noopener noreferrer">
                     <img src={data["snpit"]} alt="S.N. Patel Institute of Technology" className="partner-logo" />
-                </a>
-                </div>
+            </a>*/}
+            </div> 
             ) : null }
         </div>
     )
@@ -73,7 +77,11 @@ const Community_Partners = () => {
                 Community Partners
             </div>
             <div className="partners-grid">
-                <a href="https://gdsc.community.dev/guru-nanak-dev-university-amritsar/" target={"_blank"} rel="noopener noreferrer">
+                {data.map((partner,id) => {
+                    if(id<8)
+                    return <img src={partner} alt="Guru Nanak Dev University" className="partner-logo" />
+                }) }
+                {/* <a href="https://gdsc.community.dev/guru-nanak-dev-university-amritsar/" target={"_blank"} rel="noopener noreferrer">
                     <img src={data["gnd"]} alt="Guru Nanak Dev University" className="partner-logo" />
                 </a>
                 <a href="https://jamiagdsc.github.io/" target={"_blank"} rel="noopener noreferrer">
@@ -90,7 +98,7 @@ const Community_Partners = () => {
                 </a>
                 <a href="https://gdsc.community.dev/gla-university-mathura/" target={"_blank"} rel="noopener noreferrer">
                     <img src={data["gla"]} alt="GLA University" className="partner-logo" />
-                </a>
+                </a> */}
             </div>
             <ExpandOnClickContainer />
         </section>
