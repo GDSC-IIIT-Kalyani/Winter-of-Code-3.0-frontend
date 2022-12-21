@@ -1,8 +1,6 @@
 import React, { useRef, useState, useEffect } from "react";
 import "./Projects.css";
-// import "../../header/NavBar";
 import SlideData from "./SlideData";
-// import proj_video from "../../../assets/projectAssests/proj_video.mp4";
 import NavBar from "../../components/navBar/navBar"
 import ProjectCard from "./ProjectCard";
 import "./grid.css";
@@ -11,7 +9,6 @@ import {
   FaArrowLeft,
 } from "react-icons/fa";
 import "react-icons/fi";
-// import backgroundAssets from "../../../assets/sponsors-bg-image.png";
 
 const ProjectsPage = () => {
   let [proj_type, setproj_type] = useState("all");
