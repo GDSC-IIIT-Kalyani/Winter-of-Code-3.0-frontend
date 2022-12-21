@@ -26,15 +26,14 @@ const wave =
 
 const cloud1 =
   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/WOC_Landing-page_01-Recovered.psd_0012_Color-Lookup-1.png?alt=media&token=741566f5-df35-4a41-85ca-0e64fa6325bf";
-// const cloud2 =
-//   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/WOC_Landing-page_01-Recovered.psd_0013_lower-right-cloud.png?alt=media&token=5955a083-69aa-4872-be98-f0b03f4f2a2b";
-const cloud3 =
+
+  const cloud3 =
   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/WOC_Landing-page_01-Recovered.psd_0014_lower-left-cloud.png?alt=media&token=96c848e5-e047-40f6-9e93-78af2568d389";
-// const cloud4 =
-//   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/WOC_Landing-page_01-Recovered.psd_0017_Color-Lookup-1.png?alt=media&token=a798b053-a7bf-4386-88f5-31b9a5eb2b9f";
-const cloud4 =
+
+  const cloud4 =
   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/WOC_Landing-page_01-Recovered.psd_0018_top-left-cloud.png?alt=media&token=eba0c638-a381-4ab0-ba18-1f7291184828";
-const cloud6 =
+
+  const cloud6 =
   "https://firebasestorage.googleapis.com/v0/b/winter-of-code-3.appspot.com/o/cloud-right.png?alt=media&token=fd12c187-6e37-4d32-a623-7361bb83aee4";
 
 const WelcomePage = () => {
@@ -180,12 +179,10 @@ const WelcomePage = () => {
           <div
             id="about"
             style={{
-              // height:"300vh",
               transform: `translate(0, -${scrollPosition / 40 + (width < 821 ? 0 : 0)
                 }%)`,
             }}
           >
-            {/* <img className="about-background" src={background} alt="background" /> */}
             <div className="about-content">
               <div className="about-title">ABOUT WOC</div>
               <div className="about-desc">
@@ -195,15 +192,6 @@ const WelcomePage = () => {
                 and is based on the lines of GSoC. Student applicants are required to
                 send their proposals to organizations to work on their open-source
                 projects while their mentor evaluate them over a course of the event.
-
-                {/* <div className="button-container">
-                  <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer">
-                    <button className="brochure-button" type="button"><span>SPONSORSHIP BROCHURE</span></button>
-                  </a>
-                  <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer">
-                    <button className="brochure-button" type="button"><span>ORGANISATION BROCHURE</span></button>
-                  </a>
-                </div> */}
               </div>
             </div>
           </div>
@@ -214,3 +202,4 @@ const WelcomePage = () => {
 };
 
 export default WelcomePage;
+

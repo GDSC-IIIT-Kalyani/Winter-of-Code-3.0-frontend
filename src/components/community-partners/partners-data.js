@@ -13,8 +13,25 @@ import sgsits from "../../assets/Community Partners/SGSITS.png"
 import srm from "../../assets/Community Partners/SRM.png"
 import gtbit from "../../assets/Community Partners/GTBIT.png"
 import snpit from "../../assets/Community Partners/SNPIT.png"
+import adi from "../../assets/Community Partners/adi.jpg"
+import alpha from "../../assets/Community Partners/alpha.jpeg"
+import bbdit from "../../assets/Community Partners/BBDIT.png"
+import delhi from "../../assets/Community Partners/DTC.png"
+import shivam from "../../assets/Community Partners/Shivam.png"
+import aliah from "../../assets/Community Partners/aliah.png"
+import ieee from "../../assets/Community Partners/IEEE.png"
+import iet from "../../assets/Community Partners/IET.jpg"
+import kgec from "../../assets/Community Partners/kgec.png"
+import nscc from "../../assets/Community Partners/nscc.png"
+import cherry from "../../assets/Community Partners/cherry.jpg"
+import sce from "../../assets/Community Partners/SCE.png"
+import sec from "../../assets/Community Partners/SEC.png"
+import skilleliters from "../../assets/Community Partners/skilleliters.png"
+import veltech from "../../assets/Community Partners/Vel Tech.jpg"
 
-const partners = {
+
+
+const partners =[
     gnd,
     jmi,
     abesit,
@@ -29,7 +46,22 @@ const partners = {
     sgsits,
     srm,
     gtbit,
-    snpit
-}
+    snpit,
+    adi,
+    alpha,
+    bbdit,
+    delhi,
+    shivam,
+    aliah,
+    ieee,
+    iet,
+    kgec,
+    nscc,
+    cherry,
+    sce,
+    sec,
+    skilleliters,
+    veltech
+]
 
 export default partners;
