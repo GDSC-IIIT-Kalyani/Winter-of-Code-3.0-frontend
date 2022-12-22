@@ -64,8 +64,8 @@
 @media screen and (max-width: 500px) {
     .partner-logo {
         padding: 0%;
-        background: none;
-        max-height: 225px;
+        /* background: none; */
+        max-height: 100px;
     }
 
     .partner-logo:hover {
@@ -76,7 +76,7 @@
 
 @media screen and (min-width: 1400px) {
     .partners-grid{
-        width:80%;
+        width:90%;
         margin: 0 auto;
     }
 }
