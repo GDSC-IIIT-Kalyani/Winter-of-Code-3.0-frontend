@@ -54,7 +54,7 @@ const Community_Partners = () => {
             <div className="partners-grid">
                 {data.map((partner,id) => {
                    return (id<(4+window.innerWidth/300))?
-                     <img src={partner} alt="Guru Nanak Dev University" className="partner-logo" />:<></>
+                     <img src={partner} alt="partner's logo" className="partner-logo" />:<></>
                 }) }
             </div>
             <ExpandOnClickContainer />

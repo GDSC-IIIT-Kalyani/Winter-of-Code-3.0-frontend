@@ -28,6 +28,7 @@ import sce from "../../assets/Community Partners/SCE.png"
 import sec from "../../assets/Community Partners/SEC.png"
 import skilleliters from "../../assets/Community Partners/skilleliters.png"
 import veltech from "../../assets/Community Partners/Vel Tech.jpg"
+import bit from "../../assets/Community Partners/Bit Jaipur.jpg"
 
 
 
@@ -46,6 +47,7 @@ const partners =[
     sgsits,
     srm,
     gtbit,
+    bit,
     snpit,
     adi,
     alpha,
