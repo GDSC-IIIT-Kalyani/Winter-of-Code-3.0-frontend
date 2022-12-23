@@ -51,8 +51,7 @@ const partners =[
     bbdit,
     delhi,
     kgec,
-    sce,
-    alpha,
+    sce, 
     aliah,
     veltech,
     shivam,
@@ -61,6 +60,7 @@ const partners =[
     skilleliters,   
     nscc,
     cherry,
+    alpha,
     iet
 ]
 
