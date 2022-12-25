@@ -69,6 +69,9 @@ const Organisations = () => {
                             <a href="https://www.open-emr.org/" alt="OpenEMR" rel="noopener noreferrer">
                                 <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                             </a>
+                            <a href="https://opencodeyard.tech/" alt="openCY" rel="noopener noreferrer">
+                                <img className="org-image" src={images["openCY"]} alt="openCY logo"></img>
+                            </a>
                         </div>
                     </div>
                 </div>

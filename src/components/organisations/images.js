@@ -7,7 +7,7 @@ import polyaxon from "../../assets/org-logos/polyaxon.png";
 import eduhub from "../../assets/org-logos/eduhub.jpg";
 import openemr from '../../assets/org-logos/openemr.png';
 import GDevelop from '../../assets/org-logos/GDevelop.png';
-
+import openCY from '../../assets/org-logos/openCY.png';
 
 const images = {
     asyncAPI,
@@ -17,6 +17,7 @@ const images = {
     orgA,
     eduhub,
     polyaxon,
+    openCY,
     openemr,
     GDevelop
 };
