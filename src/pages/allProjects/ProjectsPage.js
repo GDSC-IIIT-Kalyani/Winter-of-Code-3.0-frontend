@@ -83,35 +83,30 @@ const ProjectsPage = () => {
       <NavBar navLinkColor="white" />
       </div>
       <div className="projects-page-header">Available Projects</div>
-      <div className="temporary">Coming Soon!</div>
-      <div className="temp-hide">
       <div className="filter_option">
         <form className="proj_form">
           <select className="proj_slt" onChange={handleChange}>
             <option value="all">All Categories</option>
             <option value="web">Web Development</option>
             <option value="app">App Development</option>
-            <option value="ml">Machine Learning</option>
+            {/* <option value="ml">Machine Learning</option> */}
             <option value="cloud">Cloud</option>
             <option value="doc">Documentation</option>
-            <option value="compiler">Compiler</option>
-            <option value="py">Python</option>
+            {/* <option value="compiler">Compiler</option> */}
+            <option value="python">Python</option>
+            <option value="flutter">Flutter</option>
           </select>
         </form>
         <form className="proj_form">
           <select className="proj_slt" onChange={handleOrg}>
             <option value="all">All organizations</option>
-            <option value="mojo">Mojo Global</option>
-            <option value="llvm">LLVM</option>
-            <option value="geeta">The Gita Initiative</option>
-            <option value="autodl">Auto DL</option>
-            <option value="hoppscotch">Hoppscotch</option>
-            <option value="jina">Jina AI</option>
-            <option value="edualgo">Edualgo Academy</option>
-            <option value="skit">Skit AI</option>
-            <option value="asyn">AsyncAPI</option>
-            <option value="codedigger">CodeDigger</option>
-            <option value="gdsc">GDSC</option>
+            <option value="async">AsyncAPI</option>
+            <option value="GDevelop">GDevelop</option>
+            <option value="openEMR">OpenEMR</option>
+            <option value="moja">Moja Global</option>
+            <option value="gita">The Gita Initiative</option>
+            <option value="clueless">Clueless</option>
+            <option value="openCodeyard">Open Codeyard</option>
           </select>
         </form>
       </div>
@@ -140,7 +135,6 @@ const ProjectsPage = () => {
       :<div className="empty_text">
           <h1>No Result Found :</h1>
         </div>}
-    </div>
     </div>
   );
 };

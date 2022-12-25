@@ -26,7 +26,7 @@ const ProjectCard = (props) => {
                 <div>
                     {props.data.mentors.map((mentor, idx) => {
                         return (
-                          <a className="mentors-flex" href= {"mailto:" + mentor.email} >
+                          <a className="mentors-flex" href= {mentor.link} >
                             <FiMail style={{color: "white", cursor: "pointer", position: "relative", top: "2px"}} key={idx}></FiMail>
                             <div style={{color: "white", display: "inline", cursor: "pointer", paddingLeft: "5px"}}>{mentor.name}</div>
                           </a>
