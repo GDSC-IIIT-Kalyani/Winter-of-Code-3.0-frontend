@@ -28,8 +28,15 @@ import sce from "../../assets/Community Partners/SCE.png"
 import sec from "../../assets/Community Partners/SEC.png"
 import skilleliters from "../../assets/Community Partners/skilleliters.png"
 import veltech from "../../assets/Community Partners/Vel Tech.png"
-
-
+import niit from "../../assets/Community Partners/NIIT.jpg"
+import gnit from "../../assets/Community Partners/GNIT.png"
+import gec from "../../assets/Community Partners/GEC.png"
+import dev from "../../assets/Community Partners/devscript.png"
+import src from "../../assets/Community Partners/src.png"
+import zhc from "../../assets/Community Partners/zhc.png"
+import hfc from "../../assets/Community Partners/hfc.png"
+import srec from "../../assets/Community Partners/srec.png"
+import bit from "../../assets/Community Partners/Bit Jaipur.png"
 
 const partners =[
     gnd,
@@ -43,7 +50,9 @@ const partners =[
     jaipur,
     pps,
     sr,
+    src,
     sgsits,
+    zhc,
     srm,
     gtbit,
     snpit,
@@ -52,16 +61,23 @@ const partners =[
     delhi,
     kgec,
     sce, 
+    bit,
+    gec,
     aliah,
+    gnit,
+    niit,
     veltech,
     shivam,
+    srec,
     ieee,
     sec,
-    skilleliters,   
-    nscc,
+    skilleliters,  
+    hfc, 
+    dev,  
+    nscc,   
     cherry,
     alpha,
-    iet
+    iet,   
 ]
 
 export default partners;
