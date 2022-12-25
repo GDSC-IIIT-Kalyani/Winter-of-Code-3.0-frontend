@@ -36,6 +36,7 @@ import src from "../../assets/Community Partners/src.png"
 import zhc from "../../assets/Community Partners/zhc.png"
 import hfc from "../../assets/Community Partners/hfc.png"
 import srec from "../../assets/Community Partners/srec.png"
+import bit from "../../assets/Community Partners/Bit Jaipur.png"
 
 const partners =[
     gnd,
