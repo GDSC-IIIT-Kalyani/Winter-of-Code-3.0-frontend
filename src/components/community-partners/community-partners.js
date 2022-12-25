@@ -1,4 +1,4 @@
-import React, {useState, useEffect } from "react"
+import React, { useState, useEffect } from "react"
 import "./community-partners.css"
 import data from "./partners-data.js"
 
@@ -11,13 +11,13 @@ function ExpandOnClickContainer() {
 
     return (
         <div className="expandable-content">
-            <button onClick={toggle} className="expand-button" style={isExpanded ? {top: '90%', backdropFilter: 'none', '-webkit-backdrop-filter': 'none'} : {}}>
+            <button onClick={toggle} className={isExpanded ? "collapse-button" : "expand-button"}>
                 {isExpanded ? 'Collapse ⇑' : 'Expand ⇓'}
             </button>
-            { isExpanded ? (
+            {isExpanded ? (
                 <div className="partners-grid">
                     {data.map((partner,id) => {
-                    return (id>=(4+window.innerWidth/300))?
+                    return (id>=(5+window.innerWidth/300))?
                      <img src={partner} alt="Guru Nanak Dev University" className="partner-logo" />:<></>
                 }) }
             </div> 
@@ -53,7 +53,7 @@ const Community_Partners = () => {
             </div>
             <div className="partners-grid">
                 {data.map((partner,id) => {
-                   return (id<(4+window.innerWidth/300))?
+                   return (id<(5+window.innerWidth/300))?
                      <img src={partner} alt="partner's logo" className="partner-logo" />:<></>
                 }) }
             </div>
