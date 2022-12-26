@@ -9,6 +9,8 @@ import openemr from '../../assets/org-logos/openemr.png';
 import GDevelop from '../../assets/org-logos/GDevelop.png';
 import openCY from '../../assets/org-logos/openCY.png';
 import samagraX from '../../assets/org-logos/SamagraX.jpg';
+import devscript from '../../assets/Community Partners/devscript - Vedant Khairnar.png';
+import hfc from '../../assets/Community Partners/hfc.png';
 
 const images = {
     asyncAPI,
@@ -22,6 +24,8 @@ const images = {
     openemr,
     GDevelop,
     samagraX,
+    devscript,
+    hfc
 };
 
 export default images;
