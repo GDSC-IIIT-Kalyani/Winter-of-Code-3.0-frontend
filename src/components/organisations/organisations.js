@@ -45,6 +45,9 @@ const Organisations = () => {
                             <a href="https://polyaxon.com/" alt="Polyaxon" rel="noopener noreferrer">
                                 <img className="org-image" src={images["polyaxon"]} alt="Polyaxon logo"></img>
                             </a>
+                            <a href="https://opencodeyard.tech/" alt="openCY" rel="noopener noreferrer">
+                                <img className="org-image" src={images["openCY"]} alt="openCY logo"></img>
+                            </a>
                         </div>
 
                         <div className="orgs-image-rows row-stagger">
@@ -69,9 +72,13 @@ const Organisations = () => {
                             <a href="https://www.open-emr.org/" alt="OpenEMR" rel="noopener noreferrer">
                                 <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                             </a>
-                            <a href="https://opencodeyard.tech/" alt="openCY" rel="noopener noreferrer">
-                                <img className="org-image" src={images["openCY"]} alt="openCY logo"></img>
+                            <a href="https://github.com/Samagra-Development" alt="SamagraX" rel="noopener noreferrer">
+                                <img className="org-image" src={images["samagraX"]} alt="samagraX logo"></img>
                             </a>
+                        </div>
+
+                        <div className="orgs-image-rows">
+                            
                         </div>
                     </div>
                 </div>
