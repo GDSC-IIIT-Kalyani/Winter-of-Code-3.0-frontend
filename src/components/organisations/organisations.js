@@ -60,6 +60,9 @@ const Organisations = () => {
                             <a href="https://eduhub.technology/" alt="EduHub" rel="noopener noreferrer">
                                 <img className="org-image" src={images["eduhub"]} alt="Eduhub logo"></img>
                             </a>
+                            <a href="https://hackforcode.hashnode.dev/" alt="HackForCode" rel="noopener noreferrer">
+                                <img className="org-image" src={images["hfc"]} alt="HackForCode logo"></img>
+                            </a>
                         </div>
 
                         <div className="orgs-image-rows row-stretch">
@@ -74,6 +77,9 @@ const Organisations = () => {
                             </a>
                             <a href="https://github.com/Samagra-Development" alt="SamagraX" rel="noopener noreferrer">
                                 <img className="org-image" src={images["samagraX"]} alt="samagraX logo"></img>
+                            </a>
+                            <a href="https://devscript.org/" alt="DevScript" rel="noopener noreferrer">
+                                <img className="org-image" src={images["devscript"]} alt="devscript logo"></img>
                             </a>
                         </div>
 
