@@ -19,7 +19,7 @@ const images = {
     polyaxon,
     openCY,
     openemr,
-    GDevelop
+    GDevelop,
 };
 
 export default images;
