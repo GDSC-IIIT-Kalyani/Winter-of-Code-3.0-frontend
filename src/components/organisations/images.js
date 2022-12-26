@@ -8,6 +8,7 @@ import eduhub from "../../assets/org-logos/eduhub.jpg";
 import openemr from '../../assets/org-logos/openemr.png';
 import GDevelop from '../../assets/org-logos/GDevelop.png';
 import openCY from '../../assets/org-logos/openCY.png';
+import samagraX from '../../assets/org-logos/SamagraX.jpg';
 
 const images = {
     asyncAPI,
@@ -20,6 +21,7 @@ const images = {
     openCY,
     openemr,
     GDevelop,
+    samagraX,
 };
 
 export default images;
