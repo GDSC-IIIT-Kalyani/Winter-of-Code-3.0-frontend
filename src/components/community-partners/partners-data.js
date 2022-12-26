@@ -37,6 +37,7 @@ import zhc from "../../assets/Community Partners/zhc.png"
 import hfc from "../../assets/Community Partners/hfc.png"
 import srec from "../../assets/Community Partners/srec.png"
 import bit from "../../assets/Community Partners/Bit Jaipur.png"
+import nsec from "../../assets/Community Partners/nsec.png"
 
 const partners =[
     gnd,
@@ -70,6 +71,7 @@ const partners =[
     shivam,
     srec,
     ieee,
+    nsec,
     sec,
     skilleliters,  
     hfc, 
