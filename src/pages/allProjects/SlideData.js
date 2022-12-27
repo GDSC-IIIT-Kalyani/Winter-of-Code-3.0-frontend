@@ -5,6 +5,7 @@ import gDevelop from "../../assets/org-logos/GDevelop.png"
 import clueless from "../../assets/org-logos/orgA.png"
 import aSyncAPI from "../../assets/org-logos/asyncAPI4.png"
 import openCodeyard from "../../assets/org-logos/openCodeyard.png"
+import alphaDev from "../../assets/Community Partners/alpha.jpeg"
 
 const SliderData = [
   // The Gita Initiative
@@ -363,6 +364,50 @@ const SliderData = [
     org_img: aSyncAPI,
     tags: "all",
     org_tag: "all async",
+  },
+
+  // Alpha.Dev's Projects
+  {
+    org_name: "Alpha.Dev",
+    title: "Templates for Genletter",
+    Ideas: ["Genletter is a react web app where a user can generate any type of letter whether it can be an offer letter, internship letter,application letter etc. by filing the details in the input field. It is also flexible in the sense that all the input fields are not required while generating the pdf so that it can be done as per the needs. Currently only one template is there for the letter. We want an user to create a provision to choose a template among many choices. Apart from that, users can add any features suitable to the application. Any kind of innovativeness will always be accepted."],
+    mentors: [{name: "Jaydip Dey", link: "mailto:jaydipdey2807@gmail.com"},
+              {name: "Archan Banerjee", link: "mailto:archanbanerjee89@gmail.com"}],
+    repo_link: "https://github.com/jaydip1235/Genletter",
+    org_img: alphaDev,
+    tags: "all web react",
+    org_tag: "all alpha"
+  },
+  {
+    org_name: "Alpha.Dev",
+    title: "Add features to Org-Bazar",
+    Ideas: ["It's a MERN stack application with socket.io. All the features that are currently present are mentioned in the README.md file of the repository. A contributor can add more features of their choice relevant to the web app."],
+    mentors: [{name: "Jaydip Dey", link: "mailto:jaydipdey2807@gmail.com"},
+              {name: "Archan Banerjee", link: "mailto:archanbanerjee89@gmail.com"}],
+    repo_link: "https://github.com/ArchanJS/org-bazar",
+    org_img: alphaDev,
+    tags: "all web mern",
+    org_tag: "all alpha"
+  },
+  {
+    org_name: "Alpha.Dev",
+    title: "Add features to Github Search",
+    Ideas: ["It's a React based github search application.  A contributor can add more features in the frontend using the github api and and improve the UI."],
+    mentors: [{name: "Jaydip Dey", link: "mailto:jaydipdey2807@gmail.com"}],
+    repo_link: "https://github.com/jaydip1235/Github-Search-React",
+    org_img: alphaDev,
+    tags: "all web react",
+    org_tag: "all alpha"
+  },
+  {
+    org_name: "Alpha.Dev",
+    title: "To-Do List",
+    Ideas: ["A MERN based to-do web app. All the things are mentioned in the README.md of the repository"],
+    mentors: [{name: "Agniv Ghosh", link: "mailto:agnivg157@gmail.com"}],
+    repo_link: "https://github.com/agnivg/To-do-list",
+    org_img: alphaDev,
+    tags: "all",
+    org_tag: "all alpha"
   },
 
   // Moja Global's projects
