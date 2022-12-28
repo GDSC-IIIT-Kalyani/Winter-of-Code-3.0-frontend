@@ -6,6 +6,7 @@ import clueless from "../../assets/org-logos/orgA.png"
 import aSyncAPI from "../../assets/org-logos/asyncAPI4.png"
 import openCodeyard from "../../assets/org-logos/openCodeyard.png"
 import alphaDev from "../../assets/Community Partners/alpha.jpeg"
+import samagra from "../../assets/org-logos/SamagraX.jpg"
 
 const SliderData = [
   // The Gita Initiative
@@ -532,6 +533,36 @@ const SliderData = [
     org_img: openCodeyard,
     tags: "all flutter app",
     org_tag: "all openCodeyard"
+  },
+  {
+    org_name: "Samagra",
+    title: "X-Admin Generator",
+    Ideas: ["A general purpose Admin based on REST or GraphQL" , "An Admin for Sunbird-RC's generated CRUD APIs.", "With the help of contributions amount of code to be written for generating the entire code should remain less."],
+    mentors: [{name: "Harshil Jani", link: "https://github.com/Harshil-Jani"},],
+    repo_link: "https://github.com/Samagra-Development/generator-create-rc-admin",
+    org_img: samagra,
+    tags: "all web",
+    org_tag: "all SamagraX"
+  },
+  {
+    org_name: "Samagra",
+    title: "Integrating ra-data-samagra with admin-ts",
+    Ideas: ["The task here would be to replace the lines in admin-ts using the ra-data-samagra npm package and reduce the lines of codes along with developing and testing the npm package","Integrating the ra-data-samagra npm package inside admin-ts and making admin-ts cleaner"],
+    mentors: [{name: " Harshil Jani", link: "https://github.com/Harshil-Jani"},],
+    repo_link: "https://github.com/Samarth-HP/admin-ts",
+    org_img: samagra,
+    tags: "all web",
+    org_tag: "all SamagraX"
+  },
+  {
+    org_name: "Samagra",
+    title: "Accessibility of websites across Samagra",
+    Ideas: ["For the specially abled people, It is very much important to design and develop the sites that they are accessible for all", "The contributor has to think more of such features and implement them across the sites in Samagra."],
+    mentors: [{name: "Harshil Jani", link: "https://github.com/Harshil-Jani"},],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/Samagra-:-WoC-3.0-Project-Ideas",
+    org_img: samagra,
+    tags: "all web",
+    org_tag: "all SamagraX"
   },
 ];
 

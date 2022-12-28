@@ -108,6 +108,7 @@ const ProjectsPage = () => {
             <option value="clueless">Clueless</option>
             <option value="openCodeyard">Open Codeyard</option>
             <option value="alpha">Alpha.Dev</option>
+            <option value="SamagraX">SamagraX</option>
           </select>
         </form>
       </div>
