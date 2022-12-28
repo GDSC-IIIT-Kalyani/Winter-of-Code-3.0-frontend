@@ -345,3 +345,8 @@
     top:60%;
   }
 }
+
+.resume_link{
+  text-decoration: none;
+  color: rgb(141, 198, 238);
+}
