@@ -7,6 +7,7 @@ import aSyncAPI from "../../assets/org-logos/asyncAPI4.png"
 import openCodeyard from "../../assets/org-logos/openCodeyard.png"
 import alphaDev from "../../assets/Community Partners/alpha.jpeg"
 import samagra from "../../assets/org-logos/SamagraX.jpg"
+import polyaxon from "../../assets/org-logos/polyaxon.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -563,6 +564,26 @@ const SliderData = [
     org_img: samagra,
     tags: "all web",
     org_tag: "all SamagraX"
+  },
+  {
+    org_name: "Polyaxon",
+    title: "MLOps Tools For Machine Learning",
+    Ideas: [" Polyaxon, a platform for building, training, and monitoring large scale deep learning applications. We are making a system to solve reproducibility, automation, and scalability for machine learning applications.", "Polyaxon makes it faster, easier, and more efficient to develop deep learning applications by managing workloads with smart container and node management"],
+    mentors: [{name: " Bastian Erhardt", link: "mailto:bastian@polyaxon.com"},],
+    repo_link: "https://github.com/polyaxon/polyaxon/",
+    org_img: polyaxon,
+    tags: "all python",
+    org_tag: "all polyaxon"
+  },
+  {
+    org_name: "Polyaxon",
+    title: "MLOps tutorials and examples using Polyaxon",
+    Ideas: ["This repository contains examples of using Polyaxon with all major Machine Learning and Deep Learning libraries"],
+    mentors: [{name: "Bastian Erhardt", link: "mailto:bastian@polyaxon.com"},],
+    repo_link: "https://github.com/polyaxon/polyaxon-examples/",
+    org_img: polyaxon,
+    tags: "all python",
+    org_tag: "all polyaxon"
   },
 ];
 
