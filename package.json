@@ -8,6 +8,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3",
     "buffer": "^6.0.3",
+    "clarity-js": "^0.7.1",
     "draw-shape-reactjs": "^1.0.2",
     "firebase": "^9.13.0",
     "html-react-parser": "^3.0.4",
