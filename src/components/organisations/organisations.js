@@ -83,6 +83,12 @@ const Organisations = () => {
                             </a>
                         </div>
 
+                        <div className="orgs-image-rows row-stagger">
+                            <a href="http://www.styava.com/" alt="styava" rel="noopener noreferrer">
+                                <img className="org-image" src={images["styava"]} alt="styavaDev logo"></img>
+                            </a>
+                        </div>
+
                         <div className="orgs-image-rows">
                             
                         </div>

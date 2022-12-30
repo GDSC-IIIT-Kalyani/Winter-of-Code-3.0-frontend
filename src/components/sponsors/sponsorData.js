@@ -8,12 +8,14 @@ import replit from '../../assets/sponsors/replitt.png';
 import echo3D from '../../assets/sponsors/echo3D.png';
 import solana from '../../assets/sponsors/solana.png';
 import codingBlocks from '../../assets/sponsors/cblogo.png';
+import styava from '../../assets/sponsors/StyavaDev.png';
 
 const sponsorsData = {
     diamond: [
         { title: 'Repl.it', image: replit ,link:"https://replit.com/"},
         { title: 'Solana', image: solana ,link:"https://solana.com/"},
         { title: 'FileCoin', image: filecoin,link:"https://filecoin.io/" },
+        { title: 'Styava', image: styava,link:"http://www.styava.com/" },
         // { title: 'Jina AI', image: jinaAi },
         // { title: 'Tezos', image: tezos },
     ],
