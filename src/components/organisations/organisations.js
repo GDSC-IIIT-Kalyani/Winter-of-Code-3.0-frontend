@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import "./organisations.css";
 import whale from "../../assets/fish.png";
 import whale_bg from "../../assets/fish-bg-leaves.png";
+import alphadot from "../../assets/Community Partners/alpha.jpeg";
 import images from "./images.js";
 
 const Organisations = () => {
@@ -69,9 +70,6 @@ const Organisations = () => {
                             <a href="https://vedvyas.org/" alt="GitaInit" rel="noopener noreferrer">
                                 <img className="org-image" src={images["gitAInit"]} alt="Gita Init logo"></img>
                             </a>
-                            <a href="https://developers.google.com/community/gdsc" alt="GDSC" rel="noopener noreferrer">
-                                <img className="org-image" src={images["gdsc"]} alt="GDSC logo"></img>
-                            </a>
                             <a href="https://www.open-emr.org/" alt="OpenEMR" rel="noopener noreferrer">
                                 <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                             </a>
@@ -87,6 +85,13 @@ const Organisations = () => {
                             <a href="http://www.styava.com/" alt="styava" rel="noopener noreferrer">
                                 <img className="org-image" src={images["styava"]} alt="styavaDev logo"></img>
                             </a>
+                            <a href="https://www.alpha-dot.co.uk/" alt="alpha dot" rel="noopener noreferrer">
+                                <img className="org-image" src={alphadot} alt="alpha dot"></img>
+                            </a>
+                            <a href="https://developers.google.com/community/gdsc" alt="GDSC" rel="noopener noreferrer">
+                                <img className="org-image" src={images["gdsc"]} alt="GDSC logo"></img>
+                            </a>
+                            
                         </div>
 
                         <div className="orgs-image-rows">
