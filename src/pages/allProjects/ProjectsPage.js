@@ -110,6 +110,7 @@ const ProjectsPage = () => {
             <option value="alpha">Alpha.Dev</option>
             <option value="SamagraX">SamagraX</option>
             <option value="polyaxon">Polyaxon</option>
+            <option value="gdsc">GDSC</option>
           </select>
         </form>
       </div>
