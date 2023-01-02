@@ -8,6 +8,7 @@ import openCodeyard from "../../assets/org-logos/openCodeyard.png"
 import alphaDev from "../../assets/Community Partners/alpha.jpeg"
 import samagra from "../../assets/org-logos/SamagraX.jpg"
 import polyaxon from "../../assets/org-logos/polyaxon.png"
+import gdsc from "../../assets/org-logos/gdsc.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -585,6 +586,67 @@ const SliderData = [
     tags: "all python",
     org_tag: "all polyaxon"
   },
+  {
+    org_name: "GDSC",
+    title: "TASKIFY",
+    Ideas: ["It is a task management system for everyone. It is designed to help you manage your tasks and projects from ideation to delivery. This task manager helps to bring in only the necessary parts – without all the annoying clutter."],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/Taskify",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "HEALTH-TRACKER",
+    Ideas: ["A health tracker is an application used to record and manage healthy living statistics and measure progress, keep a track of your day to day medications and notify you at regular intervals", "It also serves as a safe vault to keep your helath related documents in one place in an organized way.", "The idea is to integrate the Flutter App with SQLite Backend where we will store all the user's data in a secured and organized way."],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/Health-Tracker-App",
+    org_img: gdsc,
+    tags: "all app flutter",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "LIBRARYLY",
+    Ideas: ["A software solution to handle the primary functions of a library, which include managing books as well as members", "Manage and maintain the catalogue of books with a scalable and reliable Library Management System", "Our project presents an e-platform to libraries of all sizes, which help maintain the data of books, being added or issued"],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/Libraryly",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "RESUMIE",
+    Ideas: ["Most of us often forget to carry our CV and portfolio along with us. It becomes really useful if we have an app that can generate our resume within few minutes and we don't miss any opportunity coming in our way!", "The app is based on the idea of using simple fragments with layouts and rendering the input data by users to a PDF Document created in a different activity."],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/Resumie",
+    org_img: gdsc,
+    tags: "all app",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "KITKAT-VIRUS",
+    Ideas: ["We often forget what we type in our day to day lives, it maybe the last password you used to login into your bank account", "Keystroke logging, often referred to as keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program."],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/kitkat.v1rus",
+    org_img: gdsc,
+    tags: "all python",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "CSGO PROFESSIONALS",
+    Ideas: ["Counter-Strike: Global Offensive is a 2012 multiplayer first-person shooter developed by Valve and Hidden Path Entertainment", "Scrape the Dataset from this Website", "Perform Feature Engineering to create insightful columns", "Perform Exploratory Data Analysis to create insights and meaningful dashboards"],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/CS-GO-Professionals",
+    org_img: gdsc,
+    tags: "all python",
+    org_tag: "all gdsc"
+  },
+
 ];
 
 export default SliderData;
