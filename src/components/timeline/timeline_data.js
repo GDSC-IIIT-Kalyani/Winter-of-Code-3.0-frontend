@@ -1,19 +1,19 @@
 const data=[
     {
         data: "2022-12-10",
-        date: "10TH DEC - 5TH JAN'23",
+        date: "10TH DEC - 15TH JAN'23",
         title: "Student Application Open",
         state: "active"
     },
     {
         data: "2023-1-20",
-        date: "5TH JAN'23",
+        date: "12TH JAN'23",
         title: "Inaugural Ceremony",
         state: "coming"
     },
     {
         data: "2022-12-25",
-        date: "5TH JAN - 12TH JAN'23",
+        date: "5TH JAN - 20TH JAN'23",
         title: "Proposal Writing session",
         state: "coming"
     },

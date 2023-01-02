@@ -193,7 +193,7 @@ const WelcomePage = () => {
                 send their proposals to organizations to work on their open-source
                 projects while their mentor evaluate them over a course of the event.
                 If you dont have a resume here is a template that you may use: 
-                <a href="https://docs.google.com/document/d/1AsopS8xBI1QAAjJpsdConQvZSLT62ZfrqhIGcPgxAUw/edit?usp=sharing" className="resume_link">Resume Template</a>
+                <a href="https://docs.google.com/document/d/1AsopS8xBI1QAAjJpsdConQvZSLT62ZfrqhIGcPgxAUw/edit?usp=sharing" className="resume_link"> Resume Template</a>
               </div>
             </div>
           </div>
