@@ -590,7 +590,7 @@ const SliderData = [
     org_name: "GDSC",
     title: "TASKIFY",
     Ideas: ["It is a task management system for everyone. It is designed to help you manage your tasks and projects from ideation to delivery. This task manager helps to bring in only the necessary parts – without all the annoying clutter."],
-    mentors: [],
+    mentors: [{name: "Sudip Maiti", link: "mailto:maitisudip2002@gmail.com"},{name: "Rupam Matabbar", link:"mailto:rupammatabber04@gmail.com"}],
     repo_link: "https://github.com/DSCKGEC/Taskify",
     org_img: gdsc,
     tags: "all web",
@@ -600,7 +600,7 @@ const SliderData = [
     org_name: "GDSC",
     title: "HEALTH-TRACKER",
     Ideas: ["A health tracker is an application used to record and manage healthy living statistics and measure progress, keep a track of your day to day medications and notify you at regular intervals", "It also serves as a safe vault to keep your helath related documents in one place in an organized way.", "The idea is to integrate the Flutter App with SQLite Backend where we will store all the user's data in a secured and organized way."],
-    mentors: [],
+    mentors: [{name: "Saptarshi Mandal", link: "mailto:saptarshim125@gmail.com"}],
     repo_link: "https://github.com/DSCKGEC/Health-Tracker-App",
     org_img: gdsc,
     tags: "all app flutter",
@@ -610,7 +610,7 @@ const SliderData = [
     org_name: "GDSC",
     title: "LIBRARYLY",
     Ideas: ["A software solution to handle the primary functions of a library, which include managing books as well as members", "Manage and maintain the catalogue of books with a scalable and reliable Library Management System", "Our project presents an e-platform to libraries of all sizes, which help maintain the data of books, being added or issued"],
-    mentors: [],
+    mentors: [{name: "Soumyajit Dutta", link:"mailto:soumyajitdatta123@gmail.com"}],
     repo_link: "https://github.com/DSCKGEC/Libraryly",
     org_img: gdsc,
     tags: "all web",
@@ -620,7 +620,7 @@ const SliderData = [
     org_name: "GDSC",
     title: "RESUMIE",
     Ideas: ["Most of us often forget to carry our CV and portfolio along with us. It becomes really useful if we have an app that can generate our resume within few minutes and we don't miss any opportunity coming in our way!", "The app is based on the idea of using simple fragments with layouts and rendering the input data by users to a PDF Document created in a different activity."],
-    mentors: [],
+    mentors: [{name: "Adrishyantee Maiti", link: "mailto:adrishyantee@gmail.com"},{name: "Subhankar Das", link:"mailto:shubhankardas.kgec@gmail.com"}],
     repo_link: "https://github.com/DSCKGEC/Resumie",
     org_img: gdsc,
     tags: "all app",
@@ -640,13 +640,13 @@ const SliderData = [
     org_name: "GDSC",
     title: "CSGO PROFESSIONALS",
     Ideas: ["Counter-Strike: Global Offensive is a 2012 multiplayer first-person shooter developed by Valve and Hidden Path Entertainment", "Scrape the Dataset from this Website", "Perform Feature Engineering to create insightful columns", "Perform Exploratory Data Analysis to create insights and meaningful dashboards"],
-    mentors: [],
+    mentors: [{name: "Arya Chakraborty", link: "mailto:aryachakraborty2002@gmail.com"},{name: "Saptarshi Bhattacharya", link:"mailto:bhattacharyasaptarshi2001@gmail.com"}],
     repo_link: "https://github.com/DSCKGEC/CS-GO-Professionals",
     org_img: gdsc,
     tags: "all python",
     org_tag: "all gdsc"
   },
-
+  
 ];
 
 export default SliderData;
