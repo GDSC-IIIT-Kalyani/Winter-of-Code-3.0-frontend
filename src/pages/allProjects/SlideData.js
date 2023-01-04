@@ -657,7 +657,6 @@ const SliderData = [
     tags: "all python",
     org_tag: "all gdsc"
   },
-  
 ];
 
 export default SliderData;
