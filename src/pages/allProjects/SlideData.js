@@ -9,6 +9,7 @@ import alphaDev from "../../assets/Community Partners/alpha.jpeg"
 import samagra from "../../assets/org-logos/SamagraX.jpg"
 import polyaxon from "../../assets/org-logos/polyaxon.png"
 import gdsc from "../../assets/org-logos/gdsc.png"
+import terra from "../../assets/org-logos/terra.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -585,6 +586,16 @@ const SliderData = [
     org_img: polyaxon,
     tags: "all python",
     org_tag: "all polyaxon"
+  },
+  {
+    org_name: "TerraForge3D",
+    title: "Terrain generation and texturing tool",
+    Ideas: ["TerraForge3D has got a series of features like gou powered generation, node based workflows, custom shading and texturing, exports for other applications" , "TerraForge3D can not only be used as a standalone tool but also a library. It's got an API that can be used to add features to TerraForge3D through modules."],
+    mentors: [{name: "Jaysmito Mukherjee", link: "mailto:jaysmito101@gmail.com"},],
+    repo_link: "https://github.com/Jaysmito101/TerraForge3D",
+    org_img: terra,
+    tags: "all",
+    org_tag: "all terraforge"
   },
   {
     org_name: "GDSC",
