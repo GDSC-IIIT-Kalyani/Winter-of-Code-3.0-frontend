@@ -12,6 +12,7 @@ import gdsc from "../../assets/org-logos/gdsc.png"
 import terra from "../../assets/org-logos/terra.png"
 import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
+import shorto from "../../assets/org-logos/shorto.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -724,6 +725,20 @@ const SliderData = [
     org_img: devscript,
     tags: "all docs",
     org_tag: "all devscript"
+  },
+
+  {
+    org_name: "Shorto",
+    title: "URL Shorter",
+    Ideas: ["Shorto is a open source chrome extension which shortens the long URLs and is based on vanilla js which is a feature packed chrome extension"],
+    mentors: [
+      { name: "Vinyas Hegde", link: "mailto:vinyasvasanthegde7@gmail.com" },
+      { name: "Savio Dias ", link: "mailto:diassavio629@gmail.com" }
+    ],
+    repo_link: "https://github.com/vinyashegde/shorto_url_shorter",
+    org_img: shorto,
+    tags: "all web",
+    org_tag: "all shorto"
   },
 
 ];
