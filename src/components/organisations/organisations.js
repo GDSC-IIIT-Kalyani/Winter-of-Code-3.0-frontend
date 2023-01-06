@@ -55,7 +55,7 @@ const Organisations = () => {
                             <a href="https://www.clueless.tech/" alt="" rel="noopener noreferrer">
                                 <img className="org-image" src={images["orgA"]} alt="clueless logo"></img>
                             </a>
-                            <a href="https://www.asyncapi.com/" alt="ASyncAPI" rel="noopener noreferrer">
+                            <a href="https://github.com/orgs/asyncapi/discussions/556" alt="ASyncAPI" rel="noopener noreferrer">
                                 <img className="org-image" src={images["asyncAPI"]} alt="Async API logo"></img>
                             </a>
                             <a href="https://eduhub.technology/" alt="EduHub" rel="noopener noreferrer">
@@ -70,10 +70,10 @@ const Organisations = () => {
                             <a href="https://vedvyas.org/" alt="GitaInit" rel="noopener noreferrer">
                                 <img className="org-image" src={images["gitAInit"]} alt="Gita Init logo"></img>
                             </a>
-                            <a href="https://www.open-emr.org/" alt="OpenEMR" rel="noopener noreferrer">
+                            <a href="https://www.open-emr.org/winter-of-code/" alt="OpenEMR" rel="noopener noreferrer">
                                 <img className="org-image" src={images["openemr"]} alt="OpenEMR logo"></img>
                             </a>
-                            <a href="https://github.com/Samagra-Development" alt="SamagraX" rel="noopener noreferrer">
+                            <a href="https://github.com/Code4GovTech/C4GT/wiki/Samagra-:-WoC-3.0-Project-Ideas" alt="SamagraX" rel="noopener noreferrer">
                                 <img className="org-image" src={images["samagraX"]} alt="samagraX logo"></img>
                             </a>
                             <a href="https://devscript.org/" alt="DevScript" rel="noopener noreferrer">
