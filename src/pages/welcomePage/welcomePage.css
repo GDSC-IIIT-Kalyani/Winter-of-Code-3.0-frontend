@@ -1,11 +1,7 @@
 .wrapper {
   height: 120vh;
   width: 100%;
-  background-image: linear-gradient(
-    to bottom,
-    rgba(0, 6, 56, 0.323),
-    rgba(0, 11, 129, 0.253)
-    ),
+  background-image:
     url("../../assets/bg\ images/WOC_Landing-page_back-ground.png");
   background-position: bottom;
   background-repeat: no-repeat;
@@ -15,11 +11,7 @@
 .wrapper-2 {
   height: 110vh;
   width: 100%;
-  background-image: linear-gradient(
-      to top,
-      rgba(0, 4, 42, 0.423),
-      rgba(73, 79, 150, 0.145)
-    ),
+  background-image:
     url("../../assets/bg\ images/WOC_Landing-page_back-ground_rotated.png");
   background-position: top;
   background-repeat: no-repeat;
@@ -29,6 +21,13 @@
   justify-content: center;
 }
 
+.img-title{
+  width:800px;
+  position: absolute;
+  top: 45%;
+  left:18%;
+  z-index: 10000;
+}
 .iceberg {
   z-index: 2;
   width: 47%;
@@ -42,10 +41,9 @@
 .left-iceberg {
   z-index: 3;
   width: 15%;
-  /* height: 85%; */
   left: 1%;
   position: absolute;
-  top: 85%;
+  top: 80%;
   /* opacity: 0.; */
 }
 
@@ -55,7 +53,7 @@
   right: 0%;
   height: 75%;
   position: absolute;
-  top: 95%;
+  top: 90%;
   opacity: 0.8;
 }
 
@@ -69,21 +67,21 @@
 
 .moon {
   z-index: 100;
-  width: 11%;
+  width: 9%;
   position: absolute;
-  top: 28%;
-  left: 13%;
+  top: 25%;
+  left: 10%;
 }
 
 .title {
   position: absolute;
-  top: 53%;
-  left: 43%;
+  top: 50%;
+  left: 30%;
   z-index: 10000;
   /* font-size: 40px; */
   text-transform: uppercase;
-  font-size: 2.2vw;
-  font-weight: 100;
+  font-size: 25px;
+  font-weight: 600;
   letter-spacing: 0.14em;
   color: rgb(255, 255, 255);
   /* translate: 0%; */
@@ -158,6 +156,25 @@
     top: 15%;
   }
 } */
+.welcome-buttons{
+  display: flex;
+  width:25vw;
+  position: absolute;
+  top:60%;
+  left:30%;
+  z-index: 10000;
+  justify-content: space-between;
+}
+
+.details-button,.registration-button{
+  font-family: Vanilla;
+  letter-spacing: 3px;
+  font-size: 20px;
+  box-shadow: 5px 5px 5px 1px rgba(37, 38, 57, 0.279);
+  padding: 15px 30px;
+  cursor: pointer;
+  font-weight: 600;
+}
 
 .cloud-right {
   position: absolute;
@@ -179,13 +196,15 @@
   right: 32%;
   height: 13%;
   z-index: 20;
+  opacity: 1 !important;
 }
 
 .cloud-4 {
+  /* display: none; */
   position: absolute;
   top: 45%;
   left: 27%;
-  height: 14%;
+  height: 13%;
   opacity: 0.2;
 }
 
@@ -204,10 +223,10 @@
 
 .birds-left {
   position: absolute;
-  z-index: 103;
-  top: 30%;
-  left: 4%;
-  height: 11%;
+  z-index: 1010;
+  top: 35%;
+  left: 5%;
+  height: 6%;
   filter: contrast(1.4);
   animation-name: slide;
   animation-duration: 3s;
@@ -247,16 +266,19 @@
     font-size: 2em;
     left:30%;
   }
+
   .cloud-1 {
     top: 62%;
     z-index: 0;
     right: 1%;
   }
+
   .moon {
     width: 13%;
     top: 15%;
     left: 9%;
   }
+
   .birds-left {
     height: 5%;
     left: 1%;
@@ -275,6 +297,7 @@
     height: 150%;
     top: 50%;
   }
+
   .wave {
     top: 25%;
   }
@@ -311,7 +334,6 @@
   }
 }
 @media screen and (max-width:500px) {
-  
   .moon {
     width: 20%;
     top: 17%;

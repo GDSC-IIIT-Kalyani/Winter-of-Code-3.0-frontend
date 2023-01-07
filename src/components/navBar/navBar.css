@@ -40,7 +40,7 @@ nav {
 
 .woc {
   padding-left: 2%;
-  padding-right: 12.5%;
+  padding-right: 8.5%;
   color: #fff;
   font-size: 2em;
   font-weight: bold;
@@ -265,15 +265,15 @@ nav {
   }
 }
 
-.apply-button{
-  height: 10px;
-  width: 21px !important;
-}
+iframe{
 
-/* .navbar-apply-button{
-  height: 44px;
-  width: 231px;
-} */
+  width:23vw !important;
+  margin-left: 1.5vw !important;
+}
+button#apply-button{
+  padding: 2% 10%;
+  margin: auto;
+}
 
 @media screen and (max-width: 1024px) {
   .navBar_links {
