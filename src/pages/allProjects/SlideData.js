@@ -13,6 +13,7 @@ import terra from "../../assets/org-logos/terra.png"
 import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
 import shorto from "../../assets/org-logos/shorto.png"
+import codeFamily from "../../assets/org-logos/codeFamily.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -739,6 +740,33 @@ const SliderData = [
     org_img: shorto,
     tags: "all web",
     org_tag: "all shorto"
+  },
+
+  // Code Family's Projects
+  {
+    org_name: "Code Family",
+    title: "Official Website",
+    Ideas: ["This is the official CodeFamily website! Here you will find the latest updates and events, inspiring blogs, and resources to help you make the most of being part of the CodeFamily community. We are currently in the process of upgrading the website to make navigation more intuitive and user-friendly while addng new information and content to help you on your journey. We hope you enjoy the new and improved experience!"],
+    mentors: [
+      { name: "Nikita Wani", link: "mailto:kbtug20353@kbtcoe.org" },
+    ],
+    repo_link: "https://github.com/Codefamily-developer/Codefamily_Website",
+    org_img: codeFamily,
+    tags: "all web react",
+    org_tag: "all codeFamily"
+  },
+
+  {
+    org_name: "Code Family",
+    title: "Digital Library",
+    Ideas: ["A digital library website is a web-based platform that provies access to a variety of digital resources such as books, magazines, audio and video recordings, images, and other multimedia materials. The digital library website provides users with an easy and convenient way to access information and resources from anywhere in the world."],
+    mentors: [
+      { name: "Anurag Wagh", link: "mailto:kbtug20319@kbtcoe.org" },
+    ],
+    repo_link: "https://github.com/Codefamily-developer/Digital-Libray",
+    org_img: codeFamily,
+    tags: "all web python",
+    org_tag: "all codeFamily"
   },
 
 ];
