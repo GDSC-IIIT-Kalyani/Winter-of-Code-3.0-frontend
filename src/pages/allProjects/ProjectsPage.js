@@ -114,6 +114,7 @@ const ProjectsPage = () => {
             <option value="shorto">Shorto</option>
             <option value="c4gt">Code4GovTech</option>
             <option value="devscript">DevScript</option>
+            <option value="codeFamily">CodeFamily</option>
             <option value="gdsc">GDSC</option>
           </select>
         </form>

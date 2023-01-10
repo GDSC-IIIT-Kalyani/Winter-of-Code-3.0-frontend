@@ -285,6 +285,10 @@ button#apply-button{
     padding-top: 2%;
     padding-right: 1rem;
   }
+
+  iframe {
+    width: auto !important;
+  }
 }
 
 @media screen and (max-width: 500px) {
