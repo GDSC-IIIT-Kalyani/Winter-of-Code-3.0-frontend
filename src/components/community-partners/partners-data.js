@@ -1,8 +1,7 @@
 import gnd from "../../assets/Community Partners/Guru-Nanak-Dev.png"
 import jmi from "../../assets/Community Partners/JMI.png"
 import abesit from "../../assets/Community Partners/ABESIT-Ghaziabad.png"
-import bharti from "../../assets/Community Partners/Bharati-Vidyapeeth.png"
-import cummins from "../../assets/Community Partners/Cummins-College.png"
+
 import gla from "../../assets/Community Partners/GLA-Uni.png"
 import bbs from "../../assets/Community Partners/IIT-BBS.png"
 import jabalpur from "../../assets/Community Partners/Jabalpur-College.png"
@@ -27,7 +26,6 @@ import cherry from "../../assets/Community Partners/cherry.png"
 import sce from "../../assets/Community Partners/SCE.png"
 import sec from "../../assets/Community Partners/SEC.png"
 import skilleliters from "../../assets/Community Partners/skilleliters.png"
-import veltech from "../../assets/Community Partners/Vel Tech.png"
 import niit from "../../assets/Community Partners/NIIT.jpg"
 import gnit from "../../assets/Community Partners/GNIT.png"
 import gec from "../../assets/Community Partners/GEC.png"
@@ -43,11 +41,8 @@ const partners =[
     gnd,
     jmi,
     abesit,
-    bharti,
-    cummins,
     gla,
     bbs,
-    jabalpur,
     jaipur,
     pps,
     sr,
@@ -56,7 +51,6 @@ const partners =[
     zhc,
     srm,
     gtbit,
-    snpit,
     adi,
     bbdit,
     delhi,
@@ -64,22 +58,15 @@ const partners =[
     sce, 
     bit,
     gec,
-    aliah,
-    gnit,
-    niit,
-    veltech,
     shivam,
     srec,
-    ieee,
     nsec,
     sec,
     skilleliters,  
     hfc, 
-    dev,  
     nscc,   
     cherry,
-    alpha,
-    iet,   
+    alpha, 
 ]
 
 export default partners;

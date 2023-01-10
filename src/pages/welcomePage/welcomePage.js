@@ -106,26 +106,6 @@ const WelcomePage = () => {
           alt=""
         />
 
-        {/* <div className="title">Winter Of Code</div> */}
-
-        <div className="welcome-buttons">
-          
-          <a href="https://drive.google.com/file/d/1-GIFDv92jTmBOdnSStFazFYiCY5P5Gv5/view?usp=share_link" target="_blank" rel="noreferrer" alt="Projects page">
-            <button className="projects-button details-button" type="button">
-              <span>Details</span>
-            </button>
-          </a>
-
-          <a href="https://winter-of-code.devfolio.co/" target="_blank" rel="noreferrer" alt="Projects page">
-            <button
-              className="projects-button registration-button"
-              type="button"
-            >
-              <span>Register</span>
-            </button>
-          </a>
-        </div>
-
         <img
           src={title}
           className="img-title"
