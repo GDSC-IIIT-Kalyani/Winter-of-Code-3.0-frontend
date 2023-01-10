@@ -669,6 +669,16 @@ const SliderData = [
     tags: "all python",
     org_tag: "all gdsc"
   },
+  {
+    org_name: "GDSC",
+    title: "GDSC ZHCET Android App",
+    Ideas: ["COntribute to the Android App counterpart for the GDSC ZHCET website"],
+    mentors: [{name: "Sumir Vats", link: "mailto:sumirvats003@gmail.com"},{name: "Ahmad Bilal Zaidi", link:"mailto:ahmadbilal.199822@gmail.com"},{name: "Sadaf Zehra", link:"mailto:sadafzehra2001@gmail.com"},{name: "Siddique Ahmad", link:"mailto:ahmadsiddique7073@gmail.com"}],
+    repo_link: "https://github.com/GDSC-ZHCET/GDSC-ZHCET-AndroidApp",
+    org_img: gdsc,
+    tags: "all app",
+    org_tag: "all gdsc"
+  },
 
   // Code4GovTech Projects
   {
