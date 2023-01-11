@@ -34,10 +34,10 @@ const faqData = [
       answer: "It is for EVERYBODY!",
     },
     {
-      question: "Winter of Code 3.0 | 2022 - 2023 | Infotainment Session.",
+      question: "Winter of Code 3.0 | 2022 - 2023 | Registration Guide.",
       answer: (
         <a
-          href="www.linkhere.com"
+          href="https://youtu.be/P0mfgTS20Xs"
           target="_blank"
           rel="noreferrer"
         >
