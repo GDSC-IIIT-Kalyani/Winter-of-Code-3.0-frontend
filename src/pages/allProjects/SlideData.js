@@ -8,6 +8,12 @@ import openCodeyard from "../../assets/org-logos/openCodeyard.png"
 import alphaDev from "../../assets/Community Partners/alpha.jpeg"
 import samagra from "../../assets/org-logos/SamagraX.jpg"
 import polyaxon from "../../assets/org-logos/polyaxon.png"
+import gdsc from "../../assets/org-logos/gdsc.png"
+import terra from "../../assets/org-logos/terra.png"
+import c4gt from "../../assets/org-logos/c4gt.png"
+import devscript from "../../assets/org-logos/devscript.png"
+import shorto from "../../assets/org-logos/shorto.png"
+import codeFamily from "../../assets/org-logos/codeFamily.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -519,7 +525,7 @@ const SliderData = [
     org_name: "Open Codeyard",
     title: "Classroom Management System",
     Ideas: [""],
-    mentors: [{name: "Shatanik Mahanty", email: "shatanik.m@opencodeyard.tech"}],
+    mentors: [{name: "Shatanik Mahanty", email: "mailto:shatanikmahanty@gmail.com"}],
     repo_link: "https://github.com/OpenCodeyard/ocyclient",
     org_img: openCodeyard,
     tags: "all flutter app",
@@ -529,12 +535,14 @@ const SliderData = [
     org_name: "Open Codeyard",
     title: "Official Client Side App",
     Ideas: [""],
-    mentors: [{name: "Shatanik Mahanty", email: "shatanik.m@opencodeyard.tech"}],
+    mentors: [{name: "Shatanik Mahanty", email: "mailto:shatanikmahanty@gmail.com"}],
     repo_link: "https://github.com/OpenCodeyard/Classroom",
     org_img: openCodeyard,
     tags: "all flutter app",
     org_tag: "all openCodeyard"
   },
+
+  // Samagra's Projects
   {
     org_name: "Samagra",
     title: "X-Admin Generator",
@@ -565,6 +573,8 @@ const SliderData = [
     tags: "all web",
     org_tag: "all SamagraX"
   },
+
+  // Polyaxon's Projects
   {
     org_name: "Polyaxon",
     title: "MLOps Tools For Machine Learning",
@@ -585,6 +595,190 @@ const SliderData = [
     tags: "all python",
     org_tag: "all polyaxon"
   },
+
+  // TerraForge3D
+  {
+    org_name: "TerraForge3D",
+    title: "Terrain generation and texturing tool",
+    Ideas: ["TerraForge3D has got a series of features like gou powered generation, node based workflows, custom shading and texturing, exports for other applications" , "TerraForge3D can not only be used as a standalone tool but also a library. It's got an API that can be used to add features to TerraForge3D through modules."],
+    mentors: [{name: "Jaysmito Mukherjee", link: "mailto:jaysmito101@gmail.com"},],
+    repo_link: "https://github.com/Jaysmito101/TerraForge3D",
+    org_img: terra,
+    tags: "all",
+    org_tag: "all terraforge"
+  },
+
+
+  {
+    org_name: "GDSC",
+    title: "TASKIFY",
+    Ideas: ["It is a task management system for everyone. It is designed to help you manage your tasks and projects from ideation to delivery. This task manager helps to bring in only the necessary parts – without all the annoying clutter."],
+    mentors: [{name: "Sudip Maiti", link: "mailto:maitisudip2002@gmail.com"},{name: "Rupam Matabbar", link:"mailto:rupammatabber04@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Taskify",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "HEALTH-TRACKER",
+    Ideas: ["A health tracker is an application used to record and manage healthy living statistics and measure progress, keep a track of your day to day medications and notify you at regular intervals", "It also serves as a safe vault to keep your helath related documents in one place in an organized way.", "The idea is to integrate the Flutter App with SQLite Backend where we will store all the user's data in a secured and organized way."],
+    mentors: [{name: "Saptarshi Mandal", link: "mailto:saptarshim125@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Health-Tracker-App",
+    org_img: gdsc,
+    tags: "all app flutter",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "LIBRARYLY",
+    Ideas: ["A software solution to handle the primary functions of a library, which include managing books as well as members", "Manage and maintain the catalogue of books with a scalable and reliable Library Management System", "Our project presents an e-platform to libraries of all sizes, which help maintain the data of books, being added or issued"],
+    mentors: [{name: "Soumyajit Dutta", link:"mailto:soumyajitdatta123@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Libraryly",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "RESUMIE",
+    Ideas: ["Most of us often forget to carry our CV and portfolio along with us. It becomes really useful if we have an app that can generate our resume within few minutes and we don't miss any opportunity coming in our way!", "The app is based on the idea of using simple fragments with layouts and rendering the input data by users to a PDF Document created in a different activity."],
+    mentors: [{name: "Adrishyantee Maiti", link: "mailto:adrishyantee@gmail.com"},{name: "Subhankar Das", link:"mailto:shubhankardas.kgec@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Resumie",
+    org_img: gdsc,
+    tags: "all app",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "KITKAT-VIRUS",
+    Ideas: ["We often forget what we type in our day to day lives, it maybe the last password you used to login into your bank account", "Keystroke logging, often referred to as keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program."],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/kitkat.v1rus",
+    org_img: gdsc,
+    tags: "all python",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "CSGO PROFESSIONALS",
+    Ideas: ["Counter-Strike: Global Offensive is a 2012 multiplayer first-person shooter developed by Valve and Hidden Path Entertainment", "Scrape the Dataset from this Website", "Perform Feature Engineering to create insightful columns", "Perform Exploratory Data Analysis to create insights and meaningful dashboards"],
+    mentors: [{name: "Arya Chakraborty", link: "mailto:aryachakraborty2002@gmail.com"},{name: "Saptarshi Bhattacharya", link:"mailto:bhattacharyasaptarshi2001@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/CS-GO-Professionals",
+    org_img: gdsc,
+    tags: "all python",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "GDSC ZHCET Android App",
+    Ideas: ["COntribute to the Android App counterpart for the GDSC ZHCET website"],
+    mentors: [{name: "Sumir Vats", link: "mailto:sumirvats003@gmail.com"},{name: "Ahmad Bilal Zaidi", link:"mailto:ahmadbilal.199822@gmail.com"},{name: "Sadaf Zehra", link:"mailto:sadafzehra2001@gmail.com"},{name: "Siddique Ahmad", link:"mailto:ahmadsiddique7073@gmail.com"}],
+    repo_link: "https://github.com/GDSC-ZHCET/GDSC-ZHCET-AndroidApp",
+    org_img: gdsc,
+    tags: "all app",
+    org_tag: "all gdsc"
+  },
+
+  // Code4GovTech Projects
+  {
+    org_name: "C4GT",
+    title: "Hinglish Transformer",
+    Ideas: ["Create corpus of Hinglish- English sentence pairs",
+            "Create pipeline for training transformer on corpus",
+            "Create model finetuning pipeline for pre-trained model",
+            "Create deployment setup"],
+    mentors: [
+      { name: "Gautam Rajeev", link: "https://github.com/GautamR-Samagra" },
+    ],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Hinglish-transformer",
+    org_img: c4gt,
+    tags: "all python ml",
+    org_tag: "all c4gt"
+  },
+  {
+    org_name: "C4GT",
+    title: "Packing and implementing Samagra Data",
+    Ideas: ["Testing ra-data-samagra module to check if it works as expected.",
+            "Make the package more robust and release a version which contains fixes.",
+            "Implement the latest version release in Samarth-Admin "],
+    mentors: [
+      { name: "Harshil Jani", link: "https://github.com/Harshil-Jani" },
+    ],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Packing-and-implementing-%60ra-data-samagra%60",
+    org_img: c4gt,
+    tags: "all web",
+    org_tag: "all c4gt"
+  },
+  {
+    org_name: "C4GT",
+    title: "Access Control Auth",
+    Ideas: ["We are trying to provide an easy way for developers to use FusionAuth for authentication and access control for their projects. With the help of contributions, we should be able to use this project on top of other projects. We should be able to use Single Sign On (SSO) to log in once, then get access to any standards-based application. We should also work on creating detailed documentation for the installation and usage of the Access Control project. This will help developers quickly set up and use the project."],
+    mentors: [
+      { name: "Khushboo Agarwal", link: "https://github.com/khushbooag4" },
+    ],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Access-Control-Auth",
+    org_img: c4gt,
+    tags: "all docker docs oauth",
+    org_tag: "all c4gt"
+  },
+
+  // Devscript's Projects
+  {
+    org_name: "DevScript",
+    title: "Code Khata",
+    Ideas: ["A database of coding algorithms, patterns and guides to help beginners start easily."],
+    mentors: [
+      { name: "Mursal Furqan", link: "mailto:mursalfurqan@gmail.com" },
+      { name: "Vedant Khairnar", link: "mailto:vedron007@gmail.com" }
+    ],
+    repo_link: "https://github.com/DevScript/Code-Khata",
+    org_img: devscript,
+    tags: "all docs",
+    org_tag: "all devscript"
+  },
+
+  {
+    org_name: "Shorto",
+    title: "URL Shorter",
+    Ideas: ["Shorto is a open source chrome extension which shortens the long URLs and is based on vanilla js which is a feature packed chrome extension"],
+    mentors: [
+      { name: "Vinyas Hegde", link: "mailto:vinyasvasanthegde7@gmail.com" },
+      { name: "Savio Dias ", link: "mailto:diassavio629@gmail.com" }
+    ],
+    repo_link: "https://github.com/vinyashegde/shorto_url_shorter",
+    org_img: shorto,
+    tags: "all web",
+    org_tag: "all shorto"
+  },
+
+  // Code Family's Projects
+  {
+    org_name: "Code Family",
+    title: "Official Website",
+    Ideas: ["This is the official CodeFamily website! Here you will find the latest updates and events, inspiring blogs, and resources to help you make the most of being part of the CodeFamily community. We are currently in the process of upgrading the website to make navigation more intuitive and user-friendly while addng new information and content to help you on your journey. We hope you enjoy the new and improved experience!"],
+    mentors: [
+      { name: "Nikita Wani", link: "mailto:kbtug20353@kbtcoe.org" },
+    ],
+    repo_link: "https://github.com/Codefamily-developer/Codefamily_Website",
+    org_img: codeFamily,
+    tags: "all web react",
+    org_tag: "all codeFamily"
+  },
+
+  {
+    org_name: "Code Family",
+    title: "Digital Library",
+    Ideas: ["A digital library website is a web-based platform that provies access to a variety of digital resources such as books, magazines, audio and video recordings, images, and other multimedia materials. The digital library website provides users with an easy and convenient way to access information and resources from anywhere in the world."],
+    mentors: [
+      { name: "Anurag Wagh", link: "mailto:kbtug20319@kbtcoe.org" },
+    ],
+    repo_link: "https://github.com/Codefamily-developer/Digital-Libray",
+    org_img: codeFamily,
+    tags: "all web python",
+    org_tag: "all codeFamily"
+  },
+
 ];
 
 export default SliderData;

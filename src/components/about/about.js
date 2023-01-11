@@ -31,15 +31,15 @@ const About = () => {
           and is based on the lines of GSoC. Student applicants are required to
           send their proposals to organizations to work on their open-source
           projects while their mentor evaluate them over a course of the event.
-
-          {/* <div className="button-container">
-            <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer">
-              <button className="brochure-button" type="button"><span>SPONSORSHIP BROCHURE</span></button>
-            </a>
-            <a href="https://drive.google.com/file/d/1MfoVIZaS_Wd53HmsxJ0ziKZRBEjbjA6I/view" alt="Organizations Brochure" target="_blank" rel="noopener noreferrer">
-              <button className="brochure-button" type="button"><span>ORGANISATION BROCHURE</span></button>
-            </a>
-          </div> */}
+          If you dont have a resume here is a template
+              that you may use:
+              <a
+                href="https://docs.google.com/document/d/1AsopS8xBI1QAAjJpsdConQvZSLT62ZfrqhIGcPgxAUw/edit?usp=sharing"
+                className="resume_link"
+              >
+                {" "}
+                Resume Template
+              </a>
         </div>
       </div>
     </div>
