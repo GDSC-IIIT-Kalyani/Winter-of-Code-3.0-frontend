@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./about.css";
+import { clarity } from 'clarity-js';
 
 const About = () => {
   useEffect(() => {
@@ -17,6 +18,8 @@ const About = () => {
     }, faqHeadingOptions);
     faqHeadingObserver.observe(faqHeading);
   }, []);
+
+  clarity();
 
   return (
     <div id="about">

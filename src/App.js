@@ -5,15 +5,6 @@ import Projectspage from "./pages/allProjects/ProjectsPage.js";
 import { clarity } from "clarity-js";
 
 function App() {
-  clarity();
-  clarity("track", "pageview");
-  clarity("track", "click");
-  clarity("track", "form");
-  clarity("track", "scroll");
-  clarity("track", "input");
-  clarity("track", "change");
-  clarity("track", "error");
-  clarity("track", "custom", "customEvent");
   return (
     <Router>
       <Routes>
@@ -23,7 +14,5 @@ function App() {
     </Router>
   );
 }
-
-clarity("track", "click");
 
 export default App;
