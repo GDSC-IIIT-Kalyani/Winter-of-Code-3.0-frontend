@@ -2,6 +2,7 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Projectspage from "./pages/allProjects/ProjectsPage.js";
+import { clarity } from "clarity-js";
 
 function App() {
   return (
@@ -13,4 +14,5 @@ function App() {
     </Router>
   );
 }
+
 export default App;
