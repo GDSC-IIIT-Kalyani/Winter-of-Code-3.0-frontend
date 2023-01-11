@@ -14,7 +14,7 @@ import background from "../../assets/bg images/WOC_LIS_03.gif";
 
 function Timeline() {
   const [carouselIdx, setIdx] = useState(0);
-  const active = 3;
+  const active = 1;
 
   const DiamondColor = (idx) => {
     if (idx === active) {

@@ -89,7 +89,7 @@ const ProjectsPage = () => {
             <option value="all">All Categories</option>
             <option value="web">Web Development</option>
             <option value="app">App Development</option>
-            {/* <option value="ml">Machine Learning</option> */}
+            <option value="ml">Machine Learning</option>
             <option value="cloud">Cloud</option>
             <option value="doc">Documentation</option>
             {/* <option value="compiler">Compiler</option> */}
@@ -110,6 +110,12 @@ const ProjectsPage = () => {
             <option value="alpha">Alpha.Dev</option>
             <option value="SamagraX">SamagraX</option>
             <option value="polyaxon">Polyaxon</option>
+            <option value="terraforge">TerraForge3D</option>
+            <option value="shorto">Shorto</option>
+            <option value="c4gt">Code4GovTech</option>
+            <option value="devscript">DevScript</option>
+            <option value="codeFamily">CodeFamily</option>
+            <option value="gdsc">GDSC</option>
           </select>
         </form>
       </div>

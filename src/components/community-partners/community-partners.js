@@ -18,7 +18,7 @@ function ExpandOnClickContainer() {
                 <div className="partners-grid">
                     {data.map((partner,id) => {
                     return (id>=(5+window.innerWidth/300))?
-                     <img src={partner} alt="Guru Nanak Dev University" className="partner-logo" />:<></>
+                     <img src={partner} alt="partner's logof" className="partner-logo" />:<></>
                 }) }
             </div> 
             ) : null }

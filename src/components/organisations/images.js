@@ -11,6 +11,7 @@ import openCY from '../../assets/org-logos/openCY.png';
 import samagraX from '../../assets/org-logos/SamagraX.jpg';
 import devscript from '../../assets/Community Partners/devscript - Vedant Khairnar.png';
 import hfc from '../../assets/Community Partners/hfc.png';
+import styava from '../../assets/org-logos/StyavaDev.png';
 
 const images = {
     asyncAPI,
@@ -25,7 +26,8 @@ const images = {
     GDevelop,
     samagraX,
     devscript,
-    hfc
+    hfc,
+    styava
 };
 
 export default images;

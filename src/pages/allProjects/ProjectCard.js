@@ -35,7 +35,7 @@ const ProjectCard = (props) => {
                 </div>
                 {props.data.Ideas.map((idea, idx) => {
                     return (
-                        <li style={{textAlign: "center", margin: "10px"}}>{idea}</li>
+                        <li style={{textAlign:'left', margin: "10px 5px 10px 15px",color:"#e1e2e3"}}>{idea}</li>
                     )
                 })}
             </div>

@@ -25,7 +25,7 @@ const Sponsor = () => {
   return (
     <div id="sponsors">
       <div className="sponsors-content">
-        <div className="header">OUR SPONSORS</div>
+        <div className="header">OUR PARTNERS</div>
         <div className="sponsorsGrid">
           <div className="bttn-container">
             <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. </h3>

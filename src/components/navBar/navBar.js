@@ -96,8 +96,7 @@ function NavBar() {
               FAQs
             </a>
           </li>
-
-          {/* <button className="navBar_apply-now"><a className="apply-now-link" href="/studentApplication">APPLY NOW</a></button> */}
+          
           <div
             className="apply-button"
             data-hackathon-slug="winter-of-code"
@@ -108,18 +107,6 @@ function NavBar() {
         <button className="nav-btn nav-close-btn">
           <FaTimes />
         </button>
-        {/* <div className="hamburger_container">
-          <div
-            className={`navBar_hamburger ${
-              isCrossBurger ? "cross-burger" : null
-            }`}
-            onClick={handleHamburgerClick}
-          >
-            <div className="navBar_line1"></div>
-            <div className="navBar_line2"></div>
-            <div className="navBar_line3"></div>
-          </div>
-        </div> */}
       </div>
       <button className="nav-btn" onClick={showNavbar}>
         <FaBars />
