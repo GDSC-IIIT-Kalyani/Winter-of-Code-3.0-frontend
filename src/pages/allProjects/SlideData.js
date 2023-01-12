@@ -422,7 +422,7 @@ const SliderData = [
   {
     org_name: "Moja Global",
     title: "FLINT-UI",
-    Ideas: [""],
+    Ideas: ["A FLINT client, written in Vue, to provide an awesome user interface for configuring simulations using the FLINT.Cloud APIs"],
     mentors: [
       { name: "", link: "" },
     ],
@@ -434,7 +434,7 @@ const SliderData = [
   {
     org_name: "Moja Global",
     title: "FLINT.Cloud",
-    Ideas: [""],
+    Ideas: ["The project aims to build a continuous deployment pipeline to offer FLINT on cloud resources", "The project also aims to simplify the process of installation by supporting a single command or step installation process."],
     mentors: [
     ],
     repo_link: "https://github.com/moja-global/FLINT.cloud",
@@ -480,7 +480,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "SeamLess UI",
-    Ideas: [""],
+    Ideas: ["We want to build the best and most simple UI Kit for fronted development, which you can use irrespective of stack you are using"],
     mentors: [{name: "Rajdeep Sengupta", link: "https://github.com/Rajdip019"}],
     repo_link: "https://github.com/Clueless-Community/seamless-ui",
     org_img: clueless,
@@ -490,7 +490,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "Official Website",
-    Ideas: [""],
+    Ideas: ["Clueless is an open-source student community built in collaboration with iNeuron with the vision to encourage development and promote open-source"],
     mentors: [{name: "Debajyoti Saha", link: "https://github.com/Debajyoti14"}],
     repo_link: "https://github.com/Clueless-Community/clueless-official-website",
     org_img: clueless,
@@ -500,7 +500,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "College API",
-    Ideas: [""],
+    Ideas: ["The ambition of this project is to provide data of Indian Colleges from all the categories listed in NIRF through different endpoints."],
     mentors: [{name: "Nikhil Raj", link: "https://github.com/nikhil25803"}, 
               {name: "Subho Ghose", link: "https://github.com/ighoshsubho"}],
     repo_link: "https://github.com/Clueless-Community/collegeAPI",
@@ -511,7 +511,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "Flutter UI Components",
-    Ideas: [""],
+    Ideas: ["Simply pick up a template UI from our collection list which you love and then plug in your app."],
     mentors: [{name: "Roshan Kumar", link: "https://github.com/Roshaen"}, 
               {name: "Debajyoti Saha", link: "https://github.com/Debajyoti14"}],
     repo_link: "https://github.com/Clueless-Community/flutter-ui-components",
@@ -523,8 +523,8 @@ const SliderData = [
   // OpenCodeyard's Projects
   {
     org_name: "Open Codeyard",
-    title: "Classroom Management System",
-    Ideas: [""],
+    title: "Official Client Side App",   
+    Ideas: ["A higly configurable community website template built using Flutter. This repo contains source code for the official Flutter Client of Open CodeYard."],
     mentors: [{name: "Shatanik Mahanty", email: "mailto:shatanikmahanty@gmail.com"}],
     repo_link: "https://github.com/OpenCodeyard/ocyclient",
     org_img: openCodeyard,
@@ -533,8 +533,8 @@ const SliderData = [
   },
   {
     org_name: "Open Codeyard",
-    title: "Official Client Side App",
-    Ideas: [""],
+    title: "Classroom Management System",
+    Ideas: ["A highly managable classroom management system app created using flutter"],
     mentors: [{name: "Shatanik Mahanty", email: "mailto:shatanikmahanty@gmail.com"}],
     repo_link: "https://github.com/OpenCodeyard/Classroom",
     org_img: openCodeyard,
