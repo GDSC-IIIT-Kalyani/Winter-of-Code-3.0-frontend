@@ -106,7 +106,7 @@ const SliderData = [
       { name: "Robert Down", link: "mailto:robertdown@live.com" },
       { name: "Stephen Waite", link: "mailto:stephen.waite@cmsvt.com" },
     ],
-    repo_link: "",
+    repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
     tags: "all docs",
     org_tag: "all openEMR"
@@ -120,7 +120,7 @@ const SliderData = [
       { name: "Robert Down", link: "mailto:robertdown@live.com" },
       { name: "Stephen Waite", link: "mailto:stephen.waite@cmsvt.com" },
     ],
-    repo_link: "",
+    repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
     tags: "all docs",
     org_tag: "all openEMR"
@@ -134,7 +134,7 @@ const SliderData = [
       { name: "Robert Down", link: "mailto:robertdown@live.com" },
       { name: "Stephen Waite", link: "mailto:stephen.waite@cmsvt.com" },
     ],
-    repo_link: "",
+    repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
     tags: "all docs",
     org_tag: "all openEMR"
