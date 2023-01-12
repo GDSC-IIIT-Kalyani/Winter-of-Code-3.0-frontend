@@ -12,6 +12,7 @@ import gdsc from "../../assets/org-logos/gdsc.png"
 import terra from "../../assets/org-logos/terra.png"
 import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
+import hackForCode from "../../assets/org-logos/hackForCode.png"
 import shorto from "../../assets/org-logos/shorto.png"
 import codeFamily from "../../assets/org-logos/codeFamily.png"
 
@@ -678,6 +679,20 @@ const SliderData = [
     org_img: shorto,
     tags: "all web",
     org_tag: "all shorto"
+  },
+
+  // HackForCode
+  {
+    org_name: "HackForCode",
+    title: "Cowin Vaccine Notifier",
+    Ideas: ["An app to notify users of vaccine availability in their area."],
+    mentors: [
+      { name: "Ayan Sarkar", link: "mailto:ayansarkar1810@gmail.com" }
+    ],
+    repo_link: "https://github.com/Ayan-10/Cowin_Vaccine_Notifier",
+    org_img: hackForCode,
+    tags: "all app",
+    org_tag: "all hackForCode"
   },
 
   // Code Family's Projects
