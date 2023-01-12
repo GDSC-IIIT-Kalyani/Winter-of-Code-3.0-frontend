@@ -81,7 +81,7 @@ const Sponsor = () => {
           </div>
 
           <div className="silver-sponsors">
-            <h5>SILVER SPONSORS</h5>
+            <h5>SILVER PARTNERS</h5>
             <div className="sponsor-icon-container">
               {sponsorsData.silver.map((sIcon, k) => {
                 return (
