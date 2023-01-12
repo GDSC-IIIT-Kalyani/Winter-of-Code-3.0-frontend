@@ -425,7 +425,7 @@ const SliderData = [
     title: "FLINT-UI",
     Ideas: ["A FLINT client, written in Vue, to provide an awesome user interface for configuring simulations using the FLINT.Cloud APIs"],
     mentors: [
-      { name: "", link: "" },
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/FLINT-UI",
     org_img: mojaGlobal,
@@ -437,6 +437,7 @@ const SliderData = [
     title: "FLINT.Cloud",
     Ideas: ["The project aims to build a continuous deployment pipeline to offer FLINT on cloud resources", "The project also aims to simplify the process of installation by supporting a single command or step installation process."],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/FLINT.cloud",
     org_img: mojaGlobal,
@@ -448,6 +449,7 @@ const SliderData = [
     title: "Community Website",
     Ideas: ["Implement new features in the community website"],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/community-website",
     org_img: mojaGlobal,
@@ -459,6 +461,7 @@ const SliderData = [
     title: "Documentation",
     Ideas: ["Improve Moja Global's documentation"],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/moja_global_docs",
     org_img: mojaGlobal,
@@ -470,6 +473,7 @@ const SliderData = [
     title: "FLINT Handbook",
     Ideas: ["Improve Moja Global's handbook"],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/Handbook",
     org_img: mojaGlobal,
