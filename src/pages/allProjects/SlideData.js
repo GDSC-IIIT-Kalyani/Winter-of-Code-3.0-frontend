@@ -545,30 +545,30 @@ const SliderData = [
   // Samagra's Projects
   {
     org_name: "Samagra",
-    title: "X-Admin Generator",
-    Ideas: ["A general purpose Admin based on REST or GraphQL" , "An Admin for Sunbird-RC's generated CRUD APIs.", "With the help of contributions amount of code to be written for generating the entire code should remain less."],
-    mentors: [{name: "Harshil Jani", link: "https://github.com/Harshil-Jani"},],
-    repo_link: "https://github.com/Samagra-Development/generator-create-rc-admin",
+    title: "Hinglish transformer",
+    Ideas: ["Build a hugging face pipeline to train and fine-tune a transformer to translate Hinglish sentences (text containing Hindi and English words in Roman/Latin script) into English."],
+    mentors: [{name: "Gautam Rajeev", link: "https://github.com/GautamR-Samagra"},],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Hinglish-transformer",
     org_img: samagra,
-    tags: "all web",
+    tags: "all python",
     org_tag: "all SamagraX"
   },
   {
     org_name: "Samagra",
-    title: "Integrating ra-data-samagra with admin-ts",
-    Ideas: ["The task here would be to replace the lines in admin-ts using the ra-data-samagra npm package and reduce the lines of codes along with developing and testing the npm package","Integrating the ra-data-samagra npm package inside admin-ts and making admin-ts cleaner"],
+    title: "Packing and implementing",
+    Ideas: [" Npm package ra-data-samagra. The package is combination of two data-providers of graphQL and the JSON DataProvider with the Samagra's Own mapping of data","The task here would be to replace the lines in Samarth-Admin using the ra-data-samagra npm package and reduce the lines of codes along with developing and testing the npm package"],
     mentors: [{name: " Harshil Jani", link: "https://github.com/Harshil-Jani"},],
-    repo_link: "https://github.com/Samarth-HP/admin-ts",
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Packing-and-implementing-%60ra-data-samagra%60",
     org_img: samagra,
     tags: "all web",
     org_tag: "all SamagraX"
   },
   {
     org_name: "Samagra",
-    title: "Accessibility of websites across Samagra",
-    Ideas: ["For the specially abled people, It is very much important to design and develop the sites that they are accessible for all", "The contributor has to think more of such features and implement them across the sites in Samagra."],
-    mentors: [{name: "Harshil Jani", link: "https://github.com/Harshil-Jani"},],
-    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/Samagra-:-WoC-3.0-Project-Ideas",
+    title: "Access Control Auth",
+    Ideas: ["Centralized authentication server on top of the applications to provide single sign-on", "We are trying to provide an easy way for developers to use FusionAuth for authentication and access control for their projects"],
+    mentors: [{name: "Khushboo Agarwal", link: ""},],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Access-Control-Auth",
     org_img: samagra,
     tags: "all web",
     org_tag: "all SamagraX"

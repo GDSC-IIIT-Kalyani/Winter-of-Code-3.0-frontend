@@ -36,6 +36,8 @@ import hfc from "../../assets/Community Partners/hfc.png"
 import srec from "../../assets/Community Partners/srec.png"
 import bit from "../../assets/Community Partners/Bit Jaipur.png"
 import nsec from "../../assets/Community Partners/nsec.png"
+import cgu from "../../assets/Community Partners/cgu.png"
+import iet from "../../assets/Community Partners/IET.jpg"
 
 const partners =[
     gnd,
@@ -66,7 +68,9 @@ const partners =[
     hfc, 
     nscc,   
     cherry,
-    alpha, 
+    alpha,
+    iet,
+    cgu, 
 ]
 
 export default partners;
