@@ -37,7 +37,7 @@ const faqData = [
       question: "Winter of Code 3.0 | 2022 - 2023 | Infotainment Session.",
       answer: (
         <a
-          href="www.linkhere.com"
+          href="https://youtu.be/P0mfgTS20Xs"
           target="_blank"
           rel="noreferrer"
         >

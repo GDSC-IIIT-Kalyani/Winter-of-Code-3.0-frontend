@@ -265,11 +265,11 @@ nav {
   }
 }
 
-iframe{
+/* iframe{
 
   width:23vw !important;
   margin-left: 1.5vw !important;
-}
+} */
 button#apply-button{
   padding: 2% 10%;
   margin: auto;

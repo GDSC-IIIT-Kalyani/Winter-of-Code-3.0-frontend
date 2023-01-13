@@ -103,6 +103,7 @@ const ProjectsPage = () => {
             <option value="async">AsyncAPI</option>
             <option value="GDevelop">GDevelop</option>
             <option value="openEMR">OpenEMR</option>
+            <option value="styava">Styava</option>
             <option value="moja">Moja Global</option>
             <option value="gita">The Gita Initiative</option>
             <option value="clueless">Clueless</option>

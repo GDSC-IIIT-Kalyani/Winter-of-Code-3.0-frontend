@@ -14,6 +14,7 @@ import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
 import shorto from "../../assets/org-logos/shorto.png"
 import codeFamily from "../../assets/org-logos/codeFamily.png"
+import styava from "../../assets/sponsors/StyavaDev.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -767,6 +768,21 @@ const SliderData = [
     org_img: codeFamily,
     tags: "all web python",
     org_tag: "all codeFamily"
+  },
+
+  //styava projects
+
+  {
+    org_name: "STYAVA",
+    title: "Android Project",
+    Ideas: ["This project proposes a “Styava.dev Developer Community App” (Prototype) so that developers can interact with other fellow developers, get good developer resources, get updates about upcoming events, and join different developer communities"],
+    mentors: [
+      { name: "Chaitanya Chawla", link: "mailto:chaitanyachawlaonlinework@gmail.com" },
+    ],
+    repo_link: "https://github.com/chaitanya1-coder/STYAVA-Android-Project",
+    org_img: styava,
+    tags: "all app",
+    org_tag: "all styava"
   },
 
 ];
