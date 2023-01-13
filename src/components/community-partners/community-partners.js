@@ -17,7 +17,7 @@ function ExpandOnClickContainer() {
             {isExpanded ? (
                 <div className="partners-grid">
                     {data.map((partner,id) => {
-                    return (id>=(5+window.innerWidth/300))?
+                    return (id>=(4+window.innerWidth/300))?
                      <img src={partner} alt="partner's logof" className="partner-logo" />:<></>
                 }) }
             </div> 
@@ -53,7 +53,7 @@ const Community_Partners = () => {
             </div>
             <div className="partners-grid">
                 {data.map((partner,id) => {
-                   return (id<(5+window.innerWidth/300))?
+                   return (id<(4+window.innerWidth/300))?
                      <img src={partner} alt="partner's logo" className="partner-logo" />:<></>
                 }) }
             </div>

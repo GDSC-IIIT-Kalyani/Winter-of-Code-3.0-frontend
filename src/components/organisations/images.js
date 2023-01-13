@@ -9,7 +9,7 @@ import openemr from '../../assets/org-logos/openemr.png';
 import GDevelop from '../../assets/org-logos/GDevelop.png';
 import openCY from '../../assets/org-logos/openCY.png';
 import samagraX from '../../assets/org-logos/SamagraX.jpg';
-import devscript from '../../assets/Community Partners/devscript - Vedant Khairnar.png';
+import devscript from '../../assets/Community Partners/devscript.png';
 import hfc from '../../assets/Community Partners/hfc.png';
 import styava from '../../assets/org-logos/StyavaDev.png';
 

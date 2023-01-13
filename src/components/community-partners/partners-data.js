@@ -29,15 +29,13 @@ import skilleliters from "../../assets/Community Partners/skilleliters.png"
 // import niit from "../../assets/Community Partners/NIIT.jpg"
 // import gnit from "../../assets/Community Partners/GNIT.png"
 import gec from "../../assets/Community Partners/GEC.png"
-// import dev from "../../assets/Community Partners/devscript.png"
+import dev from "../../assets/Community Partners/devdungeon.PNG"
 import src from "../../assets/Community Partners/src.png"
 import zhc from "../../assets/Community Partners/zhc.png"
 import hfc from "../../assets/Community Partners/hfc.png"
 import srec from "../../assets/Community Partners/srec.png"
 import bit from "../../assets/Community Partners/Bit Jaipur.png"
-import nsec from "../../assets/Community Partners/nsec.png"
 import cgu from "../../assets/Community Partners/cgu.png"
-import iet from "../../assets/Community Partners/IET.jpg"
 
 const partners =[
     gnd,
@@ -61,15 +59,14 @@ const partners =[
     bit,
     gec,
     shivam,
+    dev,
     srec,
-    nsec,
     sec,
     skilleliters,  
     hfc, 
     nscc,   
     cherry,
     alpha,
-    iet,
     cgu, 
 ]
 

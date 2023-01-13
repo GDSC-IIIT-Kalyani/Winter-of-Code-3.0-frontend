@@ -109,9 +109,6 @@ const WelcomePage = () => {
         <img
           src={title}
           className="img-title"
-          style={{
-            transform: `translateY(-${scrollPosition / 37}%)`,
-          }}
           alt=""
         />
 
