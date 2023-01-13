@@ -13,7 +13,7 @@ const data=[
     },
     {
         data: "2022-12-25",
-        date: "12TH JAN - 20TH JAN'23",
+        date: "15TH JAN - 20TH JAN'23",
         title: "Proposal Writing session",
         state: "coming"
     },

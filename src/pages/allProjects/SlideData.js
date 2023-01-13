@@ -12,6 +12,7 @@ import gdsc from "../../assets/org-logos/gdsc.png"
 import terra from "../../assets/org-logos/terra.png"
 import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
+import hackForCode from "../../assets/org-logos/hackForCode.png"
 import shorto from "../../assets/org-logos/shorto.png"
 import codeFamily from "../../assets/org-logos/codeFamily.png"
 import styava from "../../assets/sponsors/StyavaDev.png"
@@ -107,7 +108,7 @@ const SliderData = [
       { name: "Robert Down", link: "mailto:robertdown@live.com" },
       { name: "Stephen Waite", link: "mailto:stephen.waite@cmsvt.com" },
     ],
-    repo_link: "",
+    repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
     tags: "all docs",
     org_tag: "all openEMR"
@@ -121,7 +122,7 @@ const SliderData = [
       { name: "Robert Down", link: "mailto:robertdown@live.com" },
       { name: "Stephen Waite", link: "mailto:stephen.waite@cmsvt.com" },
     ],
-    repo_link: "",
+    repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
     tags: "all docs",
     org_tag: "all openEMR"
@@ -135,7 +136,7 @@ const SliderData = [
       { name: "Robert Down", link: "mailto:robertdown@live.com" },
       { name: "Stephen Waite", link: "mailto:stephen.waite@cmsvt.com" },
     ],
-    repo_link: "",
+    repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
     tags: "all docs",
     org_tag: "all openEMR"
@@ -294,16 +295,16 @@ const SliderData = [
     tags: "all web",
     org_tag: "all async",
   },
-  {
-    org_name: "AsyncAPI",
-    title: "Next.js caching",
-    Ideas: ["Enable Next.js caching for Netlify Build"],
-    mentors: [{name: "Lukasz Gornicki", link: "https://github.com/derberg"}],
-    repo_link: "https://github.com/asyncapi/website/issues/843",
-    org_img: aSyncAPI,
-    tags: "all web",
-    org_tag: "all async",
-  },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Next.js caching",
+  //   Ideas: ["Enable Next.js caching for Netlify Build"],
+  //   mentors: [{name: "Lukasz Gornicki", link: "https://github.com/derberg"}],
+  //   repo_link: "https://github.com/asyncapi/website/issues/843",
+  //   org_img: aSyncAPI,
+  //   tags: "all web",
+  //   org_tag: "all async",
+  // },
   {
     org_name: "AsyncAPI",
     title: "Skip Navigation",
@@ -344,36 +345,36 @@ const SliderData = [
     tags: "all react",
     org_tag: "all async",
   },
-  {
-    org_name: "AsyncAPI",
-    title: "Support for different names",
-    Ideas: ["Support different AsyncAPI file names: asyncapi.json and asyncapi.yml"],
-    mentors: [{name: "Fran Méndez", link: "https://github.com/fmvilas"}],
-    repo_link: "https://github.com/asyncapi/glee/issues/23",
-    org_img: aSyncAPI,
-    tags: "all",
-    org_tag: "all async",
-  },
-  {
-    org_name: "AsyncAPI",
-    title: "Example for model generation",
-    Ideas: ["Add example to generate all models within the same file"],
-    mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
-    repo_link: "https://github.com/asyncapi/modelina/issues/949",
-    org_img: aSyncAPI,
-    tags: "all",
-    org_tag: "all async",
-  },
-  {
-    org_name: "AsyncAPI",
-    title: "Support for C++",
-    Ideas: ["Add support for C++ language"],
-    mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
-    repo_link: "https://github.com/asyncapi/modelina/issues/953",
-    org_img: aSyncAPI,
-    tags: "all",
-    org_tag: "all async",
-  },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Support for different names",
+  //   Ideas: ["Support different AsyncAPI file names: asyncapi.json and asyncapi.yml"],
+  //   mentors: [{name: "Fran Méndez", link: "https://github.com/fmvilas"}],
+  //   repo_link: "https://github.com/asyncapi/glee/issues/23",
+  //   org_img: aSyncAPI,
+  //   tags: "all",
+  //   org_tag: "all async",
+  // },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Example for model generation",
+  //   Ideas: ["Add example to generate all models within the same file"],
+  //   mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
+  //   repo_link: "https://github.com/asyncapi/modelina/issues/949",
+  //   org_img: aSyncAPI,
+  //   tags: "all",
+  //   org_tag: "all async",
+  // },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Support for C++",
+  //   Ideas: ["Add support for C++ language"],
+  //   mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
+  //   repo_link: "https://github.com/asyncapi/modelina/issues/953",
+  //   org_img: aSyncAPI,
+  //   tags: "all",
+  //   org_tag: "all async",
+  // },
 
   // Alpha.Dev's Projects
   {
@@ -423,9 +424,9 @@ const SliderData = [
   {
     org_name: "Moja Global",
     title: "FLINT-UI",
-    Ideas: [""],
+    Ideas: ["A FLINT client, written in Vue, to provide an awesome user interface for configuring simulations using the FLINT.Cloud APIs"],
     mentors: [
-      { name: "", link: "" },
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/FLINT-UI",
     org_img: mojaGlobal,
@@ -435,8 +436,9 @@ const SliderData = [
   {
     org_name: "Moja Global",
     title: "FLINT.Cloud",
-    Ideas: [""],
+    Ideas: ["The project aims to build a continuous deployment pipeline to offer FLINT on cloud resources", "The project also aims to simplify the process of installation by supporting a single command or step installation process."],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/FLINT.cloud",
     org_img: mojaGlobal,
@@ -448,6 +450,7 @@ const SliderData = [
     title: "Community Website",
     Ideas: ["Implement new features in the community website"],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/community-website",
     org_img: mojaGlobal,
@@ -459,6 +462,7 @@ const SliderData = [
     title: "Documentation",
     Ideas: ["Improve Moja Global's documentation"],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/moja_global_docs",
     org_img: mojaGlobal,
@@ -470,6 +474,7 @@ const SliderData = [
     title: "FLINT Handbook",
     Ideas: ["Improve Moja Global's handbook"],
     mentors: [
+      { name: "Harsh Bardhan Mishra", link: "mailto:erbeusgriffincasper@gmail.com" },
     ],
     repo_link: "https://github.com/moja-global/Handbook",
     org_img: mojaGlobal,
@@ -481,7 +486,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "SeamLess UI",
-    Ideas: [""],
+    Ideas: ["We want to build the best and most simple UI Kit for fronted development, which you can use irrespective of stack you are using"],
     mentors: [{name: "Rajdeep Sengupta", link: "https://github.com/Rajdip019"}],
     repo_link: "https://github.com/Clueless-Community/seamless-ui",
     org_img: clueless,
@@ -491,7 +496,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "Official Website",
-    Ideas: [""],
+    Ideas: ["Clueless is an open-source student community built in collaboration with iNeuron with the vision to encourage development and promote open-source"],
     mentors: [{name: "Debajyoti Saha", link: "https://github.com/Debajyoti14"}],
     repo_link: "https://github.com/Clueless-Community/clueless-official-website",
     org_img: clueless,
@@ -501,7 +506,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "College API",
-    Ideas: [""],
+    Ideas: ["The ambition of this project is to provide data of Indian Colleges from all the categories listed in NIRF through different endpoints."],
     mentors: [{name: "Nikhil Raj", link: "https://github.com/nikhil25803"}, 
               {name: "Subho Ghose", link: "https://github.com/ighoshsubho"}],
     repo_link: "https://github.com/Clueless-Community/collegeAPI",
@@ -512,7 +517,7 @@ const SliderData = [
   {
     org_name: "Clueless",
     title: "Flutter UI Components",
-    Ideas: [""],
+    Ideas: ["Simply pick up a template UI from our collection list which you love and then plug in your app."],
     mentors: [{name: "Roshan Kumar", link: "https://github.com/Roshaen"}, 
               {name: "Debajyoti Saha", link: "https://github.com/Debajyoti14"}],
     repo_link: "https://github.com/Clueless-Community/flutter-ui-components",
@@ -524,8 +529,8 @@ const SliderData = [
   // OpenCodeyard's Projects
   {
     org_name: "Open Codeyard",
-    title: "Classroom Management System",
-    Ideas: [""],
+    title: "Official Client Side App",   
+    Ideas: ["A higly configurable community website template built using Flutter. This repo contains source code for the official Flutter Client of Open CodeYard."],
     mentors: [{name: "Shatanik Mahanty", email: "mailto:shatanikmahanty@gmail.com"}],
     repo_link: "https://github.com/OpenCodeyard/ocyclient",
     org_img: openCodeyard,
@@ -534,8 +539,8 @@ const SliderData = [
   },
   {
     org_name: "Open Codeyard",
-    title: "Official Client Side App",
-    Ideas: [""],
+    title: "Classroom Management System",
+    Ideas: ["A highly managable classroom management system app created using flutter"],
     mentors: [{name: "Shatanik Mahanty", email: "mailto:shatanikmahanty@gmail.com"}],
     repo_link: "https://github.com/OpenCodeyard/Classroom",
     org_img: openCodeyard,
@@ -546,30 +551,30 @@ const SliderData = [
   // Samagra's Projects
   {
     org_name: "Samagra",
-    title: "X-Admin Generator",
-    Ideas: ["A general purpose Admin based on REST or GraphQL" , "An Admin for Sunbird-RC's generated CRUD APIs.", "With the help of contributions amount of code to be written for generating the entire code should remain less."],
-    mentors: [{name: "Harshil Jani", link: "https://github.com/Harshil-Jani"},],
-    repo_link: "https://github.com/Samagra-Development/generator-create-rc-admin",
+    title: "Hinglish transformer",
+    Ideas: ["Build a hugging face pipeline to train and fine-tune a transformer to translate Hinglish sentences (text containing Hindi and English words in Roman/Latin script) into English."],
+    mentors: [{name: "Gautam Rajeev", link: "https://github.com/GautamR-Samagra"},],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Hinglish-transformer",
     org_img: samagra,
-    tags: "all web",
+    tags: "all python",
     org_tag: "all SamagraX"
   },
   {
     org_name: "Samagra",
-    title: "Integrating ra-data-samagra with admin-ts",
-    Ideas: ["The task here would be to replace the lines in admin-ts using the ra-data-samagra npm package and reduce the lines of codes along with developing and testing the npm package","Integrating the ra-data-samagra npm package inside admin-ts and making admin-ts cleaner"],
+    title: "Packing and implementing",
+    Ideas: [" Npm package ra-data-samagra. The package is combination of two data-providers of graphQL and the JSON DataProvider with the Samagra's Own mapping of data","The task here would be to replace the lines in Samarth-Admin using the ra-data-samagra npm package and reduce the lines of codes along with developing and testing the npm package"],
     mentors: [{name: " Harshil Jani", link: "https://github.com/Harshil-Jani"},],
-    repo_link: "https://github.com/Samarth-HP/admin-ts",
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Packing-and-implementing-%60ra-data-samagra%60",
     org_img: samagra,
     tags: "all web",
     org_tag: "all SamagraX"
   },
   {
     org_name: "Samagra",
-    title: "Accessibility of websites across Samagra",
-    Ideas: ["For the specially abled people, It is very much important to design and develop the sites that they are accessible for all", "The contributor has to think more of such features and implement them across the sites in Samagra."],
-    mentors: [{name: "Harshil Jani", link: "https://github.com/Harshil-Jani"},],
-    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/Samagra-:-WoC-3.0-Project-Ideas",
+    title: "Access Control Auth",
+    Ideas: ["Centralized authentication server on top of the applications to provide single sign-on", "We are trying to provide an easy way for developers to use FusionAuth for authentication and access control for their projects"],
+    mentors: [{name: "Khushboo Agarwal", link: ""},],
+    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Access-Control-Auth",
     org_img: samagra,
     tags: "all web",
     org_tag: "all SamagraX"
@@ -607,68 +612,6 @@ const SliderData = [
     org_img: terra,
     tags: "all",
     org_tag: "all terraforge"
-  },
-
-
-  {
-    org_name: "GDSC",
-    title: "TASKIFY",
-    Ideas: ["It is a task management system for everyone. It is designed to help you manage your tasks and projects from ideation to delivery. This task manager helps to bring in only the necessary parts – without all the annoying clutter."],
-    mentors: [{name: "Sudip Maiti", link: "mailto:maitisudip2002@gmail.com"},{name: "Rupam Matabbar", link:"mailto:rupammatabber04@gmail.com"}],
-    repo_link: "https://github.com/DSCKGEC/Taskify",
-    org_img: gdsc,
-    tags: "all web",
-    org_tag: "all gdsc"
-  },
-  {
-    org_name: "GDSC",
-    title: "HEALTH-TRACKER",
-    Ideas: ["A health tracker is an application used to record and manage healthy living statistics and measure progress, keep a track of your day to day medications and notify you at regular intervals", "It also serves as a safe vault to keep your helath related documents in one place in an organized way.", "The idea is to integrate the Flutter App with SQLite Backend where we will store all the user's data in a secured and organized way."],
-    mentors: [{name: "Saptarshi Mandal", link: "mailto:saptarshim125@gmail.com"}],
-    repo_link: "https://github.com/DSCKGEC/Health-Tracker-App",
-    org_img: gdsc,
-    tags: "all app flutter",
-    org_tag: "all gdsc"
-  },
-  {
-    org_name: "GDSC",
-    title: "LIBRARYLY",
-    Ideas: ["A software solution to handle the primary functions of a library, which include managing books as well as members", "Manage and maintain the catalogue of books with a scalable and reliable Library Management System", "Our project presents an e-platform to libraries of all sizes, which help maintain the data of books, being added or issued"],
-    mentors: [{name: "Soumyajit Dutta", link:"mailto:soumyajitdatta123@gmail.com"}],
-    repo_link: "https://github.com/DSCKGEC/Libraryly",
-    org_img: gdsc,
-    tags: "all web",
-    org_tag: "all gdsc"
-  },
-  {
-    org_name: "GDSC",
-    title: "RESUMIE",
-    Ideas: ["Most of us often forget to carry our CV and portfolio along with us. It becomes really useful if we have an app that can generate our resume within few minutes and we don't miss any opportunity coming in our way!", "The app is based on the idea of using simple fragments with layouts and rendering the input data by users to a PDF Document created in a different activity."],
-    mentors: [{name: "Adrishyantee Maiti", link: "mailto:adrishyantee@gmail.com"},{name: "Subhankar Das", link:"mailto:shubhankardas.kgec@gmail.com"}],
-    repo_link: "https://github.com/DSCKGEC/Resumie",
-    org_img: gdsc,
-    tags: "all app",
-    org_tag: "all gdsc"
-  },
-  {
-    org_name: "GDSC",
-    title: "KITKAT-VIRUS",
-    Ideas: ["We often forget what we type in our day to day lives, it maybe the last password you used to login into your bank account", "Keystroke logging, often referred to as keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program."],
-    mentors: [],
-    repo_link: "https://github.com/DSCKGEC/kitkat.v1rus",
-    org_img: gdsc,
-    tags: "all python",
-    org_tag: "all gdsc"
-  },
-  {
-    org_name: "GDSC",
-    title: "CSGO PROFESSIONALS",
-    Ideas: ["Counter-Strike: Global Offensive is a 2012 multiplayer first-person shooter developed by Valve and Hidden Path Entertainment", "Scrape the Dataset from this Website", "Perform Feature Engineering to create insightful columns", "Perform Exploratory Data Analysis to create insights and meaningful dashboards"],
-    mentors: [{name: "Arya Chakraborty", link: "mailto:aryachakraborty2002@gmail.com"},{name: "Saptarshi Bhattacharya", link:"mailto:bhattacharyasaptarshi2001@gmail.com"}],
-    repo_link: "https://github.com/DSCKGEC/CS-GO-Professionals",
-    org_img: gdsc,
-    tags: "all python",
-    org_tag: "all gdsc"
   },
 
   // Code4GovTech Projects
@@ -743,6 +686,20 @@ const SliderData = [
     org_tag: "all shorto"
   },
 
+  // HackForCode
+  {
+    org_name: "HackForCode",
+    title: "Cowin Vaccine Notifier",
+    Ideas: ["An app to notify users of vaccine availability in their area."],
+    mentors: [
+      { name: "Ayan Sarkar", link: "mailto:ayansarkar1810@gmail.com" }
+    ],
+    repo_link: "https://github.com/Ayan-10/Cowin_Vaccine_Notifier",
+    org_img: hackForCode,
+    tags: "all app",
+    org_tag: "all hackForCode"
+  },
+
   // Code Family's Projects
   {
     org_name: "Code Family",
@@ -770,9 +727,101 @@ const SliderData = [
     org_tag: "all codeFamily"
   },
 
+  //GDSC
+  {
+    org_name: "GDSC",
+    title: "WoC Website",
+    Ideas: ["It is the offical website of Winter of Code 3.0. Contributors can suggest the reqired changes and contribute to this website."],
+    mentors: [{name: "Hamdaan Ali", link: "mailto:q.hmd08@gmail.com"},{name: "Harsh Singh", link:"mailto:harshk159@gmail.com"}],
+    repo_link: "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-3.0-frontend",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "Hacktoberfest leaderboard",
+    Ideas: ["A leaderboard to track down the contributors progress during Hacktoberfes. Contributors can suggest the reqired changes and contribute to this website"],
+    mentors: [{name: "Sagar Mankoti", link: "mailto:cse21071@iiitkalyani.ac.in "},{name: "Sayan Karmakar", link:"mailto:ironheartz367@gmail.com"}],
+    repo_link: "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-3.0-frontend",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "TASKIFY",
+    Ideas: ["It is a task management system for everyone. It is designed to help you manage your tasks and projects from ideation to delivery. This task manager helps to bring in only the necessary parts – without all the annoying clutter."],
+    mentors: [{name: "Sudip Maiti", link: "mailto:maitisudip2002@gmail.com"},{name: "Rupam Matabbar", link:"mailto:rupammatabber04@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Taskify",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "HEALTH-TRACKER",
+    Ideas: ["A health tracker is an application used to record and manage healthy living statistics and measure progress, keep a track of your day to day medications and notify you at regular intervals", "It also serves as a safe vault to keep your helath related documents in one place in an organized way.", "The idea is to integrate the Flutter App with SQLite Backend where we will store all the user's data in a secured and organized way."],
+    mentors: [{name: "Saptarshi Mandal", link: "mailto:saptarshim125@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Health-Tracker-App",
+    org_img: gdsc,
+    tags: "all app flutter",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "LIBRARYLY",
+    Ideas: ["A software solution to handle the primary functions of a library, which include managing books as well as members", "Manage and maintain the catalogue of books with a scalable and reliable Library Management System", "Our project presents an e-platform to libraries of all sizes, which help maintain the data of books, being added or issued"],
+    mentors: [{name: "Soumyajit Dutta", link:"mailto:soumyajitdatta123@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Libraryly",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "RESUMIE",
+    Ideas: ["Most of us often forget to carry our CV and portfolio along with us. It becomes really useful if we have an app that can generate our resume within few minutes and we don't miss any opportunity coming in our way!", "The app is based on the idea of using simple fragments with layouts and rendering the input data by users to a PDF Document created in a different activity."],
+    mentors: [{name: "Adrishyantee Maiti", link: "mailto:adrishyantee@gmail.com"},{name: "Subhankar Das", link:"mailto:shubhankardas.kgec@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/Resumie",
+    org_img: gdsc,
+    tags: "all app",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "KITKAT-VIRUS",
+    Ideas: ["We often forget what we type in our day to day lives, it maybe the last password you used to login into your bank account", "Keystroke logging, often referred to as keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program."],
+    mentors: [],
+    repo_link: "https://github.com/DSCKGEC/kitkat.v1rus",
+    org_img: gdsc,
+    tags: "all python",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "CSGO PROFESSIONALS",
+    Ideas: ["Counter-Strike: Global Offensive is a 2012 multiplayer first-person shooter developed by Valve and Hidden Path Entertainment", "Scrape the Dataset from this Website", "Perform Feature Engineering to create insightful columns", "Perform Exploratory Data Analysis to create insights and meaningful dashboards"],
+    mentors: [{name: "Arya Chakraborty", link: "mailto:aryachakraborty2002@gmail.com"},{name: "Saptarshi Bhattacharya", link:"mailto:bhattacharyasaptarshi2001@gmail.com"}],
+    repo_link: "https://github.com/DSCKGEC/CS-GO-Professionals",
+    org_img: gdsc,
+    tags: "all python",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "GDSC ZHCET Android App",
+    Ideas: ["COntribute to the Android App counterpart for the GDSC ZHCET website"],
+    mentors: [{name: "Sumir Vats", link: "mailto:sumirvats003@gmail.com"},{name: "Ahmad Bilal Zaidi", link:"mailto:ahmadbilal.199822@gmail.com"},{name: "Sadaf Zehra", link:"mailto:sadafzehra2001@gmail.com"},{name: "Siddique Ahmad", link:"mailto:ahmadsiddique7073@gmail.com"}],
+    repo_link: "https://github.com/GDSC-ZHCET/GDSC-ZHCET-AndroidApp",
+    org_img: gdsc,
+    tags: "all app",
+    org_tag: "all gdsc"
+  },
+  
   //styava projects
 
-  {
+    {
     org_name: "STYAVA",
     title: "Android Project",
     Ideas: ["This project proposes a “Styava.dev Developer Community App” (Prototype) so that developers can interact with other fellow developers, get good developer resources, get updates about upcoming events, and join different developer communities"],
@@ -784,7 +833,6 @@ const SliderData = [
     tags: "all app",
     org_tag: "all styava"
   },
-
 ];
 
 export default SliderData;
