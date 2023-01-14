@@ -1,19 +1,16 @@
 ### Contributing Guidelines:
 
-1. Please read the contributing guidelines below 
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend?logo=git&logoColor=white)](https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend/compare) [![GitHub contributors](https://img.shields.io/github/contributors/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend?logo=github)](https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-2.0-frontend/graphs/contributors) [![Buddhadeb Chhetri](https://img.shields.io/badge/Author-@Buddhad-gray.svg?colorA=gray&colorB=dodgerblue&logo=github)](https://github.com/Buddhad/)
 
-2. These are the ways you can contribute to this repository:
-* Improve existing models
-* Improve datasets
-* Fix anything else that catches your eye
-* Suggestions to the maintainers
+- Write clear meaningful git commit messages (Do read [this](http://chris.beams.io/posts/git-commit/)).
 
-3. If you see an issue already created, that you think you can resolve, comment on it and ask the maintainers to assign it to you. We will be more than glad to do so :)
+- Make sure your PR's description contains GitHub's special keyword references that automatically close the related issue when the PR is merged. (Check [this](https://github.com/blog/1506-closing-issues-via-pull-requests) for more info)
 
-5. Commit message should be of the stated syntax. Use only absolute verbs like **Create, Update, etc and no past or future tenses like creating/created.**
+- When you make very very minor changes to a PR of yours (like for example fixing a text in button, minor changes requested by reviewers) make sure you squash your commits afterward so that you don't have an absurd number of commits for a very small fix. (Learn how to squash at [here](https://davidwalsh.name/squash-commits-git))
 
-6. Add comments to codes. This increases readability. However do not raise issues or PRs only to add comments.
+- When you're submitting a PR for a UI-related issue, it would be really awesome if you add a screenshot of your change or a link to a deployment where it can be tested out along with your PR. It makes it very easy for the reviewers and you'll also get reviews quicker.
 
-7. When naming the functions or variables use meaningful names instead of just random ones. Preferrably, refer to similar files or functions to get an idea.
+- Always create PR to `develop` branch.
 
-8. Every PR would be reviewed before it gets approved to merge.
+- Please read our [Code of Conduct](./CODE_OF_CONDUCT.md).
+
