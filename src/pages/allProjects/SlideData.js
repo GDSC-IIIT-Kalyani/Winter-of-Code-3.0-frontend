@@ -15,6 +15,7 @@ import devscript from "../../assets/org-logos/devscript.png"
 import hackForCode from "../../assets/org-logos/hackForCode.png"
 import shorto from "../../assets/org-logos/shorto.png"
 import codeFamily from "../../assets/org-logos/codeFamily.png"
+import styava from "../../assets/sponsors/StyavaDev.png"
 
 const SliderData = [
   // The Gita Initiative
@@ -294,16 +295,16 @@ const SliderData = [
     tags: "all web",
     org_tag: "all async",
   },
-  {
-    org_name: "AsyncAPI",
-    title: "Next.js caching",
-    Ideas: ["Enable Next.js caching for Netlify Build"],
-    mentors: [{name: "Lukasz Gornicki", link: "https://github.com/derberg"}],
-    repo_link: "https://github.com/asyncapi/website/issues/843",
-    org_img: aSyncAPI,
-    tags: "all web",
-    org_tag: "all async",
-  },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Next.js caching",
+  //   Ideas: ["Enable Next.js caching for Netlify Build"],
+  //   mentors: [{name: "Lukasz Gornicki", link: "https://github.com/derberg"}],
+  //   repo_link: "https://github.com/asyncapi/website/issues/843",
+  //   org_img: aSyncAPI,
+  //   tags: "all web",
+  //   org_tag: "all async",
+  // },
   {
     org_name: "AsyncAPI",
     title: "Skip Navigation",
@@ -344,36 +345,36 @@ const SliderData = [
     tags: "all react",
     org_tag: "all async",
   },
-  {
-    org_name: "AsyncAPI",
-    title: "Support for different names",
-    Ideas: ["Support different AsyncAPI file names: asyncapi.json and asyncapi.yml"],
-    mentors: [{name: "Fran Méndez", link: "https://github.com/fmvilas"}],
-    repo_link: "https://github.com/asyncapi/glee/issues/23",
-    org_img: aSyncAPI,
-    tags: "all",
-    org_tag: "all async",
-  },
-  {
-    org_name: "AsyncAPI",
-    title: "Example for model generation",
-    Ideas: ["Add example to generate all models within the same file"],
-    mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
-    repo_link: "https://github.com/asyncapi/modelina/issues/949",
-    org_img: aSyncAPI,
-    tags: "all",
-    org_tag: "all async",
-  },
-  {
-    org_name: "AsyncAPI",
-    title: "Support for C++",
-    Ideas: ["Add support for C++ language"],
-    mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
-    repo_link: "https://github.com/asyncapi/modelina/issues/953",
-    org_img: aSyncAPI,
-    tags: "all",
-    org_tag: "all async",
-  },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Support for different names",
+  //   Ideas: ["Support different AsyncAPI file names: asyncapi.json and asyncapi.yml"],
+  //   mentors: [{name: "Fran Méndez", link: "https://github.com/fmvilas"}],
+  //   repo_link: "https://github.com/asyncapi/glee/issues/23",
+  //   org_img: aSyncAPI,
+  //   tags: "all",
+  //   org_tag: "all async",
+  // },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Example for model generation",
+  //   Ideas: ["Add example to generate all models within the same file"],
+  //   mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
+  //   repo_link: "https://github.com/asyncapi/modelina/issues/949",
+  //   org_img: aSyncAPI,
+  //   tags: "all",
+  //   org_tag: "all async",
+  // },
+  // {
+  //   org_name: "AsyncAPI",
+  //   title: "Support for C++",
+  //   Ideas: ["Add support for C++ language"],
+  //   mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
+  //   repo_link: "https://github.com/asyncapi/modelina/issues/953",
+  //   org_img: aSyncAPI,
+  //   tags: "all",
+  //   org_tag: "all async",
+  // },
 
   // Alpha.Dev's Projects
   {
@@ -817,8 +818,21 @@ const SliderData = [
     tags: "all app",
     org_tag: "all gdsc"
   },
+  
+  //styava projects
 
-
+    {
+    org_name: "STYAVA",
+    title: "Android Project",
+    Ideas: ["This project proposes a “Styava.dev Developer Community App” (Prototype) so that developers can interact with other fellow developers, get good developer resources, get updates about upcoming events, and join different developer communities"],
+    mentors: [
+      { name: "Chaitanya Chawla", link: "mailto:chaitanyachawlaonlinework@gmail.com" },
+    ],
+    repo_link: "https://github.com/chaitanya1-coder/STYAVA-Android-Project",
+    org_img: styava,
+    tags: "all app",
+    org_tag: "all styava"
+  },
 ];
 
 export default SliderData;
