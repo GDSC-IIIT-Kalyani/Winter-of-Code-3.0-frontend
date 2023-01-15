@@ -114,7 +114,7 @@ const ProjectsPage = () => {
             <option value="hackForCode">HackForCode</option>
             <option value="terraforge">TerraForge3D</option>
             <option value="shorto">Shorto</option>
-            <option value="c4gt">Code4GovTech</option>
+            {/* <option value="c4gt">Code4GovTech</option> */}
             <option value="devscript">DevScript</option>
             <option value="codeFamily">CodeFamily</option>
             <option value="gdsc">GDSC</option>

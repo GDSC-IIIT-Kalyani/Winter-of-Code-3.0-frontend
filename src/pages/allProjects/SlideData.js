@@ -10,7 +10,7 @@ import samagra from "../../assets/org-logos/SamagraX.jpg"
 import polyaxon from "../../assets/org-logos/polyaxon.png"
 import gdsc from "../../assets/org-logos/gdsc.png"
 import terra from "../../assets/org-logos/terra.png"
-import c4gt from "../../assets/org-logos/c4gt.png"
+// import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
 import hackForCode from "../../assets/org-logos/hackForCode.png"
 import shorto from "../../assets/org-logos/shorto.png"
@@ -615,47 +615,47 @@ const SliderData = [
   },
 
   // Code4GovTech Projects
-  {
-    org_name: "C4GT",
-    title: "Hinglish Transformer",
-    Ideas: ["Create corpus of Hinglish- English sentence pairs",
-            "Create pipeline for training transformer on corpus",
-            "Create model finetuning pipeline for pre-trained model",
-            "Create deployment setup"],
-    mentors: [
-      { name: "Gautam Rajeev", link: "https://github.com/GautamR-Samagra" },
-    ],
-    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Hinglish-transformer",
-    org_img: c4gt,
-    tags: "all python ml",
-    org_tag: "all c4gt"
-  },
-  {
-    org_name: "C4GT",
-    title: "Packing and implementing Samagra Data",
-    Ideas: ["Testing ra-data-samagra module to check if it works as expected.",
-            "Make the package more robust and release a version which contains fixes.",
-            "Implement the latest version release in Samarth-Admin "],
-    mentors: [
-      { name: "Harshil Jani", link: "https://github.com/Harshil-Jani" },
-    ],
-    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Packing-and-implementing-%60ra-data-samagra%60",
-    org_img: c4gt,
-    tags: "all web",
-    org_tag: "all c4gt"
-  },
-  {
-    org_name: "C4GT",
-    title: "Access Control Auth",
-    Ideas: ["We are trying to provide an easy way for developers to use FusionAuth for authentication and access control for their projects. With the help of contributions, we should be able to use this project on top of other projects. We should be able to use Single Sign On (SSO) to log in once, then get access to any standards-based application. We should also work on creating detailed documentation for the installation and usage of the Access Control project. This will help developers quickly set up and use the project."],
-    mentors: [
-      { name: "Khushboo Agarwal", link: "https://github.com/khushbooag4" },
-    ],
-    repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Access-Control-Auth",
-    org_img: c4gt,
-    tags: "all docker docs oauth",
-    org_tag: "all c4gt"
-  },
+  // {
+  //   org_name: "C4GT",
+  //   title: "Hinglish Transformer",
+  //   Ideas: ["Create corpus of Hinglish- English sentence pairs",
+  //           "Create pipeline for training transformer on corpus",
+  //           "Create model finetuning pipeline for pre-trained model",
+  //           "Create deployment setup"],
+  //   mentors: [
+  //     { name: "Gautam Rajeev", link: "https://github.com/GautamR-Samagra" },
+  //   ],
+  //   repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Hinglish-transformer",
+  //   org_img: c4gt,
+  //   tags: "all python ml",
+  //   org_tag: "all c4gt"
+  // },
+  // {
+  //   org_name: "C4GT",
+  //   title: "Packing and implementing Samagra Data",
+  //   Ideas: ["Testing ra-data-samagra module to check if it works as expected.",
+  //           "Make the package more robust and release a version which contains fixes.",
+  //           "Implement the latest version release in Samarth-Admin "],
+  //   mentors: [
+  //     { name: "Harshil Jani", link: "https://github.com/Harshil-Jani" },
+  //   ],
+  //   repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Packing-and-implementing-%60ra-data-samagra%60",
+  //   org_img: c4gt,
+  //   tags: "all web",
+  //   org_tag: "all c4gt"
+  // },
+  // {
+  //   org_name: "C4GT",
+  //   title: "Access Control Auth",
+  //   Ideas: ["We are trying to provide an easy way for developers to use FusionAuth for authentication and access control for their projects. With the help of contributions, we should be able to use this project on top of other projects. We should be able to use Single Sign On (SSO) to log in once, then get access to any standards-based application. We should also work on creating detailed documentation for the installation and usage of the Access Control project. This will help developers quickly set up and use the project."],
+  //   mentors: [
+  //     { name: "Khushboo Agarwal", link: "https://github.com/khushbooag4" },
+  //   ],
+  //   repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Access-Control-Auth",
+  //   org_img: c4gt,
+  //   tags: "all docker docs oauth",
+  //   org_tag: "all c4gt"
+  // },
 
   // Devscript's Projects
   {
