@@ -96,7 +96,7 @@ Before making pull requests please look at our contributing guidelines (coming s
 
 #  License & Copyright
 
-The code is this repo is licensed under the [MIT License](License). Feel free to use and share it as per the license.
+The code is this repo is licensed under the <a href="https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-3.0-frontend/blob/main/LICENSE">MIT License</a>. Feel free to use and share it as per the license.
 
 # ✨ Contributors
 
