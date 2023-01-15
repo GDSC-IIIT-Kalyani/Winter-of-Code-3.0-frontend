@@ -12,7 +12,7 @@
   width: 100vw;
   z-index: 2;
 }
-.applyButton a{
+/* .applyButton a{
   padding: 3% 3%;
   margin-left:20px;
   border-radius: 0.1em;
@@ -29,4 +29,47 @@
 .applyButton a:hover{
   background-color: #c7d7f7;
   color:#484d4d;
+} */
+iframe  {
+
+  width:55vw !important;
+  margin-left: 10vw !important;
+  margin-top: 5vw !important;
+  
 }
+
+/* 
+button .apply-button{
+  padding: 2% 10%;
+  margin: auto;
+}
+.navBar_apply-now {
+  width: 9.2em;
+  height: 3em;
+  margin-left: 1.3%;
+  border-radius: 0.5em;
+  border: none;
+  color: #114169;
+  font-size: 0.9rem;
+  font-weight: bolder;
+
+ 
+
+
+/* .navBar_link {
+  color: #0a2841;
+  text-decoration: none;
+} */
+
+/* .apply-now-link{
+  color: #114169;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: "Poppins", sans-serif;
+}
+.navBar_apply-now {
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  background: #fff;
+}  */
