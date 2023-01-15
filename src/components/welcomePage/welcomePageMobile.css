@@ -12,3 +12,21 @@
   width: 100vw;
   z-index: 2;
 }
+.applyButton a{
+  padding: 3% 3%;
+  margin-left:20px;
+  border-radius: 0.1em;
+  border: none;
+  color: #273333;
+  background-color: #B4CCFC;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+.applyButton a:hover{
+  background-color: #c7d7f7;
+  color:#484d4d;
+}
