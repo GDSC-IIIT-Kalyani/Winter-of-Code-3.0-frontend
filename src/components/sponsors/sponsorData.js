@@ -9,6 +9,7 @@ import echo3D from '../../assets/sponsors/echo3D.png';
 import solana from '../../assets/sponsors/solana.png';
 import codingBlocks from '../../assets/sponsors/cblogo.png';
 import styava from '../../assets/sponsors/StyavaDev.png';
+import Auth0 from '../../assets/sponsors/Auth0.png';
 
 const sponsorsData = {
     diamond: [
@@ -28,6 +29,7 @@ const sponsorsData = {
         // { title: 'Code For Cause', image: codeForCause, link: "https://codeforcause.org/" },
         { title: 'Newton School', image: newtonSchool, link: "https://www.newtonschool.co/" },
         { title: 'echo3D', image: echo3D, link: "https://www.echo3d.com/" },
+        { title: 'Auth0', image: Auth0, link: "https://auth0.com/" },
     ],
     silver: [
         // { title: 'Hackclub', image: hackclub, link: "https://hack-club.com/" },
