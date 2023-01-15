@@ -818,6 +818,26 @@ const SliderData = [
     tags: "all app",
     org_tag: "all gdsc"
   },
+  {
+    org_name: "GDSC",
+    title: "Mearn Meet App",
+    Ideas: ["This site will let you choose a different theme and create your Linktree easily where all your social links are stored","The app to get your link tree paste link and get your link tree link."],
+    mentors: [{name: "Arti Manputra", link: "mailto:aartimanputra20@gmail.com"},{name: "Kunal Umap", link:"mailto:kunalumap0123@gmail.com"},{name: "Arpit Pandey", link:"mailto:arpitpandeyofc@gmail.com"}],
+    repo_link: "https://github.com/kunal-umap/mearn-meet-app",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
+  {
+    org_name: "GDSC",
+    title: "LinkTree Generator",
+    Ideas: ["A peer-to-peer meeting/video calling app which enables you to meet with people virtually and listen to music with themand a chat feature if you want to share anything"],
+    mentors: [{name: "Arti Manputra", link: "mailto:aartimanputra20@gmail.com"},{name: "Kunal Umap", link:"mailto:kunalumap0123@gmail.com"},{name: "Arpit Pandey", link:"mailto:arpitpandeyofc@gmail.com"}],
+    repo_link: "https://github.com/kunal-umap/LinkTreeGenerator",
+    org_img: gdsc,
+    tags: "all web",
+    org_tag: "all gdsc"
+  },
   
   //styava projects
 
