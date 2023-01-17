@@ -2,7 +2,7 @@ import "./ProjectCard.css";
 import React, { useState } from "react";
 import { FaAngleDown, FaGithub } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import { Hidden } from "@material-ui/core";
+// import { Hidden } from "@material-ui/core";
 
 const ProjectCard = (props) => {
   const [showIdeas, setShow] = useState(false);
