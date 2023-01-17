@@ -37,6 +37,7 @@ import srec from "../../assets/Community Partners/srec.png"
 import bit from "../../assets/Community Partners/Bit Jaipur.png"
 import cgu from "../../assets/Community Partners/cgu.png"
 import oreo from "../../assets/Community Partners/oreo.png";
+import chausat from "../../assets/Community Partners/CHAUSAT.png";
 
 const partners =[
     gnd,
@@ -48,6 +49,7 @@ const partners =[
     pps,
     sr,
     src,
+    chausat,
     sgsits,
     zhc,
     srm,
