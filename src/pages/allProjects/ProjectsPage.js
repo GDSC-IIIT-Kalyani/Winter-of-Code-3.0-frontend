@@ -1,13 +1,10 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import { FaAngleDown } from "react-icons/fa";
 import "./Projects.css";
 import SlideData from "./SlideData";
-import NavBar from "../../components/navBar/navBar"
+import NavBar from "../../components/navBar/navBar";
 import ProjectCard from "./ProjectCard";
 import "./grid.css";
-import {
-  FaArrowRight,
-  FaArrowLeft,
-} from "react-icons/fa";
 import "react-icons/fi";
 
 const ProjectsPage = () => {
@@ -15,13 +12,12 @@ const ProjectsPage = () => {
   let [proj_org, setproj_org] = useState("all");
   const [empty, setEmpty] = useState(false);
   const handleChange = (e) => {
-
-    let empty = true
-    for(let i=0; i<SlideData.length; i++)
-    {
-
-      if (SlideData[i].tags.includes(e.target.value) && SlideData[i].org_tag.includes(proj_org))
-      {
+    let empty = true;
+    for (let i = 0; i < SlideData.length; i++) {
+      if (
+        SlideData[i].tags.includes(e.target.value) &&
+        SlideData[i].org_tag.includes(proj_org)
+      ) {
         empty = false;
         break;
       }
@@ -31,13 +27,12 @@ const ProjectsPage = () => {
     setproj_type(e.target.value);
   };
   const handleOrg = (e) => {
-
-    let empty = true
-    for(let i=0; i<SlideData.length; i++)
-    {
-
-      if (SlideData[i].tags.includes(proj_type) && SlideData[i].org_tag.includes(e.target.value))
-      {
+    let empty = true;
+    for (let i = 0; i < SlideData.length; i++) {
+      if (
+        SlideData[i].tags.includes(proj_type) &&
+        SlideData[i].org_tag.includes(e.target.value)
+      ) {
         empty = false;
         break;
       }
@@ -53,34 +48,18 @@ const ProjectsPage = () => {
         item.children[1].classList.toggle("proj-active");
         item.children[1].children[2].classList.toggle("ideas-active");
         item.children[0].classList.toggle("proj-active-left");
-        item.children[0].children[0].children[0].children[0].classList.toggle('idea-hide')
-        item.children[0].classList.toggle('back-img');
+        item.children[0].children[0].children[0].children[0].classList.toggle(
+          "idea-hide"
+        );
+        item.children[0].classList.toggle("back-img");
       });
     });
   }, []);
-  const SlidingDiv = useRef(null);
-  const calculatePoints = () => {
-    var x = window.screen.width;
-    if (x > 905) {
-      return 750;
-    } else if (x > 875) {
-      return 500;
-    } else if (x > 600) {
-      return 250;
-    } else {
-      return 150;
-    }
-  }
-  const slideLeft = () => {
-    SlidingDiv.current.scrollLeft -= calculatePoints();
-  };
-  const slideRight = () => {
-    SlidingDiv.current.scrollLeft += calculatePoints();
-  };
+
   return (
     <div className="projects">
       <div className="background">
-      <NavBar navLinkColor="white" />
+        <NavBar navLinkColor="white" />
       </div>
       <div className="projects-page-header">Available Projects</div>
       <div className="filter_option">
@@ -121,31 +100,49 @@ const ProjectsPage = () => {
           </select>
         </form>
       </div>
-      {!empty?
-      <>
-      <div className="container1">
-      <div className="Container-arrows">
-        <div className="Arrow1" onClick={slideLeft}>
-          <FaArrowLeft />
+      {!empty ? (
+        <>
+          <div className="container1">
+            <div className="proj_slides">
+              {SlideData.map((slide, idx) => {
+                if (
+                  slide.tags.includes(proj_type) &&
+                  slide.org_tag.includes(proj_org)
+                ) {
+                  return <ProjectCard key={idx} data={slide} />;
+                } else {
+                  return null;
+                }
+              })}
+            </div>
+            <button
+              onClick={() => {
+                window.scrollTo({ top: 0, behavior: "smooth" });
+              }}
+              style={{
+                float: "right",
+                marginRight: "20px",
+                borderRadius: "100px",
+                border: "none",
+                padding: "8px",
+              }}
+            >
+              <FaAngleDown
+                style={{
+                  transition: "all ease-in-out 0.3s",
+                  fontSize: "30px",
+                  color: "blue",
+                  transform: `rotateZ(180deg)`,
+                }}
+              />
+            </button>
+          </div>
+        </>
+      ) : (
+        <div className="empty_text">
+          <h1>No Result Found &#128542;</h1>
         </div>
-        <div className="Arrow2" onClick={slideRight}>
-          <FaArrowRight />
-        </div>
-      </div>
-      <div ref={SlidingDiv} className="proj_slides">
-        {SlideData.map((slide, idx) => {
-          if (slide.tags.includes(proj_type) && slide.org_tag.includes(proj_org)) {
-            return <ProjectCard key={idx} data={slide}/>;
-          } else {
-            return null;
-          }
-        })}
-      </div>
-      </div>
-      </>
-      :<div className="empty_text">
-          <h1>No Result Found :</h1>
-        </div>}
+      )}
     </div>
   );
 };

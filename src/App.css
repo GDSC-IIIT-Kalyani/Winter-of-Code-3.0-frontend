@@ -1,16 +1,17 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .App {
-    overflow: hidden;
+  overflow: hidden;
 }
 
-::-webkit-scrollbar {
-    display: none;
-}
+/* A website should be memorising and scrollbar helps a user to remember where a certain thing is */
+/* ::-webkit-scrollbar {
+  display: none;
+} */
 
 html {
   margin: 0%;
@@ -21,4 +22,3 @@ html {
   font-family: Vanilla;
   src: url("./assets/NT\ Vanilla.otf");
 }
-
