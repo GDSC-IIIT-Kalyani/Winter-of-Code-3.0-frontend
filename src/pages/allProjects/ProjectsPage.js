@@ -2,12 +2,11 @@ import React, { useState, useEffect } from "react";
 import { FaAngleDown } from "react-icons/fa";
 import "./Projects.css";
 import SlideData from "./SlideData";
-import NavBar from "../../components/navBar/navBar";
 import ProjectCard from "./ProjectCard";
 import "./grid.css";
 import "react-icons/fi";
 
-const ProjectsPage = () => {
+const ProjectsPage = (props) => {
   let [proj_type, setproj_type] = useState("all");
   let [proj_org, setproj_org] = useState("all");
   const [empty, setEmpty] = useState(false);
@@ -58,10 +57,12 @@ const ProjectsPage = () => {
 
   return (
     <div className="projects">
-      <div className="background">
-        <NavBar navLinkColor="white" />
+      <div
+        className="projects-page-header"
+        style={{ marginTop: props.pageTop ? "20vh" : "0px" }}
+      >
+        Available Projects
       </div>
-      <div className="projects-page-header">Available Projects</div>
       <div className="filter_option">
         <form className="proj_form">
           <select className="proj_slt" onChange={handleChange}>

@@ -1,11 +1,11 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import "./sponsor.css";
 import sponsorsData from "./sponsorData";
 // import backgroundAssets from "../../assets/sponsors-bg-image.png";
 // import background2 from "../../assets/bg images/WOC_LIS_07.gif";
 // import background1 from "../../assets/bg images/WOC_LIS_06.gif";
 
-const Sponsor = () => {
+const Sponsor = (props) => {
   useEffect(() => {
     const faqHeading = document.querySelector(".header");
     const faqHeadingOptions = {
@@ -24,12 +24,27 @@ const Sponsor = () => {
 
   return (
     <div id="sponsors">
-      <div className="sponsors-content">
+      <div
+        className="sponsors-content"
+        style={{
+          marginTop: props.pageTop ? "5vh" : "0px",
+          minHeight: props.pageTop && "100vh",
+        }}
+      >
         <div className="header">OUR PARTNERS</div>
         <div className="sponsorsGrid">
           <div className="bttn-container">
-            <h3 className="sponsor-dsc">Our love for Open Source drove us to impact the community through Winter of Code 3.0. </h3>
-            <a href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view" alt="Sponsorship Brochure" target="_blank" rel="noopener noreferrer" className="brochure-link">
+            <h3 className="sponsor-dsc">
+              Our love for Open Source drove us to impact the community through
+              Winter of Code 3.0.{" "}
+            </h3>
+            <a
+              href="https://drive.google.com/file/d/1XTh4_kt9-sxeD1b2NMJYY1Izpi6gzIXP/view"
+              alt="Sponsorship Brochure"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="brochure-link"
+            >
               Want to Sponsor us?
             </a>
           </div>
@@ -38,11 +53,12 @@ const Sponsor = () => {
             <div className="sponsor-icon-container">
               {sponsorsData.platinum.map((sIcon, k) => {
                 return (
-                  <a href={sIcon.link} target="_blank" rel="noreferrer"><img
-                    className="sponsor-icon"
-                    src={sIcon.image}
-                    alt={sIcon.title}
-                  />
+                  <a href={sIcon.link} target="_blank" rel="noreferrer">
+                    <img
+                      className="sponsor-icon"
+                      src={sIcon.image}
+                      alt={sIcon.title}
+                    />
                   </a>
                 );
               })}
@@ -54,11 +70,12 @@ const Sponsor = () => {
             <div className="sponsor-icon-container">
               {sponsorsData.diamond.map((sIcon, k) => {
                 return (
-                  <a href={sIcon.link} target="_blank" rel="noreferrer"><img
-                    className="sponsor-icon"
-                    src={sIcon.image}
-                    alt={sIcon.title}
-                  />
+                  <a href={sIcon.link} target="_blank" rel="noreferrer">
+                    <img
+                      className="sponsor-icon"
+                      src={sIcon.image}
+                      alt={sIcon.title}
+                    />
                   </a>
                 );
               })}
@@ -94,7 +111,7 @@ const Sponsor = () => {
               })}
             </div>
           </div>
-          
+
           {/* Ivory and Media section temporarily hidden */}
           {/* <div className="ivory-sponsors">
             <h5>IVORY SPONSORS</h5>

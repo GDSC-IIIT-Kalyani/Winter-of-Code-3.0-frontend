@@ -1,8 +1,7 @@
 .wrapper {
   height: 120vh;
   width: 100%;
-  background-image:
-    url("../../assets/bg\ images/WOC_Landing-page_back-ground.png");
+  background-image: url("../../assets/bg\ images/WOC_Landing-page_back-ground.png");
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -11,8 +10,7 @@
 .wrapper-2 {
   height: 110vh;
   width: 100%;
-  background-image:
-    url("../../assets/bg\ images/WOC_Landing-page_back-ground_rotated.png");
+  background-image: url("../../assets/bg\ images/WOC_Landing-page_back-ground_rotated.png");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,11 +19,11 @@
   justify-content: center;
 }
 
-.img-title{
-  width:800px;
+.img-title {
+  width: 800px;
   position: absolute;
   top: 45%;
-  left:22%;
+  left: 22%;
   z-index: 10000;
 }
 .iceberg {
@@ -156,17 +154,18 @@
     top: 15%;
   }
 } */
-.welcome-buttons{
+.welcome-buttons {
   display: flex;
-  width:25vw;
+  width: 25vw;
   position: absolute;
-  top:60%;
-  left:30%;
+  top: 60%;
+  left: 30%;
   z-index: 10000;
   justify-content: space-between;
 }
 
-.details-button,.registration-button{
+.details-button,
+.registration-button {
   font-family: Vanilla;
   letter-spacing: 3px;
   font-size: 20px;
@@ -246,7 +245,7 @@
 @media screen and (max-width: 950px) {
   .iceberg {
     width: 70vw;
-    height:130%;
+    height: 130%;
     top: 55%;
   }
   .wave {
@@ -264,7 +263,7 @@
   .title {
     top: 52%;
     font-size: 2em;
-    left:30%;
+    left: 30%;
   }
 
   .cloud-1 {
@@ -284,9 +283,9 @@
     left: 1%;
     top: 14%;
   }
-  .cloud-right{
-    width:40%;
-    right:0%;
+  .cloud-right {
+    width: 40%;
+    right: 0%;
   }
 }
 
@@ -305,9 +304,9 @@
     left: 35%;
     font-size: 1em;
   }
-  .cloud-1{
-    right:16%;
-    height:10%;
+  .cloud-1 {
+    right: 16%;
+    height: 10%;
   }
   .cloud-4 {
     top: 35%;
@@ -327,13 +326,13 @@
   .birds-left {
     height: 5%;
     left: 1%;
-    top:20%;
+    top: 20%;
   }
-  .birds-right{
-    top:40%;
+  .birds-right {
+    top: 40%;
   }
 }
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   .moon {
     width: 20%;
     top: 17%;
@@ -341,34 +340,34 @@
   }
   .birds-left {
     left: 0%;
-    top:20%;
+    top: 20%;
   }
-  .birds-right{
-    top:40%;
+  .birds-right {
+    top: 40%;
   }
-  .cloud-4{
-    height:8%;
-    top:50%;
-    left:7%;
+  .cloud-4 {
+    height: 8%;
+    top: 50%;
+    left: 7%;
   }
-  .cloud-1{
-    top:68%;
+  .cloud-1 {
+    top: 68%;
     right: 5%;
   }
-  .title{
-    top:40%;
-    left:30%;
+  .title {
+    top: 40%;
+    left: 30%;
   }
-  .cloud-right{
-    top:25%;
+  .cloud-right {
+    top: 25%;
   }
-  .iceberg{
+  .iceberg {
     height: 110%;
-    top:60%;
+    top: 60%;
   }
 }
 
-.resume_link{
+.resume_link {
   text-decoration: none;
   color: rgb(141, 198, 238);
 }

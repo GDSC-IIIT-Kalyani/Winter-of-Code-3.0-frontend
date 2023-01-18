@@ -2,11 +2,9 @@ import React, { useEffect } from "react";
 import "./faq.css";
 import faqData from "./faqData";
 import faqImg from "../../assets/faq/faqImg.png";
-import{ 
-  IoMdArrowDropdown
-} from "react-icons/io"
+import { IoMdArrowDropdown } from "react-icons/io";
 
-const Faq = () => {
+const Faq = (props) => {
   useEffect(() => {
     const faq = document.querySelectorAll(".faq-sec-item");
 
@@ -35,7 +33,13 @@ const Faq = () => {
 
   return (
     <div className="faq-sec" id="faq">
-      <div className="faq-sec-content">
+      <div
+        className="faq-sec-content"
+        style={{
+          marginTop: props.pageTop ? "20vh" : "0px",
+          minHeight: props.pageTop && "100vh",
+        }}
+      >
         <div className="faq-sec-heading">
           Frequently
           <br />
@@ -48,7 +52,9 @@ const Faq = () => {
               <img src={faqImg} alt="faqImg" className="faqImg" />
               <div className="faq-sec-ques">
                 <div className="ques">{faq.question}</div>
-                <div className="arrow"><IoMdArrowDropdown size={20}/></div>
+                <div className="arrow">
+                  <IoMdArrowDropdown size={20} />
+                </div>
               </div>
               <div className="answer">
                 <p>{faq.answer}</p>

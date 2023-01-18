@@ -1,7 +1,6 @@
 import "./welcomePage.css";
 import { useState, useEffect } from "react";
 import { useRef } from "react";
-import NavBar from "../../components/navBar/navBar";
 import WelcomePageMobile from "../../components/welcomePage/welcomePageMobile";
 
 import moonImg from "../../assets/firstpage/WOC_Landing-page_01-Recovered.psd_0019_moon.png";
@@ -44,7 +43,6 @@ const WelcomePage = () => {
   return window.innerWidth > 1024 ? (
     <>
       <div className="wrapper" id="home">
-        <NavBar />
         <img
           src={moonImg}
           className="moon"
@@ -82,11 +80,7 @@ const WelcomePage = () => {
           alt=""
         />
 
-        <img
-          src={cloud1}
-          className="cloud-1"
-          alt=""
-        />
+        <img src={cloud1} className="cloud-1" alt="" />
 
         <img
           src={birdsRight}
@@ -106,12 +100,7 @@ const WelcomePage = () => {
           alt=""
         />
 
-        <img
-          src={title}
-          className="img-title"
-          alt=""
-        />
-
+        <img src={title} className="img-title" alt="" />
       </div>
       <div className="wrapper-2">
         <img
