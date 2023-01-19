@@ -10,7 +10,6 @@ import samagra from "../../assets/org-logos/SamagraX.jpg"
 import polyaxon from "../../assets/org-logos/polyaxon.png"
 import gdsc from "../../assets/org-logos/gdsc.png"
 import terra from "../../assets/org-logos/terra.png"
-// import c4gt from "../../assets/org-logos/c4gt.png"
 import devscript from "../../assets/org-logos/devscript.png"
 import hackForCode from "../../assets/org-logos/hackForCode.png"
 import shorto from "../../assets/org-logos/shorto.png"
@@ -41,7 +40,7 @@ const SliderData = [
     mentors: [{ name: "Anubhav Gupta", link: "mailto:anubhavgupta2260@gmail.com" }],
     repo_link: "https://github.com/gita/Bhagavad-Gita-App",
     org_img: gitaInit,
-    tags: "all flutter",
+    tags: "all app flutter",
     org_tag: "all gita"
   },
   {
@@ -64,7 +63,7 @@ const SliderData = [
     mentors: [{ name: "Anubhav Gupta", link: "mailto:anubhavgupta2260@gmail.com" }],
     repo_link: "https://github.com/gita/gita",
     org_img: gitaInit,
-    tags: "all web",
+    tags: "all docs",
     org_tag: "all gita"
   },
 
@@ -82,7 +81,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
-    tags: "all docs",
+    tags: "all app",
     org_tag: "all openEMR"
   },
   {
@@ -96,7 +95,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
-    tags: "all docs",
+    tags: "all sql testing",
     org_tag: "all openEMR"
   },
   {
@@ -110,7 +109,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
-    tags: "all docs",
+    tags: "all sql",
     org_tag: "all openEMR"
   },
   {
@@ -124,7 +123,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
-    tags: "all docs",
+    tags: "all python",
     org_tag: "all openEMR"
   },
   {
@@ -138,7 +137,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/openemr/openemr",
     org_img: openEMR,
-    tags: "all docs",
+    tags: "all ml",
     org_tag: "all openEMR"
   },
 
@@ -153,7 +152,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript gui",
     org_tag: "all GDevelop"
   },
   {
@@ -166,7 +165,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript gui",
     org_tag: "all GDevelop"
   },
   {
@@ -179,7 +178,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript gui",
     org_tag: "all GDevelop"
   },
   {
@@ -192,7 +191,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/GDevelopApp/GDevelop-tutorials",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript",
     org_tag: "all GDevelop"
   },
   {
@@ -205,7 +204,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all testing",
     org_tag: "all GDevelop"
   },
   {
@@ -218,7 +217,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript",
     org_tag: "all GDevelop"
   },
   {
@@ -231,7 +230,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript gui",
     org_tag: "all GDevelop"
   },
   {
@@ -244,7 +243,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all javascript",
     org_tag: "all GDevelop"
   },
   {
@@ -257,7 +256,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all web javascript",
     org_tag: "all GDevelop"
   },
   {
@@ -270,7 +269,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/4ian/GDevelop",
     org_img: gDevelop,
-    tags: "all",
+    tags: "all web javascript",
     org_tag: "all GDevelop"
   },
 
@@ -295,16 +294,6 @@ const SliderData = [
     tags: "all web",
     org_tag: "all async",
   },
-  // {
-  //   org_name: "AsyncAPI",
-  //   title: "Next.js caching",
-  //   Ideas: ["Enable Next.js caching for Netlify Build"],
-  //   mentors: [{name: "Lukasz Gornicki", link: "https://github.com/derberg"}],
-  //   repo_link: "https://github.com/asyncapi/website/issues/843",
-  //   org_img: aSyncAPI,
-  //   tags: "all web",
-  //   org_tag: "all async",
-  // },
   {
     org_name: "AsyncAPI",
     title: "Skip Navigation",
@@ -322,7 +311,7 @@ const SliderData = [
     mentors: [{name: "Ace", link: "https://github.com/AceTheCreator"}],
     repo_link: "https://github.com/asyncapi/studio/issues/402",
     org_img: aSyncAPI,
-    tags: "all",
+    tags: "all web",
     org_tag: "all async",
   },
   {
@@ -332,7 +321,7 @@ const SliderData = [
     mentors: [{name: "Maciej Urbańczyk", link: "https://github.com/magicmatatjahu"}],
     repo_link: "https://github.com/asyncapi/studio/issues/463",
     org_img: aSyncAPI,
-    tags: "all",
+    tags: "all web",
     org_tag: "all async",
   },
   {
@@ -342,39 +331,9 @@ const SliderData = [
     mentors: [{name: "Ace", link: "https://github.com/AceTheCreator"}],
     repo_link: "https://github.com/asyncapi/asyncapi-react/issues/651",
     org_img: aSyncAPI,
-    tags: "all react",
+    tags: "all web",
     org_tag: "all async",
   },
-  // {
-  //   org_name: "AsyncAPI",
-  //   title: "Support for different names",
-  //   Ideas: ["Support different AsyncAPI file names: asyncapi.json and asyncapi.yml"],
-  //   mentors: [{name: "Fran Méndez", link: "https://github.com/fmvilas"}],
-  //   repo_link: "https://github.com/asyncapi/glee/issues/23",
-  //   org_img: aSyncAPI,
-  //   tags: "all",
-  //   org_tag: "all async",
-  // },
-  // {
-  //   org_name: "AsyncAPI",
-  //   title: "Example for model generation",
-  //   Ideas: ["Add example to generate all models within the same file"],
-  //   mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
-  //   repo_link: "https://github.com/asyncapi/modelina/issues/949",
-  //   org_img: aSyncAPI,
-  //   tags: "all",
-  //   org_tag: "all async",
-  // },
-  // {
-  //   org_name: "AsyncAPI",
-  //   title: "Support for C++",
-  //   Ideas: ["Add support for C++ language"],
-  //   mentors: [{name: "Jonas Lagoni", link: "https://github.com/jonaslagoni"}],
-  //   repo_link: "https://github.com/asyncapi/modelina/issues/953",
-  //   org_img: aSyncAPI,
-  //   tags: "all",
-  //   org_tag: "all async",
-  // },
 
   // Alpha.Dev's Projects
   {
@@ -385,7 +344,7 @@ const SliderData = [
               {name: "Archan Banerjee", link: "mailto:archanbanerjee89@gmail.com"}],
     repo_link: "https://github.com/jaydip1235/Genletter",
     org_img: alphaDev,
-    tags: "all web react",
+    tags: "all web",
     org_tag: "all alpha"
   },
   {
@@ -396,7 +355,7 @@ const SliderData = [
               {name: "Archan Banerjee", link: "mailto:archanbanerjee89@gmail.com"}],
     repo_link: "https://github.com/ArchanJS/org-bazar",
     org_img: alphaDev,
-    tags: "all web mern",
+    tags: "all web",
     org_tag: "all alpha"
   },
   {
@@ -406,7 +365,7 @@ const SliderData = [
     mentors: [{name: "Jaydip Dey", link: "mailto:jaydipdey2807@gmail.com"}],
     repo_link: "https://github.com/jaydip1235/Github-Search-React",
     org_img: alphaDev,
-    tags: "all web react",
+    tags: "all web",
     org_tag: "all alpha"
   },
   {
@@ -416,7 +375,7 @@ const SliderData = [
     mentors: [{name: "Agniv Ghosh", link: "mailto:agnivg157@gmail.com"}],
     repo_link: "https://github.com/agnivg/To-do-list",
     org_img: alphaDev,
-    tags: "all",
+    tags: "all web",
     org_tag: "all alpha"
   },
 
@@ -522,7 +481,7 @@ const SliderData = [
               {name: "Debajyoti Saha", link: "https://github.com/Debajyoti14"}],
     repo_link: "https://github.com/Clueless-Community/flutter-ui-components",
     org_img: clueless,
-    tags: "all flutter",
+    tags: "all flutter app",
     org_tag: "all clueless",
   },
 
@@ -588,7 +547,7 @@ const SliderData = [
     mentors: [{name: " Bastian Erhardt", link: "mailto:bastian@polyaxon.com"},],
     repo_link: "https://github.com/polyaxon/polyaxon/",
     org_img: polyaxon,
-    tags: "all python",
+    tags: "all ml python",
     org_tag: "all polyaxon"
   },
   {
@@ -598,7 +557,7 @@ const SliderData = [
     mentors: [{name: "Bastian Erhardt", link: "mailto:bastian@polyaxon.com"},],
     repo_link: "https://github.com/polyaxon/polyaxon-examples/",
     org_img: polyaxon,
-    tags: "all python",
+    tags: "all python ml",
     org_tag: "all polyaxon"
   },
 
@@ -610,52 +569,9 @@ const SliderData = [
     mentors: [{name: "Jaysmito Mukherjee", link: "mailto:jaysmito101@gmail.com"},],
     repo_link: "https://github.com/Jaysmito101/TerraForge3D",
     org_img: terra,
-    tags: "all",
+    tags: "all gui",
     org_tag: "all terraforge"
   },
-
-  // Code4GovTech Projects
-  // {
-  //   org_name: "C4GT",
-  //   title: "Hinglish Transformer",
-  //   Ideas: ["Create corpus of Hinglish- English sentence pairs",
-  //           "Create pipeline for training transformer on corpus",
-  //           "Create model finetuning pipeline for pre-trained model",
-  //           "Create deployment setup"],
-  //   mentors: [
-  //     { name: "Gautam Rajeev", link: "https://github.com/GautamR-Samagra" },
-  //   ],
-  //   repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Hinglish-transformer",
-  //   org_img: c4gt,
-  //   tags: "all python ml",
-  //   org_tag: "all c4gt"
-  // },
-  // {
-  //   org_name: "C4GT",
-  //   title: "Packing and implementing Samagra Data",
-  //   Ideas: ["Testing ra-data-samagra module to check if it works as expected.",
-  //           "Make the package more robust and release a version which contains fixes.",
-  //           "Implement the latest version release in Samarth-Admin "],
-  //   mentors: [
-  //     { name: "Harshil Jani", link: "https://github.com/Harshil-Jani" },
-  //   ],
-  //   repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Packing-and-implementing-%60ra-data-samagra%60",
-  //   org_img: c4gt,
-  //   tags: "all web",
-  //   org_tag: "all c4gt"
-  // },
-  // {
-  //   org_name: "C4GT",
-  //   title: "Access Control Auth",
-  //   Ideas: ["We are trying to provide an easy way for developers to use FusionAuth for authentication and access control for their projects. With the help of contributions, we should be able to use this project on top of other projects. We should be able to use Single Sign On (SSO) to log in once, then get access to any standards-based application. We should also work on creating detailed documentation for the installation and usage of the Access Control project. This will help developers quickly set up and use the project."],
-  //   mentors: [
-  //     { name: "Khushboo Agarwal", link: "https://github.com/khushbooag4" },
-  //   ],
-  //   repo_link: "https://github.com/Code4GovTech/C4GT/wiki/WoC:-Access-Control-Auth",
-  //   org_img: c4gt,
-  //   tags: "all docker docs oauth",
-  //   org_tag: "all c4gt"
-  // },
 
   // Devscript's Projects
   {
@@ -710,7 +626,7 @@ const SliderData = [
     ],
     repo_link: "https://github.com/Codefamily-developer/Codefamily_Website",
     org_img: codeFamily,
-    tags: "all web react",
+    tags: "all web",
     org_tag: "all codeFamily"
   },
 
@@ -723,8 +639,21 @@ const SliderData = [
     ],
     repo_link: "https://github.com/Codefamily-developer/Digital-Libray",
     org_img: codeFamily,
-    tags: "all web python",
+    tags: "all web",
     org_tag: "all codeFamily"
+  },
+  //Styava projects
+  {
+    org_name: "STYAVA",
+    title: "Android Project",
+    Ideas: ["This project proposes a “Styava.dev Developer Community App” (Prototype) so that developers can interact with other fellow developers, get good developer resources, get updates about upcoming events, and join different developer communities"],
+    mentors: [
+      { name: "Chaitanya Chawla", link: "mailto:chaitanyachawlaonlinework@gmail.com" },
+    ],
+    repo_link: "https://github.com/chaitanya1-coder/STYAVA-Android-Project",
+    org_img: styava,
+    tags: "all app",
+    org_tag: "all styava"
   },
 
   //GDSC
@@ -745,7 +674,7 @@ const SliderData = [
     mentors: [{name: "Sagar Mankoti", link: "mailto:cse21071@iiitkalyani.ac.in "},{name: "Sayan Karmakar", link:"mailto:ironheartz367@gmail.com"}],
     repo_link: "https://github.com/GDSC-IIIT-Kalyani/hacktober-leaderboard",
     org_img: gdsc,
-    tags: "all web",
+    tags: "all web python",
     org_tag: "all gdsc"
   },
   {
@@ -795,7 +724,7 @@ const SliderData = [
     mentors: [],
     repo_link: "https://github.com/DSCKGEC/kitkat.v1rus",
     org_img: gdsc,
-    tags: "all python",
+    tags: "all python ethhack",
     org_tag: "all gdsc"
   },
   {
@@ -811,7 +740,7 @@ const SliderData = [
   {
     org_name: "GDSC",
     title: "GDSC ZHCET Android App",
-    Ideas: ["COntribute to the Android App counterpart for the GDSC ZHCET website"],
+    Ideas: ["Contribute to the Android App counterpart for the GDSC ZHCET website"],
     mentors: [{name: "Sumir Vats", link: "mailto:sumirvats003@gmail.com"},{name: "Ahmad Bilal Zaidi", link:"mailto:ahmadbilal.199822@gmail.com"},{name: "Sadaf Zehra", link:"mailto:sadafzehra2001@gmail.com"},{name: "Siddique Ahmad", link:"mailto:ahmadsiddique7073@gmail.com"}],
     repo_link: "https://github.com/GDSC-ZHCET/GDSC-ZHCET-AndroidApp",
     org_img: gdsc,
@@ -837,21 +766,6 @@ const SliderData = [
     org_img: gdsc,
     tags: "all web",
     org_tag: "all gdsc"
-  },
-  
-  //styava projects
-
-    {
-    org_name: "STYAVA",
-    title: "Android Project",
-    Ideas: ["This project proposes a “Styava.dev Developer Community App” (Prototype) so that developers can interact with other fellow developers, get good developer resources, get updates about upcoming events, and join different developer communities"],
-    mentors: [
-      { name: "Chaitanya Chawla", link: "mailto:chaitanyachawlaonlinework@gmail.com" },
-    ],
-    repo_link: "https://github.com/chaitanya1-coder/STYAVA-Android-Project",
-    org_img: styava,
-    tags: "all app",
-    org_tag: "all styava"
   },
 ];
 

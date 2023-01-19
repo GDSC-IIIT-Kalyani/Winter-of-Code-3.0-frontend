@@ -70,10 +70,14 @@ const ProjectsPage = (props) => {
             <option value="web">Web Development</option>
             <option value="app">App Development</option>
             <option value="ml">Machine Learning</option>
-            <option value="cloud">Cloud</option>
             <option value="doc">Documentation</option>
-            {/* <option value="compiler">Compiler</option> */}
             <option value="python">Python</option>
+            <option value="testing">Testing</option>
+            <option value="php">SQL</option>
+            <option value="javascript">JavaScript</option>
+            <option value="gui">GUI</option>
+            <option value="ethhack">Ethical Hacking</option>
+            <option value="cloud">Cloud</option>
             <option value="flutter">Flutter</option>
           </select>
         </form>

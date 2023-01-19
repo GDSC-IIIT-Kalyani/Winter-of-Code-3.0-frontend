@@ -5,7 +5,6 @@
       rgba(0, 11, 129, 0.407)
     ),
     url("../../assets/bg\ images/WOC_Landing-page_back-ground.png");
-
   overflow: hidden;
   scroll-behavior: smooth;
   padding-bottom: 40px;
@@ -15,6 +14,7 @@
   font-family: Vanilla;
   background-size: cover;
   background-repeat: no-repeat;
+  font-family:Arial, Helvetica, sans-serif;
   /* padding-top: 120px; */
 }
 
@@ -23,7 +23,7 @@
   font-size: calc(2.5em + 1.675vw);
   font-weight: 200;
   color: white;
-  letter-spacing: 0.09em;
+  /* letter-spacing: 0.09em; */
   padding-bottom: 5%;
 }
 
