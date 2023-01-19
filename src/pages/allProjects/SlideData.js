@@ -743,7 +743,7 @@ const SliderData = [
     title: "Hacktoberfest leaderboard",
     Ideas: ["A leaderboard to track down the contributors progress during Hacktoberfes. Contributors can suggest the reqired changes and contribute to this website"],
     mentors: [{name: "Sagar Mankoti", link: "mailto:cse21071@iiitkalyani.ac.in "},{name: "Sayan Karmakar", link:"mailto:ironheartz367@gmail.com"}],
-    repo_link: "https://github.com/GDSC-IIIT-Kalyani/Winter-of-Code-3.0-frontend",
+    repo_link: "https://github.com/GDSC-IIIT-Kalyani/hacktober-leaderboard",
     org_img: gdsc,
     tags: "all web",
     org_tag: "all gdsc"
