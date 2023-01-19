@@ -153,8 +153,7 @@
 }
 
 .git_hub {
-  margin: 15px;
-  /* transform: scale(1.5); */
+  margin: 0px 0px 20px 0px;
   font-size: 35px;
   cursor: pointer;
   transition: all ease-in-out 0.3s;

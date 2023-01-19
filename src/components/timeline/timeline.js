@@ -14,7 +14,7 @@ import background from "../../assets/bg images/WOC_LIS_03.gif";
 
 function Timeline(props) {
   const [carouselIdx, setIdx] = useState(0);
-  const active = 1;
+  const active = 2;
 
   const DiamondColor = (idx) => {
     if (idx === active) {
@@ -29,22 +29,6 @@ function Timeline(props) {
       setIdx(carouselIdx - 1);
     }
   };
-  // const getWidth = () => {
-  //   if (window.innerWidth < 600) {
-  //     return 33;
-  //   } else {
-  //     return 20;
-  //   }
-  // };
-  // useEffect(() => {
-  //   const getWidth = () => {
-  //     if (window.innerWidth < 600) {
-  //       return 33;
-  //     } else {
-  //       return 20;
-  //     }
-  //   };
-  // });
 
   const handlenext = () => {
     if (carouselIdx < data.length) {
@@ -52,7 +36,7 @@ function Timeline(props) {
     }
     console.log(carouselIdx);
   };
-  // const [st, setst] = useState(1);
+
   const line = (idx) => {
     return idx === 0
       ? 1

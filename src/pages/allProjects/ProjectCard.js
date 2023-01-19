@@ -23,8 +23,8 @@ const ProjectCard = (props) => {
           setShow(showIdeas ? false : true);
         }}
       >
-        <span style={{ textDecoration: `${showIdeas ? "none" : "underline"}` }}>
-          check ideas
+        <span style={{ fontFamily:'Vanilla', }}>
+          Check Ideas
         </span>
         <FaAngleDown
           style={{
@@ -52,7 +52,7 @@ const ProjectCard = (props) => {
           <a
             href={props.data.repo_link}
             className={
-              props.data.tags.includes("remove") ? "no_view" : "git_hub"
+              "git_hub"
             }
             target="_blank"
             rel="noreferrer"
@@ -61,7 +61,7 @@ const ProjectCard = (props) => {
           </a>
         </div>
         <div>
-          <p style={{ color: "#fff", fontFamily: "monospace" }}>mentors</p>
+          <p style={{ color: "#fff" }}>Mentors</p>
           {props.data.mentors.map((mentor, idx) => {
             return (
               <a className="mentors-flex text-center" href={mentor.link}>
@@ -96,10 +96,9 @@ const ProjectCard = (props) => {
             <li
               style={{
                 textAlign: "left",
-                // margin: "15px 5px 10px 15px",
                 overflowX: "hidden",
-                wordBreak: "break-word",
-                padding: "20px 10px",
+                // wordBreak: "break-word",
+                padding: "5px 10px",
                 color: "#e1e2e3",
               }}
             >
