@@ -12,7 +12,7 @@ import red from "../../assets/timeline/red.png";
 import redEdge from "../../assets/timeline/redEdge.png";
 import background from "../../assets/bg images/WOC_LIS_03.gif";
 
-function Timeline() {
+function Timeline(props) {
   const [carouselIdx, setIdx] = useState(0);
   const active = 1;
 
@@ -86,7 +86,13 @@ function Timeline() {
       {/* <div > */}
       <img className="timeline-background" src={background} alt="background" />
       {/* </div> */}
-      <div className="timeline-content">
+      <div
+        className="timeline-content"
+        style={{
+          marginTop: props.pageTop ? "20vh" : "0px",
+          minHeight: props.pageTop && "100vh",
+        }}
+      >
         <div className="timeline-heading">Timeline</div>
         <div className="timeline-carousel">
           <div className="timeline-prev" onClick={handleprev}>

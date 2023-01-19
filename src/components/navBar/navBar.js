@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "./navBar.css";
+import { Link } from "react-router-dom";
 import image from "../../assets/logo.png";
 
 function NavBar() {
@@ -11,15 +12,15 @@ function NavBar() {
   };
 
   React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
-}, []);
+    };
+  }, []);
 
   return (
     <nav>
@@ -31,72 +32,72 @@ function NavBar() {
         <div className="woc">WOC.</div>
         <ul className={`navBar_links`}>
           <li className="navBar_link-item">
-            <a href="/#home" className="navBar_link">
+            <Link to="/" className="navBar_link">
               Home
-            </a>
+            </Link>
           </li>
 
           <li className="navBar_link-item">
-            <a href="/#about" className="navBar_link">
+            <Link to="/about" className="navBar_link">
               About
-            </a>
+            </Link>
           </li>
 
           <li className="navBar_link-item">
-            <a
+            <Link
               // style={{ color: navLinkColor }}
-              href="/#timeline"
+              to="/timeline"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               Timeline
-            </a>
+            </Link>
           </li>
 
           <li className="navBar_link-item">
-            <a
+            <Link
               // style={{ color: navLinkColor }}
-              href="/#organisations"
+              to="/organisations"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               organisations
-            </a>
+            </Link>
           </li>
 
           <li className="navBar_link-item">
-            <a
+            <Link
               // style={{ color: navLinkColor }}
-              href="/projects"
+              to="/projects"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               Projects
-            </a>
+            </Link>
           </li>
 
           <li className="navBar_link-item">
-            <a
+            <Link
               // style={{ color: navLinkColor }}
-              href="/#sponsors"
+              to="/sponsors"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               Sponsors
-            </a>
+            </Link>
           </li>
 
           <li className="navBar_link-item">
-            <a
+            <Link
               // style={{ color: navLinkColor }}
-              href="/#faq"
+              to="/faqs"
               // onClick={handleNavClick}
               className="navBar_link"
             >
               FAQs
-            </a>
+            </Link>
           </li>
-          
+
           <div
             className="apply-button"
             data-hackathon-slug="winter-of-code"

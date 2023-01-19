@@ -22,3 +22,11 @@ html {
   font-family: Vanilla;
   src: url("./assets/NT\ Vanilla.otf");
 }
+body {
+  height: 120vh;
+  width: 100%;
+  background-image: url("./assets/bg\ images/WOC_Landing-page_back-ground.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
