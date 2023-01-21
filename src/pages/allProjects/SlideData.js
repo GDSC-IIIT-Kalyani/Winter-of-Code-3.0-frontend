@@ -15,6 +15,7 @@ import hackForCode from "../../assets/org-logos/hackForCode.png"
 import shorto from "../../assets/org-logos/shorto.png"
 import codeFamily from "../../assets/org-logos/codeFamily.png"
 import styava from "../../assets/sponsors/StyavaDev.png"
+import eduhub from "../../assets/org-logos/eduhub.jpg"
 
 const SliderData = [
   // The Gita Initiative
@@ -272,6 +273,22 @@ const SliderData = [
     tags: "all web javascript",
     org_tag: "all GDevelop"
   },
+  
+  //eduhub project
+  
+  {
+    org_name: "Eduhub",
+    title: "Community Website",
+    Ideas: ["The vision of the community is to build an environment where people can learn together and implement together", "Contribute to the community website"],
+    mentors: [
+      { name: "SahityaRoy", link: "29roysonu@gmail.com" },
+    ],
+    repo_link: "https://github.com/Eduhub-Community/Eduhub-Community.github.io",
+    org_img: eduhub,
+    tags: "all web javascript",
+    org_tag: "all eduhub"
+  },
+    
 
   // AsyncAPI's projects
   {
