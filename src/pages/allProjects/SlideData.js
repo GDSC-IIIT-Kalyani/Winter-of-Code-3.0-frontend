@@ -738,7 +738,7 @@ const SliderData = [
     org_name: "GDSC",
     title: "KITKAT-VIRUS",
     Ideas: ["We often forget what we type in our day to day lives, it maybe the last password you used to login into your bank account", "Keystroke logging, often referred to as keyboard capturing, is the action of recording the keys struck on a keyboard, typically covertly, so that a person using the keyboard is unaware that their actions are being monitored. Data can then be retrieved by the person operating the logging program."],
-    mentors: [],
+    mentors: [{name: "Anurag Chakraborty", link:"mailto: chakraborty.anurag01@gmail.com"}],
     repo_link: "https://github.com/DSCKGEC/kitkat.v1rus",
     org_img: gdsc,
     tags: "all python ethhack",
