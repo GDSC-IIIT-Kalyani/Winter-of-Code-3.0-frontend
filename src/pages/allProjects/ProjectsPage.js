@@ -90,6 +90,7 @@ const ProjectsPage = (props) => {
             <option value="styava">Styava</option>
             <option value="moja">Moja Global</option>
             <option value="gita">The Gita Initiative</option>
+            <option value="eduhub">Eduhub</option>
             <option value="clueless">Clueless</option>
             <option value="openCodeyard">Open Codeyard</option>
             <option value="alpha">Alpha.Dev</option>
