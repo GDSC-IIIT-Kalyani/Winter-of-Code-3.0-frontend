@@ -639,7 +639,7 @@ const SliderData = [
     title: "Official Website",
     Ideas: ["This is the official CodeFamily website! Here you will find the latest updates and events, inspiring blogs, and resources to help you make the most of being part of the CodeFamily community. We are currently in the process of upgrading the website to make navigation more intuitive and user-friendly while addng new information and content to help you on your journey. We hope you enjoy the new and improved experience!"],
     mentors: [
-      { name: "Nikita Wani", link: "mailto:kbtug20353@kbtcoe.org" },
+      { name: "Anurag Wagh", link: "mailto:kbtug20319@kbtcoe.org" },
     ],
     repo_link: "https://github.com/Codefamily-developer/Codefamily_Website",
     org_img: codeFamily,
