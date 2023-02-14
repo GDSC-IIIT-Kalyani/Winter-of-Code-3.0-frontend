@@ -98,7 +98,7 @@
 }
 
 .projects-button {
-    background-color: white;
+    /* background-color: white;
     color: #042042;
     font-weight: 1000;
     font-size: calc(1em);
@@ -106,8 +106,60 @@
     padding: 3% 8% 3% 8%;
     border-style: none;
     border-radius: 15px;
-    transition: all 0.5s;
+    transition: all 0.5s; */
+     background-color: white;
+  border: 2px solid black;
+  box-sizing: border-box;
+  color: #042042;
+  display: flex;
+  font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.75rem;
+  padding: .75rem 1.65rem;
+  /* position: relative; */     
+  text-align: center;
+  width: 100%;
+  max-width: 460px;
+  position: relative;
+  transform: rotate(-2deg);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 20px;
+   margin-left: auto;
 }
+
+.projects-button :focus {
+  outline: 0;
+}
+
+.projects-button:hover{
+    cursor: pointer;
+}
+
+.projects-button:after {
+    content: '';
+  position: absolute;
+  border: 2px solid #fdfcfc;
+  bottom: 4px;
+  left: 4px;
+  width: calc(100% - 1px);
+  height: calc(100% - 1px);
+}
+
+.projects-button:hover:after {
+    bottom: 2px;
+    left: 2px;
+  }
+
+  @media (min-width: 768px) {
+    .projects-button {
+      padding: .75rem 3rem;
+      font-size: 1.25rem;
+    }
+  }
 
 @media screen and (max-width: 1200px) {
     .projects-image-grid {
