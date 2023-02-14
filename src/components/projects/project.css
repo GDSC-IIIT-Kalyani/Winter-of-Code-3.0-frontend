@@ -123,11 +123,11 @@
   width: 100%;
   max-width: 460px;
   position: relative;
-  transform: rotate(-2deg);
+  transform: rotate(-2deg);   
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  margin-top: 20px;
+  margin-top: 21px;
    margin-left: auto;
 }
 
