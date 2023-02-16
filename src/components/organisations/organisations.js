@@ -50,6 +50,7 @@ const Organisations = (props) => {
           </div>
           <div className="orgs-image-container">
             <div className="orgs-image-rows row-stretch">
+              <div className="CardItem">
               <a
                 href="https://moja.global/"
                 alt="Moja Global"
@@ -61,6 +62,8 @@ const Organisations = (props) => {
                   alt="Moja Global logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://gdevelop.io/"
                 alt="GDevelop"
@@ -72,6 +75,8 @@ const Organisations = (props) => {
                   alt="GDevelop logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://polyaxon.com/"
                 alt="Polyaxon"
@@ -83,6 +88,10 @@ const Organisations = (props) => {
                   alt="Polyaxon logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
+              </div>
+              <div className="CardItem">
               <a
                 href="https://opencodeyard.tech/"
                 alt="openCY"
@@ -94,9 +103,11 @@ const Organisations = (props) => {
                   alt="openCY logo"
                 ></img>
               </a>
+              </div>
             </div>
 
             <div className="orgs-image-rows row-stagger">
+              <div className="CardItem">
               <a
                 href="https://www.clueless.tech/"
                 alt=""
@@ -108,6 +119,8 @@ const Organisations = (props) => {
                   alt="clueless logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem"> 
               <a
                 href="https://github.com/orgs/asyncapi/discussions/556"
                 alt="ASyncAPI"
@@ -119,6 +132,8 @@ const Organisations = (props) => {
                   alt="Async API logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://eduhub.technology/"
                 alt="EduHub"
@@ -130,6 +145,8 @@ const Organisations = (props) => {
                   alt="Eduhub logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://hackforcode.hashnode.dev/"
                 alt="HackForCode"
@@ -141,9 +158,11 @@ const Organisations = (props) => {
                   alt="HackForCode logo"
                 ></img>
               </a>
+              </div>
             </div>
 
             <div className="orgs-image-rows row-stretch">
+              <div className="CardItem">
               <a
                 href="https://vedvyas.org/"
                 alt="GitaInit"
@@ -155,6 +174,8 @@ const Organisations = (props) => {
                   alt="Gita Init logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://www.open-emr.org/winter-of-code/"
                 alt="OpenEMR"
@@ -166,6 +187,8 @@ const Organisations = (props) => {
                   alt="OpenEMR logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://github.com/Code4GovTech/C4GT/wiki/Samagra-:-WoC-3.0-Project-Ideas"
                 alt="SamagraX"
@@ -177,6 +200,8 @@ const Organisations = (props) => {
                   alt="samagraX logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://devscript.org/"
                 alt="DevScript"
@@ -188,9 +213,11 @@ const Organisations = (props) => {
                   alt="devscript logo"
                 ></img>
               </a>
+              </div>
             </div>
 
             <div className="orgs-image-rows row-stagger">
+              <div className="CardItem">
               <a
                 href="http://www.styava.com/"
                 alt="styava"
@@ -202,6 +229,8 @@ const Organisations = (props) => {
                   alt="styavaDev logo"
                 ></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://www.alpha-dot.co.uk/"
                 alt="alpha dot"
@@ -209,6 +238,8 @@ const Organisations = (props) => {
               >
                 <img className="org-image" src={alphadot} alt="alpha dot"></img>
               </a>
+              </div>
+              <div className="CardItem">
               <a
                 href="https://developers.google.com/community/gdsc"
                 alt="GDSC"
@@ -220,6 +251,7 @@ const Organisations = (props) => {
                   alt="GDSC logo"
                 ></img>
               </a>
+              </div>   
             </div>
 
             <div className="orgs-image-rows"></div>
