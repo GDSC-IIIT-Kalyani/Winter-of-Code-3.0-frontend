@@ -128,7 +128,7 @@ const ProjectsPage = (props) => {
                   }
                 })}
               </div>
-              <div className='PopUpcard' style={{ visibility: `${slide ? "visible" : " hidden"}`, maxWidth: `${slide ? "250px" : "0px"}` }}> Hello</div>
+              <div className='PopUpcard' style={{ visibility: `${slide ? "visible" : " hidden"}`, maxWidth: `${slide ? "250px" : "0px"}` }}> Information for project will go here </div>
             </div>
 
             <button
