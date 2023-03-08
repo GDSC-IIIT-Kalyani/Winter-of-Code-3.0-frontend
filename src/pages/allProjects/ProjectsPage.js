@@ -10,6 +10,12 @@ const ProjectsPage = (props) => {
   let [proj_type, setproj_type] = useState("all");
   let [proj_org, setproj_org] = useState("all");
   const [empty, setEmpty] = useState(false);
+  const [slide, setSlide] = useState(false);
+
+  const handleCardChange = () => {
+    setSlide(!slide);
+    console.log(slide)
+  }
   const handleChange = (e) => {
     let empty = true;
     for (let i = 0; i < SlideData.length; i++) {
@@ -108,19 +114,23 @@ const ProjectsPage = (props) => {
       </div>
       {!empty ? (
         <>
-          <div className="container1">
-            <div className="proj_slides">
-              {SlideData.map((slide, idx) => {
-                if (
-                  slide.tags.includes(proj_type) &&
-                  slide.org_tag.includes(proj_org)
-                ) {
-                  return <ProjectCard key={idx} data={slide} />;
-                } else {
-                  return null;
-                }
-              })}
+          <div className="container1" >
+            <div className="proj_slides_parent" style={{ display: "flex", justifyContent: "Center", }}>
+              <div className="proj_slides" style={{ padding: "15px", maxWidth: "1285px", position: "relative", right: `${slide ? "10px" : "0px"}`, animation: `${slide ? " " : ""}` }} >
+                {SlideData.map((slide, idx) => {
+                  if (
+                    slide.tags.includes(proj_type) &&
+                    slide.org_tag.includes(proj_org)
+                  ) {
+                    return <ProjectCard key={idx} data={slide} slideFunction={handleCardChange} />
+                  } else {
+                    return null;
+                  }
+                })}
+              </div>
+              <div className='PopUpcard' style={{ visibility: `${slide ? "visible" : " hidden"}`, maxWidth: `${slide ? "250px" : "0px"}` }}> Hello</div>
             </div>
+
             <button
               onClick={() => {
                 window.scrollTo({ top: 0, behavior: "smooth" });

@@ -1,12 +1,13 @@
 #projects {
     padding-top: 10%;
-    font-family: Vanilla,"serif";
+    font-family: Vanilla, "serif";
     display: flex;
     flex-direction: row wrap;
     justify-content: space-around;
     gap: 4em;
-    background-image: url("../../assets/bg\ images/WOC_LIS_05.gif");
-    background-size: cover;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    /* background-size: cover; */
     min-height: 55vw;
 }
 
