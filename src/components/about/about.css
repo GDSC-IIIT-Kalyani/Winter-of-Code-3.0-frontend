@@ -4,6 +4,7 @@
   font-family: Vanilla;
   z-index: 5;
 }
+
 .about-background {
   position: absolute;
   width: 100vw;
@@ -11,6 +12,7 @@
   z-index: -1;
   overflow: hidden;
 }
+
 .about-content {
   /* padding-top: 30vh; */
   width: 100vw;
@@ -53,7 +55,6 @@
   flex-flow: row wrap;
   gap: 1em;
 }
-
 .brochure-button {
   background-color: white;
   color: #042042;
@@ -85,6 +86,7 @@
     text-align: left;
     margin: 10px auto;
   }
+
   .about-desc {
     font-size: 1.5rem;
     width: 90vw;
