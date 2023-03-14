@@ -281,6 +281,7 @@ button#apply-button {
   margin: auto;
 }
 
+
 @media screen and (max-width: 1024px) {
   .navBar_links {
     margin-top: 12.5%;
@@ -312,3 +313,23 @@ button#apply-button {
     padding-right: inherit;
   }
 }
+
+.apply-button {
+  cursor: pointer;
+}
+
+
+.navBar_link-item .navBar_container{
+  cursor: pointer;
+  color: #65b5f6;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 0 16px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.navBar_link-item:hover {
+  transform: scale(1.1);
+}
+
