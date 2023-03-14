@@ -92,14 +92,14 @@ function NavBar() {
               // style={{ color: navLinkColor }}
               to="/faqs"
               // onClick={handleNavClick}
-              className="navBar_link"
+              className="navBar_link" 
             >
               FAQs
             </Link>
           </li>
 
-          <div
-            className="apply-button"
+          <div             
+          className="apply-button"
             data-hackathon-slug="winter-of-code"
             data-button-theme="light"
             // style="height: 44px; width: 312px"
