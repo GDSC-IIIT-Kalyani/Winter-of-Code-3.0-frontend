@@ -324,7 +324,14 @@
   .projects-page-header {
     margin-top: 20%;
   }
+
+  .PopUpcard {
+    top: 80px;
+    margin-right: 2px;
+  }
 }
+
+
 
 @media (max-width: 500px) {
 
@@ -335,6 +342,12 @@
     margin-top: 30%;
     margin-bottom: 5%;
   }
+
+  .PopUpcard {
+    top: 80px;
+    margin-right: 2px;
+  }
+
 }
 
 .no_view {

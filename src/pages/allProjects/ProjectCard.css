@@ -217,4 +217,14 @@
   overflow: auto;
 }
 
+@media (max-width: 500px) {
+
+  /* .proj_slt {
+    width: 50vw;
+  } */
+  .Card {
+    max-width: 230px;
+  }
+}
+
 /* #191417 */
