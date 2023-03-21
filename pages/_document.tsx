@@ -13,12 +13,13 @@ export default function Document() {
         src="https://apply.devfolio.co/v2/sdk.js"
         async
         defer
+        strategy="lazyOnload"
         onError={(err) => {
           console.error(err);
         }}
-        onLoad={() => {
-          console.log('Loaded');
-        }}
+        // onLoad={() => {
+        //   console.log('Loaded');
+        // }}
       />
     </Html>
   );
