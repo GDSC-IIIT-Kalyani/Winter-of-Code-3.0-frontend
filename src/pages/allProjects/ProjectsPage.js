@@ -5,27 +5,11 @@ import SlideData from "./SlideData";
 import ProjectCard from "./ProjectCard";
 import "./grid.css";
 import "react-icons/fi";
-import GitHubIcon from '@mui/icons-material/GitHub';
-import { FiMail } from "react-icons/fi";
-
 
 const ProjectsPage = (props) => {
   let [proj_type, setproj_type] = useState("all");
   let [proj_org, setproj_org] = useState("all");
   const [empty, setEmpty] = useState(false);
-  const [slide, setSlide] = useState(true);
-  const [popUpCardInfo, setpopUpCardInfo] = useState({ ideas_array: [], mentors_array: [{}] });
-
-
-  const handleCardChange = (childData) => {
-
-    setpopUpCardInfo(childData)
-    setSlide(false);
-    console.log(childData)
-    console.log(childData.ideas_array)
-
-  }
-
   const handleChange = (e) => {
     let empty = true;
     for (let i = 0; i < SlideData.length; i++) {
@@ -72,45 +56,7 @@ const ProjectsPage = (props) => {
   }, []);
 
   return (
-
-
-
     <div className="projects">
-      <div class="snowflakes" aria-hidden="true" >
-
-        <div class="snowflake">
-          ❅
-        </div>
-        <div class="snowflake">
-          ❅
-        </div>
-        <div class="snowflake">
-          ❆
-        </div>
-        <div class="snowflake">
-          ❄
-        </div>
-        <div class="snowflake">
-          ❅
-        </div>
-        <div class="snowflake">
-          ❆
-        </div>
-        <div class="snowflake">
-          ❄
-        </div>
-        <div class="snowflake">
-          ❅
-        </div>
-        <div class="snowflake">
-          ❆
-        </div>
-        <div class="snowflake">
-          ❄
-        </div>
-      </div>
-
-
       <div
         className="projects-page-header"
         style={{ marginTop: props.pageTop ? "20vh" : "0px" }}
@@ -162,93 +108,19 @@ const ProjectsPage = (props) => {
       </div>
       {!empty ? (
         <>
-          <div className="container1" >
-            <div className="proj_slides_parent" style={{ display: "flex", justifyContent: "Center", }}>
-              <div className="proj_slides" style={{ padding: "15px", maxWidth: "1285px", position: "relative", right: `${slide ? "10px" : "0px"}`, animation: `${slide ? " " : ""}` }} >
-                {SlideData.map((slide, idx) => {
-                  if (
-                    slide.tags.includes(proj_type) &&
-                    slide.org_tag.includes(proj_org)
-                  ) {
-                    return <ProjectCard key={idx} data={slide} slideFunction={handleCardChange} />
-                  } else {
-                    return null;
-                  }
-                })}
-              </div>
-              <div className='PopUpcard' style={{ visibility: `${slide ? "hidden" : " visible "}`, maxWidth: `${slide ? "0px" : "270px"}` }}>
-                <div className="Organization_name">
-                  {popUpCardInfo.org_name}
-                </div>
-                <div
-                  className="Project_name"
-                  style={{
-                    visibility: `${slide ? "hidden" : "visible"}`,
-                    height: `${slide ? "0" : "30"}%`,
-                    fontSize: "1rem",
-                    height: "4.5rem"
-                  }}
-                >
-                  {popUpCardInfo.title}
-                </div>
-                {popUpCardInfo.ideas_array.map(function (idea) {
-                  return (
-                    <li
-                      style={{
-                        textAlign: "center",
-                        overflowX: "hidden",
-                        // wordBreak: "break-word",
-                        padding: "5px 10px",
-                        color: "#ffff",
-                      }}
-                    >
-                      {idea}
-                    </li>
-                  );
-                })}
-                <p style={{ color: "#fff", textAlign: "center", marginTop: "15px", textDecoration: "bold" }}>Mentors</p>
-                {popUpCardInfo.mentors_array.map((mentor, idx) => {
-                  return (
-                    <a className="mentors-flex text-center" href={mentor.link}>
-                      <FiMail
-                        style={{
-                          color: "white",
-                          cursor: "pointer",
-                          position: "relative",
-                          top: "2px",
-                        }}
-                        key={idx}
-                      ></FiMail>
-                      <div
-                        style={{
-                          color: "white",
-                          display: "inline",
-                          cursor: "pointer",
-                          borderBottom: "1px solid #fff",
-                          paddingLeft: "5px",
-                          width: "100%",
-                        }}
-                      >
-                        {mentor.name}
-                      </div>
-                    </a>
-                  );
-                })}
-                <div className="flex-container">
-                  <a
-                    href={popUpCardInfo.repo_link}
-                    className={
-                      "git_hub"
-                    }
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <GitHubIcon style={{ color: "White", fontSize: "larger", margin: "15px" }} />
-                  </a>
-                </div>
-              </div>
+          <div className="container1">
+            <div className="proj_slides">
+              {SlideData.map((slide, idx) => {
+                if (
+                  slide.tags.includes(proj_type) &&
+                  slide.org_tag.includes(proj_org)
+                ) {
+                  return <ProjectCard key={idx} data={slide} />;
+                } else {
+                  return null;
+                }
+              })}
             </div>
-
             <button
               onClick={() => {
                 window.scrollTo({ top: 0, behavior: "smooth" });
